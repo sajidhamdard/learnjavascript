@@ -31,18 +31,6 @@ An operator is capable of manipulating a certain value or operand. Operators are
         /=	    x /= y	    x = x / y
         %=	    x %= y	    x = x % y
         **=	x   **= y	    x = x ** y
-    => Ternary Operators
-        : ? Operator : 
-        It is like the short form of the if-else condition. 
-        Syntax: 
-        Y =  ? A : B 
-        where A and B are values and if condition is true then Y = A otherwise Y = B. 
-        Example: 
-        Y = (6>5) ? 6 : 5
-        therefore Y = 6
-    => typeof Operator 
-        typeof	Returns the type of a variable
-        instanceof	Returns true if an object is an instance of an object type
 */
 
 //Example of some most used operators
@@ -69,19 +57,3 @@ condition 1(e.g., X)	condition 2(e.g., Y)	NOT X( ~ X )	X AND Y( X && Y )	X OR Y(
     true	                false	                false	        false	            true
     true	                true	                false	        true	            true
 */
-
-let m = 10;
-console.log(typeof m); //number
-m = "Wecode";
-console.log(typeof m); //string
-
-//Without Ternary operator
-let val = 10;
-if (val < 20) {
-  console.log("Yes");
-} else {
-  console.log("No");
-}
-
-//With Ternary Operator
-val < 10 ? console.log("Yes") : console.log("No");
