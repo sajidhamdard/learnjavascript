@@ -1,5 +1,7 @@
 /*
-In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except below 6 values:
+In JavaScript, a truthy value is a value that is considered true when encountered in a
+Boolean context. All values are truthy unless they are defined as falsy. That is, all 
+values are truthy except below 6 values:
  false
  0 or -0 or 0n
  ""
@@ -19,3 +21,17 @@ if (10) {
 } else {
   console.log("No");
 }
+
+/*
+truthy and falsy values 
+
+truthy value vah value hoti hain. jinka answer true hota hain.
+
+falsy vah value hoti hain.jinka answer false hota hain.
+1.)Undifine(not a value ) 
+2.) 0 
+3.)NaN (not a number)
+
+
+
+*/

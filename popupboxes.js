@@ -24,3 +24,36 @@ When the user clicks "OK," the box returns the input value. Otherwise, it return
 
 let answer = prompt("What is your name ?");
 console.log(answer);
+
+/*
+windo.alart 
+yaha ak alart box declear karta hain.
+
+proment.alart
+proment.alart me ak value box hota hain.or 2 button hote hain ok or cancle ka cancel ka.
+in value ko hum store krva skte hain.yadi value enter karne ke bad ok click karne ke
+bajaye cancle pr click karte hain to value null hogi.
+
+confirm box
+confirm box me do button hote hain ok or cancle ok button me click karne pr true answer 
+ata hain or cancle pr false ata hain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

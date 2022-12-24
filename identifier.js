@@ -9,13 +9,27 @@ function sum(a, b) {
 
 //Rules for creating identifier
 
-//In JavaScript, identifiers are case-sensitive and can contain Unicode letters, $, _, and digits (0-9), but may not start with a digit.
+//In JavaScript, identifiers are case-sensitive and can contain Unicode letters,
+// $, _, and digits (0-9), but may not start with a digit.
 
 //Invalid Identifier examples
 let 12x = 10;
-let &value  = 10;
+let &value = 10;
 
-//Valid Identifier examples
+// //Valid Identifier examples
 let x12 = 10;
 let _value  = 20;
 let $_value = 100;
+
+/*
+Identifiers:
+Yaha ak unicname hota hai.
+for example:Variable name 
+
+Rules for creating identifier:
+identifier banany ka leya hum in Character       
+
+
+
+
+*/
