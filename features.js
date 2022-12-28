@@ -9,14 +9,15 @@
 /* What is  Garbage Collected ?
     javascript ak garbage collected language hai garbage collected ka yaha mtlb ha ki
     javascript ingen ma ak utility chalti hai jisay garbage collected khatay hai.garbage
-    collecte un use memory ko free kar ta hai. yaha otomaticcally rin hota hai. memory size
-    kam ho to garbage collected fast run hoga kam hai to slow run hoga.*/
+    collecte unuse memory ko free kar ta hai. yaha otomaticcally rin hota hai. memory size
+    kam ho to garbage collected slow run hoga kam hai to fast run hoga.*/
 
 /*  What is Interpreted Language (JIT)-> (Just in time commpiler) ?
+    
     commpiler : yaha ak utility hai jo kisi bhi code ko compile karti hai.va compile kar
     na ka bad ak new file generate karti hai va us file ko run karti hai.*/
 
-/*     Interpreter :Yaha ak utility hoti hai jo java script ka code ko line by line run
+/*   What is  Interpreter :Yaha ak utility hoti hai jo java script ka code ko line by line run
  karti hai.*/
 
 /* What is Multi Paradigm ?
