@@ -21,16 +21,16 @@
  karti hai.*/
 
 /* What is Multi Paradigm ?
-       Multi Paradigm ka matlb hai ki javascript different style of programming
-       support karti hai. for example :
-       1)Object orinted programming.
-       2)functional programming.*/
+    Multi Paradigm ka matlb hai ki javascript different style of programming
+    support karti hai. for example :
+    1)Object orinted programming.
+    2)functional programming.*/
 
 // What Prototype based functions ?
-//     advance topic
+// advance topic
 
 // What is First Class Function ?
-//     advance topic
+// advance topic
 
 /* What is Dynamically Type/ Dynamic ?
    javascript ak  Dynamically based language hai.iska mtlb yaha hai ki hum variable ma vo 
