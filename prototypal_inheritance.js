@@ -1,7 +1,8 @@
 /*
-    JavaScript me classical inheritance ni hota hai. Iske bjay JavaScript prototypal inheritance use krti hai.
+    JavaScript me classical inheritance ni hota hai jisme parent ek class hoti hai. Iske bjay JavaScript prototypal inheritance use krti hai.
 
-    Prototypal Inheritance: Prototypal inheritance me object ka parent prototype hota hai.
+    Prototypal Inheritance: Prototypal inheritance me object ka parent prototype hota hai. Javascript object ki ek hidden property prototype hoti hai. Yeh prototype property ya to null hoti hai ya fir kisi dusre object ko refer krti hai.
+    Ek object ki sirf ek hi prototype property ho skti hai
 
     Why do we use prototypal inheritance and what are the benefits of using it? : Prototypal inheritance me object ka parent prototype object hota hai. Is prototype object me common properties and functions add kr skte hain. Jinhe ki sare objects use kr skte hain.
 
@@ -33,8 +34,13 @@ const sajid = new Person("Sajid", 31, "Jhotwara, Jaipur");
         prototype (common properties and functions)
             prototype (JavaScript predefined properties and functions)
     
+    What is Prototype chain? : Created object ka parent ek Prototype object hota hai. Vah is prototype object ka parent b ek Prototype object hota hai. Jb b hm koi method call krte hain ya property use krte hain to vah property/function ko prototype object me search kia jata hai. Agar vah function/property prototype object me ni milti hai to error throw hoti hai.
+
+
     How to add common properties and functions in a prototype: Iske 2 ways hai. Ek to hm direct constructor function ke prototype me add kr skte hain and dusra tarika ye hai ki object ki __proto__ property use kr skte hain
 
+    __proto__ property outdated ho chuki hai islie hume ise use ni krna chahiye. Iski jgah hm Object.getPrototypeOf/Object.setPrototypeOf use kr skte hain.
+    
     Person.prototype.pincode = 302012; //first tarika
     sajid.__proto__.pincode = 302012; //Dusra tarika
 
