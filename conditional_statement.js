@@ -1,11 +1,10 @@
-// /**
-//  * Conditional statements are used to perform different actions based on different conditions.
-//  *
-//  *In JavaScript we have the following conditional statements:
-//     => Use if to specify a block of code to be executed, if a specified condition is true
-//     => Use else to specify a block of code to be executed, if the same condition is false
-//     => Use else if to specify a new condition to test, if the first condition is false
-//  */
+Conditional statements different conditions ke base pr different actions perform krne ke lie use me aate hain
+
+JavaScript me niche diye hue conditional statements use hote hain:
+     => if block ka use koi condition true hone pr jo code execute krna hai uske lie kia jata hai.
+     => else block ka use koi condition false hone pr jo code execute krna hai uske lie kia jata hai.
+     => Use else if to specify a new condition to test, if the first condition is false
+     => Use
 
 let i = 10;
 if (i < 20) {

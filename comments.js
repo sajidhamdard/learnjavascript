@@ -1,15 +1,13 @@
-/*
-    comment :
-         kisi bhi code ko explane karnay ka leya comment ka use kar tay hai. 
-         for example code kab bna ,code ma kay kay changes keya gaya etc
+comment : kisi bhi code ke bare me notes likhne ke lie ya explanation likhne ke lie comment ka use karte hain. for example code kis date ko likha gya, code kisne likha, yeh code kis lie likha gya likha jata hai.
 
+Code ko explain krne se other developers ko complext logic/code samaj aa jata hai. Koi b commented code run ni hota hai and interpreter b us code ko ignore krta hai. Isi trah yadi hum testing krte time kisi code ko comment krna chahte hain to kr skte hain.  
 
-Comments in JavaScript are used to explain the code and make the program more readable for developers.
-In programming, comments can also be used to prevent some code lines from being executed. This is useful when testing.
-There are single-line comments (which comment out one line or a part of one line) and multi-line comments (which comment out a block of code).*/
+Comments 2 types ke hote hain: Single-line comments (Jo ki kisi line ko ya line ke kisi hisse ko comment krne ke kaam aata hai) and multi-line comments (Jiska use kisi code block ko comment krne ke lie hota hai).
 
-//Single line comment
+Example of Single Line Comment: Single line comment 2 forward slashes / ke sath start hota hai and aur us puri line ko end tak comment kr deta hai
+// This is a single-line comment
 
-/*
-    Multi line comment
-*/
+Example of Multi line comment: Multi comment forward slash and * asterisk ke sath start hota hai aur * asterisk and forward slash ke sath end hota hai.
+/* This is a 
+   multi-line comment */
+
