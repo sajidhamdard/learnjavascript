@@ -1,18 +1,18 @@
-JavaScript Features
+# 02 : JavaScript Features
 
-What is  High level language?
-    A high-level programming language is a type of programming language that provides a higher level of abstraction from the computer's hardware and is designed to be more human-readable and easier to use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript. High-level languages are often used for general-purpose programming, and they often provide a higher level of functionality and convenience than low-level languages.
+What is High level language?
+A high-level programming language is a type of programming language that provides a higher level of abstraction from the computer's hardware and is designed to be more human-readable and easier to use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript. High-level languages are often used for general-purpose programming, and they often provide a higher level of functionality and convenience than low-level languages.
 
 What is Garbage Collected ?
-    Garbage collection is a feature of some programming languages where the runtime system automatically manages the memory used by the program. It periodically checks for and frees memory that is no longer being used by the program. This eliminates the need for the programmer to manually manage memory allocation and deallocation, which can be a source of bugs and memory leaks. Garbage collection is a technique used in many modern programming languages like Java, C#, Python, Ruby, among others to manage the memory allocation and deallocation. This is a key feature of these languages, as it reduces the risk of memory-related bugs, improves performance and increases developer productivity.
+Garbage collection is a feature of some programming languages where the runtime system automatically manages the memory used by the program. It periodically checks for and frees memory that is no longer being used by the program. This eliminates the need for the programmer to manually manage memory allocation and deallocation, which can be a source of bugs and memory leaks. Garbage collection is a technique used in many modern programming languages like Java, C#, Python, Ruby, among others to manage the memory allocation and deallocation. This is a key feature of these languages, as it reduces the risk of memory-related bugs, improves performance and increases developer productivity.
 
 What is Interpreted Language (JIT)-> (Just in time commpiler) ?
-    JavaScript is an interpreted language, which means that the code is not compiled into machine-readable code before it is executed. Instead, the code is read and executed line-by-line by a JavaScript engine such as V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox) or Chakra (used in Edge) .
+JavaScript is an interpreted language, which means that the code is not compiled into machine-readable code before it is executed. Instead, the code is read and executed line-by-line by a JavaScript engine such as V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox) or Chakra (used in Edge) .
 
     JIT or Just-In-Time compilation is a technique used by JavaScript engines to improve the performance of interpreted languages like JavaScript. JIT compilation is a way of converting JavaScript code into machine code at runtime, typically just before it is executed. This allows the JavaScript engine to execute the code faster and more efficiently, as the machine code can be directly executed by the CPU. This is done dynamically at runtime, hence the name Just-In-Time. This technique improves the performance of JavaScript and allows it to run large and complex applications.
 
 What is Multi Paradigm ?
-    JavaScript is a multi-paradigm programming language, which means it supports several programming paradigms such as:
+JavaScript is a multi-paradigm programming language, which means it supports several programming paradigms such as:
 
     Object-oriented programming (OOP) - JavaScript supports classes, objects, inheritance, and encapsulation through the use of prototypes.
     Functional programming - JavaScript supports the use of first-class functions and closures, making it easy to use functional programming techniques.
@@ -20,7 +20,7 @@ What is Multi Paradigm ?
     JavaScript's flexibility and support for different paradigms make it a versatile language that can be used for a wide range of tasks, from simple scripts to complex web applications. This also allows developers to use the best approach for their specific use case, and to write more expressive, maintainable and efficient code.
 
 What Prototype based functions ?
-    In JavaScript, prototypes are a way of implementing object-oriented programming (OOP) concepts such as inheritance and encapsulation. A prototype is an object that serves as a template for creating other objects. Each object in JavaScript has a prototype, which can be accessed using the __proto__ property.
+In JavaScript, prototypes are a way of implementing object-oriented programming (OOP) concepts such as inheritance and encapsulation. A prototype is an object that serves as a template for creating other objects. Each object in JavaScript has a prototype, which can be accessed using the **proto** property.
 
     When a property or method is accessed on an object, the JavaScript engine first looks for it on that object. If it is not found, it then looks for it on the object's prototype, and so on, until it reaches the top of the prototype chain. This is called "prototype-based inheritance"
 
@@ -29,7 +29,7 @@ What Prototype based functions ?
     This approach to OOP in JavaScript allows for more flexibility and expressiveness in solving problems and makes it easy to add or change behavior of an object without having to change the object's definition.
 
 What is First Class Function ?
-    In JavaScript, a first-class function is a function that can be treated like any other value, such as a number or a string. This means that a first-class function can be:
+In JavaScript, a first-class function is a function that can be treated like any other value, such as a number or a string. This means that a first-class function can be:
 
     Assigned to a variable
     Passed as an argument to a function
@@ -41,7 +41,7 @@ What is First Class Function ?
     It is also one of the reason why JavaScript is also called as Functional Programming Language.
 
 What is Dynamically Typed/ Dynamic ?
-    In JavaScript, a variable's type is determined at runtime, rather than being explicitly set by the programmer. This is known as dynamic typing or dynamic language.
+In JavaScript, a variable's type is determined at runtime, rather than being explicitly set by the programmer. This is known as dynamic typing or dynamic language.
 
     In a statically typed language, variable types are set at compile time, and cannot be changed later on. This means that if a variable is declared as an integer, it can only hold integers and trying to assign anything else will result in an error.
 
@@ -57,7 +57,7 @@ What is Dynamically Typed/ Dynamic ?
         x = false; //type will be boolean
 
 What is Single Threaded ?
-    In JavaScript, a single-threaded model means that only one operation can be executed at a time. JavaScript runs on a single thread, which means that only one task can be executed at a time.
+In JavaScript, a single-threaded model means that only one operation can be executed at a time. JavaScript runs on a single thread, which means that only one task can be executed at a time.
 
     This is in contrast to multi-threaded languages, which allow multiple threads to run simultaneously and can perform multiple tasks in parallel.
 
@@ -67,8 +67,8 @@ What is Single Threaded ?
 
     In summary, JavaScript single-threaded model allows it to be simple and predictable, but also limits its performance when it comes to heavy workloads.
 
- What is Non-Blocking Event Loop ?
-    In JavaScript, the event loop is a mechanism that enables the execution of code in a non-blocking way. It is a single-threaded loop that continually checks the message queue for new messages (also known as events) to process.
+What is Non-Blocking Event Loop ?
+In JavaScript, the event loop is a mechanism that enables the execution of code in a non-blocking way. It is a single-threaded loop that continually checks the message queue for new messages (also known as events) to process.
 
     JavaScript's event loop allows the execution of code to be non-blocking, meaning that it will not halt the execution of the program while waiting for a long-running task to complete. Instead, the task is added to the message queue, and the event loop will continue to process other messages (such as user input or other events) while the task is being executed.
 
