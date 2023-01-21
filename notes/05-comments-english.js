@@ -5,7 +5,7 @@ JavaScript supports two types of comments:
    Single-line comments: These start with // and continue until the end of the line.
       // this is a single line comment
    Multi-line comments: These start with /* and end with */. They can span multiple lines.
-            /* 
+      /* 
       This is a 
       multi-line comment 
       */
