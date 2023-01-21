@@ -8,7 +8,7 @@ What is  High level language?
 What is Garbage Collected ?
     Javascript ek garbage collected language hai. Garbage collected ka yha ye matlab hai ki Javascript engine me ek utility chalti hai jise garbage collector khte hain. Garbage collector unused memory ko free karta hai. yah automatically run hota hai. Garbage collector aise objects ko identify krta hai jinko program me ab access ni kia ja skta un objects ko memory se remove kr deta hai.
     
-    Memory size agar kam ho to garbage collector slow run hoga, aur agar memory size kam hai to fast run hoga.
+    Memory size agar kam ho to garbage collector fast run hoga, aur agar memory size kam hai to slow run hoga.
 
 What is Interpreted Language (JIT)-> (Just in time commpiler) ?
     compiler: yeh ak utility hai jo kisi bhi code ko compile karti hai. Vah compile karne ka bad ek new file generate karta hai vah us file ko run karta hai.
@@ -25,7 +25,7 @@ What Prototype based functions ?
 What is First Class Function ?
     Advanced topic. Will be covered in later files in detail.
 
-What is Dynamically Typee/ Dynamic ?
+What is Dynamically Typed/ Dynamic ?
    Javascript ek Dynamically based language hai.iska mtlb yaha hai ki hum kisi variable me kisi b type ka data assign kar skte hain. Jis b type ka data hm variable me assign krte hain variable ki vahi type ho jati hai.
 
 for example:

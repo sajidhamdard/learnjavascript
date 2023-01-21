@@ -1,20 +1,20 @@
 What is Data type:
-  Data type kisi bhi data ki type btata hai ki vah data kis type ka hai.data tyoe two type ka hota hai. Data types 2 type ki hoti hain:
+  Data type kisi bhi data ki type btata hai ki vah data kis type ka hai. Data type two type ka hota hai. Data types 2 type ki hoti hain:
     primitive data type
     non-primitive data type
 
 primitive data type(inbuilt data type ):
-  Primitive data type vah data type hoti hai jo kisi bhi programming language me pre define data type hoti hai.  
+  Primitive data type vah data type hoti hai jo kisi bhi programming language me pre define data type hoti hai. Yeh data types Javascript ke building blocks and direct memory me store hoti hain. Primitive data types immutable hoti hain it means inhe change ni kia ja skta hai.
           
-  1)number: Javascript me kisi bhi number ka liye number data type use hota hai.
+  1)number: Javascript me kisi bhi number ka liye number data type use hoti hai.
   2)String: Javascript me kisi bhi word, text, ya paragraph/sentence ka liye string data type ka use hota hai.
   3)undefined: kisi bhi variable ko koi bhi data nhi assign kiya hai to us variable 
   ki data type undefined hogi
-  4)boolean: boolean data type vah data store krane jiski value true/false ho ke liye use kia jata hai. true aur false ko 1 and 0 se b represent krte hain. 
+  4)boolean: boolean data type vah data store krane ke kaam aati hai jiski value true/false ho. true aur false ko 1 and 0 se b represent krte hain. 
   5)BigInt: BigInt vah data type hota hai jo bahut big number ka leya use hota hai. Aise numbers jo number datatype me store ni hote hain. 
 
 
-Non primitve (reference types) data type: Non primitive data type ko reference data types b kha jata hai. Ye data types primitive data type se hi bni hoti hai. But in Non primitive data type ko user khud define karta hai. Non primitve data type me hum difrent type ka data store kar saktay hai. 
+Non primitve (reference types) data type: Non primitive data type ko reference data types b kha jata hai. Ye data types primitive data type se hi bni hoti hai. But in Non primitive data type ko user khud define karta hai. Non primitve data type me hum different type ka data store kar saktay hai. 
   1) object
   2) array
   3) functions
@@ -24,23 +24,13 @@ Non primitve (reference types) data type: Non primitive data type ko reference d
   7) Sets
   8) WeakMap
 
+value and variable:
+  Value ka matlab data hota hai. Jise hum kisi variable me store krate hain. Variable ek place holder ki trah hota hai jisme ki hum value store krte hain and jha b vo value use krni ho to value ki jgah variable use kr skte hain. variable ek identifire hota hain. identifier ek unique name hota hai.
 
+for example:
+  let x = 10; //10 is value and x is variable
 
-
-value and variable
-value vah data type hoti hain.jise hum kisi variable me stoe krate  hain.
-
-variable ak identyfire hota hain.jise ke hum alg alg trha ke value store krane ke leya 
-use karte hain.
-let x = 10;
-//10 is value and x is variable
-//variable can hold a value
-
-//==========Data Types======================
-
-//==========Primitive Data Types========================
-
-//Primitive Data Types
+//Primitive Data Types Example
 
 //Number
 let value = 10;
@@ -62,7 +52,7 @@ let sym = Symbol("A");
 let num = BigInt(10);
 num = 10n;
 
-//===============Non Primitive Data Types=======================
+// Non Primitive Data Type Example
 
 //Object
 let obj = {
@@ -73,8 +63,35 @@ let obj = {
 //Array
 let arr = [1, 2, 3, 4, 5];
 
-/*
+//function
+function sum() {
+  console.log(1+2);
+}
 
+//Date
+let date  = new Date();
 
+//Regex example
+let str = "I love learning javascript, it's one of my favorite programming languages!";
+let regex = /javascript/gi;
+let result = str.match(regex);
+console.log(result); 
+// Output: ["javascript", "javascript"]
 
-*/
+//Maps
+let map = new Map();
+
+//Set
+let set = new Set();
+
+//WeakMap
+
+let wm = new WeakMap();
+let obj1 = {};
+let obj2 = {};
+
+wm.set(obj1, "value1");
+wm.set(obj2, "value2");
+
+console.log(wm.get(obj1));  // Output: "value1"
+console.log(wm.get(obj2));  // Output: "value2"
