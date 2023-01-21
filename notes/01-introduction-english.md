@@ -42,18 +42,18 @@ ECMA is the European Association for Standardizing Information and Communication
 
 The following are some of the most widely-used versions of ECMAScript:
 
-ECMAScript 3 (released in 1999) - This version introduced regular expressions, try-catch exception handling, and other features.
+- ECMAScript 3 (released in 1999) - This version introduced regular expressions, try-catch exception handling, and other features.
 
-ECMAScript 5 (released in 2009) - This version added features such as strict mode, JSON support, and additional methods for arrays and objects.
+- ECMAScript 5 (released in 2009) - This version added features such as strict mode, JSON support, and additional methods for arrays and objects.
 
-ECMAScript 6 (released in 2015) - Also known as ECMAScript 2015, this version introduced major changes such as the addition of arrow functions, template literals, and the let and const variable declarations.
+- ECMAScript 6 (released in 2015) - Also known as ECMAScript 2015, this version introduced major changes such as the addition of arrow functions, template literals, and the let and const variable declarations.
 
-ECMAScript 2016 (released in 2016) - This version introduced the Array.prototype.includes() method and the Array.prototype.padStart() and Array.prototype.padEnd() method.
+- ECMAScript 2016 (released in 2016) - This version introduced the Array.prototype.includes() method and the Array.prototype.padStart() and Array.prototype.padEnd() method.
 
-ECMAScript 2017 (released in 2017) - This version introduced the Object.values(), Object.entries() and Object.getOwnPropertyDescriptors() method and async/await syntax for asynchronous programming.
+- ECMAScript 2017 (released in 2017) - This version introduced the Object.values(), Object.entries() and Object.getOwnPropertyDescriptors() method and async/await syntax for asynchronous programming.
 
-ECMAScript 2018 (released in 2018) - This version introduced the Rest/Spread properties, Asynchronous Iteration, Promise.prototype.finally() method.
+- ECMAScript 2018 (released in 2018) - This version introduced the Rest/Spread properties, Asynchronous Iteration, Promise.prototype.finally() method.
 
-ECMAScript 2020 (released in 2020) - This version introduced features such as globalThis, nullish coalescing operator, optional chaining operator, BigInt and String.prototype.matchAll() method.
+- ECMAScript 2020 (released in 2020) - This version introduced features such as globalThis, nullish coalescing operator, optional chaining operator, BigInt and String.prototype.matchAll() method.
 
-ECMAScript continues to evolve and new versions are planned to be released every year, with new features and improvements.
+- ECMAScript continues to evolve and new versions are planned to be released every year, with new features and improvements.
