@@ -1,13 +1,14 @@
 # 03 : Value, Variable and Data Types
 
-What is Data:
+### What is Data:
+
 In JavaScript, data refers to the information that a program manipulates and processes. This can include numbers, strings, booleans, arrays, objects, and many other types of data.
 
 JavaScript provides several data types such as:
 
-Primitive types: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
+- Primitive types: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
 
-Complex types: These include arrays and objects. They can hold multiple values and provide additional functionality.
+- Complex types: These include arrays and objects. They can hold multiple values and provide additional functionality.
 
 JavaScript also supports special values like null and undefined, which can be used to represent missing or unknown values.
 
@@ -15,14 +16,15 @@ JavaScript also allows for easy manipulation and manipulation of data through va
 
 Data manipulation is a key aspect of JavaScript and is used extensively in web development to create dynamic and interactive web pages, and for building web and mobile apps.
 
-What is value?
+### What is value?
+
 In JavaScript, a value is a piece of data that can be stored in a variable or passed as an argument to a function. JavaScript has several types of values, including:
 
-Primitive values: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
+- Primitive values: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
 
-Complex values: These include arrays and objects. They can hold multiple values and provide additional functionality.
+- Complex values: These include arrays and objects. They can hold multiple values and provide additional functionality.
 
-Special values: These include null and undefined, which can be used to represent missing or unknown values.
+- Special values: These include null and undefined, which can be used to represent missing or unknown values.
 
 Values in JavaScript can be assigned to variables and passed as arguments to functions. They can also be used to perform operations and calculations, and can be used to control the flow of a program.
 
@@ -30,14 +32,15 @@ In JavaScript, values are also known as literals, which are the actual data that
 
 All values in JavaScript have a type, which determines what kind of data it represents and how it can be used. The typeof operator can be used to check the type of a value at runtime.
 
-What is Data type:
+### What is Data type:
+
 In JavaScript, a data type is a classification of data that determines the kind of value it represents and how it can be used. JavaScript has several built-in data types, including:
 
-Primitive types: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
+- Primitive types: These include numbers, strings, booleans, and symbols. They are basic building blocks of JavaScript and have a single value.
 
-Complex types: These include arrays and objects. They can hold multiple values and provide additional functionality.
+- Complex types: These include arrays and objects. They can hold multiple values and provide additional functionality.
 
-Special types: These include null and undefined, which can be used to represent missing or unknown values.
+- Special types: These include null and undefined, which can be used to represent missing or unknown values.
 
 JavaScript also has a "dynamic typing" feature, which means that the type of a variable can change during the execution of the program. However, JavaScript still uses these types to determine how a value should be treated and how it can be used.
 
@@ -45,20 +48,21 @@ It's also worth noting that, JavaScript has a typeof operator which can be used 
 
 JavaScript's rich set of data types and its dynamic typing feature make it a versatile and expressive language that can be used for a wide range of tasks.
 
-primitive data type(inbuilt data type ):
+### primitive data type(inbuilt data type ):
+
 In JavaScript, primitive data types are basic building blocks of the language and have a single value. They include:
 
-Number: Represents numeric values. Can be integers or floating-point values.
+- Number: Represents numeric values. Can be integers or floating-point values.
 
-String: Represents a sequence of characters. Strings are enclosed in single or double quotes.
+- String: Represents a sequence of characters. Strings are enclosed in single or double quotes.
 
-Boolean: Represents true or false values.
+- Boolean: Represents true or false values.
 
-Symbol: Represents a unique and immutable value.
+- Symbol: Represents a unique and immutable value.
 
-Undefined: Represents a value that has not been assigned.
+- Undefined: Represents a value that has not been assigned.
 
-Null: Represents a null or empty value.
+- Null: Represents a null or empty value.
 
 These primitive data types are also known as "simple data types" or "scalar data types" because they represent a single value and do not have any methods or properties.
 
@@ -66,14 +70,15 @@ In JavaScript, primitive data types are passed by value, meaning that when a pri
 
 These primitive data types are the foundation of JavaScript and are used extensively in web development to create dynamic and interactive web pages, and for building web and mobile apps.
 
-Non primitve (reference types) data type:
+### Non primitve (reference types) data type:
+
 In JavaScript, non-primitive data types are complex data types that can hold multiple values and provide additional functionality. They include:
 
-Array: Represents a collection of values. Arrays are enclosed in square brackets and can hold a mix of different data types.
+- Array: Represents a collection of values. Arrays are enclosed in square brackets and can hold a mix of different data types.
 
-Object: Represents a collection of key-value pairs. Objects are enclosed in curly braces and can hold a mix of different data types.
+- Object: Represents a collection of key-value pairs. Objects are enclosed in curly braces and can hold a mix of different data types.
 
-Function: Represents a block of code that can be executed. Functions are first-class citizens in JavaScript and can be assigned to variables, passed as arguments, and returned as values.
+- Function: Represents a block of code that can be executed. Functions are first-class citizens in JavaScript and can be assigned to variables, passed as arguments, and returned as values.
 
 These non-primitive data types are also known as "reference data types" because they are reference to the memory location where the actual data is stored.
 
@@ -81,7 +86,7 @@ In JavaScript, non-primitive data types are passed by reference, meaning that wh
 
 These non-primitive data types are used extensively in JavaScript to create complex data structures and provide additional functionality. They also allow for more expressive, flexible, and reusable code, making it easy to use for a wide range of tasks, from simple scripts to complex web applications.
 
-What is variable?
+### What is variable?
 
 In JavaScript, a variable is a container that stores a value. Variables are used to store data and make it available for use in a program. They are defined using the var, let, const keyword followed by a name, which is used to reference the variable's value.
 
@@ -98,63 +103,64 @@ JavaScript also has a feature called "hoisting" which means that variables decla
 
 JavaScript's variables provide a way to store and manipulate data, which is a key aspect of the language, and is used extensively in web development to create dynamic and interactive web pages and for building web and mobile apps.
 
-//Primitive Data Types Example
+### Primitive Data Types Example
 
-//Number
-let value = 10;
+- Number
+  `let value = 10; `
 
-//Boolean
-let flag = false;
+- Boolean
+  `let flag = false;`
 
-//String
-let str = "WeCode";
+- String
+  `let str = "WeCode"; `
 
-//undefined
-let val; //value will be undefined here
-val = undefined; //we can also assign undefined to a variable
+- undefined
 
-//Symbol
-let sym = Symbol("A");
+````let val; //value will be undefined here
+val = undefined; //we can also assign undefined to a variable ```
 
-//BigInt
-let num = BigInt(10);
-num = 10n;
+- Symbol
+```let sym = Symbol("A"); ```
 
-// Non Primitive Data Type Example
+- BigInt
+```let num = BigInt(10);
+num = 10n; ```
 
-//Object
-let obj = {
+- Non Primitive Data Type Example
+
+- Object
+```let obj = {
 myName: "Wecode",
 age: 21,
-};
+}; ```
 
-//Array
-let arr = [1, 2, 3, 4, 5];
+- Array
+```let arr = [1, 2, 3, 4, 5]; ```
 
-//function
-function sum() {
+- function
+```function sum() {
 console.log(1+2);
 }
+```
 
-//Date
-let date = new Date();
+- Date
+``` let date = new Date(); ```
 
-//Regex example
-let str = "I love learning javascript, it's one of my favorite programming languages!";
+- Regex example
+```let str = "I love learning javascript, it's one of my favorite programming languages!";
 let regex = /javascript/gi;
 let result = str.match(regex);
 console.log(result);
-// Output: ["javascript", "javascript"]
+// Output: ["javascript", "javascript"] ```
 
-//Maps
-let map = new Map();
+- Maps
+```let map = new Map(); ```
 
-//Set
-let set = new Set();
+- Set
+``` let set = new Set(); ```
 
-//WeakMap
-
-let wm = new WeakMap();
+- WeakMap
+``` let wm = new WeakMap();
 let obj1 = {};
 let obj2 = {};
 
@@ -163,3 +169,5 @@ wm.set(obj2, "value2");
 
 console.log(wm.get(obj1)); // Output: "value1"
 console.log(wm.get(obj2)); // Output: "value2"
+```
+````
