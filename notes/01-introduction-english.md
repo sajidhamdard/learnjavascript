@@ -1,10 +1,12 @@
-- what is a programming language ?
+# 01 : JavaScript Introduction
+
+- **\*what is a programming language ?**
   A programming language is a set of instructions and rules that a computer can understand and execute. It is used to create software, apps, and other computer programs. Common examples include Python, Java, C++, and JavaScript.
 
-- what is high level programming language?
+- **\*what is high level programming language?**
   A high-level programming language is a type of programming language that is designed to be easy for humans to read and write. It provides a higher level of abstraction from the computer's hardware and is typically easier to learn and use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript.
 
-- What is machine level language or Low level languages?
+- **\*What is machine level language or Low level languages?**
   A machine-level language, also known as low-level language, is a type of programming language that is closer to the machine's hardware and operates directly on the computer's processor. It is less human-readable and requires more knowledge of the computer's architecture. Examples of low-level languages include assembly language and machine code.
 - what is front-end ?
   Front-end refers to the part of web development that deals with the user interface and the client-side of the application. It mainly focuses on the design and layout of the website and how it interacts with the user. This includes technologies such as HTML, CSS, and JavaScript, and frameworks such as React, Angular, and Vue.js. The goal of front-end development is to create a seamless and user-friendly experience for the website visitors.

@@ -15,12 +15,13 @@
 * what is back-end ?
   Back-end development ka vah part hota hai jisme kisi b website ya application ka server-side ka code likha jata hai. Backend me service side logics, database ka management etc hota hai.
 
-      Other language me khte to back-end software ka vah part hota jo behind the seen work krta hai. Aur vah front-end se jo requests aati hai unhe handle krta hain aur jo b required response hota hai vah return krta hai.
-      for eample:
-          1) Data save
-          2) Data trasfer
-          3) Data update
-          4) Get data
+  Other language me khte to back-end software ka vah part hota jo behind the seen work krta hai. Aur vah front-end se jo requests aati hai unhe handle krta hain aur jo b required response hota hai vah return krta hai.
+  for eample:
+
+  1. Data save
+  2. Data trasfer
+  3. Data update
+  4. Get data
 
 * Introduction of HTML
   HTML stand for Hyper Text Markup Language.jo ki web page banane ka liye use hoti
