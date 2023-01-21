@@ -22,7 +22,7 @@ Back-end refers to the server-side of web development, which deals with the behi
 
 ### Introduction of HTML
 
-HTML stands for Hypertext Markup Language. It is a standard markup language used to create and structure web pages. HTML defines the structure and layout of a web page, including headings, paragraphs, images, and links. It uses a set of tags, such as \<\p\>\ and <h1>, to format the content and create a hierarchical structure. HTML documents are rendered by web browsers, which interpret the HTML code and display the resulting webpage to the user.
+HTML stands for Hypertext Markup Language. It is a standard markup language used to create and structure web pages. HTML defines the structure and layout of a web page, including headings, paragraphs, images, and links. It uses a set of tags, such as \<p\> and <h1>, to format the content and create a hierarchical structure. HTML documents are rendered by web browsers, which interpret the HTML code and display the resulting webpage to the user.
 
 ### Introduction of CSS
 
