@@ -141,7 +141,8 @@ age: 21,
 
 - Array
 
-```let arr = [1, 2, 3, 4, 5];
+```
+let arr = [1, 2, 3, 4, 5];
 
 ```
 
@@ -153,7 +154,10 @@ console.log(1+2);
 ```
 
 - Date
-  `let date = new Date();`
+
+  ```let date = new Date();
+
+  ```
 
 - Regex example
 
@@ -166,19 +170,20 @@ console.log(result);
 
 - Maps
 
-```let map = new Map();
-
+```
+let map = new Map();
 ```
 
 - Set
 
-```let set = new Set();
-
+```
+let set = new Set();
 ```
 
 - WeakMap
 
-```let wm = new WeakMap();
+```
+let wm = new WeakMap();
 let obj1 = {};
 let obj2 = {};
 
