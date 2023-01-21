@@ -106,26 +106,40 @@ JavaScript's variables provide a way to store and manipulate data, which is a ke
 ### Primitive Data Types Examples
 
 - Number
-  `let value = 10; `
+
+```
+let value = 10; `
+```
 
 - Boolean
-  `let flag = false;`
+
+```
+let flag = false;
+```
 
 - String
-  `let str = "WeCode"; `
+
+```
+let str = "WeCode";
+```
 
 - undefined
 
-```let val; //value will be undefined here
+```
+let val; //value will be undefined here
 val = undefined; //we can also assign undefined to a variable
 ```
 
 - Symbol
-  `let sym = Symbol("A"); `
+
+```
+let sym = Symbol("A");
+```
 
 - BigInt
 
-```let num = BigInt(10);
+```
+let num = BigInt(10);
 num = 10n;
 ```
 
@@ -133,7 +147,8 @@ num = 10n;
 
 - Object
 
-```let obj = {
+```
+let obj = {
 myName: "Wecode",
 age: 21,
 };
@@ -143,12 +158,12 @@ age: 21,
 
 ```
 let arr = [1, 2, 3, 4, 5];
-
 ```
 
 - function
 
-```function sum() {
+```
+function sum() {
 console.log(1+2);
 }
 ```
@@ -161,7 +176,8 @@ let date = new Date();
 
 - Regex example
 
-```let str = "I love learning javascript, it's one of my favorite programming languages!";
+```
+let str = "I love learning javascript, it's one of my favorite programming languages!";
 let regex = /javascript/gi;
 let result = str.match(regex);
 console.log(result);
