@@ -103,7 +103,7 @@ JavaScript also has a feature called "hoisting" which means that variables decla
 
 JavaScript's variables provide a way to store and manipulate data, which is a key aspect of the language, and is used extensively in web development to create dynamic and interactive web pages and for building web and mobile apps.
 
-### Primitive Data Types Example
+### Primitive Data Types Examples
 
 - Number
   `let value = 10; `
@@ -129,7 +129,7 @@ val = undefined; //we can also assign undefined to a variable
 num = 10n;
 ```
 
-- Non Primitive Data Type Example
+### Non Primitive Data Type Examples
 
 - Object
 
@@ -155,9 +155,9 @@ console.log(1+2);
 
 - Date
 
-  ```let date = new Date();
-
-  ```
+```
+let date = new Date();
+```
 
 - Regex example
 
