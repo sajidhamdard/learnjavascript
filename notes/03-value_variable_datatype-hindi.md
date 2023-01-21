@@ -172,9 +172,4 @@ wm.set(obj2, "value2");
 
 console.log(wm.get(obj1)); // Output: "value1"
 console.log(wm.get(obj2)); // Output: "value2"
-
-```
-
-```
-
 ```
