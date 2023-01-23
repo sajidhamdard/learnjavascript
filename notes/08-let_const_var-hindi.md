@@ -29,9 +29,10 @@ const keyword ka use constand variable bananay ka leya kiya jata hai hai.const v
 ```
 const x = 10;
 x = 20;
+console.log();
 ```
 
-- console.log(); //typeErroe:this will also give an error
+- typeErroe:this will also give an error
 
 # ==========var==========
 
@@ -41,7 +42,8 @@ var ko decleration sa phala use kar sktay hai.var ko redecler bhi kar sktay hai.
 - for example
 
 ```
+console.log(val);
 var val = 300;
 ```
 
-- console.log(val); //allowed and value will be undefined here
+- allowed and value will be undefined here
