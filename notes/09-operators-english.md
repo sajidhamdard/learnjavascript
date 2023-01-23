@@ -38,8 +38,8 @@ supported by JavaScript:
         ||	logical or
 
      !	logical not
-    ```
-    ```
+    
+    
 
 - Assignment Operators
 
@@ -51,9 +51,6 @@ supported by JavaScript:
        %=	    x %= y	    x = x % y
        **=	x   **= y	    x = x ** y
 
-```
-
-```
 
 - Example of some most used operators
 
