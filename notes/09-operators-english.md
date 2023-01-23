@@ -6,7 +6,7 @@ can say that an operator operates the operands. In JavaScript operators are used
 compare values, perform arithmetic operations etc. There are various operators
 supported by JavaScript:
 
-    ```
+    
      - Arithmetic Operators
     +	Addition
     -	Subtraction
@@ -17,7 +17,7 @@ supported by JavaScript:
     ++	Increment
     --	Decrement
 
-        ```
+      
         ```
     - Comparison Operators
         ==	equal to
