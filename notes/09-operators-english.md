@@ -6,22 +6,20 @@ can say that an operator operates the operands. In JavaScript operators are used
 compare values, perform arithmetic operations etc. There are various operators
 supported by JavaScript:
 
-    - Arithmetic Operators
-
     ```
-        +	Addition
-        -	Subtraction
-        *	Multiplication
-        **	Exponentiation (ES2016)
-        /	Division
-        %	Modulus (Division Remainder)
-        ++	Increment
-        --	Decrement
+     - Arithmetic Operators
+    +	Addition
+    -	Subtraction
+    *	Multiplication
+    **	Exponentiation (ES2016)
+    /	Division
+    %	Modulus (Division Remainder)
+    ++	Increment
+    --	Decrement
 
         ```
+        ```
     - Comparison Operators
-
-    ```
         ==	equal to
         ===	equal value and equal type
         !=	not equal
@@ -32,28 +30,32 @@ supported by JavaScript:
         <=	less than or equal to
         ?	ternary operator
         ```
+
+        ```
     - Logical Operators
-    ```
+
         &&	logical and
         ||	logical or
 
      !	logical not
     ```
-    - Assignment Operators
-
     ```
-        =	    x = y	    x = y
-        +=	    x += y	    x = x + y
-        -=	    x -= y	    x = x - y
-        *=	    x *= y	    x = x * y
-        /=	    x /= y	    x = x / y
-        %=	    x %= y	    x = x % y
-        **=	x   **= y	    x = x ** y
+
+- Assignment Operators
+
+       =	    x = y	    x = y
+       +=	    x += y	    x = x + y
+       -=	    x -= y	    x = x - y
+       *=	    x *= y	    x = x * y
+       /=	    x /= y	    x = x / y
+       %=	    x %= y	    x = x % y
+       **=	x   **= y	    x = x ** y
+
+```
 
 ```
 
 - Example of some most used operators
-```
 
 let i = 10;
 ++i;
@@ -79,9 +81,9 @@ console.log(ans); //4
 
 ```
 
-- Truth Table of Logical Operators
-
 ```
+
+- Truth Table of Logical Operators
 
 condition 1(e.g., X) condition 2(e.g., Y) NOT X( ~ X ) X AND Y( X && Y ) X OR Y( X || Y )
 false false true false false
