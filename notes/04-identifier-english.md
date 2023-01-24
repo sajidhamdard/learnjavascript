@@ -16,14 +16,14 @@ JavaScript has a set of rules for naming variables and other elements known as n
 
 For example, the following code defines a variable called myVariable:
 
-for example:
+- for example:
 
 ```
 let myVariable = 10; //myVariable is an identifer
 ```
 
 ```
-//sum is an identifier here
+sum is an identifier here
 function sum(a, b) {
 console.log(a + b);
 }
@@ -33,14 +33,16 @@ In this example, myVariable is the identifier for the variable.
 
 JavaScript's Identifiers are a key aspect of the language, and are used extensively in web development to create dynamic and interactive web pages and for building web and mobile apps.
 
+- Invalid Identifier examples
+
 ```
-//Invalid Identifier examples
 let 12x = 10;
 let &value = 10;
 ```
 
+- Valid Identifier examples
+
 ```
-//Valid Identifier examples
 let x12 = 10;
 let \_value = 20;
 let $\_value = 100;

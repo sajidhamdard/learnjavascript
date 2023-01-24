@@ -22,12 +22,16 @@ JavaScript me identifiers case sensitive hote hain. Case sensitive ka matlab ye 
 
 indentifier bnane ke lie $, \_, and digits (0-9) ka use hota hai but variable name digit se start ni ho skta hai.
 
+- Invalid Identifier examples
+
 ```
-//Invalid Identifier examples
 let 12x = 10;
 let &value = 10;
+```
 
-// //Valid Identifier examples
+- Valid Identifier examples
+
+```
 let x12 = 10;
 let \_value = 20;
 let $\_value = 100;
