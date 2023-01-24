@@ -31,7 +31,7 @@ console.log(false);
 
 ### type of operator
 
-Yaha data type btata hain.
+Yaha data type btata hain.data ke kon se type hai.
 
 ```
 var x = 10;
