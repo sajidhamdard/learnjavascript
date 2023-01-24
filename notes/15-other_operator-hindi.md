@@ -1,7 +1,7 @@
 ### loose equality operator(==)
 
 Yaha do variable ko compair karta hain.pr compair karta time data type strictly check
-nahi karta hain.or jha bhi possibal hota hain vaha otomatic type conversion karke value
+nahi karta hain.or jha bhi possibal hota hain vaha automatic type conversion karke value
 compair karta hain.
 
 ```
