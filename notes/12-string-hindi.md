@@ -119,10 +119,11 @@ var str = "    Hello World!          ";
 document.write(str.trim());
 ```
 
-```
 ### split():
+
 method से दिए हुए character से string को split array return किया जाता है |
 seperator:यहाँ पर जिस character से seperate किया जाता है वो character यहाँ पर दिया जाता है | ये character string में include नन्ही होता |
+
 - limit : split करने की संख्या यहाँ पर दी जाती है |
 
 - for example:
@@ -136,7 +137,9 @@ document.write(str.split(" ") + "<br />"); //Hello,World!
 ```
 
 ### indexOf():
+
 method से दिए हुए characters का first occurrence का index return किया जाता है
+
 - str.indexOf(searchValue, startIndex)
 - searchValue : यहाँ पर वो character या string आता है जिसका index return किया जाता है |
 - startIndex : जहा से शुरुआत करनी है वो index यहाँ पर आता है | ये optional होता है | default value '0' होती है |
@@ -151,15 +154,18 @@ var str = "Hello World!";
 document.write(str.indexOf("l", 6)); //9
 
 ```
+
 ### lastIndexOf():
+
 method से दिए हुए characters का last occurrence का index return किया जाता है |
+
 - Syntax for lastIndexOf()
-str.lastIndexOf(searchValue, startIndex)
+  str.lastIndexOf(searchValue, startIndex)
 
 - Parameter :
 - searchValue : यहाँ पर वो character या string आता है जिसका index return किया जाता है |
-- startIndex : जहा से शुरुआत करनी है वो index यहाँ पर आता है | ये optional होता है |  default value '0' होती है | String के उलटी दिशा से index start होता है |
-lastIndexOf() जब कोई value search नहीं होती तो -1 return होता है |
+- startIndex : जहा से शुरुआत करनी है वो index यहाँ पर आता है | ये optional होता है | default value '0' होती है | String के उलटी दिशा से index start होता है |
+  lastIndexOf() जब कोई value search नहीं होती तो -1 return होता है |
 
 - for example:
 
@@ -171,6 +177,7 @@ document.write(str.lastIndexOf("l", 6)); //3
 ```
 
 ### startsWith():
+
 method से दिए हुए String की शुरुआत दिए हुए character या substring से हुई है या नहीं हुई है ये boolean value में return किया जाता है |
 
 - Syntax for startsWith()
@@ -179,7 +186,7 @@ method से दिए हुए String की शुरुआत दिए ह
 - Parameter :
 
 - startStr : यहाँ पर starting substring दिया जाता है |
-- startIndex : जहा से start करना है वो inde यहाँ पर दी जाती है | ये optional होता है |    इसकी default value '0' होती है |
+- startIndex : जहा से start करना है वो inde यहाँ पर दी जाती है | ये optional होता है | इसकी default value '0' होती है |
 
 - for example:
 
@@ -190,6 +197,7 @@ document.write(str.startsWith("Hello") + ""); //true
 document.write(str.startsWith("World", 6) + ""); //true
 
 ```
+
 ### endsWith():
 
 method से दिए हुए character या substring से string की end हुई है या नहीं ये boolean value में return करता है |
@@ -197,6 +205,7 @@ method से दिए हुए character या substring से string क�
 -Syntax for endsWith()
 
 str.endsWith(endStr)
+
 - Parameter :
 - endStr : ये end substring होती है |
 - for example:
@@ -209,7 +218,9 @@ document.write(str.endsWith("!")); //true
 ```
 
 ### search():
+
 method से दिए हुए regular expression से string को search किया जाता है |
+
 - Syntax for search()
 - str.search(regexp)
 - Parameter :
@@ -223,7 +234,5 @@ method से दिए हुए regular expression से string को search
 
 var str = "Hello World!";
 document.write(str.search("World"));
-
-```
 
 ```
