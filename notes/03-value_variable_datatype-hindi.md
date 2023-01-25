@@ -46,6 +46,7 @@ let x = 10; //10 is value and x is variable
 
 ```
 
+
 let value = 10; `
 
 ```
