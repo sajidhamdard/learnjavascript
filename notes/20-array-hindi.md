@@ -87,10 +87,6 @@ sort array method में alphabet और numeric array को sort किय�
 
 output: Kamalesh,Mukesh,Rakesh,Ramesh
 
-```
-
-```
-
 let num = [1, 2, 3, 4, 10, 100, 20, 50, 31];
 console.log(
 num.sort(function (a, b) {
