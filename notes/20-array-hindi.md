@@ -97,10 +97,6 @@ return b - a;
 output: [100, 50, 31, 20, 10, 4, 3, 2, 1]
 
 ```
-
-```
-
-```
 let num = [1, 2, 3, 4, 10, 100, 20, 50, 31];
  console.log(
    num.sort(function (a, b) {
