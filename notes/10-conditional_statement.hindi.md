@@ -16,7 +16,7 @@ if (i < 20) {
 ```
 
 For a conditional statement if block is mandatory, without if block we can not
-write else if or else block. It means else if and else block are not mandatory.\*/
+write else if or else block. It means else if and else block are not mandatory.
 
 ```
 if (i < 20) {
