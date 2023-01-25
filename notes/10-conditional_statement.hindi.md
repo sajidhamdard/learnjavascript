@@ -3,10 +3,12 @@
 Conditional statements different conditions ke base pr different actions perform krne ke lie use me aate hain
 
 JavaScript me niche diye hue conditional statements use hote hain:
-=> if block ka use koi condition true hone pr jo code execute krna hai uske lie kia jata hai.
-=> else block ka use koi condition false hone pr jo code execute krna hai uske lie kia jata hai.
-=> Use else if to specify a new condition to test, if the first condition is false
-=> Use
+
+- if block ka use koi condition true hone pr jo code execute krna hai uske lie kia jata hai.
+
+- else block ka use koi condition false hone pr jo code execute krna hai uske lie kia jata hai.
+
+- Use else if to specify a new condition to test, if the first condition is false
 
 ```
 let i = 10;
@@ -16,7 +18,7 @@ if (i < 20) {
 ```
 
 For a conditional statement if block is mandatory, without if block we can not
-write else if or else block. It means else if and else block are not mandatory.\*/
+write else if or else block. It means else if and else block are not mandatory.
 
 ```
 if (i < 20) {
