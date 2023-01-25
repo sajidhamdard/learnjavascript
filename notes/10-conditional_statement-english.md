@@ -2,7 +2,7 @@
 
 A conditional statement in JavaScript allows you to execute different code based on whether a certain condition is true or false. This is useful for controlling the flow of your program and making decisions.
 
-Here is an example of a simple conditional statement in JavaScript:
+- Here is an example of a simple conditional statement in JavaScript:
 
 ```
 let x = 5;
@@ -13,7 +13,7 @@ if (x > 0) {
 
 In this example, the if statement checks whether the value of x is greater than 0. If it is, the code inside the curly braces (console.log("x is positive");) is executed. If x is not greater than 0, the code inside the if statement is skipped.
 
-### You can also use else statements to specify what code should be executed if the condition is not true.
+You can also use else statements to specify what code should be executed if the condition is not true.
 
 ```
 let x = 5;
@@ -32,7 +32,7 @@ write else if or else block. It means else if and else block are not mandatory.
 
 The else if statement in JavaScript allows you to specify multiple conditions and execute different code based on which condition is true. This is useful for creating more complex decision-making logic in your code.
 
-Here is an example of using else if in JavaScript:
+- Here is an example of using else if in JavaScript:
 
 ```
 let x = 5;
