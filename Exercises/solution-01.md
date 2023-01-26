@@ -1,46 +1,44 @@
 1. What is Programming Language?
+   A programming language is a set of instructions, symbols and syntax that are used to create a software program or application. The code written in a programming language is then translated into machine code which can be executed by a computer.
 
-A programming language is a set of instructions, symbols and syntax that are used to create a software program or application. The code written in a programming language is then translated into machine code which can be executed by a computer.
+   Programming languages have different features and capabilities, and are used to create different types of software. For example, C++ and C# are commonly used to create desktop and mobile applications, while Python and R are commonly used for data analysis and scientific computing.
 
-Programming languages have different features and capabilities, and are used to create different types of software. For example, C++ and C# are commonly used to create desktop and mobile applications, while Python and R are commonly used for data analysis and scientific computing.
+   There are many different programming languages, each with their own syntax, libraries, and tools. Some popular programming languages include:
 
-There are many different programming languages, each with their own syntax, libraries, and tools. Some popular programming languages include:
+   - C++ and C#
+   - Java
+   - Python
+   - JavaScript
+   - Ruby
+   - PHP
+   - Swift
+   - Go
 
-- C++ and C#
-- Java
-- Python
-- JavaScript
-- Ruby
-- PHP
-- Swift
-- Go
-  In short, a programming language is a set of instructions and symbols used to create software, it is the way of communicating with the computer, and there are many different types of programming languages available, each with its own strengths and uses.
+   In short, a programming language is a set of instructions and symbols used to create software, it is the way of communicating with the computer, and there are many different types of programming languages available, each with its own strengths and uses.
 
 2. Tell about machine language?
+   Machine language, also known as machine code or assembly language, is the lowest-level programming language that is understood directly by a computer's central processing unit (CPU). It consists of a series of binary digits (ones and zeroes) that the CPU reads and executes as instructions. Machine language instructions are specific to a particular type of computer architecture and are not portable across different types of CPUs.
 
-Machine language, also known as machine code or assembly language, is the lowest-level programming language that is understood directly by a computer's central processing unit (CPU). It consists of a series of binary digits (ones and zeroes) that the CPU reads and executes as instructions. Machine language instructions are specific to a particular type of computer architecture and are not portable across different types of CPUs.
+   Each machine language instruction corresponds to a specific operation that the CPU can perform, such as moving data from memory to a register, performing arithmetic operations, or jumping to a different location in the program.
 
-Each machine language instruction corresponds to a specific operation that the CPU can perform, such as moving data from memory to a register, performing arithmetic operations, or jumping to a different location in the program.
+   Machine language is often considered to be difficult to work with, as it is hard to read and understand. It is also not very human-readable, because it is not easy to understand the meaning of the instructions just by looking at the binary code. Therefore, it is not used to write software directly, but it is used as the final output of a compiler, interpreter or assembler.
 
-Machine language is often considered to be difficult to work with, as it is hard to read and understand. It is also not very human-readable, because it is not easy to understand the meaning of the instructions just by looking at the binary code. Therefore, it is not used to write software directly, but it is used as the final output of a compiler, interpreter or assembler.
-
-In summary, Machine language is the native language of the computer, it is the lowest-level programming language, it is not portable across different architectures, and it is not human-readable. It is used as the final output of a compiler, interpreter or assembler.
+   In summary, Machine language is the native language of the computer, it is the lowest-level programming language, it is not portable across different architectures, and it is not human-readable. It is used as the final output of a compiler, interpreter or assembler.
 
 3. Why different programming languages are used for coding?
+   Different programming languages are used for coding because each language has its own set of strengths and weaknesses, and is better suited to certain types of tasks. Some of the reasons why different programming languages are used for different types of coding include:
 
-Different programming languages are used for coding because each language has its own set of strengths and weaknesses, and is better suited to certain types of tasks. Some of the reasons why different programming languages are used for different types of coding include:
+   ## Syntax: Different programming languages have different syntax, which can make the code more readable or easier to write for certain types of tasks. For example, Python's simple and readable syntax makes it a popular choice for beginners and for tasks related to data science.
 
-Syntax: Different programming languages have different syntax, which can make the code more readable or easier to write for certain types of tasks. For example, Python's simple and readable syntax makes it a popular choice for beginners and for tasks related to data science.
+   ## Libraries and frameworks: Each programming language has its own set of libraries and frameworks that provide pre-built functionality for common tasks. For example, the Python ecosystem has a large number of libraries for data analysis and machine learning, while JavaScript has a wide range of libraries and frameworks for building web applications.
 
-Libraries and frameworks: Each programming language has its own set of libraries and frameworks that provide pre-built functionality for common tasks. For example, the Python ecosystem has a large number of libraries for data analysis and machine learning, while JavaScript has a wide range of libraries and frameworks for building web applications.
+   ## Platform and device support: Different programming languages have different levels of support for different platforms and devices. For example, C++ is often used to create desktop and mobile applications because it has good support for low-level hardware operations, while JavaScript is commonly used for web development because it can run on any web browser.
 
-Platform and device support: Different programming languages have different levels of support for different platforms and devices. For example, C++ is often used to create desktop and mobile applications because it has good support for low-level hardware operations, while JavaScript is commonly used for web development because it can run on any web browser.
+   ## Performance: Different programming languages have different performance characteristics. For example, C++ and C are considered to be very fast and efficient languages, making them suitable for tasks that require a lot of computational power, such as video games and 3D rendering.
 
-Performance: Different programming languages have different performance characteristics. For example, C++ and C are considered to be very fast and efficient languages, making them suitable for tasks that require a lot of computational power, such as video games and 3D rendering.
+   ## Community: Each programming language has its own community of developers and users. Larger and more active communities generally provide better support, documentation, and resources for learning and working with a language.
 
-Community: Each programming language has its own community of developers and users. Larger and more active communities generally provide better support, documentation, and resources for learning and working with a language.
-
-In summary, Different programming languages are used for different types of coding because each language has its own set of strengths and weaknesses, depending on the task, such as syntax, libraries and frameworks, platform and device support, performance, and community.
+   In summary, Different programming languages are used for different types of coding because each language has its own set of strengths and weaknesses, depending on the task, such as syntax, libraries and frameworks, platform and device support, performance, and community.
 
 4. Tell about front-end and back-end languages?
 
@@ -48,16 +46,18 @@ Front-end and back-end languages refer to the different types of programming lan
 
 Front-end languages, also known as client-side languages, are used to create the user interface and user experience of a website. These languages are executed by the web browser on the user's computer and include:
 
-HTML (Hypertext Markup Language): used to create the structure and layout of a website.
-CSS (Cascading Style Sheets): used to control the visual presentation of a website.
-JavaScript: used to create interactive and dynamic elements on a website, such as form validation, image sliders, and interactive maps.
+- HTML (Hypertext Markup Language): used to create the structure and layout of a website.
+- CSS (Cascading Style Sheets): used to control the visual presentation of a website.
+- JavaScript: used to create interactive and dynamic elements on a website, such as form validation, image sliders, and interactive maps.
+
 Back-end languages, also known as server-side languages, are used to create the logic and functionality of a website. These languages are executed on the web server and include:
 
-PHP: A widely-used back-end language for web development.
-Python: used for a wide range of back-end tasks, such as data analysis and machine learning.
-Ruby: widely used for creating web applications with the Ruby on Rails framework.
-Java: widely used for building enterprise web applications.
-C# and .NET: widely used for building windows based applications.
+- PHP: A widely-used back-end language for web development.
+- Python: used for a wide range of back-end tasks, such as data analysis and machine learning.
+- Ruby: widely used for creating web applications with the Ruby on Rails framework.
+- Java: widely used for building enterprise web applications.
+- C# and .NET: widely used for building windows based applications.
+
 In short, Front-end languages are used to create the user interface and user experience of a website, while back-end languages are used to create the logic and functionality of a website. Front-end languages run on the client's browser and back-end languages run on the server.
 
 5.  What is front-end?
@@ -66,10 +66,10 @@ Front-end refers to the part of web development that deals with the user interfa
 
 The front-end is typically built using a combination of three main languages:
 
-HTML (Hypertext Markup Language): used to create the structure and layout of a website.
-CSS (Cascading Style Sheets): used to control the visual presentation of a website.
-JavaScript: used to create interactive and dynamic elements on a website, such as form validation, image sliders, and interactive maps.
-Front-end developers use these languages to create the visual elements of a website and make sure that it is responsive and accessible for different devices and screen sizes. They also use frameworks and libraries such as React, Angular and Vue.js to help them with the development process.
+- HTML (Hypertext Markup Language): used to create the structure and layout of a website.
+- CSS (Cascading Style Sheets): used to control the visual presentation of a website.
+- JavaScript: used to create interactive and dynamic elements on a website, such as form validation, image sliders, and interactive maps.
+  Front-end developers use these languages to create the visual elements of a website and make sure that it is responsive and accessible for different devices and screen sizes. They also use frameworks and libraries such as React, Angular and Vue.js to help them with the development process.
 
 In short, Front-end is the part of web development that deals with the user interface and user experience of a website, it is built using HTML, CSS and JavaScript, and it is responsible for the visual design, layout and interactive elements of a website.
 
@@ -219,10 +219,12 @@ These versions of JavaScript were considered "famous" because they introduced ne
 
 JavaScript can be used both in the front-end and back-end of web development.
 
-Front-end:
+### Front-end:
+
 In front-end development, JavaScript is primarily used to create interactive user interfaces and dynamic web pages. This is done by adding JavaScript code to an HTML document and using it to manipulate the Document Object Model (DOM) of the page. This allows developers to create things like image sliders, responsive navigation, form validation, and other dynamic user interface elements. JavaScript code can be run directly within a web browser, which allows developers to create dynamic and interactive web pages without the need for constant page refreshes.
 
-Back-end:
+## Back-end:
+
 JavaScript can also be used for server-side programming, thanks to technologies such as Node.js. Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript code on a server. Node.js provides an environment for JavaScript to run on a server, which enables developers to use JavaScript for back-end development. This allows developers to create back-end services, such as APIs, and to create real-time web applications. With the help of Node.js, developers can use the same language for both client-side and server-side, which makes development more consistent and efficient.
 
 In short, JavaScript can be used in the front-end to create interactive user interfaces, and in the back-end to create server-side applications, APIs, and more. The versatility of JavaScript makes it a powerful tool for full-stack web development.
