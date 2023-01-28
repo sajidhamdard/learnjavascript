@@ -56,7 +56,7 @@ var x = 5;
 console.log(x); // prints "5" to the console
 ```
 
-- console.warn()
+#### console.warn()
 
 console.warn() is a method in JavaScript that is used to output a warning message to the browser's developer console. It works similar to the console.log() method, but it's output is presented in a different format, usually with a yellow background color and an exclamation mark icon. The main purpose of this method is to alert the developer of a potential problem or a non-critical issue in the code.
 
@@ -69,7 +69,7 @@ if (x !== "hello") {
 }
 ```
 
-- console.error()
+#### console.error()
 
 console.error() is a method in JavaScript that is used to output an error message to the browser's developer console. It works similar to the console.log() and console.warn() methods, but it's output is presented in a different format, usually with a red background color and a cross icon. The main purpose of this method is to alert the developer of a critical issue or a bug in the code that may prevent the code from running properly.
 
@@ -82,7 +82,7 @@ if (x === undefined) {
 }
 ```
 
-- console.table()
+#### console.table()
 
 console.table() is a method in JavaScript that is used to output data in the form of a table in the browser's developer console. It allows developers to display data in a structured and easily readable format, making it useful for debugging and analyzing complex data sets.
 
@@ -111,7 +111,9 @@ In this example, the table will only display the name and age properties of the 
 
 There are several types of errors that can occur in JavaScript, including:
 
-1. Syntax errors: These occur when the code contains a mistake in the structure or syntax of the language. Examples include missing punctuation, incorrect use of keywords, or mismatched parentheses.
+#### Syntax errors
+
+These occur when the code contains a mistake in the structure or syntax of the language. Examples include missing punctuation, incorrect use of keywords, or mismatched parentheses.
 
 ```
 function addNumbers(a, b)
@@ -121,7 +123,9 @@ function addNumbers(a, b)
 
 In this example, the function keyword is followed by the name of the function, but there is no opening curly brace { after it. This means that the JavaScript interpreter does not know where the function's code block starts. This will cause a syntax error and the code will not execute.
 
-2. Reference errors: These occur when the code is trying to access a variable or function that has not been defined. This can happen when a variable has not been declared, or when a function is called before it has been defined.
+#### Reference errors
+
+These occur when the code is trying to access a variable or function that has not been defined. This can happen when a variable has not been declared, or when a function is called before it has been defined.
 
 ```
 console.log(x);
@@ -129,7 +133,9 @@ console.log(x);
 
 In this example, the code is trying to access the variable x without first declaring it or giving it a value. Since x has not been defined, the JavaScript interpreter will throw a reference error and the code will not execute.
 
-3. Type errors: These occur when the code is trying to perform an operation on a variable of the wrong type. Examples include trying to use a string as a number, or trying to access a property of a non-object.
+#### Type errors
+
+These occur when the code is trying to perform an operation on a variable of the wrong type. Examples include trying to use a string as a number, or trying to access a property of a non-object.
 
 ```
 var x = "hello";
@@ -138,7 +144,9 @@ x = x + 3;
 
 In this example, the code is trying to add the number 3 to the string "hello", but strings and numbers are different data types and cannot be directly combined. This will cause a type error, and the code will not execute.
 
-4. Range errors: These occur when the code is trying to access an index outside the range of an array, or when a value is too large or too small to be used.
+#### Range errors
+
+These occur when the code is trying to access an index outside the range of an array, or when a value is too large or too small to be used.
 
 ```
 var maxNumber = Number.MAX_SAFE_INTEGER;
@@ -147,7 +155,9 @@ console.log(maxNumber + 1);
 
 Here, the code is trying to add 1 to the maximum safe integer value that JavaScript can represent, which exceeds the maximum value that can be represented and it will cause a range error.
 
-5. Evaluation errors: These occur when the code is trying to evaluate an expression that is not valid. Examples include dividing by zero or trying to access a property of undefined.
+#### Evaluation errors
+
+These occur when the code is trying to evaluate an expression that is not valid. Examples include dividing by zero or trying to access a property of undefined.
 
 ```
 eval("hello world");
@@ -155,7 +165,9 @@ eval("hello world");
 
 Here, the code is trying to evaluate a string "hello world" which is not a valid JavaScript statement, so it causes an evaluation error.
 
-6. URIError: These occur when a malformed URI is passed to the encodeURI() or decodeURI() functions.
+#### URIError
+
+These occur when a malformed URI is passed to the encodeURI() or decodeURI() functions.
 
 ```
 encodeURI("http://mywebsite.com/path?name=value#fragment");
@@ -165,12 +177,20 @@ Here, the code is trying to encode the URI "http://mywebsite.com/path?name=value
 
 It's important to note that the JavaScript interpreter will stop executing the code as soon as it encounters a URIError, so it's essential to check your code for URI errors before running it to ensure it will execute correctly.
 
-7. SyntaxError: These occur when a malformed or unexpected token is encountered in the input.
+#### SyntaxError
 
-8. RangeError: These occur when a number is outside the range of possible values.
+These occur when a malformed or unexpected token is encountered in the input.
 
-9. TypeError: These occur when a value is not of the expected type.
+#### RangeError
 
-10. ReferenceError: These occur when an invalid reference is used.
+These occur when a number is outside the range of possible values.
+
+#### TypeError
+
+These occur when a value is not of the expected type.
+
+#### ReferenceError
+
+These occur when an invalid reference is used.
 
 It is important to understand the different types of errors and their causes, as this will help you to write more robust code and to more easily identify and fix errors when they occur.
