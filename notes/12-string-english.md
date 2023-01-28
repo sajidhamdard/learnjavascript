@@ -84,7 +84,9 @@ It's important to note that the length property counts each individual character
 
 ### String functions
 
-- slice() : In JavaScript, the slice() function is used to extract a section of a string and return it as a new string. The slice() function takes two arguments: the starting index and the ending index (not including the ending index).
+## slice() :
+
+In JavaScript, the slice() function is used to extract a section of a string and return it as a new string. The slice() function takes two arguments: the starting index and the ending index (not including the ending index).
 
 For example:
 
