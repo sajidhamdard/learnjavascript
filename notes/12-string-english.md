@@ -443,3 +443,286 @@ Here, the split() function is used to split the string "Hello World" using the s
 It's worth noting that the split() method does not change the original string, it returns a new array.
 
 In summary, the split() function is a useful way to split a string into an array of substrings in JavaScript using a separator. Additionally, you can use the limit parameter to limit the number of elements in the array.
+
+## indexOf()
+
+In JavaScript, the indexOf() function is used to find the index of the first occurrence of a specified value in a string.
+
+The indexOf() function takes one or two arguments:
+
+- The first argument is the value you want to find in the string.
+- The second argument is an optional parameter that specifies the starting index position in the string where the search should begin.
+
+For example:
+
+```
+var str = "Hello World";
+var index = str.indexOf("World");
+console.log(index); // Output: 6
+```
+
+Here, the indexOf() function is used to find the index of the first occurrence of the value "World" in the string "Hello World". It returns 6, which is the starting index of the substring "World" in the string.
+
+Another example:
+
+```
+var str = "Hello World";
+var index = str.indexOf("world");
+console.log(index); // Output: -1
+```
+
+Here, the indexOf() function is used to find the index of the first occurrence of the value "world" in the string "Hello World". It returns -1, which means the specified value does not exist in the string.
+
+You can also use indexOf() with a starting position:
+
+```
+var str = "Hello World";
+var index = str.indexOf("o", 4);
+console.log(index); // Output: 7
+```
+
+Here, the indexOf() function is used to find the index of the first occurrence of the value "o" in the string "Hello World", starting from index 4. It returns 7, which is the index of the second 'o' in the string.
+
+It's worth noting that the indexOf() method is case sensitive, it will only return the index of the first occurrence of the specified value if the case is matched.
+
+In summary, the indexOf() function is a useful way to find the index of the first occurrence of a specified value in a string in JavaScript. Additionally, you can use the second parameter to specify the starting position in the string where the search should begin.
+
+## lastIndexOf()
+
+In JavaScript, the lastIndexOf() function is similar to the indexOf() function, but it searches for the last occurrence of a specified value in a string instead of the first occurrence.
+
+The lastIndexOf() function also takes one or two arguments:
+
+- The first argument is the value you want to find in the string.
+- The second argument is an optional parameter that specifies the starting index position in the string where the search should begin (searching backwards).
+
+For example:
+
+```
+var str = "Hello World";
+var index = str.lastIndexOf("l");
+console.log(index); // Output: 9
+```
+
+Here, the lastIndexOf() function is used to find the index of the last occurrence of the value "l" in the string "Hello World". It returns 9, which is the index of the last "l" in the string.
+
+Another example:
+
+```
+var str = "Hello World";
+var index = str.lastIndexOf("z");
+console.log(index); // Output: -1
+```
+
+Here, the lastIndexOf() function is used to find the index of the last occurrence of the value "z" in the string "Hello World". It returns -1, which means the specified value does not exist in the string.
+
+You can also use lastIndexOf() with a starting position:
+
+```
+var str = "Hello World";
+var index = str.lastIndexOf("l", 5);
+console.log(index); // Output: 2
+```
+
+Here, the lastIndexOf() function is used to find the index of the last occurrence of the value "l" in the string "Hello World", starting from index 5 (searching backwards). It returns 2, which is the index of the first 'l' in the string.
+
+It's worth noting that the lastIndexOf() method is case sensitive, it will only return the index of the last occurrence of the specified value if the case is matched.
+
+In summary, the lastIndexOf() function is a useful way to find the index of the last occurrence of a specified value in a string in JavaScript. Additionally, you can use the second parameter to specify the starting position in the string where the search should begin (searching backwards).
+
+## startsWith()
+
+In JavaScript, the startsWith() function is a method of the String object that determines whether a string begins with a specified value.
+
+The startsWith() function takes two arguments:
+
+- The first argument is the value you want to find at the beginning of the string.
+- The second argument is an optional parameter that specifies the starting index position in the string where the search should begin.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.startsWith("Hello");
+console.log(result); // Output: true
+```
+
+Here, the startsWith() function is used to check if the string "Hello World" starts with the value "Hello". It returns true, indicating that the string does indeed start with "Hello".
+
+Another example:
+
+```
+var str = "Hello World";
+var result = str.startsWith("world", 6);
+console.log(result); // Output: false
+```
+
+Here, the startsWith() function is used to check if the string "Hello World" starts with the value "world" starting from index 6. It returns false, indicating that the string does not start with "world" starting from index 6.
+
+You can also use startsWith() with a RegExp:
+
+```
+var str = "Hello World";
+var result = str.startsWith(/H/i);
+console.log(result); // Output: true
+```
+
+Here, the startsWith() function is used to check if the string "Hello World" starts with the letter 'H' (case-insensitive). It returns true, indicating that the string starts with 'H'(case-insensitive)
+
+It's worth noting that the startsWith() method is case sensitive, it will only return true if the case of the specified value matches the case of the characters at the start of the string.
+
+In summary, the startsWith() function is a useful way to check whether a string starts with a specified value in JavaScript. Additionally, you can use the second parameter to specify the starting position in the string where the search should begin.
+
+## endsWith
+
+In JavaScript, the endsWith() function is a method of the String object that determines whether a string ends with a specified value.
+
+The endsWith() function takes two arguments:
+
+- The first argument is the value you want to find at the end of the string.
+- The second argument is an optional parameter that specifies the ending index position in the string where the search should end.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.endsWith("World");
+console.log(result); // Output: true
+```
+
+Here, the endsWith() function is used to check if the string "Hello World" ends with the value "World". It returns true, indicating that the string does indeed end with "World".
+
+Another example:
+
+```
+var str = "Hello World";
+var result = str.endsWith("Hello", 5);
+console.log(result); // Output: false
+```
+
+Here, the endsWith() function is used to check if the string "Hello World" ends with the value "Hello" ending at index 5. It returns false, indicating that the string does not end with "Hello" ending at index 5.
+
+You can also use endsWith() with a RegExp:
+
+```
+var str = "Hello World";
+var result = str.endsWith(/d$/i);
+console.log(result); // Output: true
+```
+
+Here, the endsWith() function is used to check if the string "Hello World" ends with the letter 'd' (case-insensitive). It returns true, indicating that the string ends with 'd'(case-insensitive)
+
+It's worth noting that the endsWith() method is case sensitive, it will only return true if the case of the specified value matches the case of the characters at the end of the string.
+
+In summary, the endsWith() function is a useful way to check whether a string ends with a specified value in JavaScript. Additionally, you can use the second parameter to specify the ending position in the string where the search should end.
+
+## search()
+
+In JavaScript, the search() function is a method of the String object that searches a string for a specified value, and returns the position of the match.
+
+The search() function takes one argument:
+
+- The argument is the value you want to find in the string.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.search("World");
+console.log(result); // Output: 6
+```
+
+Here, the search() function is used to find the position of the value "World" in the string "Hello World". It returns 6, indicating that the value "World" is found at the 6th position in the string.
+
+Another example:
+
+```
+var str = "Hello World";
+var result = str.search(/l/i);
+console.log(result); // Output: 2
+```
+
+Here, the search() function is used to find the position of the letter 'l' (case-insensitive) in the string "Hello World". It returns 2, indicating that the first occurrence of 'l'(case-insensitive) is found at the 2nd position in the string.
+
+In summary, the search() function is a useful way to find the position of a specified value in a string in JavaScript. Additionally, you can also use RegExp as argument to find the position of a regular expression in a string. It returns -1 if the value is not found in the string.
+
+## match()
+
+In JavaScript, the match() function is a method of the String object that searches for a match between a regular expression and a string, and returns the matches as an array.
+
+The match() function takes one argument:
+
+- The argument is the regular expression that you want to use to search the string.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.match(/l/gi);
+console.log(result); // Output: ["l", "l"]
+```
+
+Here, the match() function is used to find all occurrences of the letter 'l' (case-insensitive) in the string "Hello World" using regular expression /l/gi. It returns an array with two elements, ["l", "l"], indicating that the letter 'l' is found twice in the string.
+
+Another example:
+
+```
+var str = "Hello World";
+var result = str.match(/world/i);
+console.log(result); // Output: ["World"]
+```
+
+Here, the match() function is used to find the first occurrence of the word "world" (case-insensitive) in the string "Hello World" using regular expression /world/i. It returns an array with one element, ["World"], indicating that the word "world" is found once in the string.
+
+In summary, the match() function is a useful way to find all matches of a regular expression in a string in JavaScript. It returns null if no match is found.
+You can also use test() function to check whether a string matches a regular expression.
+
+## includes()
+
+In JavaScript, the includes() function is a method of the String object that checks whether a string contains a specified substring.
+
+The includes() function takes one argument:
+
+- The argument is the substring that you want to check for in the string.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.includes("World");
+console.log(result); // Output: true
+```
+
+Here, the includes() function is used to check if the string "Hello World" contains the substring "World". It returns true as the substring is present in the string.
+
+Another example:
+
+```
+var str = "Hello World";
+var result = str.includes("world", 6);
+console.log(result); // Output: true
+```
+
+Here, the includes() function is used to check if the string "Hello World" contains the substring "world" after the 6th position. It returns true as the substring is present in the string.
+
+In summary, the includes() function is a simple and efficient way to check whether a substring is present in a string in JavaScript. It returns true if the substring is found and false if it is not.
+
+You can also use indexOf() function to check whether a string contains a substring, but it returns the index of the first occurrence of the substring, it returns -1 if substring is not present in the string.
+
+## valueOf()
+
+In JavaScript, the valueOf() function is a method of the String object that returns the primitive value of a string.
+
+For example:
+
+```
+var str = "Hello World";
+var result = str.valueOf();
+console.log(result); // Output: "Hello World"
+```
+
+Here, the valueOf() function is used to get the primitive value of the string "Hello World" and returns the string "Hello World".
+
+In summary, the valueOf() function is a method of the String object that returns the primitive value of the string. It is similar to using the string variable directly and it does not change the original string. It returns the primitive string. This function is mostly used when we want to get the primitive value of an object.
+
+This function is not very commonly used in practice, as most of the time, the string variable can be used directly to get its value.
