@@ -1,10 +1,6 @@
 ### ==========Operators==========
 
-An operator is capable of manipulating a certain value or operand. Operators are used to
-perform specific mathematical and logical computations on operands. In other words, we
-can say that an operator operates the operands. In JavaScript operators are used for
-compare values, perform arithmetic operations etc. There are various operators
-supported by JavaScript:
+An operator is capable of manipulating a certain value or operand. Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc. There are various operators supported by JavaScript:
 
 - Arithmetic Operators
 
@@ -107,26 +103,6 @@ It's worth noting that when operators have the same precedence they are evaluate
 
 In summary, operator precedence is the order in which operations are performed in an expression, it's determined by the precedence of operators, with some operators having a higher precedence than others and will be executed first.
 
-- Example of some most used operators
-
-```
-
-let i = 10;
-++i;
-++i;
-console.log(i); //12
-
-let j = 10;
---j;
---j;
-console.log(j); //8
-
-let k = 24;
-let ans = k % 5;
-console.log(ans); //4
-
-```
-
 ### Truth Table of Logical Operators
 
 | x     | y     | x and y | x or y | !x    |
@@ -135,7 +111,3 @@ console.log(ans); //4
 | true  | false | false   | true   | false |
 | false | true  | false   | true   | true  |
 | false | false | false   | false  | true  |
-
-```
-
-```
