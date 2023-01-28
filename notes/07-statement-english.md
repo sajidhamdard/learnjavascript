@@ -20,14 +20,14 @@ console.log("Dear");
 
 For multi line statement we use curly braces {} but these curly should be grouped with conditional statements or inside function.
 
-# Semicolon in JavaScript
+### Semicolon in JavaScript
 
 In JavaScript, Semicolons are optional. Simple statements in JavaScript are generally
 followed by a semicolon character, just as they are in C, C++, and Java. JavaScript,
 however, allows you to omit this semicolon if each of your statements is placed on a
 separate line.
 
-# WhiteSpace in statement
+### WhiteSpace in statement
 
 ```
 let val = 10 ; //whitespace here doesnt matter
@@ -35,7 +35,6 @@ let str = " Hello "; //Whitespace here will matter
 let num = 1 0; // this is not valid
 ```
 
-# Whar is a Statement ?
+### What is Code block or Multi-line statement?
 
-kisi bhi progrsmming language ma Statement va code hota hai jo Semi colan se end hota hai.
-javascript ma Semi colan lagana jaruri nahi hai.
+A code block in JavaScript is a section of code that is enclosed within curly braces "{ }". It is used to group one or more statements together and can be used to define the scope of a variable or function, or to create control structures such as loops and if-else statements. Code blocks are often used to organize and structure a program's logic.

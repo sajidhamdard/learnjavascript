@@ -36,16 +36,14 @@ supported by JavaScript:
 
 - Logical Operators
 
-```
-     &&	logical and
-     ||	logical or
-
-  !	logical not
-```
+  1. && logical and
+  2. || logical or
+  3. ! logical not
 
 - Assignment Operators
 
 ```
+
     =	    x = y	    x = y
     +=	    x += y	    x = x + y
     -=	    x -= y	    x = x - y
@@ -53,18 +51,22 @@ supported by JavaScript:
     /=	    x /= y	    x = x / y
     %=	    x %= y	    x = x % y
     **=	x   **= y	    x = x ** y
+
 ```
 
 - Example of some most used operators
 
 ```
+
 let i = 10;
 ++i;
 ++i;
 console.log(i); //12
+
 ```
 
 ```
+
 let j = 10;
 --j;
 --j;
@@ -73,18 +75,22 @@ console.log(j); //8
 ```
 
 ```
+
 let k = 24;
 let ans = k % 5;
 console.log(ans); //4
 
 ```
 
-- Truth Table of Logical Operators
+### Truth Table of Logical Operators
+
+| x     | y     | x and y | x or y | !x    |
+| ----- | ----- | ------- | ------ | ----- |
+| true  | true  | true    | true   | false |
+| true  | false | false   | true   | false |
+| false | true  | false   | true   | true  |
+| false | false | false   | false  | true  |
 
 ```
-condition 1(e.g., X) condition 2(e.g., Y) NOT X( ~ X ) X AND Y( X && Y ) X OR Y( X || Y )
-false false true false false
-false true true false true
-true false false false true
-true true false true true
+
 ```
