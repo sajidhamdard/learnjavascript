@@ -71,4 +71,4 @@ if (x < 0 || x > 10) {
 It's worth noting that the logical operators && and || are short-circuit operators, which means that the second operand is only evaluated if the first one does not determine the outcome of the expression.
 For example, in the case of x > 0 && x < 10, if x is greater than 0, the second operand will be evaluated, otherwise the expression returns false without evaluating the second operand.
 
-In summary, logical operators && and || in JavaScript can be used to group multiple conditions together and evaluate them as a single Boolean expression, where && returns true if both conditions are true, and || returns true if at least one of the conditions is true.
+In summary, logical operators && and || in JavaScript can be used to group multiple conditions together and evaluate them as a single Boolean expression, where && returns true if both conditions are true, and ||returns true if at least one of the conditions is true.
