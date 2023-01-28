@@ -48,7 +48,7 @@ It's also worth noting that, JavaScript has a typeof operator which can be used 
 
 JavaScript's rich set of data types and its dynamic typing feature make it a versatile and expressive language that can be used for a wide range of tasks.
 
-### primitive data type(inbuilt data type ):
+### Primitive data types (inbuilt data types):
 
 In JavaScript, primitive data types are basic building blocks of the language and have a single value. They include:
 
@@ -70,7 +70,7 @@ In JavaScript, primitive data types are passed by value, meaning that when a pri
 
 These primitive data types are the foundation of JavaScript and are used extensively in web development to create dynamic and interactive web pages, and for building web and mobile apps.
 
-### Non primitve (reference types) data type:
+### Non primitve (reference types) data types:
 
 In JavaScript, non-primitive data types are complex data types that can hold multiple values and provide additional functionality. They include:
 
@@ -103,7 +103,7 @@ JavaScript also has a feature called "hoisting" which means that variables decla
 
 JavaScript's variables provide a way to store and manipulate data, which is a key aspect of the language, and is used extensively in web development to create dynamic and interactive web pages and for building web and mobile apps.
 
-### Primitive Data Types Examples
+### Primitive Data Types Examples:
 
 - Number
 
@@ -143,7 +143,7 @@ let num = BigInt(10);
 num = 10n;
 ```
 
-### Non Primitive Data Type Examples
+### Non Primitive Data Type Examples:
 
 - Object
 

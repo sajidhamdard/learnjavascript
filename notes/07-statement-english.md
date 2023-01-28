@@ -18,8 +18,7 @@ console.log("Dear");
 }
 ```
 
-- For multi line statement we use curly braces {} but these curly should be
-  grouped with conditional statements or inside function.
+For multi line statement we use curly braces {} but these curly should be grouped with conditional statements or inside function.
 
 # Semicolon in JavaScript
 

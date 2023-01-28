@@ -6,7 +6,7 @@ Data type kisi bhi data ki type btata hai ki vah data kis type ka hai. Data type
 primitive data type
 non-primitive data type
 
-### Primitive data type(inbuilt data type ):
+### Primitive data types (inbuilt data types):
 
 Primitive data type vah data type hoti hai jo kisi bhi programming language me pre define data type hoti hai. Yeh data types Javascript ke building blocks and direct memory me store hoti hain. Primitive data types immutable hoti hain it means inhe change ni kia ja skta hai.
 
@@ -17,7 +17,7 @@ Primitive data type vah data type hoti hai jo kisi bhi programming language me p
 4. boolean: boolean data type vah data store krane ke kaam aati hai jiski value true/false ho. true aur false ko 1 and 0 se b represent krte hain.
 5. BigInt: BigInt vah data type hota hai jo bahut big number ka leya use hota hai. Aise numbers jo number datatype me store ni hote hain.
 
-### Non primitve (reference types) data type
+### Non primitve (reference types) data types:
 
 Non primitive data type ko reference data types b kha jata hai. Ye data types primitive data type se hi bni hoti hai. But in Non primitive data type ko user khud define karta hai. Non primitve data type me hum different type ka data store kar saktay hai.
 
@@ -30,7 +30,7 @@ Non primitive data type ko reference data types b kha jata hai. Ye data types pr
 7. Sets
 8. WeakMap
 
-### value and variable:
+### Value and Variable:
 
 Value ka matlab data hota hai. Jise hum kisi variable me store krate hain. Variable ek place holder ki trah hota hai jisme ki hum value store krte hain and jha b vo value use krni ho to value ki jgah variable use kr skte hain. variable ek identifire hota hain. identifier ek unique name hota hai.
 
@@ -40,7 +40,7 @@ for example:
 let x = 10; //10 is value and x is variable
 ```
 
-/### Primitive Data Types Examples
+### Primitive Data Types Examples:
 
 - Number
 
@@ -93,7 +93,7 @@ num = 10n;
 
 ```
 
-### Non Primitive Data Type Examples
+### Non Primitive Data Type Examples:
 
 - Object
 

@@ -24,7 +24,7 @@ JavaScript is a multi-paradigm programming language, which means it supports sev
 
 JavaScript's flexibility and support for different paradigms make it a versatile language that can be used for a wide range of tasks, from simple scripts to complex web applications. This also allows developers to use the best approach for their specific use case, and to write more expressive, maintainable and efficient code.
 
-### What Prototype based functions ?
+### What is Prototype based function ?
 
 In JavaScript, prototypes are a way of implementing object-oriented programming (OOP) concepts such as inheritance and encapsulation. A prototype is an object that serves as a template for creating other objects. Each object in JavaScript has a prototype, which can be accessed using the **proto** property.
 

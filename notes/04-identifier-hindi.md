@@ -33,6 +33,6 @@ let &value = 10;
 
 ```
 let x12 = 10;
-let \_value = 20;
-let $\_value = 100;
+let _value = 20;
+let $_value = 100;
 ```
