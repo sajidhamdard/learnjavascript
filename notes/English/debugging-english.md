@@ -1,6 +1,6 @@
 # Debugging
 
-# What is Debugging in JavaScript?
+### What is Debugging in JavaScript?
 
 Debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code. It is an essential part of the software development process, and it can help you ensure that your code is working as intended.
 
@@ -23,7 +23,7 @@ In this example, we are using the console.log statement inside the function to o
 
 In summary, debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code, there are several tools and techniques that you can use to debug JavaScript code like browser's developer console, browser's developer tools and JavaScript debugger.
 
-# What is Developer Tool?
+### What is Developer Tool?
 
 Developer tools are a set of web-based tools that allow developers to inspect, debug and optimize their web pages and web applications. They are built into modern web browsers such as Google Chrome, Firefox, Safari, and Edge, and can be accessed by pressing a specific key combination or by selecting them from the browser's menu.
 
@@ -43,7 +43,7 @@ Additionally, developer tools also provide access to a JavaScript console, where
 
 In summary, developer tools in JavaScript are a set of web-based tools that allow developers to inspect, debug and optimize their web pages and web applications, they are built into modern web browsers and provide a wide range of functionality like inspecting elements, debugging JavaScript, network monitoring, performance monitoring and auditing.
 
-# Fixing errors
+### Fixing errors
 
 #### console.log()
 
@@ -107,7 +107,7 @@ console.table(users, ['name','age']);
 
 In this example, the table will only display the name and age properties of the users.
 
-# What are the different types of errors in JavaScript?
+### What are the different types of errors in JavaScript?
 
 There are several types of errors that can occur in JavaScript, including:
 
