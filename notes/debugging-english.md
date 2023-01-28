@@ -1,6 +1,6 @@
 # Debugging
 
-# What is Debuggin in JavaScript?
+# What is Debugging in JavaScript?
 
 Debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code. It is an essential part of the software development process, and it can help you ensure that your code is working as intended.
 
@@ -23,9 +23,9 @@ In this example, we are using the console.log statement inside the function to o
 
 In summary, debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code, there are several tools and techniques that you can use to debug JavaScript code like browser's developer console, browser's developer tools and JavaScript debugger.
 
-# What is Developer Tool in JavaScript?
+# What is Developer Tool?
 
-Developer tools in JavaScript are a set of web-based tools that allow developers to inspect, debug and optimize their web pages and web applications. They are built into modern web browsers such as Google Chrome, Firefox, Safari, and Edge, and can be accessed by pressing a specific key combination or by selecting them from the browser's menu.
+Developer tools are a set of web-based tools that allow developers to inspect, debug and optimize their web pages and web applications. They are built into modern web browsers such as Google Chrome, Firefox, Safari, and Edge, and can be accessed by pressing a specific key combination or by selecting them from the browser's menu.
 
 The developer tools provide a wide range of functionality that can be used to improve the performance, usability, and accessibility of a web page or web application. Some of the most commonly used features include:
 
@@ -45,7 +45,7 @@ In summary, developer tools in JavaScript are a set of web-based tools that allo
 
 # Fixing errors
 
-- console.log()
+#### console.log()
 
 console.log() is a function in JavaScript that is used to output information to the browser's developer console. It can be used to display variables, strings, and other data types. The information displayed in the console can be useful for debugging and understanding the behavior of the code.
 
