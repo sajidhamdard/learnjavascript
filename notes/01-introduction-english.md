@@ -8,7 +8,7 @@ A programming language is a set of instructions and rules that a computer can un
 
 A high-level programming language is a type of programming language that is designed to be easy for humans to read and write. It provides a higher level of abstraction from the computer's hardware and is typically easier to learn and use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript.
 
-### What is machine level language or Low level languages?
+### What is machine level language or Low level language?
 
 A machine-level language, also known as low-level language, is a type of programming language that is closer to the machine's hardware and operates directly on the computer's processor. It is less human-readable and requires more knowledge of the computer's architecture. Examples of low-level languages include assembly language and machine code.
 

@@ -1,6 +1,6 @@
 # 02 : JavaScript Features
 
-### What is High level language?
+### What is High level language ?
 
 A high-level programming language is a type of programming language that provides a higher level of abstraction from the computer's hardware and is designed to be more human-readable and easier to use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript. High-level languages are often used for general-purpose programming, and they often provide a higher level of functionality and convenience than low-level languages.
 
