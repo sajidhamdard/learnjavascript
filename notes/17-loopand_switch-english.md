@@ -185,7 +185,7 @@ It is important to include the break statement after each case block to prevent 
 
 switch statement is a convenient way to write large if-else chains, but it's not the best option for certain types of comparisons such as comparing against ranges of values or using non-primitive values as cases.
 
-#### What is case clause in JavaScript
+### What is case clause in JavaScript
 
 A case clause in a JavaScript switch statement defines a specific branch of execution to be taken if the expression of the switch statement matches the value of the case clause. The code within the case block will be executed if the expression matches the value of the case.
 
