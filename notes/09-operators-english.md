@@ -1,4 +1,4 @@
-### ==========operators==========
+### ==========Operators==========
 
 An operator is capable of manipulating a certain value or operand. Operators are used to
 perform specific mathematical and logical computations on operands. In other words, we
@@ -22,15 +22,15 @@ supported by JavaScript:
 - Comparison Operators
 
 ```
-   ==	equal to
-    ===	equal value and equal type
-    !=	not equal
-    !==	not equal value or not equal type
-    >	greater than
-    <	less than
-    >=	greater than or equal to
-    <=	less than or equal to
-    ?	ternary operator
+  ==	equal to
+  ===	equal value and equal type
+  !=	not equal
+  !==	not equal value or not equal type
+  >	    greater than
+  <	    less than
+  >=	greater than or equal to
+  <=	less than or equal to
+  ?	    ternary operator
 
 ```
 
@@ -52,7 +52,57 @@ supported by JavaScript:
     %=	    x %= y	    x = x % y
     **=	x   **= y	    x = x ** y
 
+- Typeof operators : In JavaScript, the typeof operator is used to determine the type of a variable or expression. The typeof operator returns a string that indicates the type of the operand.
+
+Here are some examples of how the typeof operator can be used:
+
 ```
+
+console.log(typeof 1); // 'number'
+console.log(typeof 'hello'); // 'string'
+console.log(typeof true); // 'boolean'
+console.log(typeof {}); // 'object'
+console.log(typeof []); // 'object'
+console.log(typeof function() {}); // 'function'
+console.log(typeof null); // 'object'
+console.log(typeof undefined); // 'undefined'
+
+```
+
+It's worth noting that typeof null returns 'object' which is considered as a bug in javascript.
+
+Another important thing is that typeof operator returns 'undefined' for variables that have been declared but have not been assigned a value.
+
+In summary, typeof operator is used to check the type of a variable or an expression in JavaScript, it returns a string indicating the type of the operand.
+
+- Operator precedence
+In JavaScript, operator precedence determines the order in which operations are performed in an expression. Some operators have higher precedence than others, and will be executed first.
+
+For example, in the expression 1 + 2 * 3, the multiplication operator (*) has higher precedence than the addition operator (+), so the multiplication is done first, resulting in the expression being evaluated as 1 + (2 * 3) = 7.
+
+Here is the list of operator precedence in JavaScript, from highest to lowest:
+
+    () Parentheses
+    ** Exponentiation
+    ++, -- (postfix)
+    ++, -- (prefix)
+    -, + (unary)
+    ! (not)
+    *, /, %
+    +, -
+    <, <=, >, >=, instanceof
+    ==, !=, ===, !==
+    &&
+    ||
+    ?: (ternary)
+    =, +=, -=, *=, /=, %=, **=, &#8203;oaicite:{"index":0,"invalid_reason":"Malformed citation <<=, >>=, >>>"}&#8203;=
+    yield
+    await
+    ... (spread operator)
+
+It's worth noting that when operators have the same precedence they are evaluated left to right, this is called left-to-right associativity
+
+In summary, operator precedence is the order in which operations are performed in an expression, it's determined by the precedence of operators, with some operators having a higher precedence than others and will be executed first.
 
 - Example of some most used operators
 
@@ -63,18 +113,10 @@ let i = 10;
 ++i;
 console.log(i); //12
 
-```
-
-```
-
 let j = 10;
 --j;
 --j;
 console.log(j); //8
-
-```
-
-```
 
 let k = 24;
 let ans = k % 5;
@@ -90,7 +132,4 @@ console.log(ans); //4
 | true  | false | false   | true   | false |
 | false | true  | false   | true   | true  |
 | false | false | false   | false  | true  |
-
-```
-
 ```
