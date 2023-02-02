@@ -8,7 +8,7 @@ High level programming language vah programming language hoti hai jise is trah s
 
 Javascript ek garbage collected language hai. Garbage collected ka yha ye matlab hai ki Javascript engine me ek utility chalti hai jise garbage collector khte hain. Garbage collector unused memory ko free karta hai. yah automatically run hota hai. Garbage collector aise objects ko identify krta hai jinko program me ab access ni kia ja skta un objects ko memory se remove kr deta hai.
 
-Memory size agar kam ho to garbage collector fast run hoga, aur agar memory size kam hai to slow run hoga.
+Memory size agar kam ho to garbage collector fast run hoga, aur agar memory size jyada hai to slow run hoga.
 
 ### What is Interpreted Language (JIT)-> (Just in time commpiler) ?
 
