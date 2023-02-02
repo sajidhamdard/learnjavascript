@@ -85,6 +85,12 @@ if (
 
 6. print Hello world using console.log, window.alert and document.write
 
+```
+console.log("hallo");
+window.alert("hallo");
+document.write("hallo");
+```
+
 7. Take all falsy values and check in if condition.
 
 ```
