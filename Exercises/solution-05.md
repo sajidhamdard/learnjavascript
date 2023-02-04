@@ -11,7 +11,6 @@ console.log(a + c);
 console.log(a - c);
 console.log(a * c);
 console.log(a / c);
-
 ```
 
 2. Take one number. If number is odd then print odd else print even.
@@ -42,7 +41,9 @@ if (a < b) {
   console.log(32);
   console.log(979475435);
 } else {
-  //print father details
+  console.log("Majid Khan");
+  console.log(55);
+  console.log(988789798);
 }
 ```
 
@@ -65,36 +66,48 @@ if (
 }
 ```
 
-```
-let a = 11;
-let b = 20;
-if (
-  (a % 5 === 0 &&
-    a % 10 === 0 &&
-    b % 10 === 0 &&
-    b % 5 === 0 &&
-    a % 2 === 0 &&
-    b % 2 === 0) ||
-  a < b
-) {
-  console.log("Yes");
-} else {
-  console.log("No");
-  }
-```
-
 6. print Hello world using console.log, window.alert and document.write
 
 ```
-console.log("hallo");
-window.alert("hallo");
-document.write("hallo");
+console.log("hello");
+window.alert("hello");
+document.write("hello");
 ```
 
 7. Take all falsy values and check in if condition.
 
 ```
 if (NaN) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if (0) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if ("") {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if (null) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if (false) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if (undefined) {
   console.log("Yes");
 } else {
   console.log("No");
