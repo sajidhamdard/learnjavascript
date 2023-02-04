@@ -1,9 +1,15 @@
 //Github Exercise
 
-1. Create Github account
-2. Download Git bash for Windows
-3. Create public repository with name JavaScriptTraining
-4. Clone this repository in your laptop
+1. Create Github account and download Git bash for Windows
+2. Create public repository with name JavaScriptTraining
+3. Clone this repository in your laptop
+4. Make below commits:
+
+- Commit to add new files
+- Commit to modify new files
+- Commit to delete one file
+- Commit to add few more files
+- Commit to rename some of the files
 
 //Loop Exercise
 
