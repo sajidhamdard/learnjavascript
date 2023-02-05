@@ -8,9 +8,9 @@
 4. Print 2's table using \*\* operator. Use any logic but it should print 2's table.
 5. Check output of following and validate your answers
    ```
-   2+5*10-20\*\*2
+   2+5*10-20**2
    20/5*10+10
-   10 && 20 + 10 \* 10
+   10 && 20 + 10 * 10
    30 > 20 && 10 + 4 < 15
    30 > 20 && 10 + 4 < 15 || 10
    30 < 20 || 10 + 5 < 15 || 10
