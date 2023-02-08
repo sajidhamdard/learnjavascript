@@ -34,3 +34,20 @@
  .
  2*10=20
 ```
+
+# while loop Exercise
+
+1. Write a while loop that logs the numbers 1 to 10 in the console.
+2. Calculate sum of all numbers from 1 to 10
+3. Counting down from 10 to 1
+4. Print 2's table
+5. Calculate sum of all odd numbers from 1 to 100
+
+# do while loop
+
+1. Write a do...while loop that logs the numbers 1 to 5 in the console
+2. Counting down from 10 to 1
+3. Calculate sum of all numbers from 1 to 10
+4. Print 2's table
+5. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
+6. Calculate sum of all even numbers from 1 to 100
