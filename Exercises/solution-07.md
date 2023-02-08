@@ -206,12 +206,9 @@ for (let i = 1; i <= 50; i++) {
     }
     ```
 
-```
-
 17. Print below series
 
-   5 25 125.. till number is less than equal to 10000
-
+5 25 125.. till number is less than equal to 10000
 
 ```
 
@@ -222,8 +219,7 @@ console.log(i);
 ```
 
 18. Print below series
-   3,6,9,12... till number is less than equal to 500
-
+    3,6,9,12... till number is less than equal to 500
 
 ```
 
@@ -232,7 +228,6 @@ console.log(i);
 }
 
 ```
-
 
 19. print below series
 
@@ -290,7 +285,3 @@ console.log(i);
 4. Print 2's table
 5. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
 6. Calculate sum of all even numbers from 1 to 100
-
-
-
-```
