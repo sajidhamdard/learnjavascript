@@ -368,6 +368,20 @@
 - Cookies
 - LocalStorage
 
+## RegExp
+
+- What is Regex
+- search()
+- exec()
+- test()
+
+# Json & XML
+
+- What is JSON?
+- Rules for creating valid JSON?
+- What is XML?
+- Rules for creating valid XML?
+
 ## JavaScript Behind The Scene
 
 - JavaScript behind the scene
