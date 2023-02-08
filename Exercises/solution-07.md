@@ -244,6 +244,11 @@ console.log(i);
 928
 1029
 
+for (let i = 1, j = 20; i <= 10; i++, j++) {
+  console.log(i + "" + j);
+}
+
+
 ```
 
 20. print below series
