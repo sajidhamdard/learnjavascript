@@ -11,8 +11,7 @@
 9. Calculate sum of all odd numbers from 1 to 100
 10. Calculate sum of all even numbers from 1 to 100
 11. print 1,2,4,8,16,32,64.......upto 2048
-12. print a,c,e,g.......upto last latter
-13. print
+12. print
     ```
     1,2,3,4,5,6,7,8,9,10
     11,12,13,14,15,16,17,18,19,20
@@ -20,9 +19,9 @@
     .
     ......................99,100
     ```
-14. pritn 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
+13. pritn 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
 
-15. print 10 table like this
+14. print 10 table like this
 
 ```
  2*1=2
