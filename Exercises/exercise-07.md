@@ -53,29 +53,27 @@
     From 20 to 11 print "D"
     From 10 to 1 print "E"
     ```
-
-````
 17. Print below series
-   5 25 125.. till number is less than equal to 10000
+    5 25 125.. till number is less than equal to 10000
 
 18. Print below series
-   3,6,9,12... till number is less than equal to 500
+    3,6,9,12... till number is less than equal to 500
 
 19. print below series
-   ```
-   120
-   221
-   322
-   423
-   524
-   625
-   726
-   827
-   928
-   1029
-   ```
 
-````
+```
+120
+221
+322
+423
+524
+625
+726
+827
+928
+1029
+
+```
 
 20. print below series
     100 95 90 85 80 ... till 0
