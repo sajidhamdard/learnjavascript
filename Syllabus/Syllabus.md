@@ -236,6 +236,8 @@
 - Hoisting
 - Temporal Dead Zone
 - DRY Principle
+- Generator function
+- Currying
 
 ## Debugging
 
@@ -270,10 +272,10 @@
 - NaN
 - Infinity
 - Number System
-- Binary
-- Octal
-- Decimal
-- HexaDecimal
+  - Binary
+  - Octal
+  - Decimal
+  - HexaDecimal
 - Checking numbers
 - Hoisting in numbers
 - Math and Rounding
@@ -341,6 +343,8 @@
   - Other events
 - Event Listener
   - addEventListener
+  - Event bubbling
+  - Event capturing
 - Navigation
   - parentNode
   - childNodes
@@ -506,35 +510,35 @@
 
 ## Object
 
-What is an object
-Object literal syntax
-Object creation using new keyword
-Annotation
-Dot
-Bracket
-Object properties
-Key
-Value
-Array in Object
-Function in Object
-Uses of this in Object
-Object methods
-Keys
-Values
-Entries
+- What is an object
+- Object literal syntax
+- Object creation using new keyword
+- Annotation
+  - Dot
+  - Bracket
+- Object properties
+  - Key
+  - Value
+- Array in Object
+- Function in Object
+- Uses of this in Object
+- Object methods
+  - Keys
+  - Values
+  - Entries
 
 ## Set
 
-What is a Set
-Creating set
-Elements order in Set
-Set size
-Set.has function
-Set.delete function
-Index in set
-Printing set values using for of loop
-Creating set tarray
-forEach method
+- What is a Set
+- Creating set
+- Elements order in Set
+- Set size
+- Set .has function
+- Set.delete function
+- Index in set
+- Printing set values using for of loop
+- Creating set tarray
+- forEach method
 
 ## Map
 
@@ -542,10 +546,10 @@ forEach method
 - Creating new map
 - Adding value in map
 - Chaining in map
-- .get function
-- .has function
-- .size function
-- .clear function
+  - .get function
+  - .has function
+  - .size function
+  - .clear function
 - Array as key
 - Iteration of Map
 - Object tmap
@@ -553,6 +557,12 @@ forEach method
 - forEach function on map
 - JavaScript OOPs
 - OOPs
+  - Object
+  - Class
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
 - OOP in JavaScript
 - Constructor functions and new operator
 - Prototypes
