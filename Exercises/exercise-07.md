@@ -35,6 +35,43 @@
  2*10=20
 ```
 
+15. Run a loop from 1 to 50
+    From 1 to 10 print "A"
+    From 11 to 20 print "B"
+    From 21 to 30 print "C"
+    From 31 to 40 print "D"
+    From 41 to 50 print "E"
+
+16. Run a loop from 50 to 1
+    From 50 to 41 print "A"
+    From 40 to 31 print "B"
+    From 30 to 21 print "C"
+    From 20 to 11 print "D"
+    From 10 to 1 print "E"
+
+17. Print below series
+    5 25 125.. till number is less than equal to 10000
+
+18. Print below series
+    3,6,9,12... till number is less than equal to 500
+
+19. print below series
+    120
+    221
+    322
+    423
+    524
+    625
+    726
+    827
+    928
+    1029
+
+20. print below series
+    100 95 90 85 80 ... till 0
+
+21. Number 70 is divisible by which numbers till 70? Find out and print those numbers
+
 # while loop Exercise
 
 1. Write a while loop that logs the numbers 1 to 10 in the console.
