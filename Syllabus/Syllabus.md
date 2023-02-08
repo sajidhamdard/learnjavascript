@@ -14,7 +14,7 @@
 - ECMAScript
 - Versions of JavaScript
 
-## Project Setup
+## Visual Studio Code Setup
 
 - Visual StudiCode
 - Installing visual studicode
@@ -48,118 +48,140 @@
 - Single Threaded
 - Non-Blocking Event Loop
 
-Value, Variable and Data types
-What is value
-What is variable
-What is data type
-Different types of data types
-Difference between primitive and non-primitive data types
-Primitive Data types (In built data types)
-Number
-String
-Undefined
-Boolean
-Symbol (new in ECMAScript 2015)
-BigInt (new in ECMAScript 2020)
-oNon-primitive Data types
-Object
-Array
-Identifiers
-What is identifier
-Rules for creating identifier
-Comments
-What is comment
-Single line comment
-Multi line comment
+## Value, Variable and Data types
 
-Comment rules
-use strict
-What is the significance of use strict
-Without use strict
-Statement
-What is a statement in programming
-How twrite a single line of statement
-How twrite a multi-line statement
-Semi colon in statement
-Whitespace in a statement
-What is a code block
-let, const and var
-let
-const
-var
-Difference between let, const and var
-When tuse let, const and var
-JavaScript operators
-Assignment operator
-Arithmetic operator
-Comparison operator
-Logical operators
-Type operators
-Operator precedence
-Truth table of &&, || and !
+- What is value
+- What is variable
+- What is data type
+- Different types of data types
+- Difference between primitive and non-primitive data types
+- Primitive Data types (In built data types)
+  - Number
+  - String
+  - Undefined
+  - Boolean
+  - Symbol (new in ECMAScript 2015)
+  - BigInt (new in ECMAScript 2020)
+- Non-primitive Data types
+  - Object
+  - Array
 
-Conditional statements
-if
-else if
-else
-Grouping multiple conditions using logical operator
+## Identifiers
 
-JavaScript Output
-console.log
-document.write()
-window.alert()
-innerHTML
+- What is identifier
+- Rules for creating identifier
 
-JavaScript String
-What is a string
-Uses of single quote and double quotes in string
-How tcreate a String
-String Literal
-String Object
-String Literal vs String Object
-String length
-String tArray
-String Template Literal
-String functions
-slice
-substring
-substr
-replace
-repeat
-toUpperCase
-toLowerCase
-concat
+## Comments
 
-trim
-padStart
-padEnd
-charAt
-split
-indexOf
-lastIndexOf
-startsWith
-endsWith
-search
-match
-includes
-Type Conversion
-Implicit type conversion
-Explicit type conversion
-Automatic Type conversion (Coercion)
-Manual Type conversion
-Number
-String
-Boolean
-JavaScript Popup Boxes
-Alert Box
-Confirm Box
-Prompt Box
-Truthy and Falsy Values
-What are the truthy and falsy values in JavaScript
-Falsy values
-undefined, 0, null, ‘’, false, NaN
-Falsy and Truthy values in conditional statements
-Other Operators
+- What is comment
+- Single line comment
+- Multi line comment
+- Comment rules
+
+## use strict
+
+- What is the significance of use strict
+- Without use strict
+
+## Statement
+
+- What is a statement in programming
+- How twrite a single line of statement
+- How twrite a multi-line statement
+- Semi colon in statement
+- Whitespace in a statement
+- What is a code block
+
+## let, const and var
+
+- let
+- const
+- var
+- Difference between let, const and var
+- When tuse let, const and var
+
+## JavaScript operators
+
+- Assignment operator
+- Arithmetic operator
+- Comparison operator
+- Logical operators
+- Type operators
+- Operator precedence
+- Truth table of &&, || and !
+
+## Conditional statements
+
+- if
+- else if
+- else
+- Grouping multiple conditions using logical operator
+
+## JavaScript Output
+
+- console.log
+- document.write()
+- window.alert()
+- innerHTML
+
+## JavaScript String
+
+- What is a string
+- Uses of single quote and double quotes in string
+- How tcreate a String
+- String Literal
+- String Object
+- String Literal vs String Object
+- String length
+- String tArray
+- String Template Literal
+- String functions
+  - slice
+  - substring
+  - substr
+  - replace
+  - repeat
+  - toUpperCase
+  - toLowerCase
+  - concat
+  - trim
+  - padStart
+  - padEnd
+  - charAt
+  - split
+  - indexOf
+  - lastIndexOf
+  - startsWith
+  - endsWith
+  - search
+  - match
+  - includes
+
+## Type Conversion
+
+- Implicit type conversion
+- Explicit type conversion
+- Automatic Type conversion (Coercion)
+- Manual Type conversion
+- Number
+- String
+- Boolean
+
+## JavaScript Popup Boxes
+
+- Alert Box
+- Confirm Box
+- Prompt Box
+
+## Truthy and Falsy Values
+
+- What are the truthy and falsy values in JavaScript
+- Falsy values
+- undefined, 0, null, ‘’, false, NaN
+- Falsy and Truthy values in conditional statements
+
+## Other Operators
+
 Loose equality operator
 Strict equality operator
 Typeof operator
@@ -417,8 +439,11 @@ Multiple condition in if condition
 Work for nullish
 Checking if method exist
 Checking array is empty
-JavaScript Data Structures
-Array
+
+## JavaScript Data Structures
+
+## Array
+
 What is an Array
 Need of Array
 How tcreate an Array
@@ -452,7 +477,9 @@ some
 every
 flat
 flatMap
-Object
+
+## Object
+
 What is an object
 Object literal syntax
 Object creation using new keyword
@@ -464,13 +491,14 @@ Key
 Value
 Array in Object
 Function in Object
-
 Uses of this in Object
 Object methods
 Keys
 Values
 Entries
-Set
+
+## Set
+
 What is a Set
 Creating set
 Elements order in Set
@@ -481,7 +509,9 @@ Index in set
 Printing set values using for of loop
 Creating set tarray
 forEach method
-Map
+
+## Map
+
 What is a Map
 Creating new map
 Adding value in map
@@ -513,36 +543,39 @@ Using object.create
 Encapsulation: Protected Properties and Methods
 Encapsulation: Private Class Fields and Methods
 Chaining methods
-Asynchronous JavaScript
 
-Asynchronous JavaScript
-Ajax
-What is an API
-XMLHttpRequest
-How the web works
-Server
-Client
-Request
-Response
-Callback
-Promise and Fetch API
-Consuming Promises
-Chaining Promises
-Handling Rejected Promises
-Asynchronous Behind the Scene: The Event Loop
-Building a Simple Promise
-Consuming Promise with Async/Await
-Error Handling with Try catch
-Returning values from Async functions
-Running promises in Parallel
-Promise Combinators: race, allSettled and any
-Modern JavaScript Development
-An Overview of Modern JavaScript Development
-An Overview of Modules in JavaScript
-Exporting and importing in ES6 Modules
-Top-Level await (ES2022)
-The Module Pattern
-Bundling With Parcel and NPM Scripts
-Configuring Babel and Polyfilling
-Transpiling
-Transpiling vs Polyfilling
+## Asynchronous JavaScript
+
+- Asynchronous JavaScript
+- Ajax
+- What is an API
+- XMLHttpRequest
+- How the web works
+- Server
+- Client
+- Request
+- Response
+- Callback
+- Promise and Fetch API
+- Consuming Promises
+- Chaining Promises
+- Handling Rejected Promises
+- Asynchronous Behind the Scene: The Event Loop
+- Building a Simple Promise
+- Consuming Promise with Async/Await
+- Error Handling with Try catch
+- Returning values from Async functions
+- Running promises in Parallel
+- Promise Combinators: race, allSettled and any
+
+## Modern JavaScript Development
+
+- An Overview of Modern JavaScript Development
+- An Overview of Modules in JavaScript
+- Exporting and importing in ES6 Modules
+- Top-Level await (ES2022)
+- The Module Pattern
+- Bundling With Parcel and NPM Scripts
+- Configuring Babel and Polyfilling
+- Transpiling
+- Transpiling vs Polyfilling
