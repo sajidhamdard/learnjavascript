@@ -4,7 +4,7 @@
 
 ```
 for (let i = 1; i <= 100; i++) {
-console.log(i);
+  console.log(i);
 }
 ```
 
@@ -60,9 +60,8 @@ for (let i = 1; i <= 10; i++) {
 7. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
 
 ```
-
-let user = Number(prompt("How many times do you want to print Hello World"));
-for (let i = 1; i <= user; i++) {
+let count = Number(prompt("How many times do you want to print Hello World"));
+for (let i = 1; i <= count; i++) {
   console.log("Hello World");
 }
 ```
@@ -82,9 +81,12 @@ console.log("The sum of all numbers:", sum);
 ```
 let sum = 0;
 for (let i = 1; i <= 100; i++) {
-  if (i % 2 !== 0) sum += i;
+  if (i % 2 !== 0) {
+    sum += i;
+  }
 }
 console.log("The sum of all odd numbers:", sum);
+
 ```
 
 10. Calculate sum of all even numbers from 1 to 100
@@ -92,7 +94,9 @@ console.log("The sum of all odd numbers:", sum);
 ```
 let sum = 0;
 for (let i = 1; i <= 100; i++) {
-  if (i % 2 === 0) sum += i;
+  if (i % 2 === 0) {
+    sum += i;
+  }
 }
 console.log("The sum of all even numbers:", sum);
 
@@ -115,14 +119,16 @@ for (let i = 1; i <= 2048; i = i *= 2) {
     .
     ......................99,100
 
-     for (i = 1; i <= 100; i = i + 1) {
-    document.write(i);
-    if (i % 10 === 0) {
-     document.write("<br>");
-    }
-    }
-
     ```
+
+```
+   for (i = 1; i <= 100; i = i + 1) {
+     document.write(i);
+   if (i % 10 === 0) {
+    document.write("<br>");
+   }
+   }
+```
 
 13. pritn 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
 
@@ -131,13 +137,12 @@ for (i = 1; i <= 100; i = i + 1) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log(i + "fizzbuzz");
   }
-
+}
 ```
 
 14. print 10 table like this
 
 ```
-
 2*1=2
 2*2=4
 2*3=6
@@ -147,8 +152,9 @@ for (i = 1; i <= 100; i = i + 1) {
 .
 .
 2*10=20
+```
 
-
+```
 let x = 10;
 for (i = 1; i <= 10; i = i + 1) {
   console.log(x + "*" + i + "=" + x * i);
@@ -164,8 +170,9 @@ From 11 to 20 print "B"
 From 21 to 30 print "C"
 From 31 to 40 print "D"
 From 41 to 50 print "E"
+```
 
-
+```
 for (let i = 1; i <= 50; i++) {
   if (i <= 10) {
     console.log(i + " A");
@@ -184,36 +191,37 @@ for (let i = 1; i <= 50; i++) {
 
 16. Run a loop from 50 to 1
 
-    ```
-    From 50 to 41 print "A"
-    From 40 to 31 print "B"
-    From 30 to 21 print "C"
-    From 20 to 11 print "D"
-    From 10 to 1 print "E"
+```
+From 50 to 41 print "A"
+From 40 to 31 print "B"
+From 30 to 21 print "C"
+From 20 to 11 print "D"
+From 10 to 1 print "E"
+```
 
-    for (let i = 50; i >= 1; i--) {
-    if (i <= 10) {
+```
+for (let i = 50; i >= 1; i--) {
+if (i <= 10) {
     console.log(i + " E");
-    } else if (i <= 20) {
+} else if (i <= 20) {
     console.log(i + " D");
-    } else if (i <= 30) {
+} else if (i <= 30) {
     console.log(i + " C");
-    } else if (i <= 40) {
+} else if (i <= 40) {
     console.log(i + " B");
-    } else if (i <= 50) {
+} else if (i <= 50) {
     console.log(i + " A");
-    }
-    }
-    ```
+}
+}
+```
 
 17. Print below series
 
 5 25 125.. till number is less than equal to 10000
 
 ```
-
 for (let i = 1; i <= 10000; i = i \*= 5) {
-console.log(i);
+  console.log(i);
 }
 
 ```
@@ -222,9 +230,8 @@ console.log(i);
     3,6,9,12... till number is less than equal to 500
 
 ```
-
 for (let i = 3; i <= 500; i = i + 3) {
-console.log(i);
+ console.log(i);
 }
 
 ```
@@ -232,7 +239,6 @@ console.log(i);
 19. print below series
 
 ```
-
 120
 221
 322
@@ -243,11 +249,12 @@ console.log(i);
 827
 928
 1029
+```
 
+```
 for (let i = 1, j = 20; i <= 10; i++, j++) {
   console.log(i + "" + j);
 }
-
 
 ```
 
@@ -255,9 +262,8 @@ for (let i = 1, j = 20; i <= 10; i++, j++) {
     100 95 90 85 80 ... till 0
 
 ```
-
 for (let i = 100; i >= 0; i = i - 5) {
-console.log(i);
+  console.log(i);
 }
 
 ```
@@ -265,10 +271,9 @@ console.log(i);
 21. Number 70 is divisible by which numbers till 70? Find out and print those numbers
 
 ```
-
 for (let i = 1; i <= 70; i++) {
 if (i % 7 === 0) {
-console.log(i);
+  console.log(i);
 }
 }
 
