@@ -308,6 +308,150 @@
 - Internationalization Numbers
 - setTimeOut and setInterval
 
+## JavaScript Data Structures
+
+## Array
+
+- What is an Array
+- Need of Array
+- How tcreate an Array
+- Array Literal
+- Array Object
+- Index in Array
+- Array length property
+- Array Declaration
+- Looping Array
+- Array functions
+  - sort
+  - push
+  - pop
+  - unshift
+  - shift
+  - toString
+  - join
+  - concat
+  - splice
+  - slice
+  - sort
+  - reverse
+  - forEach
+  - at
+  - map
+  - filter
+  - reduce
+  - find
+  - findIndex
+  - some
+  - every
+  - flat
+  - flatMap
+
+## Object
+
+- What is an object
+- Object literal syntax
+- Object creation using new keyword
+- Annotation
+  - Dot
+  - Bracket
+- Object properties
+  - Key
+  - Value
+- Array in Object
+- Function in Object
+- Uses of this in Object
+- Object methods
+  - Keys
+  - Values
+  - Entries
+
+## Set
+
+- What is a Set
+- Creating set
+- Elements order in Set
+- Set size
+- Set .has function
+- Set.delete function
+- Index in set
+- Printing set values using for of loop
+- Creating set tarray
+- forEach method
+
+## Map
+
+- What is a Map
+- Creating new map
+- Adding value in map
+- Chaining in map
+  - .get function
+  - .has function
+  - .size function
+  - .clear function
+- Array as key
+- Iteration of Map
+- Object tmap
+- Map tarray
+- forEach function on map
+
+## Modern Features
+
+## Destructuring Arrays
+
+- What is destructuring
+- Reverse values using destructuring
+- Return two values from function
+- Destructuring of nested array
+- Setting default values
+- Destructuring Objects
+- Extract value
+- Different property name
+- Default values
+- Nested Object
+- In Function
+
+## The Spread Operator
+
+- Assigning values
+- Copy Array
+- Join 2 Arrays
+- String tarray using spread
+- Passing arguments in function
+- Shallow copy
+
+## The Rest Parameter
+
+- Assign values
+- Rest element last element
+- Assign values in object
+- Variable arguments in function
+
+## Short Circuiting
+
+- Use of ||
+- Replace with ternary operator
+- With non nullish values
+- Use of &&
+- Calling function using &&
+- The Nullish Coalescing Operator ??
+- Logical Assignment Operator
+  - ||=
+  - &&=
+  - ??=
+
+## Enhanced Object literals
+
+- Exactly same name
+- Function in object
+- Computer property name
+
+## Optional Chaining
+
+- Multiple condition in if condition
+- Work for nullish
+- Checking if method exist
+- Checking array is empty
+
 ## JavaScript DOM and BOM
 
 ## DOM (Document Object Model)
@@ -426,150 +570,8 @@
     - Shallow copy
     - Deep copy
 
-## Modern Features
+## JavaScript OOPs
 
-## Destructuring Arrays
-
-- What is destructuring
-- Reverse values using destructuring
-- Return two values from function
-- Destructuring of nested array
-- Setting default values
-- Destructuring Objects
-- Extract value
-- Different property name
-- Default values
-- Nested Object
-- In Function
-
-## The Spread Operator
-
-- Assigning values
-- Copy Array
-- Join 2 Arrays
-- String tarray using spread
-- Passing arguments in function
-- Shallow copy
-
-## The Rest Parameter
-
-- Assign values
-- Rest element last element
-- Assign values in object
-- Variable arguments in function
-
-## Short Circuiting
-
-- Use of ||
-- Replace with ternary operator
-- With non nullish values
-- Use of &&
-- Calling function using &&
-- The Nullish Coalescing Operator ??
-- Logical Assignment Operator
-  - ||=
-  - &&=
-  - ??=
-
-## Enhanced Object literals
-
-- Exactly same name
-- Function in object
-- Computer property name
-
-## Optional Chaining
-
-- Multiple condition in if condition
-- Work for nullish
-- Checking if method exist
-- Checking array is empty
-
-## JavaScript Data Structures
-
-## Array
-
-- What is an Array
-- Need of Array
-- How tcreate an Array
-- Array Literal
-- Array Object
-- Index in Array
-- Array length property
-- Array Declaration
-- Looping Array
-- Array functions
-  - sort
-  - push
-  - pop
-  - unshift
-  - shift
-  - toString
-  - join
-  - concat
-  - splice
-  - slice
-  - sort
-  - reverse
-  - forEach
-  - at
-  - map
-  - filter
-  - reduce
-  - find
-  - findIndex
-  - some
-  - every
-  - flat
-  - flatMap
-
-## Object
-
-- What is an object
-- Object literal syntax
-- Object creation using new keyword
-- Annotation
-  - Dot
-  - Bracket
-- Object properties
-  - Key
-  - Value
-- Array in Object
-- Function in Object
-- Uses of this in Object
-- Object methods
-  - Keys
-  - Values
-  - Entries
-
-## Set
-
-- What is a Set
-- Creating set
-- Elements order in Set
-- Set size
-- Set .has function
-- Set.delete function
-- Index in set
-- Printing set values using for of loop
-- Creating set tarray
-- forEach method
-
-## Map
-
-- What is a Map
-- Creating new map
-- Adding value in map
-- Chaining in map
-  - .get function
-  - .has function
-  - .size function
-  - .clear function
-- Array as key
-- Iteration of Map
-- Object tmap
-- Map tarray
-- forEach function on map
-- JavaScript OOPs
 - OOPs
   - Object
   - Class
