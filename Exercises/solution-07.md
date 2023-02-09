@@ -220,7 +220,7 @@ if (i <= 10) {
 5 25 125.. till number is less than equal to 10000
 
 ```
-for (let i = 1; i <= 10000; i = i \*= 5) {
+for (let i = 1; i <= 10000; i = i*= 5) {
   console.log(i);
 }
 
