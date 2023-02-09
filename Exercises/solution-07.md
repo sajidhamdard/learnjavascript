@@ -62,7 +62,7 @@ for (let i = 1; i <= 10; i++) {
 ```
 let count = Number(prompt("How many times do you want to print Hello World"));
 for (let i = 1; i <= count; i++) {
-  console.log("Hello World");
+  console.log(i+ " Hello World");
 }
 ```
 
@@ -340,8 +340,71 @@ while (i <= 100) {
 # do while loop
 
 1. Write a do...while loop that logs the numbers 1 to 5 in the console
+
+```
+let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
+```
+
 2. Counting down from 10 to 1
+
+```
+let i = 10;
+do {
+  console.log(i);
+  i--;
+} while (i >= 1);
+```
+
 3. Calculate sum of all numbers from 1 to 10
+
+```
+ let i = 1;
+let sum = 0;
+ do {
+sum = sum + i;
+ i++;
+} while (i <= 10);
+  console.log(sum);
+```
+
 4. Print 2's table
+
+```
+let x = 2;
+let i = 1;
+do {
+  console.log(i * x);
+  i++;
+} while (i <= 10);
+
+```
+
 5. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
+
+```
+let count = Number(prompt("How many times do you want to print Hello World"));
+let i = 1;
+do {
+  console.log("hallo World : " + i);
+  i++;
+} while (i <= count);
+
+```
+
 6. Calculate sum of all even numbers from 1 to 100
+
+```
+let i = 1;
+let sum = 0;
+do {
+  if (i % 2 === 0) {
+    sum = sum + i;
+  }
+  i++;
+} while (i <= 100);
+console.log(sum);
+```
