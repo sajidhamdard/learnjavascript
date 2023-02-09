@@ -10,6 +10,8 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ### JavaScript Course Material 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
+## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
+
 ## 📚 [_English Notes_](./notes/English)
 
 - [_Chapter 01- Introduction_](./notes/English/01-introduction.md)
@@ -35,10 +37,22 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 21- Hoisting_](./notes/English/hoisting.md)
 - [_Chapter 21- Temporal Dead Zone(TDZ)_](./notes/English/temporal-dead-zone.md)
 
-## 📚 [_Hindi Notes_](./notes/English/)
+## 📚 [_Hindi Notes_](./notes/Hindi/)
 
-- [_Introduction_](./notes/Hindi/01-introduction.md)
-- [_Features_](./notes/English/02-features.md)
+- [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
+- [_Chapter 02- Features_](./notes/English/02-features.md)
+
+## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
+
+## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
+
+## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidelines.pdf)
+
+## 📚 [_Front-end RoadMap_](./Roadmap/Backend%20development%20roadmap.pdf)
+
+## 📚 [_Back-end RoadMap_](./Roadmap/Frontend%20development%20roadmap.pdf)
+
+## 📚 [_Github Notes_](./Github/)
 
 ## 🔥 Clone this Repository
 
