@@ -48,9 +48,9 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidelines.pdf)
 
-## 📚 [_Front-end RoadMap_](./Roadmap/Backend%20development%20roadmap.pdf)
+## 📚 [_Front-end RoadMap_](./Roadmap/Backend%20development%20roadmap.pdf) `Credit - JavaScript Mastery`
 
-## 📚 [_Back-end RoadMap_](./Roadmap/Frontend%20development%20roadmap.pdf)
+## 📚 [_Back-end RoadMap_](./Roadmap/Frontend%20development%20roadmap.pdf) `Credit - Sadanand Pai`
 
 ## 📚 [_Github Notes_](./Github/)
 
