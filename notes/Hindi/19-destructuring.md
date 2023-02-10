@@ -106,7 +106,7 @@ skte hain.
 
 ```
 let obj  = {
-    name : "WeCode",
+    name : "learnjavascript",
     age : 21,
     address : {
         colony : "Madina Colony",
@@ -121,7 +121,7 @@ dena hota hai. Yea key ka naam exactly same hona chahiye otherwise error aayegi.
 
 ```
 let {name, age} = obj;
-console.log(name, age); //WeCode 21
+console.log(name, age); //learnjavascript 21
 ```
 
 Different property name:
@@ -130,7 +130,7 @@ store krana hai to hm use variable ko rename b kr skte hain. rename krne ke lie 
 
 ```
 let {name:myName, age : myAge} = obj;
-console.log(myName, myAge); //WeCode 21
+console.log(myName, myAge); //learnjavascript 21
 ```
 
 Default values:
@@ -139,17 +139,17 @@ undefined hogi. Is case me yadi hum koi default value chahte hai to de skte hain
 
 ```
 let obj  = {
-    name : "WeCode"
+    name : "learnjavascript"
 }
-let {name, age} = obj; //WeCode undefined
-let {name, age= 30}; //WeCode 30 default value hai age ki
+let {name, age} = obj; //learnjavascript undefined
+let {name, age= 30}; //learnjavascript 30 default value hai age ki
 
 let obj  = {
-    name : "WeCode",
+    name : "learnjavascript",
     age : 50
 }
 
-let {name, age= 30}; //WeCode 50 default value hai age ki
+let {name, age= 30}; //learnjavascript 50 default value hai age ki
 ```
 
 Nested Object:
@@ -160,7 +160,7 @@ krne ke lie hume nested object vala tarika use krna hoga
 
 ```
 let obj  = {
-    name : "WeCode",
+    name : "learnjavascript",
     age : 21,
     address : {
         colony : "Madina Colony",
@@ -169,8 +169,8 @@ let obj  = {
 }
 
 let {name, address : {pincode}} = obj;
-console.log(name, pincode); //WeCode 302012
-console.log(name, address); //WeCode {address object}
+console.log(name, pincode); //learnjavascript 302012
+console.log(name, address); //learnjavascript {address object}
 ```
 
 In Function:
@@ -183,7 +183,7 @@ hum complete object us function ko pass krte hain. Pr ye tarika tab hi shi hai j
 
 ```
 let obj  = {
-    name : "WeCode",
+    name : "learnjavascript",
     age : 21,
     address : {
         colony : "Madina Colony",
@@ -211,20 +211,20 @@ Shallow copy ka matlab yeh hai ki jab b hm ek non primitive data type ko dusre v
 
 ```
 let obj = {
-  name: "Wecode",
+  name: "learnjavascript",
   age: 21,
 };
 
 let obj1 = Object.assign({}, obj);
 obj1.name = "Sajid"; //obj.name me change ni hoga kuki name field ki value ek string hai
-console.log(obj, obj1);//Wecode Sajid
+console.log(obj, obj1);//learnjavascript Sajid
 ```
 
 - 2nd example:
 
 ```
 let obj = {
-  name: "Wecode",
+  name: "learnjavascript",
   age: 21,
   address: {
     pincode: 302012,
@@ -244,7 +244,7 @@ Deep copy krne ka asan tarika yeh hai ki hm Object ko phle string me convert krn
 
 ```
 let obj = {
-  name: "Wecode",
+  name: "learnjavascript",
   age: 21,
   address: {
     pincode: 302012,
@@ -316,7 +316,7 @@ to hum spread operator ki help se kr skte hain
 - for example
 
 ```
-let str = "WeCode";
+let str = "learnjavascript";
 let arr = [...str];
 console.log(arr); // ['W', 'e' , 'C', 'o', 'd', 'e']
 ```
@@ -348,7 +348,7 @@ console.log(a + b + c); //37
 
 ```
 let obj = {
-name : "WeCode",
+name : "learnjavascript",
 age : 21
 }
 
@@ -392,13 +392,13 @@ variable me dalna chah rhe hai to hm spread operator ka use kr skte hain. Spread
 
 ```
 let obj = {
-name :"Wecode",
+name :"learnjavascript",
 age : 21,
 address : "Jhotwara"
 }
 
 let {name, ...obj1} = obj;
-console.log(name, obj1); //Wecode {age : 21, address : "Jhotwara"}
+console.log(name, obj1); //learnjavascript {age : 21, address : "Jhotwara"}
 ```
 
 ### Variable arguments in function:
@@ -578,12 +578,12 @@ aur hm ye b chahte hain ki key ka naam vhi hoga jo variable ka naam hai to hume 
 
 ```
 
-let myName = "Wecode";
+let myName = "learnjavascript";
 
 let obj = {
 myName,
 };
-console.log(obj); // {myName: 'Wecode'}
+console.log(obj); // {myName: 'learnjavascript'}
 
 ```
 
@@ -623,10 +623,10 @@ Generally object me keys ka name fix hota hai but agar humari aisi requirement h
 ```
 let a = "age";
 obj = {
-[a + 2]: "WeCode",
+[a + 2]: "learnjavascript",
 [10+20] : 100
 };
-console.log(obj); //{age2: 'WeCode', 30 : 100}
+console.log(obj); //{age2: 'learnjavascript', 30 : 100}
 
 ```
 

@@ -11,7 +11,7 @@ key ka use karte hain. issye key humasa same rahate hain.par value change ho skt
 
 ```
 var obj={
-    name:"wecode"
+    name:"learnjavascript"
 }
 ```
 
@@ -25,7 +25,7 @@ var obj=new object();
 
 ```
 var obj={
-    name:"wecode"
+    name:"learnjavascript"
     age:30
 }
 ```
@@ -56,7 +56,7 @@ answer hoga.
 ```
 
 let obj ={
-    name:"wecode"
+    name:"learnjavascript"
     age:20
 }
 

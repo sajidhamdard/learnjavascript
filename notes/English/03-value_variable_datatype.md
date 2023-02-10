@@ -120,7 +120,7 @@ let flag = false;
 - String
 
 ```
-let str = "WeCode";
+let str = "learnjavascript";
 ```
 
 - undefined
@@ -149,7 +149,7 @@ num = 10n;
 
 ```
 let obj = {
-myName: "Wecode",
+myName: "learnjavascript",
 age: 21,
 };
 ```

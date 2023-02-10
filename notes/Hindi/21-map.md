@@ -167,7 +167,7 @@ Yadi hume Object se map me convert krna hai to hum Object.entries function ki ma
 
 ```
 var obj  = {
-    name : "Wecode",
+    name : "learnjavascript",
     age : 21
 }
 

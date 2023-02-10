@@ -36,7 +36,7 @@ Yaha data type btata hain.data ke kon se type hai.
 ```
 var x = 10;
 console.log(typeof x); //number
-x = "Wecode";
+x = "learnjavascript";
 console.log(typeof x); //string
 ```
 

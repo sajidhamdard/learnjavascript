@@ -36,12 +36,12 @@ console.log(percentage);
 
 4. Add 20 in your name and check value in console.
    Add true to your name and check output
-   Add 30+"Wecode" and check type of the final value.
+   Add 30+"learnjavascript" and check type of the final value.
 
 ```
-console.log("wecode" + 20);
-console.log(true + "wecode");
-console.log(30 + "wecode");
+console.log("learnjavascript" + 20);
+console.log(true + "learnjavascript");
+console.log(30 + "learnjavascript");
 ```
 
 5. Create Reverse Game. Ask any question with 2 possible answers. If user selects first option then show second option in alert and vice versa.

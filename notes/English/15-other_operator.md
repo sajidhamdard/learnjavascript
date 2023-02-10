@@ -71,6 +71,6 @@ val < 10 ? console.log("Yes") : console.log("No");
 ```
 let m = 10;
 console.log(typeof m); //number
-m = "Wecode";
+m = "learnjavascript";
 console.log(typeof m); //string
 ```

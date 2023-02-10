@@ -1,6 +1,6 @@
 # Github Assignment
 
-1. Create a new Github repo with name wecodeacademy
+1. Create a new Github repo with name learnjavascript
 2. Tick .readme checkbox while creating repo
 3. In Description write "Training Repository"
 4. Now clone this repo locally on your laptop

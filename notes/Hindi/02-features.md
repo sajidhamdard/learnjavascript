@@ -36,7 +36,7 @@ for example:
 
 ```
 let x = 10; // type will be number
-x = "wecode"; //type will be string
+x = "learnjavascript"; //type will be string
 x = false; //type will be boolean
 ```
 

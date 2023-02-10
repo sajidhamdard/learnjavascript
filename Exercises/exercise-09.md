@@ -1,6 +1,6 @@
 # Exercise-09
 
-1. let str = "My name is Wecode Academy";
+1. let str = "My name is learn javascript";
    Split this string using space and find length.
 
 2. Write a program to check if a string is palindrome or not?
@@ -15,17 +15,17 @@
    Bye -> eyB
 
 5. Captialize first character of the String. For example:
-   wecode -> Wecode
+   learnjavascript -> Learnjavascript
    hello -> Hello
 
 6. In a string convert uppercase character to lowercase and vice versa.
    HeLlo -> hElLO
-   WECodE -> wecODe
+   leArNjavaScript -> LEaRnJAVAsCRIPT
 
 7. Camelize the string. for example:
    Hello World -> helloWorld
    my name is Sajid -> myNameIsSajid
-   Wecode Academy -> wecodeAcademy
+   learn javascript -> learnJavascript
 
 8. Count number of spaces in a string.
 
@@ -42,9 +42,9 @@
    0
 
 10. "My name is Sajid Khan", take input from user and print whatever is there after the word. For example:
-    Hello Wecode Aacdemy
-    input: "co"
-    output: de Academy
+    Hello learn javascript
+    input: "rn"
+    output: javascipt
 
 11 substring vs slice vs substr
 

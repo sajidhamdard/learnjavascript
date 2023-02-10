@@ -121,7 +121,7 @@ document.write(
 console.log(1 + 1);
 console.log(1 + 200);
 console.log(200 + "300");
-console.log("Wecode" + 400);
+console.log("learnjavascript" + 400);
 ```
 
 4. Check output of following in console
@@ -130,8 +130,8 @@ console.log("Wecode" + 400);
 console.log(2 === 2);
 console.log(2 == "2");
 console.log(2 === +"2");
-console.log("wecode" == "wecode");
-console.log("WeCode" == "wecode");
+console.log("learnjavascript" == "learnjavascript");
+console.log("LearnJavascript" == "learnjavascript");
 console.log(0.3 == 0.3);
 console.log(1.0 == 1);
 console.log(1.0 === 1);

@@ -63,7 +63,7 @@ let flag = false;
 
 ```
 
-let str = "WeCode";
+let str = "learnjavascript";
 
 ```
 
@@ -100,7 +100,7 @@ num = 10n;
 ```
 
 let obj = {
-myName: "Wecode",
+myName: "learnjavascript",
 age: 21,
 };
 

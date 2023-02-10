@@ -80,7 +80,7 @@ console.log(ans); //number
 ```
 
 ```
-ans = Number("wecode");
+ans = Number("learnjavascript");
 console.log(ans); //NaN
 ```
 

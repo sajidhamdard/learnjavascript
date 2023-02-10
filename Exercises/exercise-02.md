@@ -4,13 +4,13 @@
    - 1+1
    - 1+200
    - 200+"300"
-   - "Wecode" + 400
+   - "learnjavascript" + 400
 4. Check result of following
    - 2 === 2
    - 2 == "2"
    - 2 === +"2"
-   - "wecode" == "wecode"
-   - "WeCode" == "wecode"
+   - "learnjavascript" == "learnjavascript"
+   - "LearnJavascript" == "learnjavascript"
    - 0.3 == 0.30
    - 1.0 == 1
    - 1.0 === 1

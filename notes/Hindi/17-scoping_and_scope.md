@@ -28,7 +28,7 @@ functional scope ma vah variable and function ata hai jo ki function ke ander ba
 
 ```
 function firstfunction() {
-  Name = "wecode";
+  Name = "learnjavascript";
   document.getElementById("value1").innerHTML = Name;
 }
 firstfunction();

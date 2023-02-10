@@ -6,7 +6,7 @@ console.log() is a function in JavaScript that is used to log messages to the br
 For example:
 
 ```
-console.log("Wecode academy");
+console.log("learnjavascript");
 ```
 
 ### What is Document.write in JavaScript ?
