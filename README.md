@@ -43,7 +43,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
 - [_Chapter 03-value_variable_datatype_](./notes/Hindi/03-value_variable_datatype.md)
 
-- [\_Chapter 04- identifier](.notes/Hindi/04-identifier.md)
+- [\_Chapter 04- identifier](notes/Hindi/04-identifier.md)
 
 ## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
 
