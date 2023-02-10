@@ -76,7 +76,7 @@ For example: Do you drink coffee or tea? and If user says coffee then show Tea i
 let temp  = 30;
 if(temp < 10) {
    console.log("Very Cold");
-} else if(temp < 30 && temp > 10 ) {
+} else if(temp < 30 && temp >= 10 ) {
    console.log("Cold")
 } else if(temp <= 40 && temp >= 30) {
    console.log("Hot")
