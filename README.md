@@ -40,7 +40,8 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_Hindi Notes_](./notes/Hindi/)
 
 - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
-- [_Chapter 02- Features_](./notes/English/02-features.md)
+- [_Chapter 02- Features_](./notes/Hindi/02-features.md)
+- [_Chapter 03-value_variable_datatype_](./notes/hindi/03-value_variable_datatype.md)
 
 ## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
 
