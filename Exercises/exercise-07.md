@@ -97,6 +97,139 @@
 5. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
 6. Calculate sum of all even numbers from 1 to 100
 
+# pattern questions
+
+1. Print pattern
+
+```
+1
+11
+111
+1111
+11111
 ```
 
+2. Print Pattern
+
+```
+*****
+****
+***
+**
+*
+```
+
+3. Print pattern
+
+```
+*
+**
+***
+****
+*****
+```
+
+4. Print Pattern
+
+```
+12345
+1234
+123
+12
+1
+```
+
+5. Print pattern
+
+```
+54321
+5432
+543
+54
+5
+```
+
+6. Print pattern
+
+```
+54321
+4321
+321
+21
+1
+```
+
+7. Print pattern
+
+```
+$$$$$
+$$$$$
+$$$$$
+$$$$$
+$$$$$
+```
+
+8. Print pattern
+
+```
+*****
+****
+***
+**
+*
+*
+**
+***
+****
+*****
+```
+
+9. Print pattern
+
+```
+10987654321
+987654321
+87654321
+7654321
+654321
+54321
+4321
+321
+21
+1
+```
+
+10. Print pattern
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+11. Print pattern
+
+```
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+12. Print Pattern
+
+```
+     *
+    ***
+   *****
+  *******
+ *********
+***********
 ```
