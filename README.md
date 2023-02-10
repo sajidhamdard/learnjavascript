@@ -57,7 +57,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [\_Chapter 17- loopand_switch](notes/Hindi/17-loopand_switch.md)
 - [\_Chapter 18- function](notes/Hindi/18-function.md)
 - [\_Chapter 19- scoping_and_scope](notes/Hindi/19-scoping_and_scope.md)
-- [\_Chapter 20- array](notes/Hindi/20-array.md.md)
+- [\_Chapter 20- array](notes/Hindi/20-array.md)
 - [\_Chapter 21- destructuring](notes/Hindi/21-destructuring.js.md)
 - [\_Chapter 22- DOM](notes/Hindi/22-DOM.js)
 - [\_Chapter 23- map](notes/Hindi/23-map.md)
