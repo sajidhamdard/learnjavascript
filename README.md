@@ -59,10 +59,10 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 18- Array_](notes/Hindi/18-array.md)
 - [_Chapter 19- Destructuring_](notes/Hindi/19-destructuring.md)
 - [_Chapter 20- DOM_](notes/Hindi/20-DOM.md)
-- [_Chapter 21- map_](notes/Hindi/21-map.md)
-- [_Chapter 22- Object_](notes/Hindi/22-object.md)
-- [_Chapter 23- Prototypal Inheritance_](notes/Hindi/23-prototypal_inheritance.md)
-- [_Chapter 24- Set_](notes/Hindi/24-set.md)
+- [_Chapter 21- Set_](notes/Hindi/24-set.md)
+- [_Chapter 22- map_](notes/Hindi/21-map.md)
+- [_Chapter 23- Object_](notes/Hindi/22-object.md)
+- [_Chapter 24- Prototypal Inheritance_](notes/Hindi/23-prototypal_inheritance.md)
 
 ## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
 
