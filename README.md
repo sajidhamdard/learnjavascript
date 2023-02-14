@@ -32,10 +32,10 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 16- Other Operators_](./notes/English/15-other_operator.md)
 - [_Chapter 17- Truthy Falsy Values_](./notes/English/16-truthy_falsy.md)
 - [_Chapter 18- Loop and Switch_](./notes/English/17-loopand_switch.md)
-- [_Chapter 19- More on Functions_](./notes/English/18-More-onfunctions-english.md)
-- [_Chapter 20- Debugging_](./notes/English/debugging.md)
-- [_Chapter 21- Hoisting_](./notes/English/hoisting.md)
-- [_Chapter 21- Temporal Dead Zone(TDZ)_](./notes/English/temporal-dead-zone.md)
+- [_Chapter 19- More on Functions_](notes/English/21-More-onfunction.md)
+- [_Chapter 20- Debugging_](notes/English/24-debugging.md)
+- [_Chapter 21- Hoisting_](notes/English/22-hoisting.md)
+- [_Chapter 21- Temporal Dead Zone(TDZ)_](notes/English/23-temporal-dead-zone.md)
 
 ## 📚 [_Hindi Notes_](./notes/Hindi/)
 
