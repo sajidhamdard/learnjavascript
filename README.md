@@ -21,7 +21,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 - [_Chapter 07- Statement_](./notes/English/07-statement.md)
-- [_Chapter 08- use_strict_](notes/English/08-use_strict.md.md)
+- [_Chapter 08- use_strict_](notes/English/08-use_strict.md)
 - [_Chapter 09- let, const and var_](./notes/English/08-let_const_var.md)
 - [_Chapter 10- Operators_](./notes/English/09-operators.md)
 - [_Chapter 11- Conditional Statement_](./notes/English/10-conditional_statement.md)
