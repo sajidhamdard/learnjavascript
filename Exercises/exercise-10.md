@@ -15,12 +15,14 @@ item count as 0.
 
 ### Question 2 (Marks:10)
 
+```
 Print below Pattern
 $##$##$
 $##$##
 $##$
 $##
 $
+```
 
 ### Question 3 (Marks:5)
 
