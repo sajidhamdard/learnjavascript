@@ -27,6 +27,7 @@ $
 ### Question 3 (Marks:5)
 
 Ask the user question "How many times do you want to print Series". Then print below series. For example below series will print if user enteres 5
+
 2, 6, 30, 260, 3130
 Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers till 10 times.
 
@@ -34,10 +35,10 @@ Find the pattern for above series and print accordingly. If the user enters 10 t
 
 Using a switch case to do this exercise
 
-If number is odd then print Odd
-If number is even then print Even
-If number is 100 then print 100
-Else print 10000
+- If number is odd then print Odd
+- If number is even then print Even
+- If number is 100 then print 100
+- Else print 10000
 
 ### Question 5 (Marks:5)
 
