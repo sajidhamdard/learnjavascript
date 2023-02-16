@@ -38,7 +38,7 @@ JavaScript was created in 1995 by Brendan Eich, a programmer at Netscape Communi
 
 ### What is ECMA ?
 
-ECMA is the European Association for Standardizing Information and Communication Systems. It is a standards organization that develops and publishes technical standards for a wide range of information and communication systems, including programming languages such as JavaScript. The organization was founded in 1961 and is based in Switzerland. It is responsible for the standardization of many technologies including ECMAScript (ECMA-262) which is the standard for JavaScript. The goal of ECMA is to promote and facilitate the use of these standards in order to improve interoperability and encourage innovation in the industry.
+- ECMA is the European Association for Standardizing Information and Communication Systems. It is a standards organization that develops and publishes technical standards for a wide range of information and communication systems, including programming languages such as JavaScript. The organization was founded in 1961 and is based in Switzerland. It is responsible for the standardization of many technologies including ECMAScript (ECMA-262) which is the standard for JavaScript. The goal of ECMA is to promote and facilitate the use of these standards in order to improve interoperability and encourage innovation in the industry.
 
 The following are some of the most widely-used versions of ECMAScript:
 
