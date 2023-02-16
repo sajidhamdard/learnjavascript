@@ -31,7 +31,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
   - [_What is High level language ?_](notes/English/02-features.md#what-is-high-level-language-)
   - [_What is Garbage Collected ?_](notes/English/02-features.md#what-is-garbage-collected-)
-  - [_What is Interpreted Language (JIT)-> (Just in time commpiler) ?_](notes/English/02-features.md#what-is-interpreted-language-jit--just-in-time-commpiler-)
+  - [\_What is Interpreted Language (JIT)-> (Just in time commpiler) ?](notes/English/02-features.md#what-is-interpreted-language-jit--just-in-time-commpiler-)
   - [_What is Multi Paradigm ?_](notes/English/02-features.md#what-is-multi-paradigm-)
   - [_What is Prototype based function ?_](notes/English/02-features.md#what-is-prototype-based-function-)
   - [_What is First Class Function ?_](notes/English/02-features.md#what-is-first-class-function-)
