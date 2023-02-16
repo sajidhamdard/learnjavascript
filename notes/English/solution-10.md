@@ -2,9 +2,11 @@
 
 1. Print 1 to 100
 
+```
 for (let i = 1; i <= 100; i++) {
 console.log(i);
 }
+```
 
 2. Print all Odd numbers from 1 to 100
 
