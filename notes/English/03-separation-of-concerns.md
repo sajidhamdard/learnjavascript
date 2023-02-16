@@ -1,3 +1,5 @@
+# 03:Separation of Concerns
+
 ### What is separation of concerns principle ?
 
 The separation of concerns principle in JavaScript refers to the practice of separating different parts of a program or application into distinct and independent units, with each unit responsible for a specific functionality or concern. This allows for better organization, maintainability, and scalability of the codebase. For example, in a JavaScript application, the concerns of data management, user interface, and network communication can be separated into different modules or components. This allows for easier testing, debugging, and updating of individual parts of the application without affecting the rest of the codebase

@@ -1,4 +1,4 @@
-# 01 : JavaScript Introduction
+# 01 : JavaScript Introduction and History
 
 ### What is a programming language ?
 
