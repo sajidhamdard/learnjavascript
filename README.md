@@ -28,6 +28,17 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is ECMA ?_](notes/English/01-introduction-and-history.md#what-is-ecma-)
 
 - [_Chapter 02- Features_](./notes/English/02-features.md)
+
+  - [_What is High level language ?_](notes/English/02-features.md#what-is-high-level-language-)
+  - [_What is Garbage Collected ?_](notes/English/02-features.md#what-is-garbage-collected-)
+  - [_What is Interpreted Language (JIT)-> (Just in time compiler) ?_](notes/English/02-features.md#what-is-interpreted-language-jit--just-in-time-commpiler-)
+  - [_What is Multi Paradigm ?_](notes/English/02-features.md#what-is-multi-paradigm-)
+  - [_What is Prototype based function ?_](notes/English/02-features.md#what-is-prototype-based-function-)
+  - [_What is First Class Function ?_](notes/English/02-features.md#what-is-first-class-function-)
+  - [_What is Dynamically Typed/ Dynamic ?_](notes/English/02-features.md#what-is-dynamically-typed-dynamic-)
+  - [_What is Single Threaded ?_](notes/English/02-features.md#what-is-single-threaded-)
+  - [_What is Non-Blocking Event Loop ?_](notes/English/02-features.md#what-is-non-blocking-event-loop-)
+
 - [_Chapter 03- Separation of Concern_](./notes/English/03-separation-of-concerns.md)
 - [_Chapter 04- Value, Variable and DataType_](./notes/English/04-value_variable_datatype.md)
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)

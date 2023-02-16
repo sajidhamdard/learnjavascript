@@ -8,7 +8,7 @@ A high-level programming language is a type of programming language that provide
 
 Garbage collection is a feature of some programming languages where the runtime system automatically manages the memory used by the program. It periodically checks for and frees memory that is no longer being used by the program. This eliminates the need for the programmer to manually manage memory allocation and deallocation, which can be a source of bugs and memory leaks. Garbage collection is a technique used in many modern programming languages like Java, C#, Python, Ruby, among others to manage the memory allocation and deallocation. This is a key feature of these languages, as it reduces the risk of memory-related bugs, improves performance and increases developer productivity.
 
-### What is Interpreted Language (JIT)-> (Just in time commpiler) ?
+### What is Interpreted Language (JIT)-> (Just in time compiler) ?
 
 JavaScript is an interpreted language, which means that the code is not compiled into machine-readable code before it is executed. Instead, the code is read and executed line-by-line by a JavaScript engine such as V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox) or Chakra (used in Edge) .
 
