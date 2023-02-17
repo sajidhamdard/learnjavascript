@@ -43,6 +43,16 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is separation of concerns principle ?_](notes/English/03-separation-of-concerns.md#what-is-separation-of-concerns-principle-)
   - [_How to link JavaScript file in html ?_](notes/English/03-separation-of-concerns.md#how-to-link-javascript-file-in-html-)
 - [_Chapter 04- Value, Variable and DataType_](./notes/English/04-value_variable_datatype.md)
+
+  - [_What is Data ?_](notes/English/04-value_variable_datatype.md#what-is-data)
+  - [_What is value?_](notes/English/04-value_variable_datatype.md#what-is-value)
+  - [_What is Data type ?_](notes/English/04-value_variable_datatype.md#what-is-data-type)
+  - [_Primitive data types (inbuilt data types):_](notes/English/04-value_variable_datatype.md#primitive-data-types-inbuilt-data-types)
+    - [_Primitive Data Types Examples:_](notes/English/04-value_variable_datatype.md#primitive-data-types-examples)
+  - [_Non primitve (reference types) data types:_](notes/English/04-value_variable_datatype.md#non-primitve-reference-types-data-types)
+  - [_Non Primitive Data Type Examples::_](notes/English/04-value_variable_datatype.md#non-primitive-data-type-examples)
+  - [_What is variable?_](notes/English/04-value_variable_datatype.md#what-is-variable)
+
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 - [_Chapter 07- Statement_](./notes/English/07-statement.md)
