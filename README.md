@@ -59,9 +59,9 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 - [_Chapter 07- Statement_](./notes/English/07-statement.md)
-  - [_What is Statement_](notes/English/07-statement.md#what-is-statement)
-  - [_What is Semicolon in JavaScript_](notes/English/07-statement.md#semicolon-in-javascript)
-  - [_What is WhiteSpace in statement_](notes/English/07-statement.md#whitespace-in-statement)
+  - [_What is Statement?_](notes/English/07-statement.md#what-is-statement)
+  - [_What is Semicolon in JavaScript?_](notes/English/07-statement.md#semicolon-in-javascript)
+  - [_What is WhiteSpace in statement?_](notes/English/07-statement.md#whitespace-in-statement)
   - [_What is Code block or Multi-line statement?_](notes/English/07-statement.md#what-is-code-block-or-multi-line-statement)
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
