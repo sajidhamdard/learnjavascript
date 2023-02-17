@@ -66,9 +66,23 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
   - [_What is use strict?_](notes/English/08-use_strict.md#06--use-strict)
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
+
+  - [_What is let Variable?_](notes/English/09-let_const_var.md#let)
+  - [_What is const Variable?_](notes/English/09-let_const_var.md#const)
+  - [_What is var Variable?_](notes/English/09-let_const_var.md#var)
+  - [_What are the differences between let, const and var?_](notes/English/09-let_const_var.md#what-are-the-differences-between-let-const-and-var)
+  - [_When to use let, const and var?_](notes/English/09-let_const_var.md#when-to-use-let-const-and-var)
+
 - [_Chapter 10- Operators_](notes/English/10-operators.md)
 - [_Chapter 11- Conditional Statement_](notes/English/11-conditional_statement.md)
+  - [_What is conditional statement?_](notes/English/11-conditional_statement.md#what-is-conditional-statement)
 - [_Chapter 12- Output_](notes/English/12-output.md)
+
+  - [_What is console.log in JavaScript ?_](notes/English/12-output.md#what-is-consolelog-in-javascript-)
+  - [_What is Document.write in JavaScript ?_](notes/English/12-output.md#what-is-documentwrite-in-javascript-)
+  - [_What is window.alert in javaScript ?_](notes/English/12-output.md#what-is-windowalert-in-javascript-)
+  - [_What is inner HTML of an element in javaScript ?_](notes/English/12-output.md#what-is-inner-html-of-an-element-in-javascript-)
+
 - [_Chapter 13- String_](notes/English/13-typeconversion.md)
 - [_Chapter 14- Type Conversion_](./notes/English/13-typeconversion.md)
 - [_Chapter 15- Popup Boxes_](./notes/English/14-popupboxes.md)
