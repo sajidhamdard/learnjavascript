@@ -110,7 +110,7 @@ let x = "20";
 console.log(x / 2);
 ```
 
-### Explicit type and manual type conversion is process me hum manualy type conversion karte hain.
+### Explicit type and manual type conversion
 
 ```
 let x = "20";
