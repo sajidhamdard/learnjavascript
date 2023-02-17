@@ -196,17 +196,17 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 <details>
 <summary>Click here</summary>
-  - [_Exercise-01_](./Exercises/exercise-01.md)
-  - [_Exercise-02_](./Exercises/exercise-02.md)
-  - [_Exercise-03_](./Exercises/exercise-03.md)
-  - [_Exercise-04_](./Exercises/exercise-04.md)
-  - [_Exercise-05_](./Exercises/exercise-05.md)
-  - [_Exercise-06_](./Exercises/exercise-06.md)
-  - [_Exercise-07_](./Exercises/exercise-07.md)
-  - [_Exercise-08_](./Exercises/exercise-08.md)
-  - [_Exercise-09_](./Exercises/exercise-09.md)
-  - [_Exercise-10_](./Exercises/exercise-10.md)
-  - [_Exercise-11_](./Exercises/exercise-11.md)
+- [_Exercise-01_](./Exercises/exercise-01.md)
+- [_Exercise-02_](./Exercises/exercise-02.md)
+- [_Exercise-03_](./Exercises/exercise-03.md)
+- [_Exercise-04_](./Exercises/exercise-04.md)
+- [_Exercise-05_](./Exercises/exercise-05.md)
+- [_Exercise-06_](./Exercises/exercise-06.md)
+- [_Exercise-07_](./Exercises/exercise-07.md)
+- [_Exercise-08_](./Exercises/exercise-08.md)
+- [_Exercise-09_](./Exercises/exercise-09.md)
+- [_Exercise-10_](./Exercises/exercise-10.md)
+- [_Exercise-11_](./Exercises/exercise-11.md)
 </details>
 
 ### Solutions
