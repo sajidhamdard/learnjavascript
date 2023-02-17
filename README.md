@@ -164,6 +164,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 <details>
 <summary>Click here</summary>
+  
   - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
   - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
   - [_Chapter 03- Value, Variable & Datatype_](./notes/Hindi/03-value_variable_datatype.md)
@@ -196,6 +197,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 <details>
 <summary>Click here</summary>
+  
 - [_Exercise-01_](./Exercises/exercise-01.md)
 - [_Exercise-02_](./Exercises/exercise-02.md)
 - [_Exercise-03_](./Exercises/exercise-03.md)
@@ -213,6 +215,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 <details>
 <summary>Click here</summary>
+  
   - [_Solution-01_](./Exercises/solution-01.md)
   - [_Solution-02_](./Exercises/solution-02.md)
   - [_Solution-03_](./Exercises/solution-03.md)
