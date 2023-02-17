@@ -91,6 +91,29 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
 
+### Exercises
+
+- [_Exercise-01_](./Exercises/exercise-01.md)
+- [_Exercise-02_](./Exercises/exercise-02.md)
+- [_Exercise-03_](./Exercises/exercise-03.md)
+- [_Exercise-04_](./Exercises/exercise-04.md)
+- [_Exercise-05_](./Exercises/exercise-05.md)
+- [_Exercise-06_](./Exercises/exercise-06.md)
+- [_Exercise-07_](./Exercises/exercise-07.md)
+- [_Exercise-08_](./Exercises/exercise-08.md)
+- [_Exercise-09_](./Exercises/exercise-09.md)
+- [_Exercise-10_](./Exercises/exercise-10.md)
+- [_Exercise-11_](./Exercises/exercise-11.md)
+
+### Solutions
+
+- [_Solution-01_](./Exercises/solution-01.md)
+- [_Solution-02_](./Exercises/solution-02.md)
+- [_Solution-03_](./Exercises/solution-03.md)
+- [_Solution-04_](./Exercises/solution-04.md)
+- [_Solution-05_](./Exercises/solution-05.md)
+- [_Solution-07_](./Exercises/solution-07.md)
+
 ## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
 
 ## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidelines.pdf)
