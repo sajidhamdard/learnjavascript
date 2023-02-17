@@ -139,6 +139,20 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is default case in a switch statement ?_](notes/English/17-loopand_switch.md#what-is-default-case-in-a-switch-statement-)
 
 - [_Chapter 19- More on Functions_](notes/English/21-More-onfunction.md)
+
+  - [_What is Default parameters in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-default-parameters-in-javascript-)
+  - [_What is Passing arguments: value vs reference in javaScript ?_](notes/English/21-More-onfunction.md#what-is-passing-arguments-value-vs-reference-in-javascript-)
+  - [_What is First Class function/Citizen JavaScript ?_](notes/English/21-More-onfunction.md#what-is-first-class-functioncitizen-javascript-)
+  - [_What is High Order function in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-high-order-function-in-javascript-)
+  - [_What is Callback function in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-callback-function-in-javascript-)
+  - [_What is setTimeOut in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-settimeout-in-javascript-)
+  - [_What is setInterval in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-setinterval-in-javascript-)
+  - [_What is Function returning function in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-function-returning-function-in-javascript-)
+  - [_What is The call and apply methods in JavaScript? _](notes/English/21-More-onfunction.md#what-is-the-call-and-apply-methods-in-javascript-)
+  - [_What is The bind method in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-the-bind-method-in-javascript-)
+  - [What is Immediately invoked function expression in JavaScript ?](notes/English/21-More-onfunction.md#what-is-immediately-invoked-function-expression-in-javascript-)
+  - [_What is Closures in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-closures-in-javascript-)
+
 - [_Chapter 20- Debugging_](notes/English/24-debugging.md)
 - [_Chapter 21- Hoisting_](notes/English/22-hoisting.md)
 - [_Chapter 21- Temporal Dead Zone(TDZ)_](notes/English/23-temporal-dead-zone.md)
