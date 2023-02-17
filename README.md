@@ -16,6 +16,8 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_English Notes_](./notes/English)
 
+<details>
+    <summary>Click here</summary>
 - [_Chapter 01- Introduction & History_](./notes/English/01-introduction-and-history.md)
 
   - [_Programming Language_](./notes/English/01-introduction-and-history.md#what-is-a-programming-language-)
@@ -155,6 +157,8 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 - [_Chapter 21- Hoisting_](notes/English/22-hoisting.md)
 - [_Chapter 21- Temporal Dead Zone(TDZ)_](notes/English/23-temporal-dead-zone.md)
+
+</details>
 
 ## 📚 [_Hindi Notes_](./notes/Hindi/)
 
