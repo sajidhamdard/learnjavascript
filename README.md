@@ -154,6 +154,13 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is Closures in JavaScript ?_](notes/English/21-More-onfunction.md#what-is-closures-in-javascript-)
 
 - [_Chapter 20- Debugging_](notes/English/24-debugging.md)
+
+  - [_What is Debugging in JavaScript?_](notes/English/24-debugging.md#what-is-debugging-in-javascript)
+
+  - [_What is Developer Tool?_](notes/English/24-debugging.md#what-is-developer-tool)
+  - [_Fixing errors_](notes/English/24-debugging.md#fixing-errors)
+  - [_What are the different types of errors in JavaScript?_](notes/English/24-debugging.md#what-are-the-different-types-of-errors-in-javascript)
+
 - [_Chapter 21- Hoisting_](notes/English/22-hoisting.md)
 - [_Chapter 21- Temporal Dead Zone(TDZ)_](notes/English/23-temporal-dead-zone.md)
 
