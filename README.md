@@ -84,6 +84,21 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is inner HTML of an element in javaScript ?_](notes/English/12-output.md#what-is-inner-html-of-an-element-in-javascript-)
 
 - [_Chapter 13- String_](notes/English/13-typeconversion.md)
+
+  - [_Manual Type Conversion :_](notes/English/13-typeconversion.md#manual-type-conversion-)
+  - [_Coercion Example :_](notes/English/13-typeconversion.md#coercion-example)
+  - [_The Boolean value true is converted to string 'true' and then '+'concatenates both the strings_](notes/English/13-typeconversion.md#the-boolean-value-true-is-converted-to-string-true-and-then-concatenates-both-the-strings)
+  - [_The Boolean value true is converted to number 1 and then operation is performed_](notes/English/13-typeconversion.md#the-boolean-value-true-is-converted-to-number-1-and-then-operation-is-performed)
+  - [_The Boolean value false is converted to number 0 and then operation is performed_](notes/English/13-typeconversion.md#the-boolean-value-false-is-converted-to-number-0-and-then-operation-is-performed)
+  - [_Should output 'true' as string '10' is coerced to number 10_](notes/English/13-typeconversion.md#should-output-true-as-string-10-is-coerced-to-number-10)
+  - [_Should output 'true', as boolean true is coerced to number 1_](notes/English/13-typeconversion.md#should-output-true-as-boolean-true-is-coerced-to-number-1)
+  - [_Should output 'false' as string 'true' is coerced to NaN which is not equal to 1 of Boolean true_](notes/English/13-typeconversion.md#should-output-false-as-string-true-is-coerced-to-nan-which-is-not-equal-to-1-of-boolean-true)
+  - [_Number to String_](notes/English/13-typeconversion.md#number-to-string)
+  - [_String to Number_](notes/English/13-typeconversion.md#string-to-number)
+  - [_Number to Boolean_](notes/English/13-typeconversion.md#number-to-boolean)
+  - [_type conversion_](notes/English/13-typeconversion.md#type-conversion)
+  - [_Explicit type and manual type conversion is process me hum manualy type conversion karte hain_](notes/English/13-typeconversion.md#explicit-type-and-manual-type-conversion-is-process-me-hum-manualy-type-conversion-karte-hain)
+
 - [_Chapter 14- Type Conversion_](./notes/English/13-typeconversion.md)
 - [_Chapter 15- Popup Boxes_](./notes/English/14-popupboxes.md)
 - [_Chapter 16- Other Operators_](./notes/English/15-other_operator.md)
