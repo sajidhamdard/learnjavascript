@@ -162,55 +162,64 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_Hindi Notes_](./notes/Hindi/)
 
-- [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
-- [_Chapter 02- Features_](./notes/Hindi/02-features.md)
-- [_Chapter 03- Value, Variable & Datatype_](./notes/Hindi/03-value_variable_datatype.md)
-- [_Chapter 04- Identifier_](notes/Hindi/04-identifier.md)
-- [_Chapter 05- Comments_](notes/Hindi/05-comments.md)
-- [_Chapter 06- Use strict_](notes/Hindi/06-use_strict.md)
-- [_Chapter 07- Let, Const, Var_](notes/Hindi/07-let_const_var.md)
-- [_Chapter 08- Operators_](notes/Hindi/08-operators.md)
-- [_Chapter 09- Conditional Statement_](notes/Hindi/09-conditional_statement.md)
-- [_Chapter 10- String_](notes/Hindi/10-string.md)
-- [_Chapter 11- Type Conversion_](notes/Hindi/11-typeconversion.md)
-- [_Chapter 12- Popup Boxes_](notes/Hindi/12-popupboxes.md)
-- [_Chapter 13- Other Operator_](notes/Hindi/13-other_operator.md)
-- [_Chapter 14- Truthy Falsy_](notes/Hindi/14-truthy_falsy.md)
-- [_Chapter 15- Loop and Switch_](notes/Hindi/15-loopand_switch.md)
-- [_Chapter 16- Function_](notes/Hindi/16-function.md)
-- [_Chapter 17- Scoping and Scope_](notes/Hindi/17-scoping_and_scope.md)
-- [_Chapter 18- Array_](notes/Hindi/18-array.md)
-- [_Chapter 19- Destructuring_](notes/Hindi/19-destructuring.md)
-- [_Chapter 20- DOM_](notes/Hindi/20-DOM.md)
-- [_Chapter 21- Set_](notes/Hindi/24-set.md)
-- [_Chapter 22- map_](notes/Hindi/21-map.md)
-- [_Chapter 23- Object_](notes/Hindi/22-object.md)
-- [_Chapter 24- Prototypal Inheritance_](notes/Hindi/23-prototypal_inheritance.md)
+<details>
+<summary>Click here</summary>
+  - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
+  - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
+  - [_Chapter 03- Value, Variable & Datatype_](./notes/Hindi/03-value_variable_datatype.md)
+  - [_Chapter 04- Identifier_](notes/Hindi/04-identifier.md)
+  - [_Chapter 05- Comments_](notes/Hindi/05-comments.md)
+  - [_Chapter 06- Use strict_](notes/Hindi/06-use_strict.md)
+  - [_Chapter 07- Let, Const, Var_](notes/Hindi/07-let_const_var.md)
+  - [_Chapter 08- Operators_](notes/Hindi/08-operators.md)
+  - [_Chapter 09- Conditional Statement_](notes/Hindi/09-conditional_statement.md)
+  - [_Chapter 10- String_](notes/Hindi/10-string.md)
+  - [_Chapter 11- Type Conversion_](notes/Hindi/11-typeconversion.md)
+  - [_Chapter 12- Popup Boxes_](notes/Hindi/12-popupboxes.md)
+  - [_Chapter 13- Other Operator_](notes/Hindi/13-other_operator.md)
+  - [_Chapter 14- Truthy Falsy_](notes/Hindi/14-truthy_falsy.md)
+  - [_Chapter 15- Loop and Switch_](notes/Hindi/15-loopand_switch.md)
+  - [_Chapter 16- Function_](notes/Hindi/16-function.md)
+  - [_Chapter 17- Scoping and Scope_](notes/Hindi/17-scoping_and_scope.md)
+  - [_Chapter 18- Array_](notes/Hindi/18-array.md)
+  - [_Chapter 19- Destructuring_](notes/Hindi/19-destructuring.md)
+  - [_Chapter 20- DOM_](notes/Hindi/20-DOM.md)
+  - [_Chapter 21- Set_](notes/Hindi/24-set.md)
+  - [_Chapter 22- map_](notes/Hindi/21-map.md)
+  - [_Chapter 23- Object_](notes/Hindi/22-object.md)
+  - [_Chapter 24- Prototypal Inheritance_](notes/Hindi/23-prototypal_inheritance.md)
+</details>
 
 ## 📚 [_JavaScript Exercises & Solutions_](./Exercises)
 
 ### Exercises
 
-- [_Exercise-01_](./Exercises/exercise-01.md)
-- [_Exercise-02_](./Exercises/exercise-02.md)
-- [_Exercise-03_](./Exercises/exercise-03.md)
-- [_Exercise-04_](./Exercises/exercise-04.md)
-- [_Exercise-05_](./Exercises/exercise-05.md)
-- [_Exercise-06_](./Exercises/exercise-06.md)
-- [_Exercise-07_](./Exercises/exercise-07.md)
-- [_Exercise-08_](./Exercises/exercise-08.md)
-- [_Exercise-09_](./Exercises/exercise-09.md)
-- [_Exercise-10_](./Exercises/exercise-10.md)
-- [_Exercise-11_](./Exercises/exercise-11.md)
+<details>
+<summary>Click here</summary>
+  - [_Exercise-01_](./Exercises/exercise-01.md)
+  - [_Exercise-02_](./Exercises/exercise-02.md)
+  - [_Exercise-03_](./Exercises/exercise-03.md)
+  - [_Exercise-04_](./Exercises/exercise-04.md)
+  - [_Exercise-05_](./Exercises/exercise-05.md)
+  - [_Exercise-06_](./Exercises/exercise-06.md)
+  - [_Exercise-07_](./Exercises/exercise-07.md)
+  - [_Exercise-08_](./Exercises/exercise-08.md)
+  - [_Exercise-09_](./Exercises/exercise-09.md)
+  - [_Exercise-10_](./Exercises/exercise-10.md)
+  - [_Exercise-11_](./Exercises/exercise-11.md)
+</details>
 
 ### Solutions
 
-- [_Solution-01_](./Exercises/solution-01.md)
-- [_Solution-02_](./Exercises/solution-02.md)
-- [_Solution-03_](./Exercises/solution-03.md)
-- [_Solution-04_](./Exercises/solution-04.md)
-- [_Solution-05_](./Exercises/solution-05.md)
-- [_Solution-07_](./Exercises/solution-07.md)
+<details>
+<summary>Click here</summary>
+  - [_Solution-01_](./Exercises/solution-01.md)
+  - [_Solution-02_](./Exercises/solution-02.md)
+  - [_Solution-03_](./Exercises/solution-03.md)
+  - [_Solution-04_](./Exercises/solution-04.md)
+  - [_Solution-05_](./Exercises/solution-05.md)
+  - [_Solution-07_](./Exercises/solution-07.md)
+</details>
 
 ## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
 
