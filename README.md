@@ -108,7 +108,17 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_Explicit type and manual type conversion is process me hum manualy type conversion karte hain_](notes/English/13-typeconversion.md#explicit-type-and-manual-type-conversion-is-process-me-hum-manualy-type-conversion-karte-hain)
 
 - [_Chapter 15- Popup Boxes_](./notes/English/14-popupboxes.md)
+
+  - [_Alert Box_](notes/English/14-popupboxes.md#alert-box)
+  - [_Confirm box_](notes/English/14-popupboxes.md#confirm-box)
+  - [_Prompt Box_](notes/English/14-popupboxes.md#prompt-box)
+
 - [_Chapter 16- Other Operators_](./notes/English/15-other_operator.md)
+
+  - [_Loose equality operator ==_](notes/English/15-other_operator.md#loose-equality-operator-)
+  - [_Strict Equality Operator ===_](notes/English/15-other_operator.md#strict-equality-operator-)
+  - [_Ternary Operators_](notes/English/15-other_operator.md#ternary-operators)
+
 - [_Chapter 17- Truthy Falsy Values_](./notes/English/16-truthy_falsy.md)
 - [_Chapter 18- Loop and Switch_](./notes/English/17-loopand_switch.md)
 - [_Chapter 19- More on Functions_](notes/English/21-More-onfunction.md)
