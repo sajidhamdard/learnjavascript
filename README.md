@@ -64,6 +64,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is WhiteSpace in statement?_](notes/English/07-statement.md#whitespace-in-statement)
   - [_What is Code block or Multi-line statement?_](notes/English/07-statement.md#what-is-code-block-or-multi-line-statement)
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
+  - [_What is use strict?_](notes/English/08-use_strict.md#06--use-strict)
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
 - [_Chapter 10- Operators_](notes/English/10-operators.md)
 - [_Chapter 11- Conditional Statement_](notes/English/11-conditional_statement.md)
