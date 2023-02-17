@@ -84,6 +84,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is inner HTML of an element in javaScript ?_](notes/English/12-output.md#what-is-inner-html-of-an-element-in-javascript-)
 
 - [_Chapter 13- String_](notes/English/13-typeconversion.md)
+- [_Chapter 14- Type Conversion_](./notes/English/13-typeconversion.md)
 
   - [_Manual Type Conversion :_](notes/English/13-typeconversion.md#manual-type-conversion-)
   - [_Coercion Example :_](notes/English/13-typeconversion.md#coercion-example)
@@ -99,7 +100,6 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_type conversion_](notes/English/13-typeconversion.md#type-conversion)
   - [_Explicit type and manual type conversion is process me hum manualy type conversion karte hain_](notes/English/13-typeconversion.md#explicit-type-and-manual-type-conversion-is-process-me-hum-manualy-type-conversion-karte-hain)
 
-- [_Chapter 14- Type Conversion_](./notes/English/13-typeconversion.md)
 - [_Chapter 15- Popup Boxes_](./notes/English/14-popupboxes.md)
 - [_Chapter 16- Other Operators_](./notes/English/15-other_operator.md)
 - [_Chapter 17- Truthy Falsy Values_](./notes/English/16-truthy_falsy.md)
