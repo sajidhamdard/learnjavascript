@@ -40,6 +40,8 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is Non-Blocking Event Loop ?_](notes/English/02-features.md#what-is-non-blocking-event-loop-)
 
 - [_Chapter 03- Separation of Concern_](./notes/English/03-separation-of-concerns.md)
+  - [_What is separation of concerns principle ?_](notes/English/03-separation-of-concerns.md#what-is-separation-of-concerns-principle-)
+    - [_How to link JavaScript file in html ?_](notes/English/03-separation-of-concerns.md#how-to-link-javascript-file-in-html-)
 - [_Chapter 04- Value, Variable and DataType_](./notes/English/04-value_variable_datatype.md)
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
