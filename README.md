@@ -54,8 +54,15 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is variable?_](notes/English/04-value_variable_datatype.md#what-is-variable)
 
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
+
+  - [_What is Identifiers_](notes/English/05-identifier.md#identifiers)
+
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 - [_Chapter 07- Statement_](./notes/English/07-statement.md)
+  - [_What is Statement_](notes/English/07-statement.md#what-is-statement)
+  - [_What is Semicolon in JavaScript_](notes/English/07-statement.md#semicolon-in-javascript)
+  - [_What is WhiteSpace in statement_](notes/English/07-statement.md#whitespace-in-statement)
+  - [_What is Code block or Multi-line statement?_](notes/English/07-statement.md#what-is-code-block-or-multi-line-statement)
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
 - [_Chapter 10- Operators_](notes/English/10-operators.md)
