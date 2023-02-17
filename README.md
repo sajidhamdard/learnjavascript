@@ -226,7 +226,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
 
-## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidelines.pdf)
+## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidlines.md)
 
 ## 📚 [_Front-end RoadMap_](./Roadmap/Backend%20development%20roadmap.pdf) `Credit - JavaScript Mastery`
 
