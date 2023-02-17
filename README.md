@@ -120,7 +120,24 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_Ternary Operators_](notes/English/15-other_operator.md#ternary-operators)
 
 - [_Chapter 17- Truthy Falsy Values_](./notes/English/16-truthy_falsy.md)
+
+  - [_What is truthy and falsy value:_](notes/English/16-truthy_falsy.md#what-is-truthy-and-falsy-value)
+
 - [_Chapter 18- Loop and Switch_](./notes/English/17-loopand_switch.md)
+
+  - [_What is loop in JavaScript ?_](notes/English/17-loopand_switch.md#what-is-loop-in-javascript-)
+  - [_What is for loop ?_](notes/English/17-loopand_switch.md#what-is-for-loop-)
+  - [_What is for...of loop ?_](notes/English/17-loopand_switch.md#what-is-forof-loop-)
+  - [_What is for...in loop ?_](notes/English/17-loopand_switch.md#what-is-forin-loop-)
+  - [_What is while loop ?_](notes/English/17-loopand_switch.md#what-is-while-loop-)
+
+- [_What is do...while loop ?_](notes/English/17-loopand_switch.md#what-is-dowhile-loop-)
+
+  - [_What is switch statment ?_](notes/English/17-loopand_switch.md#what-is-switch-statment-)
+  - [_What is case clause in JavaScript ?_](notes/English/17-loopand_switch.md#what-is-case-clause-in-javascript-)
+  - [_What is break ?_](notes/English/17-loopand_switch.md#what-is-break-)
+  - [_What is default case in a switch statement ?_](notes/English/17-loopand_switch.md#what-is-default-case-in-a-switch-statement-)
+
 - [_Chapter 19- More on Functions_](notes/English/21-More-onfunction.md)
 - [_Chapter 20- Debugging_](notes/English/24-debugging.md)
 - [_Chapter 21- Hoisting_](notes/English/22-hoisting.md)
