@@ -50,7 +50,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_Primitive data types (inbuilt data types):_](notes/English/04-value_variable_datatype.md#primitive-data-types-inbuilt-data-types)
     - [_Primitive Data Types Examples:_](notes/English/04-value_variable_datatype.md#primitive-data-types-examples)
   - [_Non primitve (reference types) data types:_](notes/English/04-value_variable_datatype.md#non-primitve-reference-types-data-types)
-  - [_Non Primitive Data Type Examples::_](notes/English/04-value_variable_datatype.md#non-primitive-data-type-examples)
+    - [_Non Primitive Data Type Examples:_](notes/English/04-value_variable_datatype.md#non-primitive-data-type-examples)
   - [_What is variable?_](notes/English/04-value_variable_datatype.md#what-is-variable)
 
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
