@@ -83,7 +83,14 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is window.alert in javaScript ?_](notes/English/12-output.md#what-is-windowalert-in-javascript-)
   - [_What is inner HTML of an element in javaScript ?_](notes/English/12-output.md#what-is-inner-html-of-an-element-in-javascript-)
 
-- [_Chapter 13- String_](notes/English/13-typeconversion.md)
+- [_Chapter 13- String_](notes/English/18-string.md)
+
+  - [_What is String_](notes/English/18-string.md#what-is-string)
+  - [_How to create String in JavaScript ?_](notes/English/18-string.md#how-to-create-string-in-javascript-)
+  - [_String Literal vs String Object :_](notes/English/18-string.md#string-literal-vs-string-object-)
+  - [_String length property :_](notes/English/18-string.md#string-length-property)
+  - [_String functions :_](notes/English/18-string.md#string-functions)
+
 - [_Chapter 14- Type Conversion_](./notes/English/13-typeconversion.md)
 
   - [_Manual Type Conversion :_](notes/English/13-typeconversion.md#manual-type-conversion-)
