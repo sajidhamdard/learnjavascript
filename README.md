@@ -131,7 +131,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is for...in loop ?_](notes/English/17-loopand_switch.md#what-is-forin-loop-)
   - [_What is while loop ?_](notes/English/17-loopand_switch.md#what-is-while-loop-)
 
-- [_What is do...while loop ?_](notes/English/17-loopand_switch.md#what-is-dowhile-loop-)
+  - [_What is do...while loop ?_](notes/English/17-loopand_switch.md#what-is-dowhile-loop-)
 
   - [_What is switch statment ?_](notes/English/17-loopand_switch.md#what-is-switch-statment-)
   - [_What is case clause in JavaScript ?_](notes/English/17-loopand_switch.md#what-is-case-clause-in-javascript-)
