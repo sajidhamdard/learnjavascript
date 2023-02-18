@@ -132,9 +132,9 @@ i++;
 
 ```
 
-# switch statment
+# Switch Statment
 
-### What is switch statment ?
+### What is Switch Statment ?
 
 A switch statement in JavaScript is a control flow statement that allows you to test a variable or expression against multiple cases, and execute different code for each case that matches. The basic syntax of a switch statement is as follows:
 
