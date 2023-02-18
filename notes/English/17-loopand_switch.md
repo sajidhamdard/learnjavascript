@@ -258,7 +258,7 @@ In this example, when the value of grade is 'B' the code inside the case 'B' blo
 
 It's important to note that if the break statement is not used, the code in the next case block will also be executed which can cause unexpected results.
 
-### What is default case in a switch statement ?
+### What is default case in a Switch Statement ?
 
 In JavaScript, the default case in a switch statement is used as a catch-all case that will be executed if none of the other cases match the value of the expression.
 
