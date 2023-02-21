@@ -205,8 +205,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 53- Prototypal-inheritance_](notes/English/53-Prototypal-Inheritance.md)
 - [_Chapter 54- Prototype_](notes/English/54-Prototype.md)
 - [_Chapter 55- Constructor function_](notes/English/55-Constructor-function.md)
-
-- [_Chapter 56- Es6 classes_](notes/English/56-Es6-classes.md)
+- [_Chapter 56- Es6 classes_](notes/English/56-Es6classes.md)
 - [_Chapter 57- object-creat_](notes/English/57-Object-create.md)
 - [_Chapter 58- Encapsulation_](notes/English/58-Encapsulation.md)
 - [_Chapter 59- Chaining-methods_](notes/English/59-Chaining-methods.md)
