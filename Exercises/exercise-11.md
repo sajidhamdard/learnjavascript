@@ -111,17 +111,18 @@ Sorry
 ### Question 9
 
 Print Pattern using repeat function
-
+```
 ***********
  *********
   *******
    *****
     ***
      *
-     
+```
  
 ### Question 10
 
 Print below Series using repeat function
-
+```
 1 224 3339 44412 555520 
+```
