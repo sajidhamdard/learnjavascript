@@ -218,7 +218,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 66- Consuming Promises_](notes/English/66-Consuming-Promises.md)
 - [_Chapter 67- Chaining Promises_](notes/English/67-Chaining-Promises.md)
 - [_Chapter 68- Rejected promises_](notes/English/68-Rejected-Promises.md)
-- [_Chapter 69- Event Loop_](notes/English/69-Even-Loop.md)
+- [_Chapter 69- Event Loop_](notes/English/69-Event-Loop.md)
 - [_Chapter 70- Creating-Promise_](notes/English/70-Creating-Promise.md)
 - [_Chapter 71- Async-Await_](notes/English/71-Async-Await.md)
 - [_Chapter 72- Try-catch_](notes/English/72-Try-catch.md)
