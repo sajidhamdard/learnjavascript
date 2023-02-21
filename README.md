@@ -204,7 +204,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 52- OOPs-in-javaScript_](notes/English/52-OOPs%20In%20JavaScript.md)
 - [_Chapter 53- Prototypal-inheritance_](notes/English/53-Prototypal-Inheritance.md)
 - [_Chapter 54- Prototype_](notes/English/54-Prototype.md)
-- [\_Chapter 55- Constructor function](notes/English/55-Constructorfunction.md)
+- [\_Chapter 55- Constructor function](notes/English/55-Constructor-function.md)
 
 - [_Chapter 56- Es6 classes_](notes/English/56-Es6classes.md)
 - [_Chapter 57- object-creat_](notes/English/57-Object-create.md)
