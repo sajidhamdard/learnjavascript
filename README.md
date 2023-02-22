@@ -215,7 +215,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 63- Web_](notes/English/63-Web.md)
 - [_Chapter 64- Promise_](notes/English/64-Promise.md)
 - [_Chapter 65- fetch_](notes/English/65-fetch.md)
-- [_Chapter 66- Consuming Promises_](notes/English/66-Consuming-Promises.md)
+- [_Chapter 66- Consuming Promises_](notes/English/66-ConsumingPromises.md)
 - [_Chapter 67- Chaining Promises_](notes/English/67-Chaining-Promises.md)
 - [_Chapter 68- Rejected promises_](notes/English/68-Rejected-Promises.md)
 - [_Chapter 69- Event Loop_](notes/English/69-Event-Loop.md)
