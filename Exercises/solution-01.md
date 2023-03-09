@@ -28,15 +28,15 @@
 3. Why different programming languages are used for coding?
    Different programming languages are used for coding because each language has its own set of strengths and weaknesses, and is better suited to certain types of tasks. Some of the reasons why different programming languages are used for different types of coding include:
 
-   ## Syntax: Different programming languages have different syntax, which can make the code more readable or easier to write for certain types of tasks. For example, Python's simple and readable syntax makes it a popular choice for beginners and for tasks related to data science.
+   - Syntax: Different programming languages have different syntax, which can make the code more readable or easier to write for certain types of tasks. For example, Python's simple and readable syntax makes it a popular choice for beginners and for tasks related to data science.
 
-   ## Libraries and frameworks: Each programming language has its own set of libraries and frameworks that provide pre-built functionality for common tasks. For example, the Python ecosystem has a large number of libraries for data analysis and machine learning, while JavaScript has a wide range of libraries and frameworks for building web applications.
+   - Libraries and frameworks: Each programming language has its own set of libraries and frameworks that provide pre-built functionality for common tasks. For example, the Python ecosystem has a large number of libraries for data analysis and machine learning, while JavaScript has a wide range of libraries and frameworks for building web applications.
 
-   ## Platform and device support: Different programming languages have different levels of support for different platforms and devices. For example, C++ is often used to create desktop and mobile applications because it has good support for low-level hardware operations, while JavaScript is commonly used for web development because it can run on any web browser.
+   - Platform and device support: Different programming languages have different levels of support for different platforms and devices. For example, C++ is often used to create desktop and mobile applications because it has good support for low-level hardware operations, while JavaScript is commonly used for web development because it can run on any web browser.
 
-   ## Performance: Different programming languages have different performance characteristics. For example, C++ and C are considered to be very fast and efficient languages, making them suitable for tasks that require a lot of computational power, such as video games and 3D rendering.
+   - Performance: Different programming languages have different performance characteristics. For example, C++ and C are considered to be very fast and efficient languages, making them suitable for tasks that require a lot of computational power, such as video games and 3D rendering.
 
-   ## Community: Each programming language has its own community of developers and users. Larger and more active communities generally provide better support, documentation, and resources for learning and working with a language.
+   - Community: Each programming language has its own community of developers and users. Larger and more active communities generally provide better support, documentation, and resources for learning and working with a language.
 
    In summary, Different programming languages are used for different types of coding because each language has its own set of strengths and weaknesses, depending on the task, such as syntax, libraries and frameworks, platform and device support, performance, and community.
 
