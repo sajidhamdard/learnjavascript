@@ -258,10 +258,33 @@ console.log(str.substr(0, -6));    // ""
 ### Question 12
 
 What is Regex ? Examples?
+Regex (short for Regular Expression) is a sequence of characters that defines a search pattern. It is used to match and manipulate text based on certain patterns. In JavaScript, regex patterns are represented by the RegExp object, which can be used with various string methods such as match(), replace(), test(), and split().
 
 ### Question 13
 
 match vs search function difference
+
+The match() function is used to find all the matches of a regular expression within a string. It returns an array of all the matches found, or null if no matches were found. The match() function takes a regular expression as its argument, and the optional g flag can be used to search for all matches within the string.
+
+Here's an example of using the match() function:
+
+```
+let str = "The quick brown fox jumps over the lazy dog";
+let matches = str.match(/o/g);
+console.log(matches);  // ["o", "o", "o", "o"]
+
+```
+
+The search() function, on the other hand, is used to find the index of the first occurrence of a regular expression within a string. It returns the index of the first match found, or -1 if no matches were found. The search() function also takes a regular expression as its argument.
+
+Here's an example of using the search() function:
+
+```
+let str = "The quick brown fox jumps over the lazy dog";
+let index = str.search(/fox/i);
+console.log(index);  // 16
+
+```
 
 ### Question 14
 
