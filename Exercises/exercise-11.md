@@ -101,16 +101,20 @@ Ask user what character is present at particular index in a word.
 If user guess is right then show him Congrulations message otherwise show Sorry message.
 
 for example:
+
+```
 Wecode Academy
 
 What is the character you are guessing? A
 What is the index? 3
 
 Sorry
+```
 
 ### Question 9
 
 Print Pattern using repeat function
+
 ```
 ***********
  *********
@@ -119,10 +123,11 @@ Print Pattern using repeat function
     ***
      *
 ```
- 
+
 ### Question 10
 
 Print below Series using repeat function
+
 ```
-1 224 3339 44412 555520 
+1 224 3339 44412 555520
 ```
