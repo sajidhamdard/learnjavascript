@@ -73,6 +73,75 @@ Write a JavaScript program to check if out of 5 numbers any two numbers are same
 
 Write a program to check if a number is divisible by 10 && 20 or not. If yes then multiply the number by 51 else multiply the number by 59 and print.
 
-### Question 10 (Marks:5)
+### Question 10
 
 Take a String and check its length. If string length is greater than 15 then print 2's table till the length of the string else print No
+
+### Question 11
+
+How do you reverse a given string in place
+
+### Question 12
+
+How do you print duplicate characters from a string
+
+### Question 13
+
+How do you find duplicate characters in a given string
+
+### Question 14
+
+How do you count a number of vowels and consonants in a given string
+
+### Question 15
+
+How do you check if a given string is a palindrome
+
+### Question 16
+
+Given string str, How do you find the longest palindromic substring in str
+
+### Question 17
+
+How to remove the duplicate character from String
+
+### Question 18
+
+Write a program to count the number of characters in a string.
+
+### Question 19
+
+Write a program to check if a given string is a palindrome (reads
+the same backwards and forwards).
+
+### Question 20
+
+Write a program to reverse a string.
+
+### Question 21
+
+Write a program to find the first non-repeated character in a string.
+
+### Question 22
+
+Write a program to remove all vowels from a string.
+
+### Question 23
+
+Write a program to check if a given string contains only numeric characters.
+
+### Question 24
+
+Write a program to find the largest word in a string.
+
+### Question 25
+
+Write a program to remove all occurrences of a particular character from a string.
+
+### Question 26
+
+Write a program to capitalize the first letter of each word in a sentence.
+
+### Question 27
+
+Write a program to find the most frequently occurring character in a string.
