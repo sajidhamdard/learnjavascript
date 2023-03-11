@@ -34,7 +34,7 @@ Create an array with three elements and check if the array includes a specific v
 
 ### Question 9
 
-Create an array with four elements and sort the array in ascending order.
+Create an array with five elements and sort the array in ascending order.
 
 ### Question 10
 

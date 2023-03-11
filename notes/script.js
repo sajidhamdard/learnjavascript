@@ -1,2 +1,2 @@
-const myName = "Wecode' Academy";
-console.log(myName);
+const arr = [10, 2, 9, 4];
+console.log(arr.join("-"));
