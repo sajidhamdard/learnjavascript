@@ -29,9 +29,13 @@ Add three new files to your repository: index.html, style.css, script.js using t
 - Add five commits as follows:
 
 In the first commit, add index.html using the command "git add index.html" and then commit the changes using the command "git commit -m 'added index.html file'".
+
 In the second commit, add style.css file using the command "git add style.css" and then commit the changes using the command "git commit -m 'added style.css file'".
+
 In the third commit, add script.js file using the command "git add script.js" and then commit the changes using the command "git commit -m 'added script.js file'".
+
 In the fourth commit, modify script.js file using the command "git add script.js" and then commit the changes using the command "git commit -m 'modified script.js file'".
+
 In the fifth commit, delete style.css file using the command "git rm style.css" and then commit the changes using the command "git commit -m 'deleted style.css file'".
 
 ### Step 8:
