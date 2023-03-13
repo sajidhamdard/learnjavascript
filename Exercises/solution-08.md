@@ -47,7 +47,9 @@ Create a new branch using the command "git branch <new-branch-name>".
 Switch to the new branch using the command "git checkout <new-branch-name>" and then add three commits as follows:
 
 In the first commit, add style.css file using the command "git add style.css" and then commit the changes using the command "git commit -m 'added style.css file'".
+
 In the second commit, add other.html file using the command "touch other.html" and then commit the changes using the command "git commit -m 'added other.html file'".
+
 In the third commit, modify index.html file using the command "git add index.html" and then commit the changes using the command "git commit -m 'modified index.html file'".
 
 ### Step 10:
