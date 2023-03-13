@@ -26,7 +26,7 @@ Add three new files to your repository: index.html, style.css, script.js using t
 
 ### Step 7:
 
-Add five commits as follows:
+- Add five commits as follows:
 
 In the first commit, add index.html using the command "git add index.html" and then commit the changes using the command "git commit -m 'added index.html file'".
 In the second commit, add style.css file using the command "git add style.css" and then commit the changes using the command "git commit -m 'added style.css file'".
