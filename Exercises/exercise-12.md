@@ -99,7 +99,7 @@ How do you check if a given string is a palindrome
 
 ### Question 16
 
-Given string str, How do you find the longest palindromic substring in str
+Given string str, How do you find the longest palindromic substring in string?
 
 ### Question 17
 

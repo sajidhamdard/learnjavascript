@@ -1,4 +1,5 @@
-1. What is Programming Language?
+### What is Programming Language?
+
    A programming language is a set of instructions, symbols and syntax that are used to create a software program or application. The code written in a programming language is then translated into machine code which can be executed by a computer.
 
    Programming languages have different features and capabilities, and are used to create different types of software. For example, C++ and C# are commonly used to create desktop and mobile applications, while Python and R are commonly used for data analysis and scientific computing.
@@ -16,7 +17,8 @@
 
    In short, a programming language is a set of instructions and symbols used to create software, it is the way of communicating with the computer, and there are many different types of programming languages available, each with its own strengths and uses.
 
-2. Tell about machine language?
+### Tell about machine language?
+
    Machine language, also known as machine code or assembly language, is the lowest-level programming language that is understood directly by a computer's central processing unit (CPU). It consists of a series of binary digits (ones and zeroes) that the CPU reads and executes as instructions. Machine language instructions are specific to a particular type of computer architecture and are not portable across different types of CPUs.
 
    Each machine language instruction corresponds to a specific operation that the CPU can perform, such as moving data from memory to a register, performing arithmetic operations, or jumping to a different location in the program.
@@ -25,7 +27,8 @@
 
    In summary, Machine language is the native language of the computer, it is the lowest-level programming language, it is not portable across different architectures, and it is not human-readable. It is used as the final output of a compiler, interpreter or assembler.
 
-3. Why different programming languages are used for coding?
+### Why different programming languages are used for coding?
+
    Different programming languages are used for coding because each language has its own set of strengths and weaknesses, and is better suited to certain types of tasks. Some of the reasons why different programming languages are used for different types of coding include:
 
    - Syntax: Different programming languages have different syntax, which can make the code more readable or easier to write for certain types of tasks. For example, Python's simple and readable syntax makes it a popular choice for beginners and for tasks related to data science.
@@ -40,7 +43,7 @@
 
    In summary, Different programming languages are used for different types of coding because each language has its own set of strengths and weaknesses, depending on the task, such as syntax, libraries and frameworks, platform and device support, performance, and community.
 
-4. Tell about front-end and back-end languages?
+### Tell about front-end and back-end languages?
 
 Front-end and back-end languages refer to the different types of programming languages used in web development.
 
@@ -60,7 +63,7 @@ Back-end languages, also known as server-side languages, are used to create the 
 
 In short, Front-end languages are used to create the user interface and user experience of a website, while back-end languages are used to create the logic and functionality of a website. Front-end languages run on the client's browser and back-end languages run on the server.
 
-5.  What is front-end?
+###  What is front-end?
 
 Front-end refers to the part of web development that deals with the user interface and user experience of a website. The front-end is responsible for the visual design and layout of a website, as well as the interactive elements that allow users to interact with the site.
 
@@ -73,7 +76,7 @@ The front-end is typically built using a combination of three main languages:
 
 In short, Front-end is the part of web development that deals with the user interface and user experience of a website, it is built using HTML, CSS and JavaScript, and it is responsible for the visual design, layout and interactive elements of a website.
 
-6. What is back-end?
+### What is back-end?
 
 Back-end refers to the part of web development that deals with the logic and functionality of a website. The back-end is responsible for the server-side operations and the underlying logic that powers a website. It communicates with the front-end to provide the data and functionality that the website displays.
 
@@ -83,11 +86,11 @@ Back-end developers also use web services, APIs and web socket to connect the we
 
 In short, Back-end is the part of web development that deals with the logic and functionality of a website, it is built using programming languages such as PHP, Python, Ruby, Java, C# and Node.js, and it is responsible for the server-side operations, database management, and the underlying logic that powers a website.
 
-7. What are the basic requirements for anyone who wants to become a front-end or back-end developer?
+### What are the basic requirements for anyone who wants to become a front-end or back-end developer?
 
 Here are some basic requirements for anyone who wants to become a front-end or back-end developer:
 
-### Front-end developer:
+#### Front-end developer:
 
 - Strong knowledge of HTML, CSS, and JavaScript
 - Familiarity with front-end frameworks and libraries such as React, Angular, and Vue.js
@@ -97,7 +100,7 @@ Here are some basic requirements for anyone who wants to become a front-end or b
 - Strong problem-solving skills
 - Good communication and teamwork skills
 
-### Back-end developer:
+#### Back-end developer:
 
 - Strong knowledge of at least one back-end programming language such as PHP, Python, Ruby, Java, C# or Node.js
 - Familiarity with back-end frameworks such as Ruby on Rails, Laravel, and Express.js
@@ -107,7 +110,7 @@ Here are some basic requirements for anyone who wants to become a front-end or b
 - Strong problem-solving skills
 - Good communication and teamwork skills
 
-### Both front-end and back-end developer:
+#### Both front-end and back-end developer:
 
 - A strong desire to learn and stay up-to-date with the latest web development technologies and trends.
 - Understanding of web performance, security and accessibility best practices.
@@ -116,7 +119,7 @@ Here are some basic requirements for anyone who wants to become a front-end or b
 
 Please note that these are some basic requirements, as the field of web development is constantly evolving and changing, and the requirements may vary depending on the company and the specific role. Additionally, having a portfolio of past projects is always helpful to showcase your skills.
 
-8. Difference between front-end developer and designer?
+### Difference between front-end developer and designer?
 
 A front-end developer and a front-end designer are both involved in the creation of the user interface and user experience of a website, but they have different responsibilities and focus on different aspects of the process.
 
@@ -126,20 +129,20 @@ A front-end designer, on the other hand, is focused on the visual design and use
 
 In summary, a front-end developer is focused on the technical implementation of a website and uses HTML, CSS, and JavaScript to build the structure, layout and interactive elements, while a front-end designer is focused on the visual design and user experience of a website, and use design software such as Photoshop, Illustrator and Sketch to create mockups and wireframes.
 
-9.  What is HTML?
+###  What is HTML?
 
 HTML stands for Hypertext Markup Language. It is the standard language used to create web pages and other information that can be displayed in a web browser. HTML uses a series of tags and attributes to define the structure and layout of a web page, including headings, paragraphs, images, links, and more. It is a markup language, which means that it uses tags to describe the structure of the document, rather than describing its appearance.
 
-10. What is CSS?
+### What is CSS?
 
 CSS stands for Cascading Style Sheets. It is a language used to describe the presentation and layout of a document written in a markup language, such as HTML. CSS allows developers to separate the presentation of a website from its structure, making it easier to maintain and update. With CSS, you can control things like font size and color, background images, spacing, and more. It is commonly used to style and layout web pages written in HTML, but can also be used with other markup languages like XML.
 
-11. What is JavaScript?
+### What is JavaScript?
 
 JavaScript is a programming language that is commonly used to add interactivity and other dynamic features to websites. It is primarily used to create things like image sliders, responsive navigation, form validation, and other dynamic user interface elements. JavaScript can also be used to make a website more interactive by allowing users to perform actions on the page such as clicking on buttons, submitting forms, and more. JavaScript code can be run directly within the browser, which means that it can update and change the content of a web page without the need to refresh the entire page.
 It is a client-side scripting language, which means that it runs on the user's device rather than on a server.
 
-12. What is role of HTML, CSS and JavaScript?
+### What is role of HTML, CSS and JavaScript?
 
 HTML, CSS, and JavaScript are all used in the creation of modern websites, and each plays a distinct role in the development process:
 
@@ -151,7 +154,7 @@ HTML, CSS, and JavaScript are all used in the creation of modern websites, and e
 
 In summary, HTML provides the structure of the web page, CSS is used to control the presentation and layout, and JavaScript is used to add interactivity and dynamic features. Together, these three technologies allow developers to create rich, dynamic, and engaging websites.
 
-13. Where can we use JavaScript in programming?
+### Where can we use JavaScript in programming?
 
 JavaScript is a versatile programming language that can be used in a variety of different contexts. Some of the main areas where JavaScript is used include:
 
@@ -169,7 +172,7 @@ JavaScript is a versatile programming language that can be used in a variety of 
 
 In summary, JavaScript can be used in a wide range of areas including web development, server-side programming, mobile app development, desktop apps, IoT development and game development.
 
-14. Please tell about the history of JavaScript?
+### Please tell about the history of JavaScript?
 
 JavaScript was created in the mid-1990s by Brendan Eich, a programmer at Netscape Communications Corporation. The language was initially called Mocha, then changed to LiveScript, and finally, in December 1995, it was officially named JavaScript. The original purpose of JavaScript was to provide a way to make web pages more interactive by allowing them to respond to user input without requiring a page refresh.
 
@@ -179,11 +182,11 @@ Over the years, JavaScript has evolved significantly, with new features and capa
 
 Today, JavaScript is one of the most widely-used programming languages in the world, and it is supported by all major web browsers. It is also used to create a wide range of applications, including web apps, mobile apps, desktop apps, and more.
 
-15. Who invented JavaScript?
+### Who invented JavaScript?
 
 JavaScript was invented by Brendan Eich, a programmer at Netscape Communications Corporation in the mid-1990s. He created the language in just 10 days in May 1995. The original name of JavaScript was Mocha, later it was changed to LiveScript, and finally in December 1995, it was officially named JavaScript. The main purpose of the language was to provide interactive features to the web pages, so that it could respond to the user input without requiring a page refresh. The first version of JavaScript was introduced in Netscape Navigator 2.0 browser in September 1995.
 
-16. What is ECMAScript?
+### What is ECMAScript?
 
 ECMAScript is a standardized version of the JavaScript programming language. It is a specification for the scripting language and is maintained by the European Computer Manufacturers Association (ECMA). The first version of ECMAScript was released in 1997, and it has since been updated several times to include new features and capabilities.
 
@@ -193,7 +196,7 @@ The latest version of ECMAScript is ECMAScript 2020 (ES2020). It was released on
 
 ECMAScript's new versions are released annually, which is commonly known as "ECMAScript year-number" like ECMAScript 2019, ECMAScript 2020 and so on.
 
-17. What are the famous JavaScript versions and why?
+### What are the famous JavaScript versions and why?
 
 There are several versions of JavaScript that are considered to be particularly significant or "famous" in the history of the language. These include:
 
@@ -215,21 +218,21 @@ There are several versions of JavaScript that are considered to be particularly 
 
 These versions of JavaScript were considered "famous" because they introduced new features and capabilities that had a significant impact on the way JavaScript is used and how developers work with the language. These features have changed the way web development is done and made the process more efficient and effective.
 
-18. How to use JavaScript in front-end and back-end?
+### How to use JavaScript in front-end and back-end?
 
 JavaScript can be used both in the front-end and back-end of web development.
 
-### Front-end:
+#### Front-end:
 
 In front-end development, JavaScript is primarily used to create interactive user interfaces and dynamic web pages. This is done by adding JavaScript code to an HTML document and using it to manipulate the Document Object Model (DOM) of the page. This allows developers to create things like image sliders, responsive navigation, form validation, and other dynamic user interface elements. JavaScript code can be run directly within a web browser, which allows developers to create dynamic and interactive web pages without the need for constant page refreshes.
 
-## Back-end:
+#### Back-end:
 
 JavaScript can also be used for server-side programming, thanks to technologies such as Node.js. Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript code on a server. Node.js provides an environment for JavaScript to run on a server, which enables developers to use JavaScript for back-end development. This allows developers to create back-end services, such as APIs, and to create real-time web applications. With the help of Node.js, developers can use the same language for both client-side and server-side, which makes development more consistent and efficient.
 
 In short, JavaScript can be used in the front-end to create interactive user interfaces, and in the back-end to create server-side applications, APIs, and more. The versatility of JavaScript makes it a powerful tool for full-stack web development.
 
-19. What is web-browser?
+### What is web-browser?
 
 A web browser is a software application that allows users to access and view web pages on the internet. It interprets the code of a webpage, such as HTML, CSS, and JavaScript, and renders it into a format that can be viewed and interacted with by users. Common examples of web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, and Opera.
 
@@ -239,7 +242,7 @@ Web-browsers also include developer tools which can be used by developers to deb
 
 Web-browsers are an essential component of the internet and have made it possible for users to easily access and interact with a wide variety of online content.
 
-20. What is website?
+### What is website?
 
 A website is a collection of web pages that are organized and hosted on a web server. Websites can be accessed via a web browser by entering a domain name or IP address into the address bar. Websites can include text, images, videos, interactive elements, and other types of digital content. They can be used for a variety of purposes, such as providing information, selling products or services, or facilitating communication and collaboration.
 
@@ -249,7 +252,7 @@ Websites can be static, which means that the content of the website does not cha
 
 In short, a website is a collection of web pages that can be accessed via a web browser, hosted on a web server and can be used for various purposes like providing information, selling products or services, or facilitating communication and collaboration.
 
-21. What is web page?
+### What is web page?
 
 web browser. It is a document that is written in a markup language, such as HTML or XML, and can include text, images, videos, interactive elements, and other types of digital content.
 

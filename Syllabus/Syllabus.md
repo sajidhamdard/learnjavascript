@@ -15,6 +15,8 @@
 - JavaScript history
 - ECMAScript
 - Versions of JavaScript
+- backward compatible
+- forward compatible
 
 ## Visual Studio Code Setup
 
