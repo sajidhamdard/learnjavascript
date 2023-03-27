@@ -396,7 +396,6 @@ In summary, BigInts in JavaScript can throw exceptions when certain operations a
 
 ```
    console.log(Number.isNaN(10)); // false
-
 console.log(Number.isNaN("Hello")); // true
 console.log(Number.isNaN(NaN)); // true
 
@@ -404,7 +403,7 @@ console.log(Number.isNaN(NaN)); // true
 
 Number.isFinite(value) - Returns true if the given value is a finite number, and false otherwise. This function does not convert the value to a number before checking it, so it will return false for non-numeric values.
 
-    Number.parseInt(string, radix) - Parses a string into an integer using the specified radix (base). The radix can be any integer between 2 and 36. If the string cannot be parsed into an integer, this function returns NaN.
+Number.parseInt(string, radix) - Parses a string into an integer using the specified radix (base). The radix can be any integer between 2 and 36. If the string cannot be parsed into an integer, this function returns NaN.
 
 ```
     console.log(Number.parseInt("100")); // 100
@@ -433,7 +432,6 @@ Number.prototype.toFixed(digits) - Returns a string representing the given numbe
 
 ```
   let x = 10.12345;
-
 console.log(x.toFixed(2)); // "10.12"
 
 ```
