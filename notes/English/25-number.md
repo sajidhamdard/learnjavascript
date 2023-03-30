@@ -150,3 +150,294 @@ let hex = 0xff;
 console.log(hex); // Output: 255
 
 ```
+
+### Hoisting in numbers
+
+Hoisting is a mechanism in JavaScript that allows variables and function declarations to be moved to the top of their respective scopes (either global or function) before the code is executed. This means that variables and functions can be declared after they are used in the code.
+
+However, it's important to note that only the declarations are hoisted, not the initializations. In the case of variables, the variable declaration is moved to the top, but the value is not. So, if you try to use the value of a variable before it's initialized, it will have the value undefined.
+
+- For example:
+
+```
+console.log(x); // output: undefined
+var x = 5;
+```
+
+In the case of functions, the entire function declaration is hoisted to the top, including the body of the function. This means that you can call a function before it's declared in the code.
+
+- For example:
+
+```
+foo(); // output: "Hello, world!"
+function foo() {
+  console.log("Hello, world!");
+}
+```
+
+### Math and Rounding
+
+Math is a built-in object in JavaScript that provides mathematical constants and functions. One of the most common uses of Math in JavaScript is for rounding numbers.
+
+There are several methods available in Math for rounding numbers:
+
+    Math.round(): The Math.round() method rounds a number to the nearest integer. If the fractional part of the number is 0.5 or greater, the number is rounded up. If the fractional part is less than 0.5, the number is rounded down.
+
+- For example:
+
+```
+Math.round(4.6); // output: 5
+Math.round(4.4); // output: 4
+```
+
+Math.floor(): The Math.floor() method rounds a number down to the nearest integer.
+
+- For example:
+
+```
+Math.floor(4.6); // output: 4
+Math.floor(4.4); // output: 4
+```
+
+Math.ceil(): The Math.ceil() method rounds a number up to the nearest integer.
+
+- For example:
+
+```
+Math.ceil(4.6); // output: 5
+Math.ceil(4.4); // output: 5
+
+```
+
+Math.trunc(): The Math.trunc() method returns the integer part of a number by removing any fractional digits.
+
+- For example:
+
+```
+Math.trunc(4.6); // output: 4
+Math.trunc(4.4); // output: 4
+```
+
+Number.toFixed(): The Number.toFixed() method rounds a number to a specified number of decimal places and returns a string representation of the rounded number.
+
+- For example:
+
+```
+let x = 4.5678;
+x.toFixed(2); // output: "4.57"
+```
+
+### The Reminder operator
+
+The remainder operator in JavaScript is represented by the % symbol and is also known as the modulo operator. It returns the remainder of a division operation between two operands.
+
+- For example:
+
+```
+5 % 2; // output: 1
+```
+
+In this example, the remainder operator returns the remainder of the division of 5 by 2, which is 1.
+
+The remainder operator can be used with both positive and negative numbers, and it can also be used with floating-point numbers.
+
+- For example:
+
+```
+-5 % 2; // output: -1
+5.5 % 2; // output: 1.5
+```
+
+In the first example, the remainder operator returns -1 because -5 divided by 2 has a remainder of -1. In the second example, the remainder operator returns 1.5 because 5.5 divided by 2 has a remainder of 1.5.
+
+The remainder operator can be used in a variety of ways in JavaScript, including for checking if a number is even or odd.
+
+- For example:
+
+```
+let x = 5;
+if (x % 2 === 0) {
+  console.log("x is even");
+} else {
+  console.log("x is odd");
+}
+```
+
+### Numeric Separators
+
+Numeric separators in JavaScript are a way to make large numbers more readable by separating groups of digits with underscores. This is especially useful for large numbers, such as millions or billions, where it can be difficult to quickly count the number of digits.
+
+Numeric separators are represented by an underscore (\_) character and can be used in the middle of a number.
+
+- For example:
+
+```
+let x = 1_000_000;
+console.log(x); // output: 1000000
+```
+
+In this example, the numeric separator is used to separate the groups of digits in the number 1_000_000, making it easier to read.
+
+Numeric separators can be used with integers, floating-point numbers, and binary, octal, and hexadecimal literals.
+
+- For example:
+
+```
+let y = 0b1010_0001_0010;
+console.log(y); // output: 4162
+```
+
+In this example, the binary literal 0b1010_0001_0010 is used with a numeric separator to represent the decimal number 4162.
+
+It's important to note that numeric separators are ignored by JavaScript when parsing a number, so they have no effect on the actual value of the number.
+
+- For example:
+
+```
+let z = 1_2_3 + 4_5_6;
+console.log(z); // output: 579
+```
+
+In this example, the numeric separators are used to make the number 579 more readable, but they have no effect on the actual value of the expression 1_2_3 + 4_5_6.
+
+Numeric separators were introduced in ECMAScript 2017 (ES8) and are supported in modern browsers and Node.js. However, they may not be supported in older browsers or environments, so it's important to check for compatibility before using them in your code.
+
+### Working with BigInt
+
+In JavaScript, BigInt is a built-in object that provides a way to represent integers larger than the maximum safe integer value of 2^53 - 1. BigInts can be used for calculations involving very large numbers, such as cryptography, scientific computations, and financial applications.
+
+To create a BigInt, you can append the n suffix to an integer literal or use the BigInt() constructor function.
+
+- For example:
+
+```
+let x = 123456789012345678901234567890n;
+let y = BigInt("987654321098765432109876543210");
+```
+
+In these examples, the n suffix and the BigInt() constructor are used to create BigInts.
+
+BigInts can be used with standard arithmetic operators, such as +, -, \*, /, and %. However, you must use the BigInt() function when mixing BigInts with regular numbers, as shown in the following example:
+
+```
+let x = 123n;
+let y = 456;
+let z = x + BigInt(y); // output: 579n
+```
+
+In this example, the BigInt() function is used to convert the regular number y to a BigInt, so it can be added to the BigInt x.
+
+BigInts can also be compared using standard comparison operators, such as <, <=, >, >=, ==, and !=. However, you cannot mix BigInts and regular numbers in a comparison, so you must use the BigInt() function to convert regular numbers to BigInts.
+
+- For example:
+
+```
+let x = 123n;
+let y = 456;
+console.log(x < BigInt(y)); // output: true
+```
+
+In this example, the BigInt() function is used to convert the regular number y to a BigInt, so it can be compared to the BigInt x.
+
+BigInts also support bitwise operators, such as &, |, ^, ~, <<, and >>. However, you cannot mix BigInts and regular numbers in a bitwise operation, so you must use the BigInt() function to convert regular numbers to BigInts.
+
+- For example:
+
+```
+let x = 0b1010n;
+let y = 0b1100;
+let z = x & BigInt(y); // output: 8n
+```
+
+n this example, the BigInt() function is used to convert the regular number y to a BigInt, so it can be bitwise-ANDed with the BigInt x.
+
+In summary, BigInt is a built-in object in JavaScript that provides a way to represent integers larger than the maximum safe integer value. BigInts can be created using the n suffix or the BigInt() constructor function and can be used with standard arithmetic, comparison, and bitwise operators. However, you must use the BigInt() function when mixing BigInts and regular numbers.
+
+- Exceptions in BigInt
+  In JavaScript, BigInts can throw exceptions when certain operations are performed on them. These exceptions are similar to regular JavaScript exceptions and are designed to help you catch errors in your code.
+
+The most common exception that can be thrown when working with BigInts is RangeError, which occurs when a BigInt operation results in a value that is outside the range of valid BigInt values. For example, the following code will throw a RangeError exception:
+
+```
+let x = 1n << 1000000n; // RangeError: BigInt too big
+```
+
+In this example, the << operator is used to shift the BigInt 1n left by 1000000 bits, which results in a BigInt value that is too large to be represented.
+
+Another exception that can be thrown when working with BigInts is TypeError, which occurs when a function or operator is used on a non-BigInt value. For example, the following code will throw a TypeError exception:
+
+```
+let x = 123n;
+let y = "456";
+let z = x + y; // TypeError: Cannot mix BigInt and other types
+```
+
+In this example, the + operator is used to add the BigInt x to the string "456", which is not a BigInt and cannot be mixed with BigInts.
+
+To handle exceptions when working with BigInts, you can use the standard JavaScript try/catch statement.
+
+- For example:
+
+```
+try {
+  let x = 1n << 1000000n;
+} catch (e) {
+  console.error(e); // RangeError: BigInt too big
+}
+```
+
+In this example, the try statement is used to attempt the << operation on the BigInt 1n. If a RangeError exception is thrown, the catch statement will catch the exception and log an error message to the console.
+
+In summary, BigInts in JavaScript can throw exceptions when certain operations are performed on them. The most common exception is RangeError, which occurs when a BigInt value is outside the range of valid BigInt values. To handle exceptions, you can use the standard JavaScript try/catch statement.
+
+### Number class functions
+
+    Number.isNaN(value) - Returns true if the given value is NaN (Not a Number), and false otherwise.
+
+```
+   console.log(Number.isNaN(10)); // false
+console.log(Number.isNaN("Hello")); // true
+console.log(Number.isNaN(NaN)); // true
+
+```
+
+Number.isFinite(value) - Returns true if the given value is a finite number, and false otherwise. This function does not convert the value to a number before checking it, so it will return false for non-numeric values.
+
+Number.parseInt(string, radix) - Parses a string into an integer using the specified radix (base). The radix can be any integer between 2 and 36. If the string cannot be parsed into an integer, this function returns NaN.
+
+```
+    console.log(Number.parseInt("100")); // 100
+console.log(Number.parseInt("100", 2)); // 4
+console.log(Number.parseInt("FF", 16)); // 255
+```
+
+Number.parseFloat(string) - Parses a string into a floating-point number. If the string cannot be parsed into a number, this function returns NaN.
+
+Number.MAX_VALUE - Returns the largest representable number in JavaScript.
+
+```
+  console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+console.log(Number.MIN_VALUE); // 5e-324
+```
+
+Number.MIN_VALUE - Returns the smallest representable number in JavaScript.
+
+Number.POSITIVE_INFINITY - Represents positive infinity in JavaScript.
+
+Number.NEGATIVE_INFINITY - Represents negative infinity in JavaScript.
+
+Number.EPSILON - Represents the smallest representable difference between two numbers in JavaScript.
+
+Number.prototype.toFixed(digits) - Returns a string representing the given number with a fixed number of decimal places (specified by the digits argument).
+
+```
+  let x = 10.12345;
+console.log(x.toFixed(2)); // "10.12"
+
+```
+
+Number.prototype.toPrecision(digits) - Returns a string representing the given number with a specified number of significant digits (specified by the digits argument).
+
+Number.prototype.toString(radix) - Returns a string representation of the given number in the specified radix (base).
+
+These functions provide powerful tools for working with numbers in JavaScript. They can be used to validate input, convert between number formats, and manipulate numbers in various ways.
