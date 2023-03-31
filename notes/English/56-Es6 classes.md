@@ -18,3 +18,32 @@ MyClass.myStaticMethod(); // Outputs: "This is a static method."
 ```
 
 Note that unlike instance methods, static methods cannot access instance-specific properties or methods using `this`. Instead, they operate solely on the class itself or any arguments passed into them.
+
+
+### how to use ES6 classes in javascript
+To use ES6 classes in JavaScript, you can follow these basic steps:
+
+1. Define a class using the `class` keyword followed by the class name.
+2. Define the class constructor method using the `constructor` keyword.
+3. Add class methods to the class using the regular function syntax within the class definition.
+4. Create an instance of the class using the `new` keyword followed by the class name and any arguments required for the constructor.
+
+Here's an example:
+
+```
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  sayHi() {
+    console.log(`Hi, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
+
+const john = new Person('John', 30);
+john.sayHi(); // logs "Hi, my name is John and I'm 30 years old."
+```
+
+In this example, we define a `Person` class with a constructor that takes a `name` and `age` argument. We also add a `sayHi` method to the class that logs a message to the console. We then create a `john` object as an instance of the `Person` class using the `new` keyword, passing in the necessary arguments to the constructor. Finally, we call the `sayHi` method on the `john` object to log the message to the console.
