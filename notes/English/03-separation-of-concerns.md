@@ -1,4 +1,4 @@
-# 03:Separation of Concerns
+# 03: Separation of Concerns
 
 ### What is separation of concerns principle ?
 
