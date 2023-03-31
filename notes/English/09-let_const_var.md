@@ -1,4 +1,4 @@
-# ==========let==========
+# let
 
 We use "let" variables in JavaScript to declare variables that are only accessible within the specific block of code or function where they are defined. This helps to prevent accidental conflicts with other variables that may have the same name, and makes the code easier to read and understand.
 
@@ -11,7 +11,7 @@ console.log(x);//SyntaxError: 'x' has already been declared
 
 ```
 
-# ==========const==========
+# const
 
 The scope of a const variable is block scope. It cannot be updated or re-declared into the scope. It cannot be declared without initialization. It cannot be accessed without initialization, as it cannot be declared without initialization. Hoisting is done, but not initialized (this is the reason for error when we access the const variable before declaration/initialization. For example:
 
@@ -22,7 +22,7 @@ console.log(); //typeErroe:this will also give an error
 
 ```
 
-# ==========var==========
+# var
 
 The scope of a var variable is functional scope. It can be updated and re-declared into the scope. It can be declared without initialization. It can be accessed without initialization as its default value is “undefined”. hoisting done , with initializing as ‘default’ value. For example:
 
