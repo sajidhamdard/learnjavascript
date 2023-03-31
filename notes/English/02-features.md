@@ -1,4 +1,4 @@
-# 02 : JavaScript Features
+# JavaScript Features
 
 ### What is High level language ?
 
