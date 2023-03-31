@@ -1,0 +1,2 @@
+### what is Babel in javascript 
+Babel is a popular JavaScript transpiler that allows developers to write modern JavaScript code using the latest language features and then convert it into an older version of JavaScript that can run in older browsers or environments. It helps to ensure that the code works across different platforms by translating new features into their equivalent versions in older JavaScript standards.
