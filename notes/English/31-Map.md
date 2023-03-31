@@ -1,4 +1,4 @@
-### What is a Map in javascript
+### What is a Map ?
 In JavaScript, a map is a built-in data structure that allows you to store and retrieve key-value pairs. It's similar to an object, but with some important differences: 
 
 - A map can use any type of value as its key, not just strings or symbols like objects.
@@ -8,7 +8,7 @@ In JavaScript, a map is a built-in data structure that allows you to store and r
 Overall, maps provide a convenient way to manage collections of data in JavaScript.
 
 
-### how to Create new map in javascript
+### How to Create new Map ?
 To create a new map in JavaScript, you can use the Map constructor function. Here's an example:
 
 ```
@@ -47,7 +47,7 @@ for (let [key, value] of myMap) {
 Note that maps are similar to objects, but with some key differences such as being able to use any type of value as a key (not just strings), maintaining the order of insertion, and having a `size` property to get the number of entries in the map.
 
 
-### how to add value in a map in javascript
+### How to add value in a map ?
 To add a key-value pair to a JavaScript map, you can use the `set()` method. Here's an example:
 
 ```
@@ -69,15 +69,15 @@ let myMap = new Map([
 This creates a new map with two key-value pairs: `'key1'` maps to `'value1'`, and `'key2'` maps to `'value2'`.
 
 
-### what is Chaining in map in javascript
+### What is Chaining in map ?
 Chaining in map in JavaScript refers to the ability to chain multiple map() method calls together to perform a series of transformations on an array. This allows for more concise and readable code by avoiding intermediate variables and making the data transformation process more explicit. The resulting array is returned after applying all the transformations.
 
 
-### what is Map get function in javascript
+### What is Map get function ?
 The `Map.get()` function in JavaScript is a method used to retrieve the value associated with a specific key in a `Map` object. It takes a single argument, which is the key of the value to be retrieved, and returns the corresponding value if it exists in the `Map`, or `undefined` if it does not.
 
 
-### what is Map has function in javascript
+### What is Map has function ?
 In JavaScript, the `map()` function is a built-in higher-order function that allows you to apply a given transformation function to each element of an array and return a new array containing the transformed elements. The original array remains unchanged. The syntax for using `map()` is as follows:
 
 ```
@@ -97,15 +97,15 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8]
 ```
 
 
-### what is Map size function in javascript
+### What is Map size function ?
 In JavaScript, the `Map.size` property returns the number of key-value pairs in a Map object. It is a read-only property and can be accessed using the dot notation like `myMap.size`.
 
 
-### what is Map clear function in javascript
+### What is Map clear function ?
 The `Map.clear()` function in JavaScript is a method that removes all key-value pairs from a `Map` object, making it empty. After calling the `clear()` function, the `Map` object will have a size of 0. The function does not return anything.
 
 
-### explain Array as key of Map in javascript
+### Explain Array as key of Map ?
 In JavaScript, an array can be used as a key in a Map data structure. When an array is used as a key, it is converted to a string using the Array.prototype.toString() method, which returns a comma-separated string of the array's elements.
 
 For example:
@@ -125,7 +125,7 @@ In this example, `myArray` is used as a key for the `myMap` object, and the valu
 It's worth noting that since arrays are objects in JavaScript, they can also have properties added or changed. This can cause unexpected behavior when using an array as a key, especially if the properties are not taken into account when converting the array to a string.
 
 
-### explain Iteration of Map in javascript
+### Explain Iteration of Map ?
 In JavaScript, iteration of Map can be done using methods like `forEach`, `for...of` or `entries`.
 
 1. Using `forEach` method:
@@ -185,7 +185,7 @@ for (let entry of entries) {
 ```
 
 
-### how to convert Object to map in javascript
+### How to convert Object to Map ?
 In JavaScript, you can convert an object to a Map by using the built-in `Map` constructor and the `Object.entries()` method. Here's an example:
 
 ```
@@ -198,7 +198,7 @@ In this example, `Object.entries(obj)` returns an array of key-value pairs from 
 Note that if the object has non-string keys or symbol properties, they will be lost when converting to a Map, since Maps can only have string or symbol keys.
 
 
-### how to convert Map to array in javascript
+### How to convert Map to Aray
 You can convert a Map to an array in JavaScript using the `Array.from()` method or the spread operator (`...`). Here's how:
 
 Using `Array.from()`:
@@ -228,7 +228,7 @@ console.log(myArray); // [['key1', 'value1'], ['key2', 'value2'], ['key3', 'valu
 ```
 
 
-### Use forEach function on map in javascript
+### Use forEach function on Map
 In JavaScript, `forEach()` is a method that can be called on an array to loop over its elements and perform some action for each element. 
 
 On the other hand, `map()` is a method that creates a new array with the results of calling a provided function on every element in the calling array.
