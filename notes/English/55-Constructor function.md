@@ -1,0 +1,4 @@
+### what is Constructor functions and new operator in JavaScript
+Constructor functions in JavaScript are functions that are used to create and initialize objects. They are typically defined with a capitalized name to distinguish them from regular functions. When a constructor function is called with the "new" operator, it creates a new object and sets the object's prototype to the constructor function's prototype property. The constructor function then initializes the newly created object with instance properties and methods.
+
+The "new" operator in JavaScript is used to create a new instance of an object. When used with a constructor function, it creates a new object and invokes the constructor function to initialize the object. It returns the newly created object, which can be assigned to a variable or used directly. If the constructor function does not return anything explicitly, the "new" operator automatically returns the newly created object.
