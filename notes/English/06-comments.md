@@ -1,4 +1,4 @@
-# 05 : Comments
+# 06 : Comments
 
 In JavaScript, a comment is a piece of text that is ignored by the JavaScript interpreter and is not executed as part of the program. Comments are used to add notes, explanations, or documentation to the code, and are intended for human readers, not the computer.
 
