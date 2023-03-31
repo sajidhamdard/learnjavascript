@@ -1,0 +1,2 @@
+### what is Transpiling in javascript
+Transpiling in JavaScript refers to the process of converting code written in one version of JavaScript (such as ES6 or ES7) to another version that can be understood by older browsers or environments. The term "transpile" is a combination of "translate" and "compile", and transpilers typically use tools like Babel to convert newer language features into equivalent code that can run on older systems.
