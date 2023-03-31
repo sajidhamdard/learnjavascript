@@ -41,7 +41,7 @@ var str = String.fromCodePoint(72, 101, 108, 108, 111); // "Hello"
 
 Note: In javascript string are immutable, so once string is created it can't be changed, but it can be replaced.
 
-### String Literal vs String Object :
+### String Literal vs String Object ?
 
 In JavaScript, there are two ways to create strings: using a string literal or using the String constructor.
 
@@ -53,7 +53,7 @@ In general, it is recommended to use string literals instead of string objects, 
 
 Also, one important thing to note that in javascript, string literals and string objects are interchangeable and can be used interchangeably in most cases.
 
-### String length property:
+### String length property
 
 In JavaScript, you can use the length property to determine the number of characters in a string. The length property returns the number of characters in the string, including spaces and special characters.
 
