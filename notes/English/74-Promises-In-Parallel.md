@@ -1,0 +1,2 @@
+### what is Running promises in Parallel in javascript
+Running promises in parallel in JavaScript refers to executing multiple asynchronous operations simultaneously, without waiting for one operation to complete before starting the next one. This can improve performance and reduce overall execution time. One way to achieve this is by using Promise.all() method which takes an array of promises and returns a new promise that resolves when all the input promises have resolved or rejects when any of the input promises reject.
