@@ -1,4 +1,4 @@
-# 06 : Use strict
+# Use strict
 
 "use strict" is a directive that can be placed at the beginning of a JavaScript file or a function to indicate that the code should be executed in "strict mode." When in strict mode, JavaScript will enforce a more strict set of rules and throw errors when certain actions are taken that would be allowed in non-strict mode. This can be useful for catching common coding mistakes and ensuring that your code runs as intended.
 
