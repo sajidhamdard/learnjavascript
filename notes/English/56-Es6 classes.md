@@ -1,0 +1,2 @@
+### what is ES6 classes in JavaScript
+ES6 classes in JavaScript are a syntactic sugar that provides a cleaner and more concise way of defining constructor functions and creating objects with prototype-based inheritance. They use the "class" keyword to define a constructor function, which can have a constructor method, instance methods, and static methods. ES6 classes also support inheritance through the use of the "extends" keyword, allowing for easier code reuse and organization.
