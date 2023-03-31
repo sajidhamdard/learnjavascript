@@ -319,8 +319,8 @@ setTimeout(() => {
 
 In this example, the setTimeout function is called with a delay of 3 seconds (3000 milliseconds). After the specified delay, the anonymous function is executed and logs the message to the console.
 
-    setInterval:
-    The setInterval function is similar to setTimeout, but instead of executing the function once, it executes the function repeatedly at a specified interval. The function also takes two arguments: the first is the function you want to execute, and the second is the interval time in milliseconds.
+setInterval:
+The setInterval function is similar to setTimeout, but instead of executing the function once, it executes the function repeatedly at a specified interval. The function also takes two arguments: the first is the function you want to execute, and the second is the interval time in milliseconds.
 
 - Here's an example:
 
