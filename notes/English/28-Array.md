@@ -89,7 +89,7 @@ arr.forEach(function(item) {
 Both methods will output each item in the array to the console.
 
 
-### sort function in JavaScript?
+### sort function ?
 The `sort()` function in JavaScript is used to sort an array in ascending or descending order. By default, it sorts the elements in ascending order based on their Unicode values. The basic syntax for using the `sort()` function is:
 
 ```
@@ -365,5 +365,16 @@ Note that the flat() function is only available in newer versions of JavaScript 
 
 ### flatMap function ?
 The `flatMap()` function in JavaScript is an array method that combines mapping and flattening into a single step. It takes each element in the array, applies a mapping function to it, and then flattens the result into a new array. The resulting array has the same length as the original array, but the elements may be different due to the mapping and flattening process. The `flatMap()` function can also be used to remove empty or undefined values from an array.
+```
+const arr = [1, 2, 3];
 
+const result = arr.flatMap(num => [num, num * 2]);
 
+console.log(result); // [1, 2, 2, 4, 3, 6]
+
+```
+In this example, we start with an array [1, 2, 3]. We then call flatMap() on the array, passing in a function that takes each element of the array and returns a new array containing the original number and that number multiplied by 2.
+
+The flatMap() function then flattens the resulting array, giving us the output [1, 2, 2, 4, 3, 6].
+
+So, the flatMap() function allows us to apply a function to each element of an array, and then flatten the resulting array into a single dimension.
