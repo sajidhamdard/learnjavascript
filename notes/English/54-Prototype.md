@@ -1,0 +1,2 @@
+### what is Prototypes in JavaScript
+In JavaScript, a prototype is an object that serves as a fallback source of property values and methods for another object. Every object in JavaScript has a prototype, which can be used to inherit properties and methods from other objects. Prototypes allow for object-oriented programming in JavaScript by providing a way to share behavior among multiple objects without duplicating code.
