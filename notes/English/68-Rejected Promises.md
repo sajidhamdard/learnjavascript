@@ -1,0 +1,2 @@
+### what is Handling Rejected Promises in javascript
+Handling rejected promises in JavaScript involves using the `.catch()` method to handle errors that occur during the execution of a promise. This allows you to gracefully handle any errors that may occur and provide useful feedback to the user about what went wrong. The `.catch()` method can be chained onto the end of a promise chain and passed a function that will be called if the promise is rejected.
