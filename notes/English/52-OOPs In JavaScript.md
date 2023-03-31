@@ -1,0 +1,2 @@
+### what is OOPs in JavaScript
+OOPs, or Object-Oriented Programming, is a programming paradigm that emphasizes the use of objects and classes to organize and structure code. In JavaScript, OOPs can be implemented using constructor functions, prototype-based inheritance, and ES6 classes. The primary benefits of using OOPs in JavaScript are improved code organization, encapsulation, and code reuse.
