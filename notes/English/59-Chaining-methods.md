@@ -1,5 +1,6 @@
 
-### what is Chaining methods in javascript and how to do it for custom functions?
+### What is Chaining methods and how to do it for custom functions?
+
 Chaining methods in JavaScript is a technique where multiple methods are called on the same object in sequence, with each method returning the object itself, allowing for a fluent syntax. 
 
 To create custom functions that can be chained together, you need to modify the function so that it returns the object itself at the end of the function definition, like so:
