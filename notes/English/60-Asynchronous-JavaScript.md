@@ -1,0 +1,2 @@
+### what is Asynchronous JavaScript in javascript
+Asynchronous JavaScript is a programming paradigm in JavaScript that allows the execution of multiple tasks simultaneously without blocking the main thread. This is achieved through the use of callbacks, promises, and async/await functions to handle time-consuming operations such as network requests and file I/O. Asynchronous operations allow JavaScript applications to remain responsive and improve their performance.
