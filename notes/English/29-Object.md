@@ -1,11 +1,11 @@
-### What is an object in javascript
+### What is an object ?
 In JavaScript, an object is a collection of key-value pairs, where the keys are strings (or symbols) and the values can be any JavaScript data type, including other objects. Objects in JavaScript are dynamic, meaning that their properties can be added, modified, or removed at runtime. They are also reference types, which means that when you assign an object to a variable, the variable holds a reference to the object in memory rather than a copy of its value.
 
 
-### What is Object literal syntax in javascript
+### What is Object literal syntax ?
 Object literal syntax in JavaScript is a way to create an object by directly defining its properties and values within curly braces. It is a shorthand notation for creating objects without using the constructor function. For example:
 
-```
+```javascript
 const myObject = { 
   name: 'John', 
   age: 30, 
@@ -16,7 +16,7 @@ const myObject = {
 This creates an object `myObject` with three properties: `name`, `age`, and `city`, each with a corresponding value. Object literal syntax is a common and convenient way to create objects in JavaScript.
 
 
-### How to create Object using new keyword  in javascript
+### How to create Object using new keyword ?
 To create an object using the `new` keyword in JavaScript, you can define a constructor function and use the `new` keyword to instantiate an object of that type. Here's an example:
 
 ```
@@ -36,7 +36,7 @@ In this example, we define a constructor function called `Person`, which takes t
 When the `new` keyword is used with a constructor function, it creates a new object, sets the `this` keyword to refer to that object, executes the code inside the constructor function (which typically sets up the object's properties), and then returns the new object.
 
 
-### Explain Object Annotations in javascript
+### Explain Object Annotations
 Object Annotations in javascript are a way to define and initialize objects. An object is created by enclosing key-value pairs within curly braces `{}`. The keys represent the properties of the object and the values represent the values of those properties.
 
 There are two ways to add properties to an object using object annotations:
@@ -69,7 +69,7 @@ const myObject = {
 In this case, the properties are defined inside the curly braces `{}` separated by commas `,`.
 
 
-### Explain Dot annotation in javascript
+### Explain Dot annotation
 In JavaScript, dot notation is a way to access properties and methods of an object using the dot (.) operator. Using dot notation, you can access properties and methods of an object by specifying the object name followed by a dot and then the property or method name.
 
 For example, if you have an object called "person" with properties "name" and "age", you can access the name property using dot notation like this:
@@ -100,7 +100,7 @@ person.sayHello(); // Output: "Hello!"
 Note that dot notation only works for accessing properties and methods that have valid identifier names. For properties or methods with special characters or reserved words in their names, you must use bracket notation instead.
 
 
-### Explain Bracket annotation in javascript
+### Explain Bracket annotation
 Bracket annotation in JavaScript is a way of accessing an object's property using square brackets and a string key instead of the traditional dot notation. For example, instead of writing `object.property`, you can write `object['property']`. This is useful when the property name is dynamic or contains special characters that are not valid as identifier names. 
 
 For instance, if you have an object `myObj` with a property whose name is stored in a variable `propName`, you can access it using bracket annotation like this: `myObj[propName]`. Similarly, if the property name contains special characters like spaces or hyphens, you can use bracket annotation to access it: `myObj['special-prop']`.
@@ -108,7 +108,7 @@ For instance, if you have an object `myObj` with a property whose name is stored
 Note that while most objects in JavaScript support bracket annotation, there are some exceptions, such as primitive values (e.g., strings, numbers) and some built-in objects like `Math` or `Date`.
 
 
-### Explain Object properties : Key and Value  in javascript
+### Explain Object properties : Key and Value
 In JavaScript, an object is a collection of key-value pairs. The "key" in an object refers to the unique identifier that is used to access its corresponding "value". 
 
 For example, consider an object representing a person:
@@ -131,7 +131,7 @@ console.log(person["age"]); // Output: 30
 ```
 
 
-### Explain Array inside an Object in javascript
+### Explain Array inside an Object
 In JavaScript, an array inside an object is a way to store multiple values in a single property of an object. This property can be accessed using the dot notation or square bracket notation. 
 
 For example, let's say we have an object called "car" with properties such as "make", "model", and "year". We can add an array called "features" that includes additional information about the car, such as its color, engine size, and transmission type.
@@ -157,7 +157,7 @@ console.log(car["features"][1]); // Output: "2.5L"
 So, by using an array inside an object, we can organize related data together and easily access it when needed.
 
 
-### Explain Function inside an Object in javascript
+### Explain Function inside an Object
 In JavaScript, objects can contain functions as properties, which are called "methods". These methods can be accessed and invoked using dot notation.
 
 For example, consider an object representing a car:
@@ -204,7 +204,7 @@ let car = {
 Here, `this.make` and `this.model` refer to the `make` and `model` properties of the `car` object.
 
 
-### Explain Uses of this inside an Object in javascript
+### Explain Uses of this inside an Object
 In JavaScript, `this` refers to the current object that a method is being called on, or the object that a function is invoked with. It allows you to access and modify properties and methods of the object within which `this` is used.
 
 Some common uses of `this` inside an object include:
@@ -220,7 +220,7 @@ Some common uses of `this` inside an object include:
 Note that the value of `this` depends on how a function is called. When a function is called without an explicit context (i.e., as a standalone function), `this` refers to the global object (e.g., `window` in the browser). To avoid this, you can use the `bind`, `call`, or `apply` methods to explicitly set the value of `this`.
 
 
-### Explain Object functions Keys(), Values(), entries()  in javascript
+### Explain Object functions : Keys(), Values(), entries()
 In JavaScript, object functions `keys()`, `values()`, and `entries()` are used to extract information from an object.
 
 - The `keys()` function returns an array of all the keys within an object.
