@@ -1,0 +1,2 @@
+### what is Chaining Promises in javascript
+Chaining Promises in JavaScript is a technique for handling asynchronous operations where multiple Promise objects are linked together in a chain, with the output of one Promise becoming the input of the next. This allows for more efficient and readable code compared to nested callback functions. Each Promise in the chain can be modified or transformed using methods such as .then(), .catch(), and .finally() to handle success, error, and completion cases respectively.
