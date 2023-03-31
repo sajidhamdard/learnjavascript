@@ -1,0 +1,2 @@
+### What is an API in javascript
+API stands for "Application Programming Interface." In JavaScript, an API is a set of functions and protocols that allow developers to interact with external software components or services. These can include libraries, databases, web services, and other resources accessible over the internet. By using APIs in JavaScript code, developers can easily access and manipulate data from these external sources without having to write all the underlying code themselves.
