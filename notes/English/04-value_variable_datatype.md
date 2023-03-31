@@ -1,4 +1,4 @@
-# 04 : Value, Variable and Data Types
+# Value, Variable and Data Types
 
 ### What is Data:
 
