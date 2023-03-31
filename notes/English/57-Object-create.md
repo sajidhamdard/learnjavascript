@@ -1,4 +1,5 @@
-### how to use Object.create in JavaScript
+### How to use Object.create ?
+
 In JavaScript, you can use the `Object.create()` method to create a new object with an existing object as its prototype. Here's an example:
 
 ```
