@@ -23,3 +23,26 @@ const child = Object.create(parent, {
 
 console.log(child.name); // outputs "Alice"
 ```
+
+In JavaScript, the `Object.create()` method is used to create a new object with the specified prototype object and properties. Here's an example of how to use it:
+
+```
+// Create a prototype object
+const personPrototype = {
+  greet: function() {
+    console.log(`Hello, my name is ${this.name}.`);
+  }
+};
+
+// Create a new object with personPrototype as its prototype
+const person1 = Object.create(personPrototype);
+
+// Add properties to person1
+person1.name = "John";
+person1.age = 30;
+
+// Call the greet method on person1
+person1.greet(); // Output: Hello, my name is John.
+```
+
+In this example, we first create a `personPrototype` object that has a `greet` method. We then use `Object.create()` to create a new object called `person1`, with `personPrototype` as its prototype. We add some properties to `person1`, including `name` and `age`. Finally, we call the `greet` method on `person1`, which outputs "Hello, my name is John."
