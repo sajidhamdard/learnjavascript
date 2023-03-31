@@ -1,0 +1,2 @@
+### what is Ajax in javascript
+AJAX (Asynchronous JavaScript and XML) is a technique in JavaScript that allows web pages to update content dynamically without requiring a page refresh. It enables data to be transferred between the client and server asynchronously, allowing for faster and more responsive user interfaces. AJAX is commonly used in web development for features such as form submissions, auto-complete search boxes, and infinite scrolling pages.
