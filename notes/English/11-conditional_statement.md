@@ -1,4 +1,4 @@
-# What is conditional statement:
+# Conditional statements
 
 A conditional statement in JavaScript allows you to execute different code based on whether a certain condition is true or false. This is useful for controlling the flow of your program and making decisions.
 
