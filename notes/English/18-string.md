@@ -1,4 +1,4 @@
-# ========== String functions ==========
+# String
 
 ### What is String
 
