@@ -6,6 +6,8 @@ In JavaScript, an identifier is a name given to a variable, function, or other e
 
 An identifier must start with a letter, underscore(\_), or dollar sign($) and can be followed by any number of letters, digits, underscores, or dollar signs.
 
+### Rules for creating identifiers
+
 JavaScript has a set of rules for naming variables and other elements known as naming conventions. Some of the common naming conventions are:
 
 - Variables and function should start with lowercase letters
