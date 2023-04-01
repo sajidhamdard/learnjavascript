@@ -1,6 +1,6 @@
 # Statement
 
-### What is Statement:
+### What is Statement
 
 Statement in a programming means any line of code that instructs the compiler to perform
 a specific task.
