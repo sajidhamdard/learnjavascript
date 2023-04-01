@@ -147,3 +147,63 @@ bar() && foo(); // Output: "bar"
 ```
 
 In the above example, `bar()` returns `false`, so the expression `bar() && foo()` evaluates to `false`. Because of short-circuit evaluation, `foo()` is not called at all, so nothing is output to the console. If `bar()` had returned `true`, then `foo()` would have been called and `"foo"` would have been output to the console.
+
+
+### What is  The Nullish Coalescing Operator ??
+
+The Nullish Coalescing Operator (??) is a JavaScript operator that returns its right-hand side operand when its left-hand side operand is null or undefined; otherwise, it returns its left-hand side operand.
+
+Here's an example:
+
+let foo = null;
+let bar = foo ?? "default value";
+
+console.log(bar); // Output: "default value"
+
+In the above code, the variable 'foo' is assigned to null, so the expression foo ?? "default value" evaluates to "default value" because the left-hand side operand ('foo') is null. If the value of 'foo' had been defined (i.e., not null), the expression would have evaluated to the value of 'foo'. 
+
+The Nullish Coalescing Operator can also be used in combination with optional chaining operator (?.) to provide a default value for a nested property that may not exist. Here's an example:
+
+const obj = {
+  prop1: {
+    prop2: null
+  }
+};
+
+const val = obj.prop1.prop2 ?? "default value";
+
+console.log(val); // Output: "null"
+
+In the above code, the value of obj.prop1.prop2 is null, so the expression obj.prop1.prop2 ?? "default value" evaluates to null. If obj.prop1.prop2 had not been defined, the expression would have evaluated to the default value ("default value").
+
+
+### What is Logical Assignment Operators ||= &&= ??= ?
+Logical Assignment Operators in JavaScript are shorthand operators that combine logical operators with assignment operators. They allow you to perform a logical operation and re-assign the result back to the variable in a single line of code.
+
+The three Logical Assignment Operators are:
+
+1. `||=` (OR operator followed by assignment operator): It assigns a value to a variable only if the variable is falsy (i.e., null, undefined, 0, '', false, NaN). If the variable is truthy, it retains its original value.
+Example:
+```
+let x = null;
+x ||= "New Value";
+console.log(x); // Output: "New Value"
+```
+
+2. `&&=` (AND operator followed by assignment operator): It assigns a value to a variable only if the variable is truthy. If the variable is falsy, it retains its original value.
+Example:
+```
+let y = "Hello World";
+y &&= "New Value";
+console.log(y); // Output: "New Value"
+```
+
+3. `??=` (Nullish coalescing operator followed by assignment operator): It assigns a value to a variable if the variable is either null or undefined. Otherwise, it retains its original value.
+Example:
+```
+let z = null;
+z ??= "New Value";
+console.log(z); // Output: "New Value"
+```
+
+Note: Logical Assignment Operators were introduced in ECMAScript 2021 (ES12) and may not be supported in all browsers yet.
