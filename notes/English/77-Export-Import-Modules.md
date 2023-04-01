@@ -21,3 +21,32 @@ import { add } from './math.js';
 
 console.log(add(2, 3)); // output: 5
 ```
+
+In JavaScript, you can import code from other files or modules using the import statement. There are two types of imports: named imports and default imports.
+
+Named imports allow you to selectively import specific functions or variables from a module. Here's an example of a named import:
+
+```javascript
+import { sum, multiply } from './math.js';
+
+console.log(sum(2, 3)); // Output: 5
+console.log(multiply(2, 3)); // Output: 6
+```
+
+In this example, we're importing the sum and multiply functions from the math.js module.
+
+Default imports, on the other hand, allow you to import a single function or object from a module. Here's an example of a default import:
+
+```javascript
+import capitalize from './string.js';
+
+console.log(capitalize('hello')); // Output: 'Hello'
+```
+
+In this example, we're importing the capitalize function from the string.js module.
+
+Note that if a module only exports a single function or object, that function or object is automatically the default export. In this case, you can import it without using braces:
+
+```javascript
+import myFunction from './myModule.js';
+```
