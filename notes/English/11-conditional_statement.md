@@ -4,7 +4,7 @@ A conditional statement in JavaScript allows you to execute different code based
 
 - Here is an example of a simple conditional statement in JavaScript:
 
-```
+```javascript
 let x = 5;
 if (x > 0) {
   console.log("x is positive");
@@ -15,7 +15,7 @@ In this example, the if statement checks whether the value of x is greater than 
 
 You can also use else statements to specify what code should be executed if the condition is not true.
 
-```
+```javascript
 let x = 5;
 if (x > 0) {
   console.log("x is positive");
@@ -33,7 +33,7 @@ The else if statement in JavaScript allows you to specify multiple conditions an
 
 - Here is an example of using else if in JavaScript:
 
-```
+```javascript
 let x = 5;
 if (x > 10) {
   console.log("x is greater than 10");
@@ -54,7 +54,7 @@ In JavaScript, the logical operators && and || can be used to group multiple con
 
 The && operator (logical AND) returns true only if both conditions are true. If either condition is false, the expression will evaluate to false. For example:
 
-```
+```javascript
 if (x > 0 && x < 10) {
   console.log('x is between 0 and 10');
 }
@@ -62,7 +62,7 @@ if (x > 0 && x < 10) {
 
 The || operator (logical OR) returns true if at least one of the conditions is true. If both conditions are false, the expression will evaluate to false. For example:
 
-```
+```javascript
 if (x < 0 || x > 10) {
   console.log('x is not between 0 and 10');
 }
