@@ -1,4 +1,5 @@
-### What is destructuring and Destructuring Arrays in javascript. Explain with example
+### What is destructuring and destructuring Arrays ?
+
 Destructuring is a feature in JavaScript that allows you to extract values from arrays, objects, and other structures into distinct variables.
 
 Destructuring Arrays is the process of breaking down an array into individual elements, and assigning those elements to separate variables. This can be done using array destructuring syntax, which uses square brackets on the left-hand side of the assignment operator to specify the variables to which the array elements should be assigned.
@@ -19,7 +20,8 @@ console.log(c); // Output: 3
 In this example, we have an array `numbers` containing three values. We use array destructuring to assign each value to a separate variable `a`, `b`, and `c`. Now we can use these variables independently, as shown in the console.log statements.
 
 
-### How to Reverse values using destructuring in javascript. Explain with example 
+### How to reverse values using destructuring ?
+
 To reverse values using destructuring in JavaScript, you can use an array with the `reverse()` method and then destructure the reversed array into new variables. Here's an example:
 
 ```javascript
@@ -41,7 +43,8 @@ console.log(five); // Output: 1
 In this example, we first create an array of numbers, then use the `reverse()` method to reverse the order of the elements in the array. We then destructure the reversed array into variables named `one`, `two`, `three`, `four`, and `five`. Finally, we log each variable to the console to confirm that the values have been reversed.
 
 
-### How to Return two values from function in javascript. Explain with example
+### How to return two values from function?
+
 In JavaScript, it is not possible to directly return two values from a function. However, there are several ways to achieve this:
 
 1. Using an Array: We can create an array and store the values that we want to return in it. Then, we can return the array from the function.
@@ -93,7 +96,8 @@ console.log(b); // Output: 20
 ```
 
 
-### What is Destructuring of nested array in javascript. Explain with example
+### How to Destructure a nested array ?
+
 Destructuring of nested array in JavaScript is a way to extract values from an array that contains other arrays, objects or primitives.
 
 For example, consider the following nested array:
@@ -113,7 +117,8 @@ Here, the variables `a`, `b`, `c`, `d`, `e`, `f` and `g` are assigned the values
 So, after running the above code, `a` will contain 1, `b` will contain 2, `c` will contain 3, `d` will contain 4, `e` will contain 5, `f` will contain 6, and `g` will contain 7.
 
 
-### how to set default values in destructuring in javascript. Explain with example
+### How to set default values in destructuring ?
+
 In JavaScript, default values can be set in destructuring by using the `=` operator. The default value will be used if the corresponding variable in the destructuring assignment is undefined.
 
 Here's an example:
@@ -135,7 +140,8 @@ console.log(age); // 25
 In the second example, we're setting a default value of 25 for the `age` variable. If `age` is undefined in the object being destructured (`personWithAge`), the default value of 25 will be used instead. We're also renaming the `name` variable to `newName` using the syntax `{ name: newName }`.
 
 
-### What is Destructuring Objects in javascript. Explain with example
+### What is destructuring Objects ?
+
 Destructuring objects in JavaScript is a way to extract values from an object and assign them to variables in a concise and readable manner.
 
 Here's an example:
@@ -172,7 +178,8 @@ console.log(yearsOld); // 30
 This allows us to use a different variable name for clarity or to avoid naming conflicts.
 
 
-### How to Extract any value from object in javascript using destructring. Explain with example
+### How to extract any value from object using destructring ?
+
 To extract any value from an object in JavaScript using destructuring, you can use the following syntax:
 
 ```javascript
@@ -206,7 +213,8 @@ console.log(name, age); // Output: "John" 30
 ```
 
 
-### How to rename Object property name in destrcutring in javascript. Explain with example
+### How to rename Object property name in destrcutring ?
+
 In JavaScript destructuring, you can rename an object property by using the colon (:) syntax. Here's an example:
 
 ```javascript
@@ -220,7 +228,8 @@ console.log(last); // Output: "Doe"
 In the above example, we are renaming `firstName` to `first` and `lastName` to `last` while destructuring the `person` object. This means that we are creating two new variables `first` and `last` whose values are the respective values of the `firstName` and `lastName` properties of the `person` object.
 
 
-### Default values in destructuring in javascript. Explain with example
+### Setting Default values in destructuring ?
+
 In JavaScript, it's possible to set default values for variables when using destructuring assignment. This means that if the value being destructured is undefined or null, a default value will be used instead.
 
 Here's an example:
@@ -234,7 +243,8 @@ console.log(age); // Output: 18
 In this code, we are using object destructuring to create two variables `name` and `age`, with default values of "Anonymous" and 18 respectively. Since we're destructuring an empty object `{}`, the values of `name` and `age` will be the defaults we specified.
 
 
-### Destructuring of Nested Object in javascript. Explain with example
+### Destructuring of Nested Object ?
+
 Destructuring is a feature in JavaScript that allows you to extract values from objects and arrays and assign them to variables. When dealing with nested objects, destructuring can provide a concise way to access their properties.
 
 Here's an example of destructuring a nested object:
@@ -265,7 +275,8 @@ console.log(zip); // Output: 12345
 In the example above, we have an object `user` with a nested object `address`. We use destructuring to extract the properties `name`, `age`, `street`, `city`, `state`, and `zip` from the `user` object by assigning them to variables with the same names. We also use the syntax `address: { ... }` to destructure the nested `address` object.
 
 
-### How to use destrcutring in Function in javascript. Explain with example
+### How to use destrcutring in Function ?
+
 Destructuring is a way to extract values from arrays or objects into distinct variables. You can use destructuring in function arguments to unpack arguments passed to the function.
 
 Here's an example of how to use destructuring in a function:
