@@ -76,8 +76,6 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
 
-  - [_What is use strict?_](notes/English/08-use_strict.md#06--use-strict)
-
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
 
   - [_What is let ?_](notes/English/09-let_const_var.md#let)
