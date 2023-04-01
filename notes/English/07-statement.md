@@ -9,7 +9,7 @@ A computer program is a set of such statements. There can be multiple types of s
 in a program code that controls the input and output of the actions that a program is
 designed for.
 
-```
+```javascript
 let x = 10; //Single line statement
 
 if (x < 20) {
@@ -29,7 +29,7 @@ separate line.
 
 ### WhiteSpace in statement
 
-```
+```javascript
 let val = 10 ; //whitespace here doesnt matter
 let str = " Hello "; //Whitespace here will matter
 let num = 1 0; // this is not valid
