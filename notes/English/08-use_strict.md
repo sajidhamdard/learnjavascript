@@ -15,7 +15,7 @@ It is important to note that strict mode only applies to the code within the sco
 
 It is also important to note that some older browsers don't support strict mode, so you should consider browser compatibility when using strict mode. To active the strict mode you need to add the "use strict" string expression right at the first line of your code.
 
-```
+```javascript
 //Using a variable, without declaring it, is not allowed:
 x = 3.14; // This will cause an error
 
