@@ -63,6 +63,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
 
   - [_What is Identifiers_](notes/English/05-identifier.md#identifiers)
+  - [_Rules for creating identifiers_](notes/English/05-identifier.md#rules-for-creating-identifiers)
 
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 
