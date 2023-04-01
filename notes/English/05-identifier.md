@@ -20,11 +20,11 @@ For example, the following code defines a variable called myVariable:
 
 - for example:
 
-```
+```javascript
 let myVariable = 10; //myVariable is an identifer
 ```
 
-```
+```javascript
 sum is an identifier here
 function sum(a, b) {
 console.log(a + b);
@@ -37,14 +37,14 @@ JavaScript's Identifiers are a key aspect of the language, and are used extensiv
 
 - Invalid Identifier examples
 
-```
+```javascript
 let 12x = 10;
 let &value = 10;
 ```
 
 - Valid Identifier examples
 
-```
+```javascript
 let x12 = 10;
 let _value = 20;
 let $_value = 100;
