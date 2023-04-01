@@ -1,6 +1,6 @@
 # Identifiers
 
-### Identifiers:
+### Identifiers
 
 In JavaScript, an identifier is a name given to a variable, function, or other elements in a program. Identifiers are used to reference the elements they represent and are used throughout the program to access and manipulate data.
 
