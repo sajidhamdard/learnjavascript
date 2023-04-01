@@ -1,6 +1,6 @@
 # function
 
-### What is function in JavaScript ?
+### What is function ?
 
 In JavaScript, a function is a block of code that can be executed by calling it by its name. Functions are a fundamental building block in JavaScript and are used to encapsulate and reuse code.
 
@@ -28,7 +28,7 @@ function add(a, b) {
 let result = add(3, 4);  // result = 7
 ```
 
-### What is Function declaration in JavaScript ?
+### What is Function declaration ?
 
 In JavaScript, a function declaration is a way to define a function by using the function keyword, followed by the function name, a set of parentheses, and a block of code within curly braces. The function name is followed by the function keyword, the function parameters are enclosed in parenthesis and the function body is enclosed in curly braces.
 
@@ -61,7 +61,7 @@ It's important to note that function declaration should be defined before they a
 
 Function declarations are a common way to define functions in JavaScript and are widely used in the language. They are also easy to understand and use, making them a good choice for many programming tasks.
 
-### What is Function expression in JavaScript ?
+### What is Function expression ?
 
 In JavaScript, a function expression is a way to define a function by assigning it to a variable. It is similar to a function declaration, but instead of using the function keyword, a function expression is assigned to a variable using the assignment operator (=).
 
@@ -94,7 +94,7 @@ In this example, the add function takes two parameters, a and b, and returns the
 
 Function expressions are also often used as callback functions, for example when a function is passed as an argument to another function:
 
-### What is Arrow function in JavaScript ?
+### What is Arrow function ?
 
 In JavaScript, an arrow function is a shorthand syntax for defining a function. It is also known as a "fat arrow" function because it uses the "=>" symbol to define the function. Arrow functions were introduced in ECMAScript 6 (ES6) and are considered more concise and easier to read than traditional function expressions or declarations.
 
@@ -155,7 +155,7 @@ greet(); // Output: "Hello, world!"
 
 ```
 
-### Difference between function expression and arrow function in JavaScript ?
+### Difference between function expression and arrow function ?
 
 A function expression is a way of defining a function in JavaScript using the function keyword, such as:
 
@@ -186,7 +186,7 @@ Arrow functions do not have their own this, they use this of the surrounding sco
 
 In general, arrow functions are shorter and easier to read than function expressions, but they have some limitations. It's a matter of preference which one to use, depending on the specific use case.
 
-### What is Anonymous function in javaScript ?
+### What is Anonymous function ?
 
 An anonymous function in JavaScript is a function that is defined without a name. Anonymous functions are often used as arguments for other functions, such as callbacks and event handlers. They can also be assigned to variables and used just like named functions.
 
@@ -220,7 +220,7 @@ setTimeout(()=> {
 
 In general, anonymous functions are used when a function is only needed once and will not be reused elsewhere in the code.
 
-### What is Function invoking/calling in javascript ?
+### What is Function invoking/calling ?
 
 In JavaScript, a function can be invoked or called by using the function's name followed by parentheses, like this:
 
@@ -253,7 +253,7 @@ myFunction.apply(thisValue, [arguments]);
 
 It's important to note that a function must be defined before it can be invoked. If a function is invoked before it is defined, it will cause an error.
 
-### What is Function calling from other function in javascript ?
+### What is Function calling from other function ?
 
 In JavaScript, a function can be called from within another function by simply invoking the function by its name, followed by parentheses to include any necessary arguments.
 
@@ -277,7 +277,7 @@ In the example above, the outerFunction calls the innerFunction by its name, inn
 
 When the outerFunction is called, it will log "This is the outer function." and then call innerFunction, which will log "This is the inner function."
 
-### What is Function as values in javaScript ?
+### What is function as values ?
 
 In JavaScript, functions are first-class citizens, which means they can be treated like any other value, such as a number or a string. This means that they can be assigned to variables, passed as arguments to other functions, and returned from functions.
 
@@ -318,7 +318,7 @@ In the above example, the returnFunction returns an anonymous function that is a
 
 In JavaScript, functions are also objects, and they have additional properties and methods that can be accessed and used like any other object.
 
-### What is Parameters in JavaScript ?
+### What are parameters in JavaScript ?
 
 In JavaScript, parameters are variables that are used as placeholders for the values that are passed to a function when it is called. These values are known as arguments. When a function is called, the arguments are assigned to the corresponding parameters in the function definition.
 
@@ -338,7 +338,7 @@ let result = add(5, 3);
 
 In this case, the value 5 is assigned to the parameter x and the value 3 is assigned to the parameter y
 
-### What is Arguments in JavaScript ?
+### What are arguments in JavaScript ?
 
 In JavaScript, arguments are the values passed to a function when it is called. These values are assigned to the corresponding parameters in the function definition.
 
@@ -368,8 +368,6 @@ return x + y;
 
 In this example, the function add takes two parameters, x and y. When the function is called, the values passed as arguments are assigned to these parameters, like this:
 
-csharp
-
 let result = add(5, 3);
 
 In this case, the value 5 is passed as the first argument and the value 3 is passed as the second argument to the function add.
@@ -388,6 +386,6 @@ In this example, myFunction is called with three arguments: 1, "hello" and true,
 
 It's worth noting that the arguments object is not an array and it doesn't have array methods like slice, map, filter etc. However, it can be converted to an array using Array.from(arguments) or using spread operator [...arguments]
 
-### What is Arguments Object in functions in javaScript ?
+### What is arguments Object in functions ?
 
 In JavaScript, the arguments object is a special object that is available within the scope of all function calls. It contains an array-like collection of the arguments passed to the function. The arguments object allows a function to access the parameters passed to it, even if the function was not defined with a specific number of arguments. This can be useful for creating flexible or reusable functions. However, the arguments object is not an actual Array, and it does not have all of the methods of an Array.

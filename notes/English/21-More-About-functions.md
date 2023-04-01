@@ -1,6 +1,6 @@
 # More on functions
 
-### What is Default parameters in JavaScript ?
+### What is default parameter ?
 
 In JavaScript, default parameters are values that are assigned to a function's parameters if no value is passed to the function when it is called. These default values can be defined in the function's definition, and are used when the function is called without passing any arguments for that parameter.
 
@@ -25,7 +25,7 @@ greet('Jane Smith');  // Output: "Hello, Jane Smith!"
 
 So, it's a way to assign a default value for a function parameter in case no value is passed to the function during the call.
 
-### What is Passing arguments: value vs reference in javaScript ?
+### What is passing arguments: value vs reference in JavaScript ?
 
 In JavaScript, when you pass an argument to a function, the function receives a reference to the value, rather than a copy of the value. This means that when you modify the argument within the function, you are actually modifying the original value.
 
@@ -63,7 +63,7 @@ In this example, the function addOne takes an array as a parameter and add one e
 
 In short, when passing primitive data types (numbers, strings, booleans, etc.) to a function, JavaScript passes the value, which means that the function cannot modify the original value. When passing objects and arrays to a function, JavaScript passes a reference to the original value, which means that the function can modify the original value.
 
-### What is First Class function/Citizen JavaScript ?
+### What is First Class function/Citizen ?
 
 In JavaScript, all functions are first-class citizens, which means they can be treated like any other value, such as a number or string. This means that a function can be:
 
@@ -105,7 +105,7 @@ In the first example, the function add is assigned to a variable, in the second 
 
 It's important to note that functions in javascript are first class object, which means they are also objects and have properties and methods just like any other object.
 
-### What is High Order function in JavaScript ?
+### What is High Order function ?
 
 A higher-order function is a function that takes one or more functions as arguments and/or returns a function as its result. In JavaScript, functions are first-class citizens, meaning they can be passed around just like any other data type (e.g. numbers, strings, etc.).
 
@@ -130,7 +130,7 @@ console.log(operateOnTwoNumbers(multiply, 2, 3)); // prints 6
 
 Here operateOnTwoNumbers is a higher-order function because it takes a function (operatorFunc) as an argument and returns the result of calling that function with the given x and y values.
 
-### What is Callback function in JavaScript ?
+### What is Callback function ?
 
 A callback function in JavaScript is a function that is passed as an argument to another function, which is then invoked by that function at a later time. The function that is passed as an argument is called the "callback function," and the function that receives it as an argument and invokes it at a later time is called the "higher-order function."
 
@@ -167,7 +167,7 @@ getData('https://example.com/data', function(data) {
 
 Here, getData is a higher-order function that takes a URL and a callback function as arguments. It uses the fetch function to retrieve data from the specified URL, and then invokes the callback function with the retrieved data as an argument
 
-### What is setTimeOut in JavaScript ?
+### What is setTimeOut ?
 
 setTimeout is a JavaScript function that allows you to schedule a function to be executed after a specified amount of time (in milliseconds). It takes two arguments: a callback function, and the number of milliseconds to wait before executing the callback function.
 
@@ -204,7 +204,7 @@ clearTimeout(timeoutId); // This will cancel the scheduled timeout.
 
 setTimeout is often used in JavaScript to create timed events or to delay the execution of certain code. It is also commonly used to create animations, loading screens, and other interactive effects.
 
-### What is setInterval in JavaScript ?
+### What is setInterval ?
 
 setInterval is a JavaScript function that allows you to schedule a function to be executed repeatedly at a specified interval of time (in milliseconds). It takes two arguments: a callback function, and the number of milliseconds to wait between each execution of the callback function.
 
@@ -262,7 +262,7 @@ clearInterval(intervalId); // This will cancel the scheduled interval.
 
 setInterval is often used in JavaScript to create timed events or to execute code periodically. It can be used to create animations, loading screens, and other interactive effects. It is also commonly used to perform background tasks or to periodically check for new data
 
-### What is Function returning function in JavaScript ?
+### Function returning a function
 
 A function returning a function in JavaScript is a function that returns another function as its output. This is also known as Higher-Order Function.
 
@@ -302,7 +302,7 @@ Here, createAdder is a higher-order function that takes an argument x and return
 
 This technique is often used in JavaScript to create reusable and composable functions, to create closures, and to create functions with a specific context or state.
 
-### What is The call and apply methods in JavaScript ?
+### What are the call and apply methods ?
 
 In JavaScript, the call() and apply() methods are used to call a function and set the value of the this keyword inside the function. Both methods can be used to invoke a function and pass arguments to it, but they are used in slightly different ways.
 
@@ -338,7 +338,7 @@ Both call() and apply() are useful when you want to reuse a function with differ
 
 call() and apply() are similar, but call() is slightly more performant than apply() when passing arguments, because apply() must convert the arguments passed to it into an array before passing them to the function, while call() can pass the arguments directly.
 
-### What is The bind method in JavaScript ?
+### What is the bind method ?
 
 In JavaScript, the bind() method is used to create a new function that is bound to a specific value of the this keyword. It returns a new function with the same body and parameters as the original function, but with a this value that is permanently set to the first argument passed to the bind() method.
 
@@ -375,7 +375,7 @@ Here, the add function takes two parameters and returns the sum of those paramet
 
 The bind() method is useful when you want to create a function that is permanently bound to a specific value of this, or when you want to create a new function that inherits the behavior of an existing function but with a different context or state.
 
-### What is Immediately invoked function expression in JavaScript ?
+### What is Immediately invoked function expression ?
 
 An Immediately Invoked Function Expression (IIFE) is a JavaScript function that is immediately executed after it is defined. It is a pattern that is often used to create a new scope for variables, to avoid variable hoisting, or to create a self-executing anonymous function.
 
@@ -405,7 +405,7 @@ In this example, the function takes two arguments a and b and returns the sum of
 
 IIFEs are useful when you want to create a new scope for variables, to avoid variable hoisting, or to create a self-executing anonymous function. It is also useful when you want to create a local scope for your functions and variables and avoid polluting the global scope.
 
-### What is Closures in JavaScript ?
+### What is Closure ?
 
 In JavaScript, a closure is a function that has access to the variables in the scope in which it was defined, even if that scope is no longer in use. This means that a closure has access to the variables and functions that were in scope when the closure was created, and it can continue to access those variables even after the scope has ended.
 

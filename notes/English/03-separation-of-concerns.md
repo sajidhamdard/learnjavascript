@@ -1,4 +1,4 @@
-# 03:Separation of Concerns
+# Separation of Concerns
 
 ### What is separation of concerns principle ?
 
@@ -11,13 +11,13 @@ You can link a JavaScript file in an HTML file using the <script> tag. The <scri
 - For example
   if you have a JavaScript file called "main.js" in the same directory as your HTML file, you can link to it by using the following code in the <head> or <body> section of your HTML file:
 
-```
+```html
 <script src="main.js"></script>
 ```
 
 You can also include the JavaScript code directly within the <script> tag
 
-```
+```html
 <script>
    //JavaScript code goes here
 </script>

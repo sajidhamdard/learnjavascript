@@ -1,6 +1,6 @@
 # loop and switch
 
-### what is loop in JavaScript ?
+### What is loop ?
 
 A loop in JavaScript is a control flow statement that allows you to repeatedly execute a block of code. There are several types of loops in JavaScript, including:
 

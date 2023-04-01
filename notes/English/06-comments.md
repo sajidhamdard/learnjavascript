@@ -1,15 +1,15 @@
-# 05 : Comments
+# Comments
 
 In JavaScript, a comment is a piece of text that is ignored by the JavaScript interpreter and is not executed as part of the program. Comments are used to add notes, explanations, or documentation to the code, and are intended for human readers, not the computer.
 
 JavaScript supports two types of comments:
 
 - Single-line comments: These start with // and continue until the end of the line.
-  ```
+  ```javascript
   // this is a single line comment
   ```
 - Multi-line comments: These start with /_ and end with _/. They can span multiple lines.
-  ```
+  ```javascript
   /*
   This is a
   multi-line comment

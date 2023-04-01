@@ -1,4 +1,4 @@
-# 04 : Value, Variable and Data Types
+# Value, Variable and Data Types
 
 ### What is Data:
 
@@ -107,38 +107,38 @@ JavaScript's variables provide a way to store and manipulate data, which is a ke
 
 - Number
 
-```
+```javascript
 let value = 10; `
 ```
 
 - Boolean
 
-```
+```javascript
 let flag = false;
 ```
 
 - String
 
-```
+```javascript
 let str = "learnjavascript";
 ```
 
 - undefined
 
-```
+```javascript
 let val; //value will be undefined here
 val = undefined; //we can also assign undefined to a variable
 ```
 
 - Symbol
 
-```
+```javascript
 let sym = Symbol("A");
 ```
 
 - BigInt
 
-```
+```javascript
 let num = BigInt(10);
 num = 10n;
 ```
@@ -147,7 +147,7 @@ num = 10n;
 
 - Object
 
-```
+```javascript
 let obj = {
 myName: "learnjavascript",
 age: 21,
@@ -156,13 +156,13 @@ age: 21,
 
 - Array
 
-```
+```javascript
 let arr = [1, 2, 3, 4, 5];
 ```
 
 - function
 
-```
+```javascript
 function sum() {
 console.log(1+2);
 }
@@ -170,13 +170,13 @@ console.log(1+2);
 
 - Date
 
-```
+```javascript
 let date = new Date();
 ```
 
 - Regex example
 
-```
+```javascript
 let str = "I love learning javascript, it's one of my favorite programming languages!";
 let regex = /javascript/gi;
 let result = str.match(regex);
@@ -186,19 +186,19 @@ console.log(result);
 
 - Maps
 
-```
+```javascript
 let map = new Map();
 ```
 
 - Set
 
-```
+```javascript
 let set = new Set();
 ```
 
 - WeakMap
 
-```
+```javascript
 let wm = new WeakMap();
 let obj1 = {};
 let obj2 = {};

@@ -1,6 +1,6 @@
 # Debugging
 
-### What is Debugging in JavaScript?
+### What is Debugging ?
 
 Debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code. It is an essential part of the software development process, and it can help you ensure that your code is working as intended.
 
@@ -23,7 +23,7 @@ In this example, we are using the console.log statement inside the function to o
 
 In summary, debugging in JavaScript refers to the process of identifying and fixing errors or bugs in your code, there are several tools and techniques that you can use to debug JavaScript code like browser's developer console, browser's developer tools and JavaScript debugger.
 
-### What is Developer Tool?
+### What is Developer Tool ?
 
 Developer tools are a set of web-based tools that allow developers to inspect, debug and optimize their web pages and web applications. They are built into modern web browsers such as Google Chrome, Firefox, Safari, and Edge, and can be accessed by pressing a specific key combination or by selecting them from the browser's menu.
 
@@ -107,7 +107,7 @@ console.table(users, ['name','age']);
 
 In this example, the table will only display the name and age properties of the users.
 
-### What are the different types of errors in JavaScript?
+### What are the different types of errors ?
 
 There are several types of errors that can occur in JavaScript, including:
 
@@ -138,11 +138,11 @@ In this example, the code is trying to access the variable x without first decla
 These occur when the code is trying to perform an operation on a variable of the wrong type. Examples include trying to use a string as a number, or trying to access a property of a non-object.
 
 ```
-var x = "hello";
-x = x + 3;
+var x = 7;
+console.log(x.toUpperCase());
 ```
 
-In this example, the code is trying to add the number 3 to the string "hello", but strings and numbers are different data types and cannot be directly combined. This will cause a type error, and the code will not execute.
+In this example, the code is trying to convert number 7 to uppercase. This will cause a type error, and the code will not execute.
 
 #### Range errors
 

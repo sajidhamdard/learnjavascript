@@ -1,4 +1,4 @@
-# ========== String functions ==========
+# String
 
 ### What is String
 
@@ -41,7 +41,7 @@ var str = String.fromCodePoint(72, 101, 108, 108, 111); // "Hello"
 
 Note: In javascript string are immutable, so once string is created it can't be changed, but it can be replaced.
 
-### String Literal vs String Object :
+### String Literal vs String Object ?
 
 In JavaScript, there are two ways to create strings: using a string literal or using the String constructor.
 
@@ -53,7 +53,7 @@ In general, it is recommended to use string literals instead of string objects, 
 
 Also, one important thing to note that in javascript, string literals and string objects are interchangeable and can be used interchangeably in most cases.
 
-### String length property:
+### String length property
 
 In JavaScript, you can use the length property to determine the number of characters in a string. The length property returns the number of characters in the string, including spaces and special characters.
 
@@ -136,7 +136,7 @@ It's also worth noting that the substring() method does not change the original 
 
 The main difference between substring() and slice() is that substring() does not accept negative indexes.
 
-## substr():
+## substr()
 
 In JavaScript, the substr() function is also used to extract a section of a string and return it as a new string. The substr() function takes two arguments: the starting index and the number of characters to extract.
 
@@ -192,7 +192,7 @@ It's also worth noting that the replace() method does not change the original st
 
 In summary, the replace() function is a useful way to replace specified values in a string with new values in JavaScript.
 
-## repeat():
+## repeat()
 
 In JavaScript, the repeat() function is used to repeat a string a specified number of times. The repeat() function takes one argument: the number of times to repeat the string.
 
@@ -364,7 +364,7 @@ It's also worth noting that the padEnd() method does not change the original str
 
 In summary, the padEnd() function is a useful way to add padding to the end of a string in JavaScript, to a desired length.
 
-## charAt
+## charAt()
 
 In JavaScript, the charAt() function is used to retrieve the character at a specified index in a string.
 

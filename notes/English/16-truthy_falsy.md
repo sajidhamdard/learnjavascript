@@ -1,4 +1,4 @@
-### What is truthy and falsy value:
+### Truthy and Falsy values
 
 In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except below 6 values:
 

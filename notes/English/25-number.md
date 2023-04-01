@@ -10,11 +10,9 @@ let num = 42;
 console.log(typeof num); // Output: "number"
 ```
 
-### Converting numbers in javaScript
+### Converting numbers
 
 In JavaScript, converting numbers involves changing a number from one data type to another, such as converting a number to a string or converting a string to a number
-
-### Converting numbers in javaScript
 
 In JavaScript, you can convert numbers to strings and vice versa using the following methods:
 
