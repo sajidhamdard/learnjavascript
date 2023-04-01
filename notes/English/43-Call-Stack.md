@@ -1,4 +1,4 @@
-### What is Call Stack in JavaScript Engine? Explain in detail
+### Call Stack in JavaScript Engine
 In JavaScript, the call stack is a data structure that keeps track of where in the program we currently are. Whenever a function is called, a new frame is added to the top of the call stack representing that function call. When that function completes, its frame is removed from the top of the call stack and control returns to the previous frame.
 
 A call stack is important because it allows JavaScript to keep track of function calls and their parameters. It also makes sure that functions are executed in the order they were called, with each function completing before the next one starts.
