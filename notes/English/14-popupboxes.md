@@ -1,4 +1,6 @@
-#### Alert Box
+## Popup Boxes
+
+### Alert Box
 
 The alert() method in JavaScript is used to display a virtual alert box. It is mostly used to give a warning message to the users. It displays an alert dialog box that consists of some specified message (which is optional) and an OK button. When the dialog box pops up, we have to click "OK" to proceed.
 
