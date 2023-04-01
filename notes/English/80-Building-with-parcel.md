@@ -1,4 +1,5 @@
-### how to Bundling With Parcel and NPM Scripts in javascript 
+### Bundling With Parcel and NPM Scripts
+
 To bundle your JavaScript code with Parcel and NPM Scripts, follow these steps:
 
 1. Install Parcel as a dev dependency by running `npm install parcel-bundler --save-dev`.
