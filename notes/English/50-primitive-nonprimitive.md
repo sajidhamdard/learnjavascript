@@ -58,7 +58,7 @@ person.sayHello(); // calling a method
 In summary, primitives are simple data types that are immutable, while objects are complex data types that are mutable and can hold multiple values and methods.
 
 
-### Understanding of how primitive and non-primitives are stored in memory in JavaScript. Explain in detail with example.
+### Understanding of how primitive and non-primitives are stored in memory in JavaScript
 In JavaScript, primitives are stored by value, while non-primitives are stored by reference. 
 
 Primitives include numbers, strings, booleans, null, and undefined. When a primitive is assigned to a variable, a copy of its value is created and stored in memory at a specific location. For example:
@@ -84,3 +84,48 @@ console.log(arr2); // [1, 2, 3, 4] (since arr2 contains a reference to the same 
 ```
 
 In this example, `arr1` is assigned an array with three elements. When `arr2` is assigned to `arr1`, a reference to the memory location where `arr1` is stored is created and stored in memory for `arr2`. Therefore, when an element is added to `arr1`, it affects the value of `arr2` as well since they both point to the same memory location.
+
+
+### How to Copy object? Shallow copy and deep copy ?
+
+In JavaScript, you can copy an object in two ways: shallow copy and deep copy.
+
+A shallow copy creates a new object with the same properties as the original object, but the properties are simply references to the same values as the original object. This means that if you modify a property of the copied object or the original object, both objects will be affected. Shallow copying can be done using the spread operator (`...`) or `Object.assign()` method.
+
+Example of shallow copy:
+
+```javascript
+const obj1 = {a: 1, b: {c: 2}};
+const obj2 = {...obj1};
+
+console.log(obj1); // {a: 1, b: {c: 2}}
+console.log(obj2); // {a: 1, b: {c: 2}}
+
+obj2.a = 3;
+console.log(obj1); // {a: 1, b: {c: 2}}
+console.log(obj2); // {a: 3, b: {c: 2}}
+
+obj2.b.c = 4;
+console.log(obj1); // {a: 1, b: {c: 4}}
+console.log(obj2); // {a: 3, b: {c: 4}}
+```
+
+A deep copy creates a new object with the same properties as the original object, but the properties are not references to the same values as the original object. This means that modifying a property of the copied object does not affect the original object, and vice versa. Deep copying can be done using several methods, including recursion or libraries such as Lodash.
+
+Example of deep copy:
+
+```javascript
+const obj1 = {a: 1, b: {c: 2}};
+const obj2 = JSON.parse(JSON.stringify(obj1));
+
+console.log(obj1); // {a: 1, b: {c: 2}}
+console.log(obj2); // {a: 1, b: {c: 2}}
+
+obj2.a = 3;
+console.log(obj1); // {a: 1, b: {c: 2}}
+console.log(obj2); // {a: 3, b: {c: 2}}
+
+obj2.b.c = 4; 
+console.log(obj1); // {a: 1, b: {c: 2}}
+console.log(obj2); // {a: 3, b: {c: 4}}
+```
