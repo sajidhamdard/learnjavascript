@@ -138,11 +138,11 @@ In this example, the code is trying to access the variable x without first decla
 These occur when the code is trying to perform an operation on a variable of the wrong type. Examples include trying to use a string as a number, or trying to access a property of a non-object.
 
 ```
-var x = "hello";
-x = x + 3;
+var x = 7;
+console.log(x.toUpperCase());
 ```
 
-In this example, the code is trying to add the number 3 to the string "hello", but strings and numbers are different data types and cannot be directly combined. This will cause a type error, and the code will not execute.
+In this example, the code is trying to convert number 7 to uppercase. This will cause a type error, and the code will not execute.
 
 #### Range errors
 
