@@ -1,4 +1,4 @@
-### Building a Simple Promise in javascript
+### Building a Simple Promise
 To create a simple Promise in JavaScript, you can use the following syntax:
 
 ```
