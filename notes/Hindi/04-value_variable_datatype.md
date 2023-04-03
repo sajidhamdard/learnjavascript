@@ -36,7 +36,7 @@ Value ka matlab data hota hai. Jise hum kisi variable me store krate hain. Varia
 
 for example:
 
-```
+```javascript
 let x = 10; //10 is value and x is variable
 ```
 
@@ -44,7 +44,7 @@ let x = 10; //10 is value and x is variable
 
 - Number
 
-```
+```javascript
 
 
 let value = 10; `
@@ -53,10 +53,8 @@ let value = 10; `
 
 - Boolean
 
-```
-
+```javascript
 let flag = false;
-
 ```
 
 - String
@@ -78,92 +76,74 @@ val = undefined; //we can also assign undefined to a variable
 
 - Symbol
 
-```
-
+```javascript
 let sym = Symbol("A");
-
 ```
 
 - BigInt
 
-```
-
+```javascript
 let num = BigInt(10);
 num = 10n;
-
 ```
 
 ### Non Primitive Data Type Examples:
 
 - Object
 
-```
-
+```javascript
 let obj = {
-myName: "learnjavascript",
-age: 21,
+  myName: "learnjavascript",
+  age: 21,
 };
-
 ```
 
 - Array
 
-```
-
+```javascript
 let arr = [1, 2, 3, 4, 5];
-
 ```
 
 - function
 
-```
-
+```javascript
 function sum() {
-console.log(1+2);
+  console.log(1 + 2);
 }
-
 ```
 
 - Date
 
-```
-
+```javascript
 let date = new Date();
-
 ```
 
 - Regex example
 
-```
-
-let str = "I love learning javascript, it's one of my favorite programming languages!";
+```javascript
+let str =
+  "I love learning javascript, it's one of my favorite programming languages!";
 let regex = /javascript/gi;
 let result = str.match(regex);
 console.log(result);
 // Output: ["javascript", "javascript"]
-
 ```
 
 - Maps
 
-```
-
+```javascript
 let map = new Map();
-
 ```
 
 - Set
 
-```
-
+```javascript
 let set = new Set();
-
 ```
 
 - WeakMap
 
-```
-
+```javascript
 let wm = new WeakMap();
 let obj1 = {};
 let obj2 = {};

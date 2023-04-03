@@ -1,4 +1,4 @@
-```
+```javascript
 let x = 10;
 
 const y = 20;
@@ -12,7 +12,7 @@ let:iska use variable declertion ka leya kiya jata hai.let variable ko declertio
 
 - for example
 
-```
+```javascript
 let x = 10;
 x = 20;
 console.log(x);
@@ -26,7 +26,7 @@ const keyword ka use constand variable bananay ka leya kiya jata hai hai.const v
 
 - for example
 
-```
+```javascript
 const x = 10;
 x = 20;
 console.log();
@@ -41,7 +41,7 @@ var ko decleration sa phala use kar sktay hai.var ko redecler bhi kar sktay hai.
 
 - for example
 
-```
+```javascript
 console.log(val);
 var val = 300;
 ```

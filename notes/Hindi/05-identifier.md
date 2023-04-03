@@ -6,13 +6,12 @@ JavaScript me Identifiers names hote hain jo ki kisi variables, functions, class
 
 for example:
 
-```
+```javascript
 let value = 10; //value is an identifer
-
 
 //sum is an identifier here
 function sum(a, b) {
-console.log(a + b);
+  console.log(a + b);
 }
 ```
 
@@ -24,14 +23,14 @@ indentifier bnane ke lie $, \_, and digits (0-9) ka use hota hai but variable na
 
 - Invalid Identifier examples
 
-```
+```javascript
 let 12x = 10;
 let &value = 10;
 ```
 
 - Valid Identifier examples
 
-```
+```javascript
 let x12 = 10;
 let _value = 20;
 let $_value = 100;

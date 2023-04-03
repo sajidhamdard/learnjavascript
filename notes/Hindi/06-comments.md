@@ -13,13 +13,13 @@ Comments 2 types ke hote hain:
 
 Example of Single line Comment: Single line comment 2 forward slashes / ke sath start hota hai and aur us puri line ko end tak comment kr deta hai
 
-```
+```javascript
 // This is a single-line comment
 ```
 
 Example of Multi line comment: Multi comment forward slash and _ asterisk ke sath start hota hai aur _ asterisk and forward slash ke sath end hota hai.
 
-```
+```javascript
 /* This is a
 multi-line comment */
 ```
