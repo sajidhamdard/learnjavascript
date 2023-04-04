@@ -1198,3 +1198,27 @@ Desh/lok code ke liye, aap ISO 639-1 language codes aur ISO 3166-1 alpha-2 count
 Iske baad options object mein aap tarike ko customize kar sakte hain, jaise ki decimal separator, grouping separator, currency symbol, time zone, etc.
 
 Uparokt sabhi cheezon ko dhyaan mein rakh kar, aap Javascript mein kisi bhi number ya date ko kisi bhi desh/lok ke format mein badal sakte hain.
+
+### What is DOM ?
+DOM in javascript hain ek tree jaise structure jisme HTML elements ko represent kiya jaata hain. Iss tree ke nodes, HTML elements aur uske attributes hote hain. Javascript ka upyog karke hum DOM ko access aur manipulate kar sakte hain. Jaise ki kisi element ke text ko change karna, element ko hide karna ya naya element create karna.
+
+
+### What is the need of DOM ?
+Jab hum JavaScript ka use karte hain web development mein, tab humein website ke HTML structure ko manipulate karne ki zaroorat hoti hai - jaise ki koi element hide karna, content update karna, ya phir kuch naya add karna. Isko karne ke liye hum DOM (Document Object Model) ka istemal karte hain.
+
+DOM basically ek tree-like structure hai, jisme har ek HTML element ko ek object ki tarah represent kiya jaata hai. JavaScript code dee gayi DOM ke through in objects ke saath interact kar sakta hai aur unhe modify bhi kar sakta hai. Iss tarah se, hum apni website ke HTML, CSS, aur JavaScript ko combine karke dynamic banane mein safalta paate hain.
+
+
+### What are the below functions getElementById,getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll, write ?
+Ye sab functions HTML aur CSS ke code mei elements ya tags ko select karne ke liye use kiye jaate hai. Inka istemaal webpage ke design aur functionality ko improve karne ke liye kiya jata hai. 
+
+1) getElementById - Is function se hum HTML document mei kisi specific element ko uske unique ID se select kar sakte hai.
+
+2) getElementsByTagName - Is function se hum HTML document mei kisi specific tag (jaise div, p, etc.) ke saare instances ko select kar sakte hai.
+
+3) getElementsByClassName - Is function se hum HTML document mei kisi specific class name se match karne wale saare elements ko select kar sakte hai.
+
+4) querySelector - Is function se hum CSS selector ka upyog karke kisi specific element ko select kar sakte hai.
+
+5) querySelectorAll - Is function se hum CSS selector ka upyog karke kisi specific group of elements ko select kar sakte hai.
+
