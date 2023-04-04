@@ -14,7 +14,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
 
-## 📚 [_English Notes_](./notes/English)
+## 📚 [_JavaScript Notes in English_](./notes/English)
 
 <details>
 <summary>Click here</summary>
@@ -236,7 +236,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 </details>
 
-## 📚 [_Hindi Notes_](./notes/Hindi/)
+## 📚 [_JavaScript Notes In Hindi_](./notes/Hindi/)
 
 <details>
 <summary>Click here</summary>
@@ -300,9 +300,11 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_Solution-07_](./Exercises/solution-07.md)
 </details>
 
-## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
+## 📚 [_Interview Questions & Answers In English_](./Interview%20Questions/interview-questions-english.md)
 
-## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidlines.md)
+## 📚 [_Interview Questions & Answers In Hindi_](./Interview%20Questions/interview-questions-hindi.md)
+
+## 📚 [_JavaScript Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidlines.md)
 
 ## 📚 [_Front-end RoadMap_](./Roadmap/Backend%20development%20roadmap.pdf) `Credit - JavaScript Mastery`
 
