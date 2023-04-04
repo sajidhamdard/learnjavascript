@@ -1,6 +1,6 @@
 # JavaScript Syllabus
 
-## Introduction
+### Introduction
 
 - What is programming language?
 - What is front-end?
@@ -10,29 +10,25 @@
 - Introduction of JavaScript
 - Role of HTML, CSS, and JavaScript?
 
-## History of JavaScript
+### History of JavaScript
 
 - JavaScript history
 - ECMAScript
 - Versions of JavaScript
-- backward compatible
-- forward compatible
+- Backward & Forward compatible
 
-## Visual Studio Code Setup
+### Visual Studio Code Setup
 
 - What is an IDE?
 - Downloading & Installing visual studicode
 - File vs Folder vs Workspace
 - VSCode shortcuts
 - Installing extensions
-  - Prettier
-  - Live Server
-  - Monokai Pro
 - Applying Settings
-- Applying Color Theme: Monokai Pro
+- Applying Color Theme
 - Setting Default Formatter
 
-## Project setup
+### Project setup
 
 - Separation of concern
 - Creating index.html
@@ -40,7 +36,7 @@
 
 ## JavaScript Core
 
-## JavaScript Features
+### JavaScript Features
 
 - High Level Language
 - Garbage Collected
@@ -53,7 +49,7 @@
 - Non-Blocking Event Loop
 - Platform Independent
 
-## Value, Variable and Data types
+### Value, Variable and Data types
 
 - What is value
 - What is variable
@@ -71,31 +67,31 @@
   - Object
   - Array
 
-## Identifiers
+### Identifiers
 
 - What is an identifier
 - Rules for creating identifier
 
-## Comments
+### Comments
 
 - What is comment
 - Single line comment
 - Multi line comment
 - Comment rules
 
-## use strict
+### use strict
 
 - What is the significance of use strict
 - How JavaScrit behave without use strict
 
-## Statement
+### Statement
 
 - What is a statement in programming
 - How to write a single line of statement
 - How to write a multi-line statement or code-block
 - Use of Semi colon and whitespace in statement
 
-## let, const and var
+### let, const and var
 
 - let
 - const
@@ -103,7 +99,7 @@
 - Difference between let, const and var
 - When to use let, const and var
 
-## JavaScript operators
+### JavaScript operators
 
 - Assignment operator
 - Arithmetic operator
@@ -116,21 +112,21 @@
 - Typeof operator
 - Ternary operator
 
-## Conditional statements
+### Conditional statements
 
 - if
 - else if
 - else
 - Grouping multiple conditions using logical operator
 
-## JavaScript Output
+### JavaScript Output
 
 - console.log
 - document.write()
 - window.alert()
 - innerHTML
 
-## Type Conversion
+### Type Conversion
 
 - Implicit type conversion/Automatic Type conversion/ Coercion
 - Explicit type conversion
@@ -139,19 +135,19 @@
   - String
   - Boolean
 
-## JavaScript Popup Boxes
+### JavaScript Popup Boxes
 
 - Alert Box
 - Confirm Box
 - Prompt Box
 
-## Truthy and Falsy Values
+### Truthy and Falsy Values
 
 - What are the truthy and falsy values in JavaScript
 - Falsy values : undefined, 0, null, ‘’, false, NaN
 - Falsy and Truthy values in conditional statements
 
-## Looping and Switch
+### Looping and Switch
 
 - For Loop
 - While Loop
@@ -163,7 +159,7 @@
 - Switch case
 - Break and continue
 
-## JavaScript String
+### JavaScript String
 
 - What is a string
 - Uses of single quote and double quotes in string
@@ -198,7 +194,7 @@
   - match
   - includes
 
-## Scope
+### Scope
 
 - What is Scoping
 - Different types of scopes in JavaScript
@@ -206,7 +202,7 @@
   - Functional scope
   - Block scope
 
-## Functions
+### Functions
 
 - Function declaration
 - Function expression
@@ -220,9 +216,6 @@
 - Parameters
 - Arguments
 - Arguments Object in functions
-
-## More on functions
-
 - Default parameters
 - Passing arguments: value vs reference
 - First Class function/Citizen
@@ -268,7 +261,7 @@
 
 ## Numbers and Dates
 
-## Number
+### Number
 
 - Converting numbers
 - NaN
@@ -299,7 +292,7 @@
   - POSITIVE_INFINITY
   - NEGATIVE_INFINITY
 
-## Date
+### Date
 
 - Creating Dates and different ways of creating Date object
 - Understanding milliseconds and other units of time
@@ -312,7 +305,7 @@
 
 ## JavaScript Data Structures
 
-## Array
+### Array
 
 - What is an Array
 - Need of Array
@@ -348,7 +341,7 @@
   - flat
   - flatMap
 
-## Object
+### Object
 
 - What is an object
 - Object literal syntax
@@ -367,7 +360,7 @@
   - Values
   - Entries
 
-## Set
+### Set
 
 - What is a Set
 - Creating set
@@ -380,7 +373,7 @@
 - Creating set tarray
 - forEach method
 
-## Map
+### Map
 
 - What is a Map
 - Creating new map
@@ -398,7 +391,7 @@
 
 ## Modern Features
 
-## Destructuring Arrays
+### Destructuring Arrays
 
 - What is destructuring
 - Reverse values using destructuring
@@ -412,7 +405,7 @@
 - Nested Object
 - In Function
 
-## The Spread Operator
+### The Spread Operator
 
 - Assigning values
 - Copy Array
@@ -421,14 +414,14 @@
 - Passing arguments in function
 - Shallow copy
 
-## The Rest Parameter
+### The Rest Parameter
 
 - Assign values
 - Rest element last element
 - Assign values in object
 - Variable arguments in function
 
-## Short Circuiting
+### Short Circuiting
 
 - Use of ||
 - Replace with ternary operator
@@ -441,13 +434,13 @@
   - &&=
   - ??=
 
-## Enhanced Object literals
+### Enhanced Object literals
 
 - Exactly same name
 - Function in object
 - Computer property name
 
-## Optional Chaining
+### Optional Chaining
 
 - Multiple condition in if condition
 - Work for nullish
@@ -456,7 +449,7 @@
 
 ## JavaScript DOM and BOM
 
-## DOM (Document Object Model)
+### DOM (Document Object Model)
 
 - Introduction
 - DOM functions
@@ -503,7 +496,7 @@
   - createTextNode
   - appendChild
 
-## JavaScript BOM
+### JavaScript BOM
 
 - Window object
 - History object
@@ -521,16 +514,15 @@
 - exec()
 - test()
 
-# Json & XML
+## Json & XML
 
 - What is JSON?
 - Rules for creating valid JSON?
 - What is XML?
 - Rules for creating valid XML?
 
-## JavaScript Behind The Scene
+### JavaScript Inside
 
-- JavaScript behind the scene
 - JavaScript Engine
 - Call Stack
 - Execution Context
@@ -572,7 +564,9 @@
     - Shallow copy
     - Deep copy
 
-## JavaScript OOPs
+## OOPS
+
+### JavaScript OOPs
 
 - OOPs
   - Object
@@ -600,9 +594,9 @@
 
 ## Asynchronous JavaScript
 
-- Asynchronous JavaScript
+- What is Asynchronous ?
 - Ajax
-- What is an API
+- What is an API ?
 - XMLHttpRequest
 - How the web works
   - Server
@@ -622,12 +616,11 @@
 - Running promises in Parallel
 - Promise Combinators: race, allSettled and any
 
-## Modern JavaScript Development
+## Modern JavaScript Tools and Techniques
 
-- An Overview of Modern JavaScript Development
-- An Overview of Modules in JavaScript
-- Exporting and importing in ES6 Modules
-- Top-Level await (ES2022)
+- Modules
+- Exporting and importing in Modules
+- Top-Level await
 - The Module Pattern
 - Bundling With Parcel and NPM Scripts
 - Configuring Babel and Polyfilling
