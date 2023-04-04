@@ -189,109 +189,129 @@ git revert shaid
 
 Jis commit ki sha id humne di hai us commit ke changes remove ho jayenge
 
-1. git init - Git ko initialize karne ke liye ek repository create karna 
-Example: `git init` 
-
-2. git add - Changes ko stage me laane ke liye
-Example: `git add file.txt`
-
-3. git commit - Saved changes ko repository me save karne ke liye
-Example: `git commit -m "Commit message"`
-
-4. git status - Repository ke current status ko check karne ke liye
-Example: `git status`
-
-5. git log - Repository ke commit history ko dekhne ke liye
+### git log
+Repository ke commit history ko dekhne ke liye
 Example: `git log`
 
-6. git branch - Branches ko create, delete aur list karne ke liye
+### git branch
+Branches ko create, delete aur list karne ke liye
 Example: `git branch`, `git branch new-branch`, `git branch -d old-branch`
 
-7. git checkout - Branches ke beech switch karne ke liye
+### git checkout 
+Branches ke beech switch karne ke liye
 Example: `git checkout branch-name`, `git checkout -b new-branch`
 
-8. git merge - Different branches ke code ko merge karne ke liye
+### git merge 
+Different branches ke code ko merge karne ke liye
 Example: `git merge branch-name`
 
-9. git push - Local repository ke changes ko remote repository me upload karne ke liye
+### git push 
+Local repository ke changes ko remote repository me upload karne ke liye
 Example: `git push origin main`
 
-10. git pull - Remote repository se recent changes ko download karne ke liye
+### git pull 
+Remote repository se recent changes ko download karne ke liye
 Example: `git pull origin main`
 
-11. git clone - Remote repository ko local machine me clone karne ke liye
+### git clone 
+Remote repository ko local machine me clone karne ke liye
 Example: `git clone https://github.com/user/repo.git`
 
-12. git fetch - Remote repository ke latest changes ko download karke local repository me update karne ke liye
+### git fetch 
+Remote repository ke latest changes ko download karke local repository me update karne ke liye
 Example: `git fetch origin`
 
-13. git remote add - Remote repository ko local repository ke sath connect karne ke liye
+### git remote add 
+Remote repository ko local repository ke sath connect karne ke liye
 Example: `git remote add origin https://github.com/user/repo.git`
 
-14. git diff - Changes ko compare karne ke liye
+### git diff 
+Changes ko compare karne ke liye
 Example: `git diff file.txt`
 
-15. git reset - Changes ko unstage karne ke liye
+### git reset 
+Changes ko unstage karne ke liye
 Example: `git reset file.txt`
 
-16. git rm - Files aur directories ko remove karne ke liye
+### git rm 
+Files aur directories ko remove karne ke liye
 Example: `git rm file.txt`
 
-17. git tag - Repository ke specific version ko tag karna
+### git tag 
+Repository ke specific version ko tag karna
 Example: `git tag v1.0`
 
-18. git stash - Temporary changes ko save karne ke liye
+### git stash 
+Temporary changes ko save karne ke liye
 Example: `git stash`, `git stash apply`
 
-19. git remote - Remote repository ke sath interaction ke liye
+### git remote 
+Remote repository ke sath interaction ke liye
 Example: `git remote -v`
 
-20. git rebase - Branch ke history ko modify karne ke liye
+### git rebase 
+Branch ke history ko modify karne ke liye
 Example: `git rebase main`
 
-21. git blame - File ke each line ko konse commit ne change kiya hai, uska pata lagane ke liye
+### git blame 
+File ke each line ko konse commit ne change kiya hai, uska pata lagane ke liye
 Example: `git blame file.txt`
 
-22. git grep - Repository me search karne ke liye
+### git grep 
+Repository me search karne ke liye
 Example: `git grep "search term"`
 
-23. git cherry-pick - Specific commit ko current branch me merge karne ke liye
+### git cherry-pick 
+Specific commit ko current branch me merge karne ke liye
 Example: `git cherry-pick commit-hash`
 
-24. git submodule - Submodule ko add, update aur remove karne ke liye
+### git submodule 
+Submodule ko add, update aur remove karne ke liye
 Example: `git submodule add https://github.com/user/repo.git`
 
-25. git show - Specific commit ka details (changes and metadata) dikhane ke liye
+### git show 
+Specific commit ka details (changes and metadata) dikhane ke liye
 Example: `git show commit-hash`
 
-26. git config - Git ke configuration settings ko set aur get karne ke liye
+### git config 
+Git ke configuration settings ko set aur get karne ke liye
 Example: `git config --global user.name "Your Name"`
 
-27. git revert - Specific commit ko undo karne ke liye
+### git revert 
+Specific commit ko undo karne ke liye
 Example: `git revert commit-hash`
 
-28. git bisect - Code me bug ka exact point find karne ke liye
+### git bisect 
+Code me bug ka exact point find karne ke liye
 Example: `git bisect start`, `git bisect bad`, `git bisect good`
 
-29. git remote rm - Remote repository ko local se remove karne ke liye
+### git remote rm 
+Remote repository ko local se remove karne ke liye
 Example: `git remote rm origin`
 
-30. git log --oneline - Short commit history dikhane ke liye
+### git log --oneline 
+Short commit history dikhane ke liye
 Example: `git log --oneline`
 
-31. git log -5 - Last 5 commit ka history dikhane ke liye
+### git log -5 
+Last 5 commit ka history dikhane ke liye
 Example: `git log -5`
 
-32. git rebase -i - Interactive rebase ke liye
+### git rebase -i 
+Interactive rebase ke liye
 Example: `git rebase -i HEAD~3`
 
-33. git checkout -b - New branch create aur switch karne ke liye ek hi command ka use karna
+### git checkout -b 
+New branch create aur switch karne ke liye ek hi command ka use karna
 Example: `git checkout -b new-branch`
 
-34. git push --force - Remote repository me forceful changes ko upload karne ke liye
+### git push --force 
+Remote repository me forceful changes ko upload karne ke liye
 Example: `git push --force origin main`
 
-35. git cherry - Show unmerged commits between two branches
+### git cherry 
+Show unmerged commits between two branches
 Example: `git cherry branch1 branch2`
 
-36. git clean - Remove untracked files from the
+### git clean 
+Remove untracked files from the
