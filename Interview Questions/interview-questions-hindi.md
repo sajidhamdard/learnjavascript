@@ -1222,3 +1222,848 @@ Ye sab functions HTML aur CSS ke code mei elements ya tags ko select karne ke li
 
 5) querySelectorAll - Is function se hum CSS selector ka upyog karke kisi specific group of elements ko select kar sakte hai.
 
+
+### Difference between innerHTML vs textContent ?  
+innerHTML aur textContent dono Javascript mein element ke content ko access karne ke liye use kiya jaate hain. innerHTML HTML content ko bhi include karta hai, jabki textContent sirf plain text ko hi include karta hai. Agar aapke paas ek div element hai jisme kuch HTML tags hain, to innerHTML us HTML ko bhi show karega lekin textContent sirf uske content ka plain text hi dikhayega. Isliye agar aap HTML code ko modify karna chahte hain, toh innerHTML ka use karna sahi hai, lekin agar aap only text ko access karna chahte hain to textContent ka use karna sahi hai.
+
+
+### What is an event bubbling ?  
+Event bubbling in JavaScript refers to the way events propagate or "bubble up" through nested elements in the HTML DOM (Document Object Model). 
+
+Let's say you have a button inside a div, and both of them have click event listeners attached. When you click on the button, the click event is first triggered on the button itself. Then, the event "bubbles up" to its parent element, the div, and triggers the click event listener attached to it as well.
+
+This bubbling continues up the hierarchy of elements until it reaches the document object itself. Handlers for the same event type on outer elements will be called before handlers on inner elements. 
+
+So essentially, event bubbling means that an event that occurs on a nested element will also trigger any event listeners attached to its parent elements as it bubbles up through the DOM hierarchy.
+
+
+### What is an event capturing ?  
+Event capturing ek tarika hai JavaScript mein jisse hum kisi event ka pata laga sakte hain ki wo DOM ke kis element se shuru hota hai. Jab hum kisi event ko capture karte hain to wo DOM tree ke top se bottom tak chalta hai, yani ki sabse upar wale element se start hota hai aur niche ki taraf jaata hai.
+
+Isse hum DOM ke har ek element ko handle kar sakte hain aur apne code ko optimize karne mein madad milti hai.
+
+
+### Difference between event bubbling and capturing ?  
+Event bubbling and capturing are two ways in which events propagate through the DOM (Document Object Model) in JavaScript.
+
+Event bubbling is when an event starts at the deepest element and bubbles up through its parents until it reaches the document object. In other words, the event first triggers on the innermost element and then propagates outward to the outer elements.
+
+On the other hand, event capturing is when an event is captured by the outermost element first and then propagates down to the innermost element. In other words, the event first triggers on the outermost element and then propagates inward to the inner elements.
+
+So, the main difference between event bubbling and capturing is the order in which the elements receive the event. Bubbling goes from innermost to outermost, while capturing goes from outermost to innermost.
+
+To remember this easily, you can think of event bubbling as a bubble rising to the surface of water, while event capturing is like a net capturing something from above.
+
+
+### Difference between innherHTML and attribute ?  
+innerHTML aur attribute dono JavaScript ke tareeko hai webpage par HTML elements ko modify karne ke liye. innerHTML ko use karke hum HTML element ke andar ka content update kar sakte hai, jabki attribute se hum uss element ke properties jaise ki id, class, src, href aadi ko change kar sakte hai. Jaise ki naam se pata chalta hai, innerHTML mein hum HTML code daalte hai, jabki attribute mein hum sirf values daalte hai.
+
+Agar humko ek div ke andar ka text update karna hai, to hum innerHTML ka use karenge, aur agar hum uss div ka id attribute change karna chahte hai, to hum attribute ka use karenge. Iske alawa, innerHTML ke use se hum new HTML elements bhi create kar sakte hai, jabki attribute se hum elements ko manipulate karte hai.
+
+
+### How to change the style of an html element using DOM ?  
+HTML elements ke style ko DOM ka upyog karke javascript mein kaise badle? Hinglish mein samjhayein.
+
+HTML mein hum alag-alag prakar ke tags ka upyog karte hain, jaise `<div>`, `<p>`, `<h1>` aadi. In tags ke andar hum various properties aur attributes define karte hain, jaise ki `class`, `id`, `style`, `src` aadi. 
+
+Javascript mein DOM (Document Object Model) ka upyog karke hum HTML elements ke saare properties, attributes aur content ko access aur manipulate kar sakte hain. Agar hum kisi HTML element ke style ko change karna chahte hain, to hum us element ke `style` attribute ko access karenge aur usmein se desired property ko change karenge.
+
+Jaise maan lijiye hume ek `<div>` element ki background color change karni hai, to hum us div element ke id ya class ko access karenge aur uska `style.background` property ko set kar denge. Ye kaafi simple hai:
+
+```javascript
+// HTML mein div element definition
+<div id="myDiv">My Div Element</div>
+
+// Javascript mein style change karna
+document.getElementById("myDiv").style.background = "blue";
+```
+
+Iss code snippet mein humne `getElementById()` function ka upyog karke HTML mein se `myDiv` ID wale element ko access kiya aur uska `style.background` property ko `blue` set kar diya. Is tarah hum kisi bhi HTML element ke style ko change kar sakte hain DOM ka upyog karke.
+
+
+### What is event ?  
+JavaScript me "event" ek aisa khud-bakod (self-contained) chij hai jiske baad koi action hota hai, jaise user kisi button ko click karta hai ya koi element screen par dikhta hai. Is event ke saath-saath, ek function ya code bhi hota hai jo us event ko handle karta hai. Event-driven programming ka model is prakar se kaam karta hai ki jab tak koi event nahi hota, tab tak program rukha rehta hai aur event hone ke baad hi uska next step execute hota hai.
+
+
+### What is role the event.preventDefult() ?  
+`event.preventDefault()` JavaScript mein ek function hai jo event ko rokta hai jisse default behaviour ho sakta hai, jaise ki ek form submit hone ke baad page reload karna. Agar aap `event.preventDefault()` ka use karte hain tab browser uss particular event ka default behaviour nahi karega.
+
+Iska matlab hai ki jab bhi koi user form submit karta hai, aap apne JavaScript code mein `event.preventDefault()` ka use karke page ko reload nahi kar sakte hain aur aap apne form data ko back-end server pe bhej sakte hain XMLHttpRequest ya fetch API se.
+
+
+### What are the different types of mouse/keyboard events ?  
+JavaScript mein mouse/keyboard events ke kuch alag-alag prakar hote hain. 
+
+1. Click event - Jab aap mouse se kisi bhi element par click karte hain, to click event trigger ho jata hai.
+
+2. Double-click event - Jab aap mouse se kisi element ko double-click karte hain, to double-click event trigger hota hai.
+
+3. Hover event - Jab aap mouse ko kisi element ke upar le jate hain, to hover event trigger hota hai.
+
+4. Keydown event - Jab aap keyboard se koi key press karte hain, to keydown event trigger hota hai.
+
+5. Keyup event - Jab aap keyboard se koi key release karte hain, to keyup event trigger hota hai.
+
+6. Keypress event - Jab aap keyboard se koi key press karte hain, to keypress event trigger hota hai.
+
+In events ko use karke aap apne JavaScript code ko user ke actions ke sath synchronize kar sakte hain aur apne web applications ko interactive aur responsive bana sakte hain.
+
+
+### What is eventListener ?  
+Event listeners in JavaScript are functions that wait for a specific event to occur on a web page, such as a mouse click or a keyboard press. When the event happens, the function is triggered and performs a certain action. It's like a chowkidar who listens to specific sounds and alerts you when they occur.
+
+
+### How to remove a eventListener ?  
+Event listener ko remove karne ke liye, `removeEventListener()` method ka upyog kiya jaata hai. Is method ko use karke event ko aur uske saath judi function ko hataaya ja sakta hai.
+
+Jab aap kisi element par `addEventListener()` method se event listener add karte hai to uski return value ek reference hoti hai, jise aap later `removeEventListener()` method se use kar sakte hai.
+
+Iska example niche diya gaya hai:
+
+```
+// Event listener add karna
+myElement.addEventListener('click', myFunction);
+
+// Event listener hataana
+myElement.removeEventListener('click', myFunction);
+```
+
+Yahaan, `myElement` JavaScript element hai jispar event listener add karna hai. `addEventListener()` method ke dwara event listener add kiya jata hai, jismein `'click'` event type aur `myFunction` function specify kiya gaya hai.
+
+`removeEventListener()` method se ise hataya ja sakta hai, jismein bhi same event type aur function pass kiye jaate hai jo pahle add kiye the.
+
+
+### How to create a DOM element dynamically ?  
+Javascript mein ek DOM element ko dynamic tarike se kaise banaya ja sakta hai?
+ 
+Javascript ke madhyam se hum ek naya HTML element bana sakte hain, jisko Document Object Model (DOM) kahte hain. Iske liye hum createElement() method ka upyog karte hain jo ek naya element banane mein madad karta hai.
+
+Jaise ki agar aap ek naya <div> element banana chahte hain, toh aapko yeh code likhna hoga:
+```
+var newDiv = document.createElement('div');
+```
+
+Iss code se ek naya div element banega jo ki abhi tak apne HTML page mein maujood nahi hai. Aap isse CSS ke madhyam se style kar sakte hain aur usme content add kar sakte hain, phir use apni website mein display kar sakte hain.
+
+
+### What are the below BOM objects? Explain each Window, History, Navigator, Screen, Location, Timing,Cookies, LocalStorage  
+Neeche diye gaye BOM objects kya hai? Har object ki vyakhya Window, History, Navigator, Screen, Location, Timing, Cookies, LocalStorage Hinglish me samjhayiye.
+
+1. Window - Window ek browser ka pramukh object hai jo ek web page ko darshata hai. Yeh browser ki current window ka reference deta hai aur usme sabhi dusre objects shamil hote hain.
+
+2. History - History object browser ki back and forward buttons ke saath juda hua hai. Isse aap apne browser ki history ko track kar sakte hain aur pichhle pages par laut sakte hain.
+
+3. Navigator - Navigator object browser ki information provide karta hai jaise ki kaunsa browser chala raha hai, uska version kya hai, operating system kaunsa hai, etc.
+
+4. Screen - Screen object browser ke current screen ki dimension aur resolution provide karta hai.
+
+5. Location - Location object browser ki current URL ko represent karta hai. Aap is object ka upyog karke URL ko read/write kar sakte hain.
+
+6. Timing - Timing object website ke performance ke liye bahut important hai. Isse aap apne webpage ke load time aur user response time ko measure kar sakte hain.
+
+7. Cookies - Cookies web server aur browser ke beech communication ko maintain karta hai. Ye small text files ke roop me store hote hain aur login session, shopping cart items, preferences, etc. ko save karna possible banate hain.
+
+8. LocalStorage - LocalStorage ek client-side storage mechanism hai jo web pages ke data ko client system pe store karta hai. Ye cookies se zyada storage provide karta hai aur long-term data storage ke liye upyogi hota hai.
+
+
+### What is JavaScript engine? What are the famous JavaScript engine names?  
+JavaScript engine ek software program hota hai jo JavaScript code ko interpret karta hai aur machine-readable instructions me convert karta hai, jise computer samajh sakta hai. Ye web browsers, servers, mobile apps jaise places pe use kiya jaata hai.
+
+Kuch famous JavaScript engines hai:
+- V8 (Google Chrome and Node.js)
+- SpiderMonkey (Mozilla Firefox)
+- JavaScriptCore (Safari)
+- Chakra (Microsoft Edge)
+- Nashorn (Java Virtual Machine)
+
+In engines ke alag-alag tarike hote hai JavaScript ko interpret karne ka, jaise ki Just-in-Time (JIT) compilation, ahead-of-time (AOT) compilation, or interpretive execution.
+
+
+### What is Call Stack ?  
+Call Stack JavaScript mein ek internal data structure hai jo functions ke calls ko track karta hai. Jab aap ek function call karte hai, to ye function Call Stack mein add ho jaata hai, aur jab wo function apna execution complete karta hai, to wo Call Stack se remove ho jaata hai. Jab bhi aap koi function call karte hai, to wo function ki jagah Call Stack par push ho jaati hai aur jab function ka execution khatam hota hai, to wo stack se pop ho jaati hai. Is tarah se, Call Stack hume batata hai ki kaunsa function abhi execute ho raha hai aur uske baad kaunsa function execute hoga.
+
+
+### What is Execution Context ?  
+Execution Context ek tarah ka environment hota hai jisme JavaScript code execute hota hai. Har baar jab koi function call hota hai, toh uski execution context create hoti hai. Execution context mei sabse pehle Variable Object create hota hai, phir 'this' keyword initialize hota hai aur phir Function ka Execution bhi start hojata hai.
+
+
+### How call stack and execution context are interrelated ?  
+Call stack aur execution context dono hi JavaScript ke runtime environment me important hai. Jab hum koi function call karte hai, toh woh function call stack me add hota hai aur uska respective execution context ban jata hai. Execution context me function ke sabhi local variables, parameters, aur 'this' keyword ka value store kiya jata hai. Jab function execute ho jata hai, toh uska execution context pop out ho jata hai call stack se.
+
+Isi tarah se, jab nested functions calls hote hai, toh unki corresponding execution contexts bhi call stack par sahi sequence me add hote hai aur unke execution complete hone ke baad ek-ek karke call stack se nikalte hai. Yeh process chalta rehta hai jab tak ki call stack khali na ho jaye.
+
+
+### What is Heap memory ?  
+Heap memory in JavaScript is where objects are stored when they are created during the program's execution. It is a large pool of memory that is dynamically allocated to the program and managed by the JavaScript engine. Think of it like a big container where all the variables, arrays, and objects live while your code is running.
+
+Heap ka matlab hota hai bada khilauna. Heap memory ek aisi jagah hai jahan JavaScript ke program ke runtime main banaye gaye objects store hote hain. Ye memory block program ke liye dynamically allocate kiya jata hai aur JavaScript engine unhe manage karta hai. Isko aap ek badi container ke tarah imagine kar sakte hain jahan aapke variables, arrays aur objects aapke code execute ho rahe hai, wahin rehte hain.
+
+
+### What is Stack memory ?  
+Stack memory in JavaScript is where the temporary data of a function is stored during its execution. Suppose you have a function that calls another function, then the calling function's stack frame gets pushed onto the stack and holds its local variables and parameters. When the called function completes its execution, the stack frame gets popped off the stack and control returns to the calling function's stack frame. This continues until the main function completes its execution and the stack becomes empty again. Essentially, stack memory in JavaScript is like stacking plates on top of each other - you can only access the topmost plate, and once you're done using it, you remove it and access the plate underneath.
+
+
+### What is the difference between heap and stack memory ?  
+Heap aur stack memory dono hi JavaScript language ke andar hoti hai, lekin unki functionality alag hai.
+
+Heap memory program ke dynamic allocations ke liye use hoti hai. Ye memory block, objects aur variables jaise large data structures ke liye reserve ki jaati hai. Jab aap koi object ya variable create karte hain to wo heap memory mein store hota hai. Isme allocate kiya gaya memory automatic garbage collector dwara release kiya jata hai jab uska use khatam ho jata hai.
+
+Stack memory ka use function call stacks ke liye kiya jata hai. Ye memory block temporary variables aur function parameters jaise chhote data structures ke liye reserve kiya jata hai. Stack memory mein allocate kiya gaya memory automatically deallocate ho jata hai function call execution complete hone par.
+
+Toh, Heap memory large data structures ke liye hoti hai jabki stack memory chhoti temporary data structures ke liye hoti hai jo function call execution ke saath deallocate ho jati hai.
+
+
+### What is Compiler?  
+कॉम्पाइलर एक सॉफ्टवेयर होता है जो कोड को मशीन के लिए बिना त्रुटि के बदलता है। यह कंप्यूटर के प्रोसेसर के लिए समझने और निष्पादित करने में मदद करता है। इसके बिना, हम अपने कोड को सीधे कंप्यूटर मशीन में नहीं चला सकते हैं।
+
+
+### What is interpreter?  
+Interpreter ek aisa program hai jo humare computer mein programming language se likhe gaye code ko samajhne aur execute karne ki madad karta hai. Interpreter line-by-line code ko padhkar usko turant execute karta hai aur agar koi error hota hai to use bata deta hai. Interpreter ka upyog jyadatar scripting languages jaise Python, Ruby, aur JavaScript mein hota hai. Interpreter mein code likhna asaan hota hai kyunki hum code likhte samay turant feedback milta hai.
+
+
+### What is the difference between compiler and interpreter?  
+Compiler aur Interpreter dono programming languages ke code ko machine language me translate karne ka kam karte hai, lekin unke tarika alag-alag hai.
+
+Compiler ek aisa program hai jo puri coding file ko ek sath read karke use machine code me convert kar deta hai. Ye machine code executable format me hota hai aur execute hone par humari application run karti hai. Compiler ki madad se hum apni code ko bahut jaldi aur efficient tarike se execute kar sakte hai.
+
+Interpreter ek aisa program hai jo line by line code ko execute karta hai. Interpreter code ke errors ko jaldi detect karta hai kyunki wo use line by line read karta hai. Interpreter ki madad se hum code ko easily debug aur test kar sakte hai.
+
+Toh, Compiler apne kaam ko poora karne ke liye puri file ka wait karta hai jabki Interpreter har line ko execute karta hai.
+
+
+### What is JIT ?  
+JIT (Just-In-Time) JavaScript ek technology hai jo code performance ko improve karne ke liye use hoti hai. Jab hum JavaScript code ko run karte hai, toh isko pahle parse kiya jata hai aur phir execution hoti hai. Lekin, agar hum ek JIT compiler ka use karein, toh ye interpreter ko code ko compile karne ki permission deta hai, jisse execution time kam ho jaata hai aur code ki performance increase ho jaati hai. Isse JavaScript applications ki speed badh jaati hai.
+
+
+### What is event loop ?  
+Event loop JavaScript mein ek aisa mechanism hai jisse code execution ko control karte hain. Ye tabhi kaam karta hai jab koi asynchronous function call hota hai, jaise ki setTimeout() ya XMLHttpRequest(). Is mechanism mein, sabhi events ek queue mein store hote hain aur event loop unhe ek ek karke execute karta hai. Jab ek event ke saare tasks complete ho jaate hain, tabhi dusra event execute hota hai. Ye cycle bar-bar chalta rahta hai jab tak saare events execute na ho jaayen.
+
+
+### What is inside the execution context ? Types of execution context? , Global, Functional  
+Execution context ka matlab hota hai ki jab bhi hum JavaScript code ko run karte hain, toh uss time pe ek naya 'execution context' create hota hai. Yeh execution context banane ka kaam interpreter karta hai.
+
+Execution context ke andar 3 chizon ka hona zaruri hota hai:
+1. Variable Object - yeh variable aur functions ke naam ko store karta hai
+2. Scope Chain - yeh execution context ke parent ko refer karta hai
+3. "this" keyword - yeh current object ko point karta hai
+
+JavaScript mein do tarah ke execution context hote hain:
+1. Global Execution Context - yeh code ke bahar sabse pehle create hota hai aur program ke khatam tak rehta hai. Ismein 'this' keyword 'window' object ko point karta hai.
+2. Functional Execution Context - yeh function call hone pe create hota hai aur function ke khatam hone pe destroy ho jata hai. Ismein 'this' keyword function ke object ko point karta hai.
+
+Iske alawa, JavaScript mein 'eval' function use karne se bhi execution context create hota hai par yeh deprecated method hai aur abhi istemal nahi kiya jaata.
+
+
+### What is variable environment ?  
+Variable environment ek aisi jagah hai jahan pe JavaScript ke variables ka data store hota hai. Jab bhi hum koi variable create karte hai, JavaScript uska reference variable environment se leta hai aur use define karta hai. Variable environment mei variables ke alawa bhi functions aur objects ka data store hota hai. Ye variables, functions aur objects ke liye ek isolated space provide karta hai jo ki globally accessable nahi hota hai.
+
+
+### What is scope chain ?  
+Scope chain in JavaScript refers to the hierarchy of variables and functions that a program can access within nested functions. Each function has its own scope, and variables declared within a function are only accessible within that function and its inner functions.
+
+When a variable is referenced within a function, JavaScript first checks if it's defined within that function's scope. If not, it looks up the scope chain until it finds the variable or reaches the global scope. The order in which JavaScript looks up the scopes is called the scope chain.
+
+In simple words, scope chain JavaScript mein ek tarika hai jisse program ke andarke function aur uske nested functions mein variables aur functions ko access kiya ja sakta hai. Har function apni alag scope rakhta hai aur ek function ke ander declare kiye gaye variables sirf usi function aur uske nested functions ke andar access kiye jaa sakte hai.
+
+Jab koi variable ek function ke ander reference kiya jaata hai, toh JavaScript sabse pehle check karta hai ki woh variable usi function ke scope mein define hai ya nahi. Agar nahi hai toh woh scope chain ke through upar ki taraf check karta hai, jab tak woh variable mil nahi jaata ya phir global scope tak nahi pahunch jaata. Ye jo order hota hai jisse JavaScript scopres ko search karta hai, use hum scope chain kehte hai.
+
+
+### What is this keyword ? Where to use it? What this keyword denotes?  
+"this" keyword ka matlab hai "yeh". Javascript mein "this" keyword use hota hai object ke reference ko refer karne ke liye, jaise ki current object, function ya method.
+
+Jab aap kisi object ke andar function define karte ho, toh uss function mein "this" keyword uss object ko refer karta hai. Isko hum "method" kehte hai.
+
+Agar aap "this" keyword bina kisi object ke use karte ho, toh yeh global object ko refer karega.
+
+Isliye, "this" keyword ka sahi use karke aap apne code ko clean aur maintainable bana sakte ho.
+
+
+### What is creation and code phase ?  
+"Creation phase" aur "Code phase" dono hi JavaScript ke execution ka hissa hai. Creation phase me, JavaScript engine ne variables aur functions ko memory me allocate kar diya jata hai. Jabki code phase me, ye allocated variables aur functions ko use karke program execute karta hai.
+
+Iska matlab hai ki jab aap apna JavaScript code run karte ho to sabse pehle engine apne dimaag me sochta hai ki "Konsa variable ya function banana hai?" aur fir usko memory me allocate kar deta hai. Is process ko creation phase kehte hai. Uske baad, engine code ko line by line chalta hai aur usko execute karta hai. Ye process code phase kehte hai.
+
+In summary, creation phase me variables aur functions ko allocate kiya jata hai, jabki code phase me unka use kiya jata hai.
+
+
+### What will happen if we use this keyword inside a function in strict mode ?  
+Agar hum ek function mein 'this' keyword strict mode mein use karenge toh yeh us function ke execution context se related hoga, aur global object ke saath bind nahi hoga. Iska matlab hai ki agar 'this' ko undefined ya null assign nahi kiya gaya hai, toh function call error throw karega.
+
+
+### What is the difference between primitive and object ?  
+JavaScript me primitive aur object dono hi data types hote hai. Primitive, ek simple data type hota hai jaise ki number, string, boolean, null aur undefined. Jabki object, ek complex data type hota hai jisme bahut saare properties aur methods hote hai.
+
+Primitive values ko direct assign kiya ja sakta hai variable me, jabki object ko create karne ke liye new keyword ka use karna hota hai. Primitive values ko immutable mana jata hai matlab ki unhe modify nahi kiya ja sakta hai, jabki object ki values aur properties change ki ja sakti hai.
+
+Primitive types value ke comparison ke liye == operator ka use kiya jata hai, jabki object reference ke comparison ke liye == operator ka use kiya jata hai. Agar dono operands same object ko point karte hai to true return hota hai, warna false return hota hai.
+
+Iske alawa, primitive values stack me store hote hai aur object heap memory me store hota hai.
+
+
+### What is normal copy ?  
+Normal copy in JavaScript refers to the process of copying data from one variable to another. This can be done using various methods such as the assignment operator (=), Object.assign() method, or spread operator (...). 
+
+In Hinglish: Normal copy Javascript mein ek tarika hota hai jisse hum kisi variable se dusre variable mein data copy kar sakte hain. Iske liye assignment operator (=), Object.assign() method ya spread operator (...) ka use kiya ja sakta hai.
+
+
+### What is shallow copy ? How to perform shallow copy of an object?  
+Shallow copy  refers to creating a new object that has the same properties as the original object, but shares the same references to values stored in memory. This means that changes made to the values of the shallow copied object will also affect the original object.
+
+To perform a shallow copy of an object in Javascript, you can use various methods such as Object.assign() or the spread operator (...). For example:
+
+```javascript
+const originalObject = {name: "John", age: 25};
+const copiedObject = Object.assign({}, originalObject); // shallow copy using Object.assign()
+const anotherCopiedObject = {...originalObject}; // shallow copy using spread operator
+
+console.log(copiedObject); // {name: "John", age: 25}
+console.log(anotherCopiedObject); // {name: "John", age: 25}
+
+copiedObject.age = 30;
+console.log(originalObject); // {name: "John", age: 25}
+console.log(copiedObject); // {name: "John", age: 30}
+console.log(anotherCopiedObject); // {name: "John", age: 25}
+```
+
+Isme hum ek naya object banaate hain jo original object ki properties ko copy kar leta hai. Lekin yeh reference values ko same memory me point karta hai, isliye agar hum copied object ke values ko update karte hain toh original object ke values bhi update ho jaate hain.
+
+
+### What is deep copy ? How to perform deep copy of an object?  
+Deep copy  refers to creating a separate and independent copy of an object, with its own set of properties and values. This means that any changes made to the copied object will not affect the original object.
+
+To perform deep copy of an object in Hinglish, you can think of it like creating a photocopy of a document. Just as a photocopy is an exact replica of the original document, a deep copy of an object is an exact replica of the original object.
+
+In code, you can perform a deep copy of an object using methods such as `JSON.parse(JSON.stringify(object))`, which converts the object to a JSON string and then parses it back into a new object. Another way is to use libraries like `lodash` or `jQuery` that have built-in functions for deep copying objects.
+
+For example, if you have an object named `originalObject`, you can create a deep copy of it like this:
+
+```
+var copiedObject = JSON.parse(JSON.stringify(originalObject));
+```
+
+This will create a new, separate object called `copiedObject` that has the same properties and values as `originalObject`.
+
+
+### Where objects are stored ? Is object primitive type or non-primitive?  
+In JavaScript, objects are stored in memory on the heap. Objects are non-primitive types, which means they are not directly stored in a variable, but rather as a reference to their location in memory.
+
+To explain it in Hinglish:
+JavaScript mein, objects memory mein heap par store hote hain. Objects non-primitive type hote hain, matlab ki wo variables mein seedhe store nahi hote, balki unki memory location ka reference variable mein store hota hai.
+
+
+### What is Destructuring ?  
+Destructuring ek tarika hai jisme hum ek object ya array ke andar ke values ko directly variables mein assign kar sakte hai. Jaise ki, agar humara ek object hai: 
+```
+const person = {
+  name: 'John',
+  age: 30,
+  city: 'Mumbai'
+}
+```
+Toh destructuring ka use karke hum in values ko variables mein assign kar sakte hai:
+```
+const { name, age, city } = person
+console.log(name) // Output: John
+console.log(age) // Output: 30
+console.log(city) // Output: Mumbai
+```
+Yeh code `person` object ke andar ke values ko `name`, `age`, aur `city` variables mein assign karta hai.
+Isi tarah se hum arrays ke andar ke values ko bhi variables mein assign kar sakte hai.
+
+
+### How to reverse values using destructuring ?  
+Destructuring ka istemaal karke Javascript mein values ko ulta kaise karen? 
+
+Agar hum ek array ya object se values ko reverse karna chahte hain, toh destructuring ka istemaal kar sakte hain. Array ke liye, hum `[...array].reverse()` likhenge. Object ke liye, hum `{...object}` ke jagah `{...object}.reverse()` nahi likh sakte kyunki objects key-value pairs se bane hote hain aur keys ko reverse nahi kiya ja sakta hai.
+
+
+### How to return two values from function ?  
+JavaScript mein ek function se do values kaise return kar sakte hain? Samjhayiye Hinglish mein.
+
+JavaScript mein hum ek object ya array mein multiple values ko combine karke ek hi value return kar sakte hain. Iske liye, hum ek object mein key-value pairs ka use kar sakte hain ya phir ek array mein values ko sequence mein store kar sakte hain. Fir hum ye object ya array ko function ke andar create kar sakte hain aur function se return kar sakte hain. Function se return kiya gaya object ya array ko fir se destructure karke hum multiple values ko alag-alag variables mein assign kar sakte hain.
+
+Jaise example ke taur par:
+
+```
+function getValues() {
+  let name = "John";
+  let age = 30;
+  return {name, age}; // Object with key-value pairs
+}
+
+let {name, age} = getValues(); // Destructuring object to get individual values
+
+console.log(name); // Output: John
+console.log(age);  // Output: 30
+```
+
+Ya phir,
+
+```
+function getValues() {
+  let name = "John";
+  let age = 30;
+  return [name, age]; // Array with values in sequence
+}
+
+let [name, age] = getValues(); // Destructuring array to get individual values
+
+console.log(name); // Output: John
+console.log(age);  // Output: 30
+```
+
+
+### How destructuring works in array and object ?  
+Destructuring ka matlab hota hai kisi bade data structure se chote chote hisse nikalna. Iska use hum JavaScript mein arrays aur objects se values extract karne ke liye karte hain.
+
+Agar hum array destructuring ki baat karein toh, hum ek array se uske elements ko variable mein store kar sakte hain. Ye hamare code ko short aur readable bhi banata hai. Jaise:
+
+```
+const myArray = [1, 2, 3];
+const [a, b, c] = myArray;
+console.log(a); // Output: 1
+console.log(b); // Output: 2
+console.log(c); // Output: 3
+```
+
+Agar hum object destructuring ki baat karein toh, hum ek object se uske key-value pairs ko variables mein store kar sakte hain. Jaise:
+
+```
+const myObject = {name: "John", age: 30};
+const {name, age} = myObject;
+console.log(name); // Output: John
+console.log(age); // Output: 30
+```
+
+Is tarah se hum destructuring ka use karke arrays aur objects ke elements ya key-value pairs ko variables mein store kar sakte hain.
+
+
+### How to do destructuring of nested array ?  
+Nested arrays refer karte hai jab ek array ke andar dusre arrays hote hai. Jab hum nested arrays ko access karne ki baat karte hai, tab destructuring ka use karte hai.
+
+Destructuring se hum variables ko maintain karke array ke specific values ko extract kar sakte hai. Agar hum nested array ke liye destructuring karna chahte hai toh hum ek bracket aur comma ka use karenge jiske through hum uss array ke andar dusre array ke elements tak pahunch sakte hai.
+
+For example:
+
+```
+const myArray = [1, 2, [3, 4]];
+
+const [a, b, [c, d]] = myArray;
+
+console.log(a); // Output: 1
+console.log(b); // Output: 2
+console.log(c); // Output: 3
+console.log(d); // Output: 4
+```
+
+Upar diye gaye code mein, `myArray` ek nested array hai jo `const` keyword se define kiya gaya hai. Fir hum `myArray` ko `a`, `b`, `c` aur `d` variable mein destructuring kar rahe hai. `a` variable mein `myArray` ke pehle element 1 store ho raha hai, `b` variable mein dusra element 2 store ho raha hai aur `c` aur `d` variables mein third nested array ke dono elements 3 aur 4 store ho rahe hai.
+
+Isi tarah se aap bhi JavaScript mein destructuring ka use karke nested arrays ke Elements ko access kar sakte hai.
+
+
+### How to set default values in destructuring ?  
+Javascript mein destructuring mein default values kaise set karein? 
+
+Destructuring mein agar hum variable ko extract karte hain toh usmein undefined value aati hai, lekin agar humne uski jagah koi default value set kar diya toh wo use hogi. Iske liye hum variable ke saath colon (:) laga kar uska default value set kar sakte hain.
+
+For example:
+```
+const { name = 'John', age = 30 } = person;
+```
+
+Yahaan, `person` object se `name` variable ko extract karte waqt agar `name` property na ho toh uski jagah `'John'` value set ho jayegi aur agar `age` property na ho toh uski jagah `30` value set ho jayegi.
+
+
+### What is destructuring object ?  
+Destructuring object ek tareeka hai jisme hum JavaScript mein ek object ke values ko variables mein alag-alag tarah se store kar sakte hain. Ismein hum object ke properties ke naam ka upyog kar ke variables ko declare karte hain aur phir us object ke values ko variables mein assign karte hain. Yeh code likhne aur padhne dono ke liye aasaan hota hai aur isse code ki readability bhi badhti hai.
+
+
+### How we can use destructuring with object ?  
+Destructuring ek aisa technique hai jisme hum JavaScript mein object se values ko nikal sakte hain. Hum ismein curly braces {} ka use karte hain jisse specific properties ko access kiya ja sakta hai.
+
+Hum destructuring ko variables ke through bhi kar sakte hain jisme hum direct object se property ko variable mein assign kar dete hain.
+
+Example:
+```
+// Object destructuring
+const person = { name: 'Raj', age: 25, city: 'Mumbai' };
+const { name, age } = person;
+console.log(name); // Output: Raj
+console.log(age); // Output: 25
+
+// Variable destructuring
+const {city} = person; // Assigning the value of person.city to the variable city
+console.log(city); // Output: Mumbai
+``` 
+
+Iss tareeke se hum JavaScript mein objects se values ko extract aur access kar sakte hain.
+
+
+### How to destructuring remaining value to a single variable ?  
+Destructuring remaining values in JavaScript in Hinglish:
+
+JavaScript mein destructuring ka upyog karke hum ek se zyada variables se data ko alag alag variables mein nikal sakte hai. Agar humein kisi array ya object se kuch values nikalni hai aur baaki ke sare values ko ek variable mein store karna hai, to hum "rest" operator ka upyog kar sakte hai.
+
+Rest operator ke liye hum "...variableName" ka use karte hai jahaan "variableName" ek variable ka naam hota hai jismein hum baaki ke sare values store karna chahte hai. Is tarah se, hum ek se zyada variables se data ko extract kar sakte hai aur baaki ke sare values ko single variable mein store kar sakte hai.
+
+For example:
+```
+const [first, second, ...remaining] = [1, 2, 3, 4, 5];
+console.log(remaining); // Output: [3, 4, 5]
+```
+
+Iss example mein, humne ek array se "first" aur "second" variables mein pehle do values nikali aur baaki ke sare values ko "remaining" variable mein store kiya.
+
+
+### How to give alias name to a property name ?  
+JavaScript mein kisi bhi property ka alias naam dene ke liye, hum uss property ko ek naya variable mein store kar sakte hai jis ka naam hum chahate hai. Isse hum uss property ko dusre naam se access kar sakte hai.
+
+For example: Agar aapko 'fullName' property ke liye 'pooraNaam' naam ka alias dena hai toh aap ye code use kar sakte hai:
+
+```
+// Initialize object
+var person = {
+  fullName: "John Doe"
+};
+
+// Create alias for fullName property
+person.pooraNaam = person.fullName;
+
+// Access property using alias name
+console.log(person.pooraNaam); // Output: John Doe
+```
+
+Iss tarike se aap JavaScript mein kisi bhi property ka alias naam de sakte hai.
+
+
+### How we can set default values in destructurnig object ?  
+Jab hum JavaScript mein objects ko destructuring karte hain, tab hum default values bhi set kar sakte hain. Iske liye, hum object ke property ke saath ek equal sign laga kar default value de sakte hain. Agar object mein woh property nahi hai toh default value use hogi. Yeh code example explain karta hai:
+
+```javascript
+// Example object
+const person = {
+  name: 'John',
+  age: 30,
+};
+
+// Destructuring with default values
+const { name, age, gender = 'unknown' } = person;
+
+console.log(name);   // Output: 'John'
+console.log(age);    // Output: 30
+console.log(gender); // Output: 'unknown', kyunki 'gender' property 'person' object mein nahi thi.
+```
+
+Is example mein, `gender` property `person` object mein nahi tha lekin jab hum destructuring kiya, default value `'unknown'` set ho gaya.
+
+
+### What is nested object destructuring ?  
+Javascript mein nested object destructuring ka matlab hai ki hum ek object ke andar dusre objects ko destructuring kar sakte hain. Isse hum multiple variables ko ek saath extract kar sakte hain aur unhe alag-alag variables mein store kar sakte hain.
+
+Jaise ki, agar humare paas ek aisa object hai jismein doosre objects hain toh hum usmein nested object destructuring ka use kar sakte hain. Iske liye hum {} ke andar brackets laga kar variables ko define karte hain aur phir uss object ko access karte hain. Example ke taur par, agar humare paas ek aisa object hai:
+
+```
+const student = {
+  name: "Rahul",
+  age: 20,
+  address: {
+    city: "Mumbai",
+    state: "Maharashtra"
+  }
+};
+```
+
+Toh usmein nested object destructuring ka use karke hum address object ke properties ko alag variables mein extract kar sakte hain, jaise ki:
+
+```
+const { name, age, address: { city, state } } = student;
+
+console.log(name); // Output: Rahul
+console.log(age); // Output: 20
+console.log(city); // Output: Mumbai
+console.log(state); // Output: Maharashtra
+```
+
+Is tarah se hum nested object destructuring ka use karke code ko readable aur efficient bana sakte hain.
+
+
+### How to destructruing object when passing into a function ?  
+Jab aap ek object ko kisi function mein pass karte hai, toh aap us object ke alag-alag properties ko bhi alag-alag variables mein store kar sakte hai. Isko hum "destructuring" kehte hai.
+
+Iske liye aapko function ke arguments mein object ka naam dena hoga, aur phir uske andar curly braces laga kar property names ko mention karna hoga jinhe aap alag-alag variables mein store karna chahte hai.
+
+Example:
+```
+function myFunction({name, age}) {
+  console.log(name);
+  console.log(age);
+}
+
+const person = { name: 'John', age: 30 };
+
+myFunction(person); // Output: John\n30
+```
+
+Yahan `myFunction` mein `person` object ko argument ke roop mein pass kiya gaya hai aur argument mein `{name, age}` diya gaya hai. Isse `name` aur `age` variables mein `person` ke corresponding values store ho jayenge.
+
+
+### What is spread operator ?  
+Spread operator ek tarika hai jisme hum ek array, object ya iterable ke elements ko alag alag variables mein alag kar sakte hain. Yeh "..." (teen dots) se represent kiya jaata hai.
+
+Iska upyog hum karte hain jab humein kisi bhi iterable ke saare elements ko individually access karna ho, unmein kuch changes karna ho ya unhein kisi function mein arguments ke roop mein pass karna ho. Spread operator ka istemaal aapke code ko kam aur efficient bana sakta hai.
+
+For example:
+```
+// Array ke elements ko alag alag variables mein alag karna
+const arr = [1, 2, 3];
+const [a, b, c] = arr;
+console.log(a); // output: 1
+console.log(b); // output: 2
+console.log(c); // output: 3
+
+// Objects ke properties ko copy karna
+const obj1 = { a: 1, b: 2 };
+const obj2 = { ...obj1, c: 3 };
+console.log(obj2); // output: { a: 1, b: 2, c: 3 }
+
+// Function mein arguments ke roop mein spread operator ka upyog karna
+function sum(a, b, c) {
+  return a + b + c;
+}
+const nums = [1, 2, 3];
+console.log(sum(...nums)); // output: 6
+```
+
+
+### How to do shallow copy using spread operator ?  
+Shallow copy ka matlab hota hai ki ek object ke references ko dusre object me copy karna. Spread operator ka use karke hum shallow copy kar sakte hai.
+
+Spread operator `...` ka use karke hum array ya object ke values ko alag alag variables me spread kar sakte hai, jisse unhe easily manipulate kiya ja sake.
+
+Iss tarah se hum spread operator ka use karke shallow copy kar sakte hai:
+
+```
+const originalObject = { name: "John", age: 30 };
+const copiedObject = { ...originalObject };
+```
+
+Yahan humne `...` ka use karke `originalObject` ke values ko `copiedObject` me copy kiya hai. Ab dono objects alag hai lekin unke values same hai. 
+
+Iss tarah se hum spread operator ka use karke shallow copy kar sakte hai.
+
+
+### How to join multiple arrays using spread operator ?  
+Spread operator ka upyog karke JavaScript mein kayi arrays ko kaise joda ja sakta hai? 
+
+Hinglish mein samjhata hu:
+Agar aap multiple arrays ko join karne chahte hain to aap spread operator ka upyog kar sakte hain. Iske liye aap simply `...` operator ko use kijiye aur phir sabhi arrays ko ek sath pass kijiye. Jaise ki niche diya gaya hai:
+
+```
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const array3 = [...array1, ...array2];
+
+console.log(array3); // Output: [1, 2, 3, 4, 5, 6]
+```
+
+Ismein, humne pehle do arrays `array1` aur `array2` ko declare kiya aur phir unhein `...` operator se combine kar diya. Phir humne in dono arrays ko `array3` mein store kiya. Ab `array3` mein combined elements hain jinmein pehle `array1` ke elements hain aur phir `array2` ke elements hain.
+
+
+### How to convert a String to array using spread operator ?  
+Javascript mein, ek string ko array mein tabdeel karne ke liye, hum spread operator ka upyog kar sakte hain. Spread operator (...) ka istemaal array elements ko unfold karne ke liye kiya jaata hai.
+
+Iss prakriya mein, hum aise karte hain:
+
+1. Sabse pehle, hum apni string ko ek variable mein store karte hain.
+
+2. Fir hum uss variable ke saath "split" function ka upyog karte hain jisse vah string ko array mein convert karta hai.
+
+3. Ab hum spread operator ka upyog karte hain, "[...]" likh kar, jo iss array ko unfold karke uske elements ko le leta hai aur unhein naye ek array mein daal deta hai.
+
+Iss tareeke se, hum ek string ko array mein badal sakte hain:
+
+```
+// String to Array using Spread Operator
+let str = "Hello";
+let arr = [...str];
+console.log(arr); // Output: ["H", "e", "l", "l", "o"]
+```
+
+Yahan, hum ne string ko "str" variable mein store kiya aur phir usko array mein convert kar diya "split" function ka upyog kar ke. Fir hum spread operator ka upyog karke uss array ko unfold karke uske elements ko alag alag lai kar naye array mein daal diya. Output mein, hum dekh sakte hain ki string "Hello" ab array ke roop mein mojood hai.
+
+
+### How to pass arguments in function using spread operator ?  
+Spread operator ka use karke, JavaScript mein function mein arguments kaise pass karte hain? Hinglish mein samjhayein.
+
+Spread operator (yaani "...") ka use karke hum ek array ya object ke values ko expand kar sakte hain aur phir unhe alag-alag arguments ki tarah function mein pass kar sakte hain. Jaise ki:
+
+```
+function add(a, b, c) {
+  return a + b + c;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(add(...numbers)); // Output: 6
+```
+
+Is example mein, humne `add` function ko define kiya jismein teen parameters `a`, `b`, aur `c` hain. Phir humne `numbers` variable mein ek array `[1, 2, 3]` assign kiya. Spread operator (`...`) ka use karke humne `numbers` array ke values ko `add` function ke arguments ki tarah pass kiya. Jaise hi `add(...numbers)` line execute hui, JavaScript ne `1`, `2`, aur `3` values ko `add` function ke corresponding parameters mein assign kiya aur `a + b + c` ka result `6` output kiya.
+
+Isi tarah se hum multiple arrays ya objects ke values ko bhi expand karke function mein pass kar sakte hain aur uss function mein phir se array ya object banakar unhe return kar sakte hain.
+
+
+### What is rest parameter ?  
+Rest parameter JavaScript mein ek feature hai jahaan aap function ke arguments ko flexible tareeke se handle kar sakte hain. Rest parameter ka use karke, aap multiple arguments ko ek array ke andar collect kar sakte hain.
+
+Meaning, agar humein function mein kuchh bhi arguments pass karna hai aur unhein all together ek variable mein store karna hai, toh hum rest parameter ka use karte hain. Isse aapko zyada flexibility mil jaati hai kyunki ab aap jitne chahe arguments pass kar sakte hain aur unhein ek hi jagah par handle kar sakte hain.
+
+
+### Difference between spread and rest operator ?  
+Spread aur Rest operator dono JavaScript ke important operators hai, par dono ke kaam alag-alag hai.
+
+Spread operator (...) ek array, object ya string ko unpack karke uske saare elements ko alag-alag variables mein rakh deta hai. Iska use hum karte hai jab hum kisi function mein multiple arguments pass karna chahte hai.
+
+Rest operator (...variableName) bhi spread operator ki tarah hi dots (...) se shuru hota hai, par iska use hum karte hai jab hum function mein variable number of arguments pass karna chahte hai. Rest operator se hum argument ko ek array ke form mein collect kar sakte hai.
+
+Is tarah se, spread aur rest operator dono useful hote hai, par unke kaam alag-alag hai.
+
+
+### How to pass variable arguments in function using rest operator ?  
+Rest operator JavaScript mein ek special syntax hai jo humein function mein variable arguments ko pass karne ki suvidha deta hai. Isse hum function ke andar multiple arguments ko single array mein collect kar sakte hain.
+
+Iska use karne ke liye, hum function ke last parameter ke pehle "...(three dots)" ka use karte hain. Jaise ki:
+
+```javascript
+function exampleFunction(...args) {
+  console.log(args);
+}
+```
+
+Isme `...args` ek array hai jiske andar saare arguments collect ho jaayenge. Agar hum is function ko `exampleFunction(1,2,3)` call karenge toh console mein `[1,2,3]` print hoga.
+
+Yeh tarika bahut flexible hai kyunki aap jitne chahe arguments pass kar sakte hain aur unko collect kar ke kuch bhi operation perform kar sakte hain.
+
+
+### What is short circuiting ?  
+Short circuiting in JavaScript refers to a behavior where the evaluation of an expression stops as soon as the result can be determined without evaluating the entire expression. 
+
+To put it in Hinglish, imagine you are trying to find your missing phone in your house. You start searching from one room to another, but as soon as you find it in the living room, you stop searching in the remaining rooms because there is no point in continuing the search anymore. This is similar to how short circuiting works in JavaScript - if the result can be determined early on, further evaluation is stopped to save time and resources.
+
+
+### Difference between || and ??   
+|| and ?? are dono JavaScript mein use hone waale operators hai.
+
+|| operator ek "logical OR" operator hai jo do operands ke beech mein istemaal hota hai. Jab koi bhi operand "true" hoga, toh yeh operator "true" value ko return karega. Agar dono operands "false" hote hai, toh last operand ki value return hogi.
+
+?? operator ek "nullish coalescing" operator hai jo bhi do operands ke beech mein istemaal hota hai. Yeh operator checks karta hai ki pehla operand null ya undefined toh nahi hai. Agar pehla operand null ya undefined hai, toh yeh second operand ki value return karega, warna first operand ki value return hogi. 
+
+Toh, in short, || ka istemaal karte hai jab humein kisi ek condition true honi chahiye, aur ?? ka istemaal tab karte hai jab humein kisi value ki existence check karni ho aur null ya undefined nahi hona chahiye.
+
+
+### What is nullish coalescing operator ?  
+Nullish coalescing operator `??`  is a way to check for the existence of a value and return it if it's not null or undefined, otherwise return a default value. It is similar to the logical OR (`||`) operator, but with a key difference - the `??` operator only returns the default value if the original value is null or undefined, whereas the `||` operator will also return the default value if the original value is falsy (e.g. empty string, 0, NaN).
+
+For example, consider the code `const result = a ?? b`. If `a` is not null or undefined, `result` will be `a`. However, if `a` is null or undefined, `result` will be `b`. This can be useful when you want to provide a default value for a variable or parameter, without accidentally using a falsy value as the default.
+
+
+### What is optional chaining? What are the benefits of using optional chaining ?  
+Optional chaining ek JavaScript feature hai jisme hum object ke properties ya method pe access karne se pehle check kar sakte hai ki wo null ya undefined to nahi hai. Isse code likhne me errors kam hote hai aur code ko strong banane me help milti hai.
+
+Iska matlab hai ki jab hum kisi object ki property ya method pe access karne ka try karte hai, agar wo object khud hi null ya undefined ho to code me error aata hai. Lekin optional chaining ka use karke hum is error ko avoid kar sakte hai. 
+
+Iss feature se humara code robust hota hai kyunki hum errors ko handle karke apna code run karate hai aur iss se humari productivity increase hoti hai kyunki hum errors ko handle karne ke liye extra time spend nahi karte hai.
+
+
+### What is an Array ?  
+Array ek JavaScript me data ko store karne ka ek tarika hai jisme multiple values ko ek variable ke andar rakha ja sakta hai. Isko hum ek box samajh sakte hai jisme hum multiple cheezein daal sakte hai aur unko later mein use bhi kar sakte hai. Har value ko ek unique index number se access kiya ja sakta hai, jisme sabse pehle index 0 hota hai. Ye ek bahut hi powerful concept hai jo programming mein kaafi use hota hai.
+
+
+### What are the properties of an Array ?  
+Arrays are a type of container in JavaScript which can hold multiple values of different types, such as numbers, strings, objects, and even other arrays. Here are some important properties of arrays in JavaScript:
+
+1. Indexing: Each element in an array is assigned a unique index number, starting from zero.
+
+2. Length: The length property is used to get the number of elements in an array.
+
+3. Mutability: Arrays in JavaScript are mutable, meaning that their contents can be changed by adding or removing elements.
+
+4. Iteration: Arrays can be easily iterated over using loops or built-in methods like forEach().
+
+5. Methods: There are several built-in methods available for arrays, such as push(), pop(), shift(), unshift(), splice(), slice(), etc., that can be used to manipulate them easily.
+
+In short, arrays are an essential data structure in JavaScript that can store multiple values and offer various methods to manipulate them.
+
+
+### Difference between Array Literal and Array Object ?  
+Array Literal aur Array Object dono ek saath khush hai, par unmein kuch antar hai.
+
+Array Literal ek simple tareeka hai array ko banane ka, jisme hum [] (square brackets) ka prayog karte hain. Ismein humein items ko comma separated daalna hota hai. Jaise: 
+
+```
+var fruits = ["apple", "banana", "orange"];
+```
+
+Wahi Array Object ek constructor function hai jo ek naya array banata hai. Ismein hum new keyword ka prayog karte hain. Jaise:
+
+```
+var fruits = new Array("apple", "banana", "orange");
+```
+
+Ek important baat jo dhyaan mein rakhni chahiye ki Array Object mein kabhi bhi sirf ek hi argument pass karna chahiye kyunki iska matlab ho sakta hai ki aapko uss size ki array chahiye jo 0 se shuru hoti hai. Jaise:
+
+```
+var arr = new Array(5); // Creates an empty array with length 5
+```
+
+Isliye, agar humein ek array of items banane hain toh Array Literal ka prayog karna zyada behtar hota hai.
+
+
+### What is the significance of index in Array ?  
+Array mein index ka matlab hota hai ki har item(jo array ke element hote hai) ko ek unique number se identify kiya ja sakta hai. 
+
+Jaise ki hum log bookshelf se koi bhi kitab nikalne ke liye uski position yaad rakhte hai, thik waise hi hum array ke saare elements ko unke index numbers ke through access kar sakte hai. Yeh index number zero se shuru hota hai aur ek ek increment hota jaata hai har naye element ke sath.
+
+Isliye, array mein index bahut important hota hai kyunki iske bina array ke elements ko access karna mushkil ho jata hai.
+
+
+### Does sort function work for all types of elements ?  
+Haan, sort function JavaScript mein sabhi prakaar ke elements ke liye kaam karta hai. Yeh function arrays ko sort karne ke liye use kiya jaata hai aur default tareeke se lexicographically (dictionary order) sort karta hai. Lekin agar aap chahte hain ki ismein apna khud ka sorting kaam kare to aap ek compare function bhi provide kar sakte hain.
+
+
+### When to pass a sorting function sort function ?  
+Javascript mein, agar aap ek array ko sort karna chahte hain toh aapko sort() function ka istemal karna padega. Lekin iss function mein aapko ek sorting function bhi pass kar sakte hain jo aapke dwara di gai logic ke hisaab se array ko sort karega.
+
+Jab aapka array simple data types (numbers or strings) se ho toh aapko koi special sorting function pass karne ki zaroorat nahi hai. Lekin agar aapka array complex objects se ho jaise ki arrays of objects ya arrays of arrays toh aapko apni khud ki sorting function banani hogi jo ki aapki specific requirements ko follow karegi. 
+
+Iss tarah se, sorting function pass karne ki zarurat tab hoti hai jab default sorting method aapki zarooraton ko pura nahi karti hai.
+
+
+### Difference between push and unshift, pop and shift ?  
+"Push" aur "Unshift" dono JavaScript Array methods hai jo list ke end me naye items ko add karte hai.
+
+Lekin "Push" method list ke end me item ko add karta hai, jabki "Unshift" method list ke beginning me item ko add karta hai.
+
+Ab baat karte hai "Pop" aur "Shift" methods ki. Dono bhi JavaScript Array methods hai jo list se items ko remove karte hai.
+
+"Pop" method list ke last item ko remove karta hai, jabki "Shift" method list ke first item ko remove karta hai.
+
+
+### Difference between slice, splice ?  
+Slice aur Splice dono Javascript ke array methods hain.
+
+Slice() method array ka ek part copy karta hai, yaani ki ek naya array banata hai. Original array modify nahi hota hai.
+Example: 
+```
+let fruits = ["apple", "banana", "mango", "kiwi"];
+let newFruitsArr = fruits.slice(1, 3);
+console.log(newFruitsArr); // Output: ["banana", "mango"]
+console.log(fruits); // Output: ["apple", "banana", "mango", "kiwi"]
+```
+
+Splice() method bhi array ka part remove ya add karta hai, lekin ismein original array mei changes hota hai. Ismein hum specified index se start karke, number of elements remove kar sakte hain, ya phir kuch elements add kar sakte hain.
+Example:
+```
+let fruits = ["apple", "banana", "mango", "kiwi"];
+fruits.splice(1, 2, "orange", "watermelon");
+console.log(fruits); // Output: ["apple", "orange", "watermelon", "kiwi"]
+```
