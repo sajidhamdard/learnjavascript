@@ -17,6 +17,7 @@ Use Strict Mode: Always use strict mode in your JavaScript code to avoid unexpec
 
 ## Guidelines for functions
 
+- Use Arrow Functions: Use arrow functions instead of traditional function expressions to write shorter, more concise code.
 - Docs on all public methods, within reason
 - Function Explanation
   - Inputs
@@ -38,12 +39,15 @@ Use Strict Mode: Always use strict mode in your JavaScript code to avoid unexpec
 
 ## Variables
 
+- Use const and let instead of var: Use const and let instead of var to declare variables. const is used for variables that will not be reassigned, while let is used for variables that may be reassigned.
 - Avoid Global Variables: Avoid using global variables as they can cause naming conflicts and lead to unexpected behavior
 - Variable declarations should be grouped together in the highest common code
   scope that makes sense
 - Variable should be declared from outside loop.
 - All local variables declared should have a default value assigned to them
 - Remove unused parameters and variables
+- Use Strict Equality: Use strict equality (===) instead of loose equality (==) to avoid unexpected behavior due to type coercion.
+- Use the Correct Data Types: Use the correct data types for variables and function parameters to avoid unexpected behavior due to type coercion.
 
 ## Statements
 
@@ -55,9 +59,11 @@ Use Strict Mode: Always use strict mode in your JavaScript code to avoid unexpec
   - Complex or compound Tertiary statements should be avoided
 - Braces should be present even if only one line of code exist (not applicable for
   cases)
+- Use Ternary Operators: Use ternary operators to write shorter and more concise conditional statements.
 
 ## Errors
 
+- Use Error Handling: Always handle errors in your code using try-catch blocks or error handling functions to avoid unexpected crashes and improve user experience.
 - Catch blocks should never be empty, either log, comment or perform some
   meaningful logic
 - Cleanup logic should not be duplicated in both try and catch blocks, if needed it
@@ -75,7 +81,8 @@ Clean up all warnings before checkin(Possible to configure in save action)
 
 ## Formatter
 
-Format the code before checkin(Possible to configure in save action)
+- Format the code before checkin(Possible to configure in save action)
+- Use Template Literals: Use template literals instead of string concatenation to create dynamic strings. They are more readable and easier to maintain.
 
 ## Scoping
 
@@ -111,3 +118,13 @@ Format the code before checkin(Possible to configure in save action)
 - Use Promises: Use Promises instead of callbacks for asynchronous operations as they provide a cleaner and more readable code.
 - Avoid Using eval(): Avoid using eval() as it can introduce security vulnerabilities and lead to performance issues.
 - Write Unit Tests: Write unit tests to ensure that your code works as expected and catch bugs early on in the development process.
+- Avoid Magic Numbers: Avoid using "magic numbers" or hard-coded values in your code. Use constants or variables instead to make your code more maintainable.
+- Avoid Nested Callbacks: Avoid nesting callbacks as it can lead to "callback hell" and make your code difficult to read and maintain. Instead, use Promises or async/await to handle asynchronous operations.
+- Use Destructuring: Use object and array destructuring to extract values from objects and arrays more efficiently.
+- Avoid Using the Global Object: Avoid using the global object (window in the browser and global in Node.js) as it can lead to naming conflicts and unexpected behavior.
+- Use ES6 Features: Use ES6 features like classes, spread operators, and default parameters to write more modern and concise code.
+- Use Linters: Use linters like ESLint to enforce coding standards and catch common mistakes early on in the development process.
+- Use the Array.forEach() Method: Use the Array.forEach() method instead of for loops to iterate over arrays. It's more concise and readable.
+- Use Object.freeze() to Freeze Objects: Use the Object.freeze() method to freeze objects and prevent them from being modified.
+- Use JSON.stringify() to Serialize Objects: Use the JSON.stringify() method to serialize objects into JSON format.
+- Use Console.log() for Debugging: Use the console.log() method to debug your code and log information to the console. Avoid leaving console logs in production code.
