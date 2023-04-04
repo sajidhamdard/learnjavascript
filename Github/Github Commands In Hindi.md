@@ -148,7 +148,7 @@ is ka use current working directory me file ko htana ka leya use keya ja skta ha
 
 Yadi hume sirf last kuch commits ki history dekhni hai to hum ye command use kr skte hain iske lie hume last vah number - ke sath dena hota hai for example -2 likhenge to commits ki history me se last ke 2 commits btayega
 
-### git marge branchname
+### git merge branchname
 
 yadi hum hmari branch me kisi dusri branch ke code apni branch me lana chahte hain to merge command use kr skte hain. Iske lie hume humari current branch pr yeh code chlana hoga aur us branch ka sara code hmari branch me merge ho jayega. merge ka matlab yah hai ki sara code mil jayega aur yadi kisi line/file me koi issue aaya to use hm git ki language me conflict khte hain. Conflict resolve krne ke yeh process hai.
 
