@@ -1,9 +1,11 @@
 # Coding Guidelines
 
+Use Strict Mode: Always use strict mode in your JavaScript code to avoid unexpected behavior and catch common coding mistakes.
+
 ## Naming Convention
 
 - Class Names - UpperCamelCase
-- Method Names - lowerCamelCase
+- Function Names - lowerCamelCase
 - Variables - lowerCamelCase
 - Constants - UPPER_CASE_UNDERSCORE_SEPERATED
 - Variable Names
@@ -36,6 +38,7 @@
 
 ## Variables
 
+- Avoid Global Variables: Avoid using global variables as they can cause naming conflicts and lead to unexpected behavior
 - Variable declarations should be grouped together in the highest common code
   scope that makes sense
 - Variable should be declared from outside loop.
@@ -45,6 +48,7 @@
 ## Statements
 
 - Limit 1 statement per line
+- Use Semicolons: Although semicolons are optional in JavaScript, it's a good practice to use them to avoid potential errors
 - Remove duplicate statements
 - Tertiary|Ternary Statements
   - Only simple statements should be used
@@ -83,6 +87,7 @@ Format the code before checkin(Possible to configure in save action)
 
 ## Comments
 
+- Use Comments: Use comments to explain your code, especially if it's complex. This will make it easier for others to understand your code and make changes if needed
 - Commented code should be removed before check-in.
 - Complex code should be commented and maintained throughout changes
 
@@ -97,8 +102,12 @@ Format the code before checkin(Possible to configure in save action)
 
 ## General
 
-- Follow the OOPS concepts
+- Follow the OOPS concepts. Use OOP principles like encapsulation, inheritance, and polymorphism to make your code more modular and maintainable.
 - Use latest APIs of particular language to write the code.
 - Create reusable generic Utility classes in case the functionality can be reused in
   application
 - Inherit from an existing class if it makes sense.
+- Use Modular Code: Break your code into smaller, reusable modules to make it more organized and maintainable.
+- Use Promises: Use Promises instead of callbacks for asynchronous operations as they provide a cleaner and more readable code.
+- Avoid Using eval(): Avoid using eval() as it can introduce security vulnerabilities and lead to performance issues.
+- Write Unit Tests: Write unit tests to ensure that your code works as expected and catch bugs early on in the development process.
