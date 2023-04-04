@@ -1,6 +1,3 @@
-### Give me top and most used 50 linux commands with example and explanation
-Sure, here are the top 50 Linux commands along with their explanations and examples:
-
 1. ls
 Lists files and directories in the current directory.
 Example: `ls`
