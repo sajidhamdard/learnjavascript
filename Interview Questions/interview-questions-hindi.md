@@ -2067,3 +2067,820 @@ let fruits = ["apple", "banana", "mango", "kiwi"];
 fruits.splice(1, 2, "orange", "watermelon");
 console.log(fruits); // Output: ["apple", "orange", "watermelon", "kiwi"]
 ```
+
+  ### What is Node in javascript? What is HTMLCollection? What is Element? Explain in Hinglish 
+Node javascript mein ek object hai jise DOM tree ke har element ko represent karne ke liye use kiya jata hai. Yeh DOM tree HTML tag, text, attributes, aur even listeners ko bhi represent karta hai.
+
+HTMLCollection ek DOM collection hoti hai jisme webpage ke saare elements stored hote hai, jaise ki divs, images, forms, etc. Ismein specific element ko access karne ke liye index number ka use kiya ja sakta hai.
+
+Element DOM tree ke har single part ko represent karta hai, jaise ki div, p, span, etc. Aur ismein specific element ke saath interact karne ke liye bahut saare properties aur methods available hote hai.
+
+### Difference between forEach, for of loop in javascript? Explain in Hinglish 
+JavaScript mein forEach aur for of loop dono hi loops hain jo arrays ke saath kaam karte hain.
+
+forEach() loop mein hum ek function ko array ke har element ke liye chalate hain jisse hum un sabhi elements ko individual basis pe access kar sakte hain. forEach loop ka use tab tak kiya jata hai jab humein array ke har element pe iterate karna ho.
+
+for of loop ka use bhi array ke elements pe iterate karne ke liye kiya jata hai. Yeh loop ek iterable object (jaise array) ke saath kaam karta hai aur usmein diye gaye variable ko array ke har element ke liye assign karta hai. Is loop mein humein array ke current element ko access karne ke liye index ya counter ki zaroorat nahi hoti, isliye yeh forEach loop se zyada readable aur concise hota hai.
+
+Toh, in summary: forEach loop ka use har element ke liye kuch execute karne ke liye kiya jata hai, jabki for of loop ka use ek iterable object ke saath kaam karne ke liye kiya jata hai aur yeh forEach loop se zyada readable hota hai.
+
+
+### Difference between map, filter and reduce function in javascript? Explain in Hinglish 
+Map, filter aur reduce functions JavaScript mein bohot use kiye jaate hai. In functions ka use array manipulation ke liye hota hai.
+
+Map function kisi array ke har element ko iterate karke ek naya array return karta hai jismein original array ke sabhi elements ke values transform kiye hote hai.
+
+Filter function bhi kisi array ke har element ko iterate karta hai aur usmein se kuch elements ko choose kar ke unhein ek naya array mein daalta hai jo sirf selected elements ke values se populate hota hai.
+
+Reduce function iterable object (jaise array) mein se value ko ek single output value mein combine karta hai. Reduce function ke paas do arguments hote hai: accumulator aur current value. Accumulator mein reduce function ke previous iterations ke result ki value save rehti hai aur current value mein abhi iterate kiye hue element ki value hoti hai. 
+
+In summary:
+- Map function: Har element ko transform karke naya array return karta hai.
+- Filter function: Kuch elements ko select karke unhein ek naya filtered array mein daalta hai.
+- Reduce function: Iterable object ke saare elements ko accumulate karke single output value return karta hai.
+
+
+### Difference between some and every in javascript? Explain in Hinglish 
+"some" aur "every" dono JavaScript mein arrays par istemal hone wale functions hain. "some" array ke elements mein se kuch ek condition ko satisfy karte hain toh true return karta hai, jabki "every" saare elements ko satisfy karte hue hi true return karta hai. 
+
+Jaise ki, agar humein ek array ke elements mein se koi bhi even number dhundhna hai toh hum "some" function ka use karenge, jiska code is tarah se hoga: 
+
+```
+array.some(element => element % 2 === 0);
+```
+
+Yadi koi bhi even number milta hai toh yeh true return karega.
+
+Aur agar humein chahte hain ki saare elements even numbers hon toh hum "every" function ka use karenge, jiska code is tarah se hoga:
+
+```
+array.every(element => element % 2 === 0);
+```
+
+Yadi saare elements even numbers hai toh yeh true return karega.
+
+Mujhe ummeed hai ki aapko samajh mein aa gaya hoga!
+
+
+### Difference between flat and flatMap in javascript? Explain in Hinglish 
+Flat aur flatMap dono JavaScript mein arrays ke saath use kiye jaane wale functions hai. Flat ek single-level array ko generate karta hai, yaani ki usmein agar kisi bhi element ke andar bhi array hai toh wo bahar nikal kar single-level array ban jata hai. 
+
+FlatMap ek high-order function hai jo ek naya array generate karta hai, jismein har ek element ko ek function ke through map karke phir unhein ek single-level array mein flat kar deta hai. Iska matlab ye hai ki agar aapke original array ke kuch elements khud bhi arrays hain toh flatMap inhein unn nested arrays se bahar nikalkar ek single-level array mein convert kar dega.
+
+Jaise ki ek hotel ka elevator ho sakta hai, jismein aapko ek floor se dusre floor tak le jata hai. Flat ek single floor hai jahaan se aapko lift lekar kisi dusre floor par nahi pahunchata hai. Lekin flatMap ek multi-floor building ke elevator ki tarah hai jo aapko ek floor se dusre floor tak lekar jata hai, saath hi apke liye alag-alag floors par available resources ko combine karke ek naya set bana deta hai.
+
+
+### What is an Object in javascript? Explain in Hinglish 
+JavaScript mein, ek Object ek data structure hai jo ki properties aur methods se bhara hota hai. Har object apne aap mein ek unique entity hota hai jiske paas khud ka state aur behavior hota hai.
+
+Agar hum samjhane ki koshish karein toh, Object ek aisa container hai jismein hum various cheezein rakh sakte hain jaise ki variables, functions, arrays etc. Jaise ki har container ke andar alag-alag cheeze hote hain, Object mein bhi har ek property aur method alag hota hai.
+
+For example, agar hum ek car ke baare mein soch rahe hain toh uska color, model number aur speed property ho sakti hai aur uske chalane, rokne aur park karne jaisi methods ho sakti hai. Yeh sabhi car object ke part hote hain aur inki madad se hum car ke behavior aur state ko control kar sakte hain.
+
+
+### Difference between object literal and new object in javascript? Explain in Hinglish 
+Object literal aur new object mein farak yeh hai ki object literal ka use humein ek existing object ke saath properties aur methods declare karne ke liye karna padta hai jabki new object create karne ke liye 'new' keyword aur Object constructor ka use karna padta hai. Object literal mein humein direct keys aur values define karne hote hai, jaise {key1: value1, key2: value2}, jabki new object ke case mein humein pehle se hi define ki gayi properties ko modify ya extend karne ke liye use karna padta hai.
+
+
+### Difference between dot and bracket annotation in javascript? Explain in Hinglish 
+Brackets notation aur dot notation dono tarah se JavaScript mein object ki properties ko access karne k liye istemaal kiye jaate hain. Dot notation mein hum object ka naam likhte hain, phir uske baad ek dot (.) lagakar property ka naam likhte hain. Jaise ki:
+
+```
+var person = {
+  name: "John",
+  age: 30
+};
+
+console.log(person.name); // Output: John
+console.log(person.age); // Output: 30
+```
+
+Brackets notation mein hum object ko square brackets ke andar likhte hain aur phir uske baad property ka naam likhte hain. Jaise ki:
+
+```
+var person = {
+  name: "John",
+  age: 30
+};
+
+console.log(person['name']); // Output: John
+console.log(person['age']); // Output: 30
+```
+
+Brackets notation ka fayda yeh hai ki ismein variable ka istemaal bhi kiya jaa sakta hai jisse dynamic property access kiya ja sakta hai. Jaise ki:
+
+```
+var prop = 'name';
+var person = {
+  name: "John",
+  age: 30
+};
+
+console.log(person[prop]); // Output: John
+```
+
+
+### Explain Object.keys, Object.values and Object.Entries function in javascript? Explain in Hinglish 
+Object.keys, Object.values aur Object.entries functions JavaScript mein hai, jo objects ke properties ko access karne mein madad karta hai.
+
+Object.keys function object ke properties ke keys ko array ke form mein return karta hai. Iska upyog object ke saare keys ki list banane mein kiya jata hai.
+
+Object.values function object ke properties ke values ko array ke form mein return karta hai. Iska upyog object ke saare values ki list banane mein kiya jata hai.
+
+Object.entries function object ke key-value pairs ko array ke form mein return karta hai. Ye function object ke properties ke saath saath uske key-value pairs bhi retrieve karne ke liye istemal kiya ja sakta hai.
+
+
+### What is Set in javascript? Explain in Hinglish 
+Set ek tarah ka collection hai jisme koi bhi value sirf ek baar hi shamil ho sakti hai. Yani ki agar aap ek set mein kisi value ko do baar add karne ki koshish karte hai toh wo sirf ek baar hi shamil hoga. Set mein values ko order ke hisab se store nahi kiya jaata hai, isliye unhe access karne ke liye index ka prayog nahi kiya jaata hai. Set mein values ko add, delete aur iterate karne ke liye alag-alag methods uplabdh hote hai.
+
+
+### What is weakSet in JavaScript in javascript? Explain in Hinglish 
+WeakSet ek JavaScript data structure hai jismein sirf references store hote hain, aur yeh weak reference ka use karta hai. Weak reference ka matlab hai ki agar ek object ka koi strong reference nahi hai to woh garbage collection ke liye eligible ho jaata hai.
+
+Ismein kuch important methods hote hain jaise `add()`, `has()`, and `delete()` jo ki Set mein bhi hote hain. Lekin ek choti si difference hai ki WeakSet mein objects ke alawa kuch bhi store nahi kar sakte.
+
+WeakSet ka use un cases mein kiya jaata hai jab hume kisi object ko memory leak se bachana hota hai ya fir hum chahte hain ki agar koi object garbage collected ho jaaye to uska reference automatically WeakSet se remove ho jaaye.
+
+
+### How to print set values using for of loop in javascript? Explain in Hinglish 
+For of loop ka upyog karke javascript mein set ke values ko kaise print karein? Hinglish mein samjhayen.
+
+Set ek data type hai jo javascript mein multiple unique values store karta hai. Set ke values ko for of loop se print karna bahut hi saral hai. Hum for of loop ka upyog kar sakte hain aur usmein set ke variable ko assign kar sakte hain. Fir hum set ke har ek value ko print kar sakte hain.
+
+Neeche diye gaye code snippet mein iska udaharan diya gaya hai:
+
+```javascript
+// Ek set banate hain
+const mySet = new Set([1, 2, 3]);
+
+// For of loop ka upyog karke set ke values ko print karte hain
+for (let value of mySet) {
+  console.log(value);
+}
+```
+
+Is code mein, sabse pehle humne `const` keyword ka upyog karke `mySet` naam ka ek set banaya hai. Fir humne `for of` loop ka upyog kiya hai aur `value` variable ko `mySet` ke saath assign kiya hai. Iske baad hum `console.log()` function ka upyog karke set ke har ek value ko print kar sakte hain.
+
+Ummid hai yeh samajhne mein madad milegi!
+
+
+### How to create set to Array in javascript? Explain in Hinglish 
+Javascript mein set se array kaise banayein? Hinglish mein samjhayein.
+
+Set ko array mein convert karne ke liye, hum Set object ki built-in method "Array.from()" ka upyog kar sakte hain. Is method ko Set object ke saath use karke ek new array create kiya ja sakta hai jismein Set ke saare elements shamil ho jaayenge.
+
+Iska syntax is tarah hota hai:
+```javascript
+let mySet = new Set(['a', 'b', 'c']);
+let myArray = Array.from(mySet);
+```
+
+Yahan, `mySet` ek Set object hai jismein 3 elements ('a', 'b', 'c') hain. Hum `Array.from()` method ka upyog karke `mySet` se ek new array `myArray` create kar rahe hain.
+
+Ab `myArray` mein Set ke saare elements shamil honge aur yeh array output ke roop mein istemaal kiya jaa sakta hai.
+
+Note: Hinglish is a combination of Hindi and English languages, so I have provided an explanation in this mixed language format.
+
+
+### What is Map in javascript? Explain in Hinglish 
+Map JavaScript mein ek built-in data structure hai jo key-value pairs ko store karta hai. Map mein, keys aur values dono kuch bhi ho sakte hain, jaise ki string, number, boolean, object, function, ya phir undefined.
+
+Map mein har key ke corresponding value ko access karne ke liye, get() method ka istemal kiya jaata hai. Iske alawa, set(), delete() aur has() jaise useful methods bhi available hote hain.
+
+Ek aur important feature of Map yeh hai ki ismein elements ke order maintain kiya jaata hai, jo ki Objects ke saath nahi hota hai.
+
+
+### What is weakMap in JavaScript in javascript? Explain in Hinglish 
+WeakMap ek JavaScript object hai jo key-value pairs ko store karta hai. Ismein keys ka reference weak hota hai, yani agar keys ko koi dusra reference nahi karta to unhe garbage collector delete kar sakta hai. WeakMap ke values bhi objects ho sakte hain. Ye use cases mein helpful hota hai jahan keys ya values ko dynamically add aur remove kiya jata hai aur memory leaks se bachna chahte hain.
+
+
+### What is chaining in Map in javascript? Explain in Hinglish 
+Map mein chaining ko yeh kehte hai ki hum multiple operations ko ek hi line mein perform karein, jaise ki hum apne necklace mein chain ki tarah ek ke baad ek hote hue multiple chains lagaate hai. Iss tarah se chaining karne se hume code likhne mein kaafi time aur effort bach jaata hai.
+
+For example:
+```
+const numbers = [2, 4, 6, 8, 10];
+
+const result = numbers.map(num => num * 2)
+                      .filter(num => num > 5)
+                      .reduce((acc, num) => acc + num, 0);
+
+console.log(result); // Output: 40
+```
+
+Iss code mein humne pehle `map()` function ka use kiya hai jo numbers array ke saare elements ko double kar deta hai. Uske baad humne `filter()` function ka use kiya hai jo un numbers ko filter karta hai jo 5 se bade hai. Final mein, `reduce()` function ka use kiya hai jo filtered numbers ka sum calculate karta hai. Sabhi operations ko chaining ke through perform kiya gaya hai.
+
+
+### How the map will behave if we use an Array as key in javascript? Explain in Hinglish 
+Agar hum JavaScript mein ek Array ko key ke roop mein use karte hain to map ki vyavastha kaise rahegi? 
+
+Jab hum ek Array ko map ke key ke roop mein use karte hain, tab ye Array object ka reference value hi key ke roop mein store hota hai. Lekin, ismein ek samasya hoti hai- agar hum ek naya Array banakar uski values ko pehle wale Array se match karte hain, to phir bhi wo do alag Array objects hote hain aur unke reference values bhi alag hote hain. Isliye, humare paas ek unique key nahi hota aur map sahi tarike se work nahi karta. Isliye hamesha primitive data types jaise string, number ya symbol ko use karna chahiye map ke key ke roop mein.
+
+
+### How to convert Map to Array in javascript Explain in Hinglish 
+Map ko Array mein convert kaise karen, isko main aapko Hinglish mein samjhata hun:
+
+JavaScript mein, Map ek collection hai jisme key-value pairs hote hain. Agar aap Map ko Array mein convert karna chahte hain, to aap Map ke entries() method ka use kar sakte hain.
+
+Yah entries() method ek iterable object (like array) return karta hai, jise aap Array.from() method ka use karke Array mein convert kar sakte hain.
+
+Niche diye gaye code snippet ko dekhein:
+
+```
+// Ek Map banana:
+const myMap = new Map([
+  ['one', 1],
+  ['two', 2],
+  ['three', 3]
+]);
+
+// Map ko Array mein convert karne ke liye:
+const myArray = Array.from(myMap.entries());
+
+// Output:
+// [ ["one", 1], ["two", 2], ["three", 3] ]
+```
+
+Is code mein, humne pahle ek Map banaya, fir usko Array mein convert kiya using entries() and Array.from() methods.
+
+Mujhe ummid hai ki yah samajh mein aaya hoga!
+
+
+### How to convert Array to Map in javascript Explain in Hinglish 
+Array ko Map mein convert karne ke liye, hum JavaScript ke Map constructor ka upyog kar sakte hain. Map constructor ek naya khali Map banata hai, jisme hum pratyek array element ko ek key-value pair ke roop mein add kar sakte hain.
+
+Niche diye gaye code snippet mein, hum ek Array bana rahe hain jiska naam hai myArray, aur phir hum usko Map mein convert kar rahe hain.
+
+```
+// Example Array
+let myArray = [['key1', 'value1'], ['key2', 'value2'], ['key3', 'value3']];
+
+// Convert Array into Map
+let myMap = new Map(myArray);
+```
+
+Yahan par, humne `new Map(myArray)` ka upyog kiya hai, jisse ek naya Map bana diya gaya hai jismein hum `myArray` ke sabhi elements key-value pairs ke roop mein shamil kar chuke hain.
+
+Iske baad, hum `myMap` variable mein naye Map ko store kar rahe hain. Now, `myMap` map mein ab `key1`, `key2`, and `key3` keys hongi, aur unke corresponding values yeh honge: `value1`, `value2`, and `value3`.
+
+
+### How to convert Object to Map in javascript Explain in Hinglish 
+Javascript mein Object ko Map mein convert karne ke liye, hum ye steps follow kar sakte hai:
+
+1. Sabse pehle, ek khali Map object create karein jiske andar hum Object ko store karenge.
+
+2. Fir, Object.entries() method ka use karein jisse hum Object ke key-value pairs ko array of arrays mein convert kar sakte hai.
+
+3. Ab is array of arrays ko iterate karke har ek key-value pair ko Map object mein set karein.
+
+Yeh pura process humari code ke is tarah se dikhega:
+```
+// Object create karein
+const myObj = {name: 'John', age: 30};
+
+// Khali Map object create karein
+const myMap = new Map();
+
+// Object entries ko array of arrays mein convert karein
+const objEntries = Object.entries(myObj);
+
+// Array of arrays ko iterate karke Map object mein set karein
+for(const [key, value] of objEntries) {
+  myMap.set(key, value);
+}
+
+console.log(myMap); // Output: Map(2) { 'name' => 'John', 'age' => 30 }
+```
+
+Is code mein humne pehle ek Object `myObj` create kiya, fir usse convert karke ek khali Map object `myMap` create kiya. Fir, hum `Object.entries()` method ka use karke `myObj` ke key-value pairs ko array of arrays `objEntries` mein convert kiya. Finally, `objEntries` ko iterate karke har ek key-value pair ko `myMap` object mein set kiya.
+
+Iss tarah se hum Javascript mein Object ko Map mein convert kar sakte hai.
+
+
+### How to iterate map using foreach and for of loop in javascript? Explain in Hinglish 
+JavaScript mein map ko foreach aur for of loop ke dwara iterate kaise kiya jaata hai? Isko Hinglish mein samjhayiye. 
+
+Foreach loop ka upyog karke hum map ke har element par access kar sakte hain. For example:
+
+```
+let myMap = new Map();
+myMap.set("name", "John");
+myMap.set("age", 30);
+
+// foreach loop
+myMap.forEach((value, key) => {
+  console.log(key + " = " + value);
+});
+```
+
+For of loop se bhi hum map ke elements par access kar sakte hain. For example:
+
+```
+let myMap = new Map();
+myMap.set("name", "John");
+myMap.set("age", 30);
+
+// for of loop
+for (let [key, value] of myMap) {
+  console.log(key + " = " + value);
+}
+```
+
+Dono hi loops ka upyog karke hum map ke sabhi elements ko aasani se iterate kar sakte hain.
+
+
+### What is OOPs in javascript? Explain in Hinglish 
+OOPs stands for Object-Oriented Programming, which is a programming paradigm in which we create objects that contain both data and functionality. 
+
+In Hinglish, OOPs ka matlab hai Object-Oriented Programming, jo ek programming paradigm hai jisme hum objects banate hain jisme data aur functionality dono shamil hote hain.
+
+
+### What are the 6 priniciples of OOPs? Explain in Hinglish 
+OOPs ke 6 mukhya tatva hai: Encapsulation, Inheritance, Polymorphism, Abstraction, Class, aur Object.
+
+1. Encapsulation - Ye ek tarika hai jis se hum kisi bhi data ko private rakh sakte hai aur use sirf us class ke andar hi access kar sakte hai. Isse data ki security bhi badhti hai.
+
+2. Inheritance - Iska matlab hai ki ek class dusri class ke features ko inherit kar leti hai. Jaise ki ek car class sedan ya hatchback class ke functions ko inherit kar sakti hai kyunki ye dono cars hai.
+
+3. Polymorphism - Iska matlab hai "multiple forms". Jaise ki ek function alag alag tareeko se kaam kar sakta hai, jaise ki ek add() function number ko bhi add kar sakta hai aur string ko bhi concatenate kar sakta hai.
+
+4. Abstraction - Iska matlab hai ki hum complex cheezo ko simple tareeko se represent karte hai. Jaise ki hum car class me speed() function banakar car ki speed ko calculate kar sakte hai, lekin jaise hi hum function call karenge, hume details nahi pata chalegi ki ye function kaise kaam karta hai.
+
+5. Class - Ye ek blueprint hota hai, jisme object ke attributes aur functions define hote hai.
+
+6. Object - Ye class ka instance hota hai, jise hum class ke attributes aur functions ko access karne ke liye use karte hai.
+
+
+### Explain below topics and give one real life example of each topic Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism ? Explain in Hinglish 
+Class - Ek blueprint ya template hota hai jo humare objects ke bare mein batata hai. Ismein hum properties aur methods define karte hain. Jaise ki ek car class mein, hum speed, color, model number jaise properties aur accelerate, brake, gearChange jaise methods define kar sakte hain.
+
+Object - Class ka instance jo real world mein exist karta hai. Hum class ka use karke objects create karte hain. Jaise ki agar hum car class se ek object create karte hain, toh woh object ek specific car ko represent karega.
+
+Encapsulation - Yeh ek concept hai jismein hum class ke variables aur methods ko private rakhte hain, taki unhe access karne ke liye class ke bahar wale code ko uske public methods ka use karna padta hai. Yeh security aur abstraction ko improve karta hai. 
+
+Real life example: ATM machine, where we insert a card and enter a PIN number to access our bank account details and perform transactions. The details and transactions are encapsulated inside the ATM machine and are not accessible directly.
+
+Abstraction - Yeh ek process hai jismein hum complex systems ko simple banate hain. Abstraction hume sirf necessary information dikhata hai aur unnecessary details ko chupa deta hai. Jaise ki car class mein, hum user ko sirf car start/stop karne, speed control karne jaise basic actions provide karte hain, bina usko engine, piston, gearbox jaise internal details dikhaye.
+
+Inheritance - Yeh ek principle hai jismein hum ek class ko dusre class se inherit karte hain. Inherited class ko "child" class aur jis class se inherit kiya jaata hai use "parent" class kehte hain. Jisse child class apne parent class ke properties aur methods ko use kar sakte hain aur usmein apni specific behavior add kar sakte hain. 
+
+Real life example: Suppose we have a "Vehicle" class, and we create two child classes "Car" and "Truck". Both the car and the truck inherit the properties of the Vehicle class, such as the number of wheels and the type of fuel they use, but each has its own specific behavior, such as the maximum speed or cargo capacity.
+
+Polymorphism - Yeh ek concept hai jismein hum ek method ko multiple ways mein define karte hain, jisse same method ko alag alag child classes mein alag alag tariko se implement kiya ja sake. Jaise ki agar hum "playSound" method ko animal, bird, aur insect classes mein define karte hain, toh har class mein sound ki nature alag hogi.
+
+Real life example: A media player can play different types of media files such as audio, video, and images. Each file format has its own way of being played, but they all use the same "play" method in the media player. This is an example of polymorphism.
+
+
+### How to inheritance works in JavaScript? Explain in Hinglish 
+In JavaScript, inheritance is achieved through the prototype chain. Yeh aise kam karta hai ki har object ke paas ek prototype hota hai, jisko wo apne properties or methods ko inherit (yani apne se pehle wale object se uthana) kar leta hai. Jab hum kisi object ki property ya method ko access karte hai, to JavaScript sabse pehle us object ke andar dekhta hai ki vo property/method uske andar hai ya nahi. Agar nahi hai, to vo object apne prototype ke andar dekhta hai, or chahe jitni bhi levels tak prototype chain ho, dhundta rahta hai jab tak property/method mil jaaye.
+
+Inheritance ko banane ke liye hum parent class ka ek object create karte hai or uska prototype child class ke prototype ke saath set karte hai. Iske baad hum child class ka ek object create kar sakte hai, jo apne prototype ke andar parent class ke methods aur properties ko inherit karega. Hum chahe to child class ke andar parent class ke methods ko override bhi kar sakte hai.
+
+
+### What is prototypal inheritance in javascript? Explain in Hinglish 
+Prototypal inheritance ek concept hai Javascript mein jismein ek object dusre object ke properties aur methods ko inherit karta hai. Ye inheritance tree ki tarah hota hai jahan har object apne parent object se kuch properties aur methods inherit karta hai.
+
+Jab hum ek object create karte hain, to uske paas ek prototype property hoti hai jo use us object ke parent object ke saath link karti hai. Agar hum koi property ya method access karna chahte hain jo us object mein available nahi hai, to Javascript engine us property ko prototype chain ke through search karta hai aur agar woh us property ko parent object mein paata hai to use wahan se inherit kar leta hai.
+
+Ye concept bahut powerful hai kyunki isse hum objects ke saath reusability achieve kar sakte hain aur code duplication ko kam kar sakte hain.
+
+
+### What are the different ways of doing prototypal inheritance in javascript? Explain in Hinglish 
+JavaScript mein prototypal inheritance karne ke kuchh tarike hain, jaise ki:
+
+1. Prototype Chain: Sabse common tareeka hai jismein hum ek constructor function banate hain aur uske prototype object ke properties ko use karte hain. Isse child object inherit karta hai apne parent object ke properties aur methods.
+
+2. Object.create(): Ye method ek parent object ko liya jaata hai aur uska reference lekar ek naya object create karta hai jiske prototype parent object ke saath set kiya jaata hai. Isse bhi child object parent object ke properties ko inherit karta hai.
+
+3. Constructor Inheritance: Ismein ek parent object se ek naya object banaya jaata hai aur parent object ke properties ko child object ke constructor function mein set kiya jaata hai. Lekin is method mein parent object ka constructor function inheriting nahi hota, isliye ismein kuch limitations ho sakti hain.
+
+In sabhi tareeko mein hum ek object se dusre object ko inherit karte hain aur inheritance ke through parent object ke properties aur methods ko child object mein use karte hain.
+
+
+### What is Constructor function in javascript Explain in Hinglish 
+Constructor function JavaScript mein ek special type ka function hota hai jo objects ko create karne ke liye use kiya jata hai. Is function ke through hum class-like objects bana sakte hai. Jab bhi hum Constructor function ko call karte hai, toh naya object create hota hai jo us function ke prototype property se inherit karta hai. Yeh function generally capital letter se start hota hai jaise 'Person' ya 'Car'.
+
+
+### What is ES6 classes in javascript Explain in Hinglish 
+ES6 classes JavaScript mein ek tarah se blueprint hota hai, jiske upyog se hum objects ko banate hain. Isse pehle, hum constructors aur prototypes ka istemaal karte the lekin ES6 classes ne is process ko asaan aur straightforward bana diya hai. ES6 classes mein hum properties (guna), methods (tareeke) aur constructors define kar sakte hain, jo ki phir objects ke liye use kiye jaate hain. Ye code ko modular aur easily maintainable banata hai.
+
+
+### What is Object.create in javascript Explain in Hinglish 
+Object.create() ek JavaScript method hai jo naye objects ko banane ke liye istemal hota hai, jiske paas already existing object ko as a prototype use karne ki suvidha hoti hai. Isse hum "inheritance" ko achieve kar sakte hain aur code ko modular aur reusable bana sakte hain.
+
+
+### What is prototypal chain in javascript? Explain in Hinglish 
+Prototypal chain ek concept hai JavaScript mein jismein har object apne prototype se inherit karta hai. Prototype ek blueprint hota hai jo ek object ke properties aur methods ko define karta hai. Agar kisi object mein koi property ya method nahi hota hai, to JavaScript usko uske prototype se dhundta hai.
+
+Yeh ek tarah ka inheritance system hai jismein agar hum kisi object ke properties ya methods ko access karna chahte hain aur woh object unhe directly contain nahi karta hai, to JavaScript unhe uske prototype object se lekar aata hai. Aur agar us prototype object mein bhi property ya method nahi hota hai, to JavaScript usko uske parent prototype object se dhundta hai aur yeh process aise hi chalta rehta hai jab tak ki root prototype object (Object.prototype) tak pahunch nahi jaata.
+
+Iss tarah se, prototypal chain JavaScript mein multiple objects ke beech inheritance establish karne ki allow karta hai.
+
+
+### What is setters and getters in ES6 classes in javascript? Explain in Hinglish 
+Setters aur getters ES6 classes mein Javascript ke aham tareen features hain jo ki object-oriented programming ko asan banate hain. Setters aur getters ki madad se ham apne class ke properties ko private rakh sakte hain aur unhe get aur set karne ke liye methods ka use kar sakte hain.
+
+Setters, kisi property ki value ko set karne ke liye use kiye jate hain, jabki Getters property ki value ko retrieve karne ke liye use kiye jate hain. Setter method mein, ek parameter pass kiya jata hai jo property ki value ko set karne ke liye use hota hai.
+
+Yah feature aapko class ke bahar se property ko access nahi karne deta hai, isse aapki code ki security bhi badhti hai. Iske alawa, setters aur getters ki madad se hum validation aur error handling bhi kar sakte hain.
+
+
+### What will happen if we give same name of property of an object and setter and getter in javascript? Explain in Hinglish 
+Agar hum ek object ki property aur uske setter ya getter ko same naam denge toh JavaScript me kya hoga? 
+
+Yeh ek aam samasya hai jisme hum setter aur getter ko usi naam se define karte hai jis naam ka object ki property bhi hai. Is situation me, jab bhi hum us property ka value change karenge, setter method call hoga aur agar hum us property ka value read karna chahte hai to getter method call hoga. Lekin, yadi hum setter ya getter ko call karenge to woh infinite loop me fas jayega kyunki property and methods dono ka naam same hai. Aise cases me, hume either property name ya methods name ko change karna padega taaki dono ke beech conflict na ho.
+
+
+### What is static function in ES6 classes in javascript? Explain in Hinglish 
+ES6 classes mein static function woh function hota hai jo class ke instance se call nahi kiya ja sakta hai. Yeh function sirf class ke through access ho sakta hai. Jaise ki hum class ke properties ko access karte hain, vaise hi static function ko bhi access karte hain. Static function ka upyog utility functions ya general helper functions banane ke liye kiya jata hai jo sirf class ke level par hi kaam karte hain aur instance level par nahi.
+
+
+### How to implement inheritance in Constructor functions, ES6 classes and Object.create in javascript? Explain in Hinglish 
+Inheritance ka matlab hota hai ek object dusre object se properties or methods ko inherit karna. JavaScript mein inheritance implement karne ke liye hum Constructor Functions, ES6 Classes aur Object.create ka use kar sakte hain.
+
+Constructor Functions mein inheritance ke liye, hum `prototype` object ka use karte hain. Hum parent constructor function ke prototype object ko child constructor function ke prototype object ke duara access karke inheritance create karte hain.
+
+ES6 Classes mein `extends` keyword ka use karke hum inheritance create karte hain. Child class extends parent class ko kar leta hai aur usme parent class ke functions aur properties bhi use kar sakte hain.
+
+Object.create() method mein hum parent object ko `__proto__` property ke duara child object ke prototype chain mein add kar dete hain. Isse child object parent object ke properties aur methods ko inherit kar leta hai.
+
+In sab tareeko mein hum inheritance ke zariye code reuse kar sakte hain aur apni classes ko modular banate hain.
+
+
+### How to implement encapsulation? How to make fields protected in javascript? Explain in Hinglish 
+Encapsulation ka matlab hota hai ki data aur uske sath sath uske functions ko ek saath rakhe jaye taki vo secure ho. Jaise ki hum apne phone ke apps ke data ko ek saath rakhte hain, taki koi dusra insaan unhe access na kar sake.
+
+Javascript me fields ko protected banane ke liye, hum 'underscore' (_) ka use kar sakte hain jisse ye fields private ho jayenge, yani sirf us class ke andar hi access kar payenge. Ye humko aur bhi security provide karta hai.
+
+Jaise: 
+
+```
+class MyClass {
+  _myField = "My Protected Field"; // underscore se field ko protect kiya gaya hai
+
+  getMyField() {
+    return this._myField; // _myField ko is class ke andar hi access kar sakte hain
+  }
+}
+```
+
+
+### How to make fields and functions private in javascript? Explain in Hinglish 
+JavaScript mein fields aur functions ko private banane ke liye, hum "closure" ka upyog kar sakte hain. Ek closure ek function hai jo ek object ko return karta hai, jismein saare private fields aur functions hote hain. Inn private elements ko access karne ke liye, public methods ka upyog kiya jaata hai.
+
+Iske liye, hum ek IIFE (Immediately Invoked Function Expression) bana sakte hain, jismein hum uss object ko return karte hain jo hamare private fields aur functions ko contain karta hai. Public methods ko iske baad add kiya jaata hai, jo iss object ke properties hote hain aur private elements tak pahunchne ke liye inka upyog kiya jaata hai. Iss tarike se, humare code kaafi organized aur maintainable ho jaata hai.
+
+Jaise:
+
+```javascript
+var myModule = (function() {
+  var privateField = "privateValue";
+
+  function privateFunction() {
+    console.log("This is a private function");
+  }
+
+  return {
+    publicMethod: function() {
+      console.log("This is a public method that can access the private members");
+      console.log(privateField);
+      privateFunction();
+    }
+  };
+
+})();
+
+myModule.publicMethod(); // Output: This is a public method that can access the private members
+                         //         privateValue
+                         //         This is a private function
+```
+
+Iss code mein, `myModule` ek object hai jo IIFE ke through create kiya gaya hai. Yeh object sirf ek public method `publicMethod` ko contain karta hai, jo private field `privateField` aur private function `privateFunction` ko access kar sakti hai.
+
+
+### What is chaining methods? How can we implement the same in ES6 classes in javascript? Explain in Hinglish 
+Chaining methods ka matlab hota hai ki ek hi line mein multiple functions ko call karna aur uska output ko further use karna. Jaise ki, agar hum ek array ke upar multiple array methods ko implement karna chahte hai toh hum chaining methods ka use kar sakte hai.
+
+ES6 classes mein chaining methods ko implement karne ke liye, humein apni class ke har method ke ant mein 'return this' likhna padta hai. Isse, hum apne objects ko modify karke unhein further methods ke liye chain kar sakte hai.
+
+Jaise ki, niche diya gaya example dekh lein:
+
+```
+class Car {
+  constructor(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.speed = 0;
+  }
+
+  setMake(make) {
+    this.make = make;
+    return this;
+  }
+
+  setModel(model) {
+    this.model = model;
+    return this;
+  }
+
+  setYear(year) {
+    this.year = year;
+    return this;
+  }
+
+  accelerate() {
+    this.speed += 10;
+    return this;
+  }
+
+  brake() {
+    this.speed -= 10;
+    return this;
+  }
+}
+
+const car1 = new Car('BMW', 'X5', 2021);
+car1.setMake('Audi').setYear(2022).accelerate().brake();
+console.log(car1);
+```
+
+Is example mein, humne Car class banayi hai jismein setMake(), setModel(), setYear(), accelerate() aur brake() function hai. Har function ke ant mein 'return this' ka use kiya hai jo chaining methods ke liye important hai.
+
+Humne car1 object create kiya hai aur usko setMake(), setYear(), accelerate() aur brake() methods ke through modify kiya hai. Yeh sabhi methods ko humne ek hi line mein likha hai jo chaining methods ka example hai.
+
+Output mein, hum dekh sakte hai ki car1 object ke make, year aur speed values change ho chuke hai.
+
+
+### What is Synchronous and Asynchronous in javascript? Explain in Hinglish 
+Synchronous aur Asynchronous JavaScript me difference hai, jisme Synchronous ka matlab hota hai ki ek kaam tab tak wait karega jab tak wo complete na ho jaye, jabki Asynchronous ka matlab hota hai ki ek kaam ko shuru karne ke baad dusre kaam ko bhi shuru kar diya ja sakta hai, yani dono kaam ek saath chalte hai. 
+
+Synchronous code line by line execute hota hai, jisse agar koi kaam time-consuming ho toh pura process slow ho jata hai. Jabki Asynchronous code me kaam background me run karta hai, jisse doosre kaam bhi continue chalte rahte hai.
+
+Ek example se samjhein toh, imagine kijiye aapke paas ek chai banane wali machine hai aur machine me 3 steps hai - pani daalna, chai bag daalna, doodh daalna. Ab synchronous code se, aap sabse pehle pani daalenge, phir chai bag daalenge aur fir doodh daalenge. Lekin agar pani garam hone me time lag raha ho, toh aapko chai banana ke liye intezaar karna hoga.
+
+Jabki asychronous code me, aap pani daalte hi chai bag daal sakte hai aur fir doodh daal sakte hai, chahe pani garam ho ya nahi. Isse aap doosre kaamo ko bhi simultaneously kar sakte hai.
+
+Yeh example sirf samajhne ke liye tha, lekin javascript me Synchronous aur Asynchronous kaafi important concept hai, jiske through aap apne code ke performance ko improve kar sakte hai.
+
+
+### What is AJAX in javascript? Explain in Hinglish 
+AJAX ek aise technique hai jismein hum web page ko refresh kiye bina server se data retrieve kar sakte hain. Iska matlab hai ki jab aap kisi website pe kuchh change karte hain, to webpage ko puri tarah se reload nahi kiya jata. Instead of that, sirf uss part ko update kiya jata hai jismein changes hue hain.
+
+Yeh JavaScript ka ek bahut important concept hai jiski madad se website ko faster aur interactive banaaya ja sakta hai. AJAX ka full form hai Asynchronous JavaScript And XML.
+
+
+### What is API? Explain topics SOAP API, Rest API, Request, Response, Request Body, Query Param, Path Variable, URL, URI, Data : JSON/XML/Text Explain in Hinglish 
+API ka matlab hota hai "Application Programming Interface". Ye ek tarika hai jisse ek software application, dusre application ke saath communication kar sakta hai. 
+
+SOAP API: SOAP (Simple Object Access Protocol) ek standard protocol hai, jo XML format mein data ko exchange karta hai. Ismein request aur response ko envelopes mein wrap kiya jaata hai.
+
+Rest API: REST (Representational State Transfer) ek architecture style hai, jis mein HTTP requests se kaam liya jaata hai. Ismein data ko URL ke through transfer kiya jaata hai, aur response JSON/XML/Text mein aata hai.
+
+Request: Jab ek client server se kuchh manga hai, to wo request hoti hai. 
+
+Response: Server jab client ke request ka response bhejta hai, to use response kehte hain. 
+
+Request Body: Jab ek client server ko data send karta hai, to wo data request body ke andar hota hai. 
+
+Query Param: Query parameters URLs ke andar hote hain aur typically "?key=value" format mein hotey hain. Ye client ke dwaara specific data ko filter karne ke liye use kiye jaate hain.
+
+Path Variable: Path variable URL mein dynamic values hote hain, jaise "/users/{id}" jahan "id" ek path variable hai.
+
+URL: URL (Uniform Resource Locator) ek unique address hai, jise web browser use karke internet par kisi website tak pahunch sakte hain.
+
+URI: URI (Uniform Resource Identifier) ek identifier hai, jo resource ko uniquely identify karta hai.
+
+Data: Data ek collection hota hai jismein information shamil hoti hai. Data ko commonly JSON/XML/Text format mein represent kiya jaata hai.
+
+
+### What is server client architecture in javascript? Explain in Hinglish 
+Server client architecture ka matlab hai ki jab aap ek website par visit karte hain toh wahan pe aapka computer client hota hai aur woh website jo aapko dikh rahi hai uska data aur code ek server ke taraf se aata hai. Is process ko hum "client-server architecture" kehte hain.
+
+Ab JavaScript me, client-side scripting hoti hai jahan pe aapke browser me scripts chalte hain aur server-side scripting hoti hai jahan pe server ke taraf se code run hota hai. Server side me node.js jaisi technology use ki jati hai jo ki JavaScript par based hai.
+
+
+### What is Promise and fetch in javascript? Explain in Hinglish 
+Promise ek aisa object hai jo asynchronous operations ke liye use kiya jata hai. Jab hum kisi function ko call karte hain jo data fetch karne ya kisi task ko perform karne ke liye time lete hain, tab hum is function ko Promise ke andar rakhte hain. Promise 3 states me ho sakta hai: pending, fulfilled aur rejected.
+
+Fetch ek built-in Javascript method hai jo server se data fetch karne ke liye use kiya jata hai. Isme hum URL ko pass karte hain jiske baare mein data fetch karna hai, phir response ko handle karne ke liye Promise ka use kiya jata hai. Yeh ek modern alternative hai XMLHttpRequest (XHR) object ke liye.
+
+
+### How to consume promises in javascript? Explain in Hinglish 
+Promises ek aisa concept hai jo Javascript mein use hota hai asynchronous programming ke liye. Asynchronous programming ka matlab hota hai ki hum code ko aise likhte hain jismein ek kaam ho raha ho toh dusra kaam bhi chalta rahe, taki application slow na ho.
+
+Promises ka use tab kiya jata hai jab hum kisi task ka result future mein expect kar rahe hote hain aur uske baad us result ke saath kuch aur kaam karna chahte hain. Promises ke 3 states hote hain - Pending (wait kar raha hai), Fulfilled (kaam ho gaya hai) aur Rejected (kuch error ho gaya hai).
+
+Promise ko consume karne ke liye hum `.then()` aur `.catch()` methods ka use karte hain. Hum `.then()` method ka use karte hain jab promise fulfill ho chuka hota hai aur hum uska result access karna chahte hain. Aur `.catch()` method ka use karte hain jab promise reject ho jata hai aur hum uska error handle karna chahte hain.
+
+Yeh ek example hai:
+```
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error))
+```
+
+Is example mein hum `fetch()` function ka use kar rahe hain jo ek api call karti hai. Iska response hum `.then()` method ke through access kar rahe hain. Agar koi error aaye toh hum `.catch()` method se handle kar lenge.
+
+
+### How handle rejected promises in javascript? Explain in Hinglish 
+Javascript mein rejected promises ko handle karne ke liye, hum `.catch()` ka use karte hain. Agar promise reject ho jaati hai, toh `.catch()` ka function call hota hai aur usmein hum error message ya fir koi aur handling kar sakte hain.
+
+Is tarah se, hum apne code mein errors ko handle kar sakte hain aur sahi tarah se program ko chala sakte hain.
+
+
+### How to create a Promise in javascript? Explain in Hinglish 
+Promises ek tareeka hai JavaScript mein async programming ke liye jiske dwara hum code ko non-blocking bana sakte hain.
+
+Ek naya Promise object create karne ke liye, hum `new Promise()` ka upyog karte hain aur ismein ek function pass karte hain jismein do arguments honge - `resolve` aur `reject`. 
+
+`resolve` function tabhi call kiya jaata hai jab async operation successfully complete ho jaati hai. Agar koi error aati hai to `reject` function ko call kiya jaata hai.
+
+For example:
+
+```
+const myPromise = new Promise((resolve, reject) => {
+  // Async operation to be performed
+  let result = performAsyncOperation();
+  
+  if (result) {
+    resolve("Success message");
+  } else {
+    reject("Error message");
+  }
+});
+```
+
+Yahan `performAsyncOperation` ek async operation hai jise hum execute kar rahe hain. Agar ye operation successfully complete hoti hai to hum `resolve` ko call karenge aur agar koi error aati hai to `reject` ko call karenge. `myPromise` abhi ek pending Promise hai jo humari async operation ka result hold kar rahi hai.
+
+Hum Promise ko `.then()` aur `.catch()` functions ke saath chain kar sakte hain jisse hum success aur error cases ko handle kar sakte hain.
+
+```
+myPromise.then((successMsg) => {
+  // Success case handling
+  console.log(successMsg);
+}).catch((errorMsg) => {
+  // Error case handling
+  console.log(errorMsg);
+});
+``` 
+
+Yahan hum `.then()` aur `.catch()` functions ka upyog kar rahe hain jisse hum success aur error cases ko handle kar sakte hain. Agar async operation successfully complete hoti hai toh `.then()` function ko call kiya jaata hai aur agar koi error aati hai toh `.catch()` function ko call kiya jaata hai.
+
+
+### What is async/await in javascript? Explain in Hinglish 
+Async/await ek JavaScript feature hai jo asynchronous code execution ko asaan banata hai. Async keyword se function ko async banaya jaata hai, jise await keyword se call kiya jaata hai.
+
+Jab hum kisi function ke andar await ka use karte hai, tab tak wo function ke execution ko rok deta hai jab tak ki uske saath attached promise resolve ya reject na ho jaye. Isse code readability aur maintainability improve hoti hai.
+
+Iska upyog commonly network requests, file I/O operations aur anya async tasks ke liye kiya jaata hai.
+
+
+### How to return values from Async function in javascript? Explain in Hinglish 
+Async functions in JavaScript return a Promise that resolves to the value returned by the function. You can use the `await` keyword to wait for the Promise to resolve and get the returned value.
+
+To return values from an async function, you can simply use the `return` keyword inside the function as you would normally do in synchronous functions. However, since async functions return Promises, you need to wrap the returned value in a resolved Promise using the `Promise.resolve()` method.
+
+Here's an example:
+
+```javascript
+async function getData() {
+  const response = await fetch('https://example.com/data');
+  const data = await response.json();
+  return Promise.resolve(data);
+}
+
+getData().then((data) => {
+  console.log(data);
+}).catch((error) => {
+  console.error(error);
+});
+```
+
+In this example, the `getData()` function returns a Promise that resolves to the JSON data fetched from the URL. The `Promise.resolve()` method is used to wrap the data in a resolved Promise before returning it.
+
+You can call the `getData()` function using the `then()` method to get the returned data, or the `catch()` method to handle any errors that occur during the execution of the async function.
+
+
+### How to run promises in Parallel in javascript? Explain in Hinglish 
+Promises ko parallel me kaise chalaya ja sakta hai Javascript me?
+
+Promises ko ek saath chalane ke liye, Promise.all() function ka use kiya jata hai. Is function ko ek array of promises diya jata hai aur wo sab promises ko ek saath execute karne ki koshish karta hai.
+
+Example:
+```
+const promise1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Promise 1 complete');
+  }, 2000);
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Promise 2 complete');
+  }, 4000);
+});
+
+Promise.all([promise1, promise2])
+  .then((results) => {
+    console.log(results);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
+
+Is example me, do promises "promise1" aur "promise2" create kiye gaye hain jo alag-alag time ke baad resolve ho jayenge. Promise.all() function ko in dono promises ko as an array pass kiya jata hai. Jab dono promises resolve ho jate hain, "then" block execute hota hai aur array me dono promises ke results print ho jate hain.
+
+Note: Hinglish me explanation dene ke liye Hindi aur English dono languages ka mixture use kiya gaya hai.
+
+
+### How to do error handling? Explain try catch and finally in javascript? Explain in Hinglish 
+Error handling ka matlab hota hai ki, aapki code mein koi issue ya error aane par uss issue ko handle karna. Iske liye, JavaScript language mein "try-catch-finally" ka use kiya jaata hai.
+
+Try-Catch-Finally statement ka use karke aap apne code ki errors ko handle kar sakte hain. Yeh ek aisa method hai jismein aap kisi bhi risky code ko try block ke andar rakh sakte hain, aur agar issue aaye to wo catch block ke andar handle kiya ja sakta hai.
+
+Try: Try block mein risky code rakhna hota hai. Agar yahaan par koi exception ya error aata hai, to control flow automatically catch block mein jayega.
+
+Catch: Catch block mein aap error ko identify kar sakte hain aur use handle kar sakte hain. Yeh block tabhi execute hota hai jab try block mein koi error aata hai.
+
+Finally: Finally block mein, aap code likh sakte hain jo hamesha execute hoga chahe try-catch blocks mein koi error aaye ya na aaye. Finally block ka use close karne jaise tasks ya resources release karne ke liye kiya jata hai.
+
+Iska example aapke samajhne ke liye, ek chote se Hinglish mein explanation ke saath diya gaya hai:
+
+```
+try {
+  // yahaan risky code likha jaata hai
+} 
+catch (error) {
+  // error ko handle karne ke liye yahaan code likha jaata hai
+} 
+finally {
+  // yahaan hamesha execute hone waala code likha jaata hai
+}
+```
+
+Umeed hai ki ye explanation aapke liye helpful hoga.
+
+
+### Explain some of the promise combinators in javascript? Race, allSettled, any Explain in Hinglish 
+Javascript mein kuch promise combinators hote hain jaise:
+
+1. Race - Ismein multiple promises ko pass kiya jaata hai aur jo bhi promise pehle resolve ho jaata hai, uska result return hota hai. Jaise ki, "Agar ek race shuru hai aur 3 log bhag rahe hain, toh jis insaan ne pehle finish line cross kiya, woh winner hoga". 
+
+2. allSettled - Ismein multiple promises ko pass kiya jaata hai aur saare promises settle hone ke baad (yaani resolved ya rejected hone ke baad) unke results ka array return hota hai. Iss se hum saare promises ke results ko collect kar sakte hain, chahe wo successful hon ya unsuccessful.
+
+3. any - Ismein multiple promises ko pass kiya jaata hai aur jis bhi promise ka state pehle change hota hai (resolved ya rejected), uska result return hota hai. Agar sabhi promises reject ho jaate hain toh error throw kiya jaata hai. Jaise ki, "Agar 3 log ek race shuru karte hain aur 2log pehle finish line cross karte hain, toh jiske paas zyaada points hain woh winner hoga".
+
+
+### What is module in JavaScript? Explain in Hinglish 
+JavaScript me module ek aisa code block hota hai jo specific functionality ko perform karta hai aur use dusre codes se alag rakhta hai. Ye code reusability aur maintainability ko improve karta hai. Hum modules ke through variables, functions aur objects ko export aur import kar sakte hai. Basically, ye ek jatil program ki choti si unit hoti hai jisko dusre program se use kiya ja sakta hai.
+
+
+### How to import and export modules in javascript? Explain in Hinglish 
+Javascript mein modules import aur export karne ke liye, hum `import` aur `export` statements ka use karte hain.
+
+Modules ko import karne ke liye `import` keyword ka use kiya jata hai. Import statement ke baad aapko module ka naam dena hota hai, jo aapko import karna hai. Iske baad aap module ka path dete huye likhte hain. Jaise ki:
+
+```javascript
+import { functionName } from './module.js';
+```
+
+Yahan `functionName` ek function ka naam hai, jo hum `'./module.js'` file se import kar rahe hain.
+
+Modules ko export karne ke liye `export` keyword ka use kiya jata hai. Export statement ke baad aapko variable ya function ka naam dena hota hai, jo aap export karna chahte hain. Jaise ki:
+
+```javascript
+export function functionName() {
+  // Function code here
+}
+```
+
+Is code se, `functionName` function ko export kiya ja raha hai, jisse dusre files mein access kiya ja sakta hai.
+
+Iss tareeke se aap JavaScript mein modules ki madad se code ko organize kar sakte hain aur reusability ko badha sakte hain.
+
+
+### What is Polyfilling in javascript? Explain in Hinglish 
+Polyfilling JavaScript ka matlab hai ki aap kisi nayi browser feature ko use karne se pehle uska support purane browsers me bhi kar dete hain. Isse ye benefit hota hai ki aap apni website ke users ko ek consistent experience provide kar sakte hain.
+
+Jaise maan lijiye aapki website kaafi saare users purane versions ke Internet Explorer, jaise IE 8 ya IE 9 use kar rahe hain. Aap chahte hain ki aapki website un sabhi users ke browsers par acche se work kare, lekin aapke paas kuch features hain jo sirf modern browsers me hi work karte hain.
+
+Polyfilling ka use karke aap kisi bhi naye feature ko implement kar sakte hain aur isse purane browsers me bhi us feature ka support ho jata hai. Isse aapki website ke users ko ek better experience milta hai aur woh aapki site ko kisi bhi browser me acche se access kar sakte hain.
+
+
+### What is Transpiling in javascript? Explain in Hinglish 
+Transpiling ek process hai jisme hum ek programming language ka code dusre language ke code mein convert karte hain. JavaScript mein, hum usually ES6 ya ES7 code likhte hain jo ki bahut hi advanced hota hai. Lekin, sabhi browsers abhi tak isko support nahi karte. Isliye, hum Transpiling ka use karte hain taki humara code sahi se work kare har browser par.
+
+Iske liye, hum apne ES6/ES7 JavaScript code ko babel jaise tools ka use karke ES5 (older version of JavaScript) code mein convert karte hain. Ye code different browsers par easily run kar sakta hai aur hume cross-platform compatibility provide karta hai.
+
+
+### Difference between polyfilling and transpiling in javascript? Explain in Hinglish 
+Polyfilling aur Transpiling dono hi JavaScript ke development me important hai.
+
+Polyfilling ka matlab hota hai ki aap kuch aise functionality ko add kar rahe ho jo purane browsers me nahi available hai. Jaise agar aap kisi modern property ka use karte ho, toh polyfill uss feature ko purane browsers me bhi work karne ke liye support karta hai.
+
+Transpiling ka matlab hota hai ki aap kuch aise code ko ek version se dusre version me convert kar rahe ho. Jaise agar aap ES6 syntax ka use karte ho toh transpiler uss code ko ES5 syntax me convert karke purane browsers me bhi chalane ke liye ready kar deta hai.
+
+Toh Polyfilling aur Transpiling dono hi bahut useful hai aur inko sahi tarike se use karna important hai, especially jab cross-browser compatibility ki baat aati hai.
