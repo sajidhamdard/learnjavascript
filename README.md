@@ -300,7 +300,9 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_Solution-07_](./Exercises/solution-07.md)
 </details>
 
-## 📚 [_Interview Questions_](./Interview%20Questions/interview-questions.md)
+## 📚 [_Interview Questions & Answers In English_](./Interview%20Questions/interview-questions-english.md)
+
+## 📚 [_Interview Questions & Answers In Hindi](./Interview%20Questions/interview-questions-hindi.md)
 
 ## 📚 [_Coding Guidelines_](./Coding%20Guidelines/Coding%20Guidlines.md)
 
