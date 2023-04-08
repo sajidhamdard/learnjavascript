@@ -159,7 +159,7 @@ console.log(totalCharacters); //28
 ### Question 13 : Given an array of strings, use map and reduce to return the total number of characters in all the strings with a length less than 5.
 
 ```
-const strings = ['hello', 'world', 'javascript', 'reduce', 'map', 'filter'];
+const strings = ['hell', 'world', 'javascript', 'reduce', 'map', 'filter'];
 
 const totalCharacters = strings
   .filter(str => str.length < 5) // filter strings with length less than 5
