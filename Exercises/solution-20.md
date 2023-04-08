@@ -182,7 +182,7 @@ const sum = numbers
     return accumulator + currentValue;
   }, 0); // sum the results of the map function
 
-console.log(sum); // 81
+console.log(sum); // 75
 ```
 ### Question 15 :  Given a string, reverse the order of the words in the string. For example, "the quick brown fox" becomes "fox brown quick the".
 
