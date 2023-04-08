@@ -55,15 +55,18 @@ separateOddEven([1, 2, 3, 4, 5, 6]) // [1, 3, 5, 2, 4, 6]
 ### Question 6 : Create an array of numbers. Now change the position of each element with their next element. 
 
 ```
-function shiftElements(arr) {
-  return arr.flatMap((val, index, array) => {
-    if (index % 2 === 0 && index !== array.length - 1) {
-      return [array[index + 1], val];
-    } else {
-      return val;
-    }
-  });
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let newArr = [];
+for (let i = 0; i < arr.length; i = i + 2) {
+  if (i === arr.length - 1) {
+    newArr.push(arr[i]);
+  } else {
+    newArr.push(arr[i + 1]);
+    newArr.push(arr[i]);
+  }
 }
+console.log(newArr);
+
 
 // Example usage:
 shiftElements([1, 2, 3, 4, 5, 6, 7]) // [2, 1, 4, 3, 6, 5, 7]
