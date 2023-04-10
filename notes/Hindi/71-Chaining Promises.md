@@ -1,28 +1,29 @@
-### Chaining Promises
+### what is Chaining Promises
 
-Chaining Promises in JavaScript is a technique for handling asynchronous operations where multiple Promise objects are linked together in a chain, with the output of one Promise becoming the input of the next. This allows for more efficient and readable code compared to nested callback functions. Each Promise in the chain can be modified or transformed using methods such as .then(), .catch(), and .finally() to handle success, error, and completion cases respectively.
+Chaining Promises in JavaScript refers to a technique that allows multiple asynchronous operations to execute sequentially, where the output of one operation becomes the input of the next operation.
 
-Chaining promises in JavaScript allows you to execute asynchronous operations in a sequence, where the output of one operation feeds as input to the next one. 
+For example, suppose you want to fetch data from an API, process it, and then display it on the webpage. In this case, you can use Promises to chain these operations together. Here's an example:
 
-Here's an example:
-
-```javascript
-fetch('https://jsonplaceholder.typicode.com/users')
+```
+fetch('https://api.example.com/data')
   .then(response => response.json())
-  .then(data => {
-    console.log(data);
-    return fetch(`https://jsonplaceholder.typicode.com/posts?userId=${data[0].id}`);
-  })
-  .then(response => response.json())
-  .then(posts => console.log(posts))
+  .then(data => processData(data))
+  .then(result => displayData(result))
   .catch(error => console.error(error));
 ```
 
-In this code, we start by performing a GET request to retrieve a list of users from a public API. We then parse the JSON response using the `json()` method, and extract the first user from the array.
+In the above code, `fetch` is used to make an HTTP request to the API and return a Promise that resolves with the response. The first `then` method is used to extract the JSON data from the response. The second `then` method calls the `processData` function with the extracted data, which returns a new Promise that resolves with the processed data. Finally, the third `then` method calls the `displayData` function with the processed data to display it on the webpage. If any error occurs during any of these steps, the `catch` method will handle it.
 
-Next, we use the extracted user's ID to construct a new URL, which we pass to another `fetch()` call to obtain a list of posts made by that user. Again, we parse the JSON response, and finally log the posts to the console.
+In Hinglish, chaining Promises in JavaScript ka matlab hai ki ek Technique jismein ek se zyada async operations ko sequence mein execute kiya ja sakta hai, jahan ek operation ka output agle operation ka input banta hai.
 
-If any errors occur while executing the promises, we catch them with the `catch()` method and log them to the console. The chain of promises ensures that each operation is executed in the correct order, without blocking the main thread, and that the output of one operation becomes the input of the next.
+Jaise ki agar aapko API se data fetch karna hai, usse process karna hai aur phir web page pe display karna hai. Iss case mein, aap Promises ka use kar sakte hai aur inse operations ko chain kar sakte hai. Neeche diya gaya code dekhiye:
 
+```
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => processData(data))
+  .then(result => displayData(result))
+  .catch(error => console.error(error));
+```
 
-
+Upar diye gaye code mein, `fetch` ka use HTTP request banane ke liye kiya gaya hai aur ek Promise ko return kar dia jata hai jo response ke saath resolve hota hai. Pehla `then` method response se JSON data extract karne ke liye use kiya jata hai. Dusra `then` method `processData` function ko extracted data ke saath call karta hai jo ek naya Promise ko resolve karta hai processed data ke saath. Antim `then` method `displayData` function ko process kiya hua data ke saath call karta hai taki usse web page pe display kiya ja sake. Agar koi error in steps mein kahin bhi aati hai to `catch` method ise handle karega.

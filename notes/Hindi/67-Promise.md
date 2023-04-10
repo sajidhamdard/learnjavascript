@@ -1,27 +1,25 @@
-### What is Promise ?
+### What is Promise
 
-In JavaScript, a Promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and allows you to write code that can handle the result of that operation once it's complete.
+Promise ek JavaScript object hota hai jiska use kiya jaata hai asynchronous code ke liye. Asynchronous code ka matlab hota hai ki jab hum kisi task ko execute kar rahe hote hai aur uska result time lagakar aata hai tab tak hum dusre tasks ko perform kar sakte hai.
 
-A Promise can be in one of three states:
+Promise ek tarah se guarantee deta hai ki kisi task ka result future me available ho jayega. Jab hum koi task Promise object me wrap karte hai, to wo task ek new thread me execute hota hai aur promise hume ek reference deta hai jisse hum task ke result ko future me access kar sakte hai.
 
-- Pending: The initial state, representing the fact that the operation is still ongoing and the result is not yet available.
-- Fulfilled: The operation has completed successfully, and the result is available.
-- Rejected: The operation has failed, and an error has occurred.
+Example:
 
-Once a Promise is fulfilled or rejected, it cannot change its state again.
+Ek common example hai fetch() function jo network request ko execute karta hai. Ye function data ko retrieve karne ke liye server se communication karta hai. Iska syntax niche diya gaya hai:
 
-To create a Promise in JavaScript, you can use the Promise constructor, which takes a function that defines the asynchronous operation. This function takes two parameters: resolve and reject, which are functions that you can call to either fulfill or reject the Promise.
-
-Here's an example of creating a Promise that represents an asynchronous operation that resolves after a set amount of time:
-
-```javascript
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-delay(1000)
-  .then(() => console.log('Operation complete!'))
-  .catch((error) => console.error(error));
+```
+fetch(url)
+  .then(response => {
+    // handle the response
+  })
+  .catch(error => {
+    // handle the error
+  });
 ```
 
-In this example, the delay function returns a new Promise that resolves after a specified number of milliseconds (in this case, 1000ms, or 1 second). We then use the then method to specify what should happen when the Promise is fulfilled (in this case, we simply log a message to the console), and the catch method to specify what should happen if the Promise is rejected (in this case, we log the error message to the console).
+Is example me, `fetch()` ek Promise object return karta hai. Hum `then()` method me ek callback function pass karte hai jo response ko handle karti hai. Agar fetch() me koi error hota hai to `catch()` method error ko handle karta hai.
 
-Promises are a powerful tool in JavaScript for handling asynchronous operations, and they provide a way to write cleaner, more readable code that is easier to reason about. They are widely used in modern web development, particularly when making HTTP requests or working with other external APIs or services.
+Upar diye gaye example se hum ye samajh sakte hai ki Promise ek asynchronous operation ko represent karta hai jo future me resolve ya reject ho sakta hai. Hum `then()` aur `catch()` methods se resolve aur reject cases ko handle kar sakte hai.
+
+As a summary, Promise ek powerful tool hai jo hume allow karta hai ki hum asynchronous code ko clean aur precise tarike se execute kare.

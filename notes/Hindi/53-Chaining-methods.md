@@ -1,34 +1,55 @@
+### What is Chaining methods and how to do it for custom functions
 
-### What is Chaining methods and how to do it for custom functions?
+Chaining methods is a technique in JavaScript that allows you to call multiple functions on the same object in a single line of code. This can make your code more concise and easier to read.
 
-Chaining methods in JavaScript is a technique where multiple methods are called on the same object in sequence, with each method returning the object itself, allowing for a fluent syntax. 
+To use chaining methods with custom functions in JavaScript, you need to ensure that each function returns the object it was called on (usually using the `return this;` statement at the end of the function). This allows you to chain additional functions onto the end of the initial function call.
 
-To create custom functions that can be chained together, you need to modify the function so that it returns the object itself at the end of the function definition, like so:
+Let's take an example of a custom function that manipulates an array of numbers:
 
-```
-function myFunction(param) {
-  // do something with param
-  return this;
+```javascript
+function NumberArray(numbers) {
+  this.numbers = numbers;
+
+  this.add = function (num) {
+    this.numbers.push(num);
+    return this;
+  };
+
+  this.subtract = function (num) {
+    for (let i = 0; i < this.numbers.length; i++) {
+      this.numbers[i] -= num;
+    }
+    return this;
+  };
+
+  this.multiply = function (num) {
+    for (let i = 0; i < this.numbers.length; i++) {
+      this.numbers[i] *= num;
+    }
+    return this;
+  };
+
+  this.divide = function (num) {
+    for (let i = 0; i < this.numbers.length; i++) {
+      this.numbers[i] /= num;
+    }
+    return this;
+  };
 }
 ```
 
-By returning `this` (which refers to the object the function is called on), you allow the next function in the chain to be called on the same object. Here's an example:
+Here, we have created a custom `NumberArray` object that contains an array of numbers and four functions: `add`, `subtract`, `multiply`, and `divide`. Each function modifies the array of numbers and returns the object itself (`this`) so that you can chain additional function calls onto it.
 
-```
-const myObject = {
-  value: 0,
-  increment() {
-    this.value++;
-    return this;
-  },
-  multiply(n) {
-    this.value *= n;
-    return this;
-  }
-}
+Now, we can create a new `NumberArray` object and chain together some function calls like this:
 
-myObject.increment().multiply(3);
-console.log(myObject.value); // Output: 3
+```javascript
+const myNumbers = new NumberArray([1, 2, 3]);
+
+myNumbers.add(4).subtract(1).multiply(2).divide(3);
+
+console.log(myNumbers.numbers); // Output: [2, 4, 6]
 ```
 
-In this example, the `increment()` and `multiply()` methods both return `this`, enabling them to be chained together in a single statement.
+In this code, we create a new `NumberArray` object with the numbers `[1, 2, 3]`. Then, we chain together four function calls to add `4`, subtract `1`, multiply by `2`, and divide by `3`. Finally, we log the resulting array of numbers (`[2, 4, 6]`) to the console.
+
+So, chaining methods in JavaScript allows you to call multiple functions on the same object in a single line of code, which can make your code more concise and easier to read.

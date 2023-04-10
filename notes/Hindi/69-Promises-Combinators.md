@@ -1,55 +1,92 @@
-### Promise Combinators: race, allSettled and any
+### what ia Promise Combinators: race, allSettled and any
 
-Promise Combinators in JavaScript are methods that operate on multiple promises and return a new promise. The three Promise Combinators are:
+Promise Combinators are higher-order functions in JavaScript that allow you to combine multiple Promises and handle their results in a concise way. These functions include `Promise.race()`, `Promise.allSettled()`, and `Promise.any()`. Let's look at each of these in more detail:
 
-1. Promise.race(iterable): Returns a new promise that resolves or rejects as soon as one of the promises in the iterable resolves or rejects, with the value or reason from that promise. Promise.race() takes an array of promises and returns a new promise that resolves or rejects as soon as one of the input promises resolves or rejects. Here's an example:
+1. `Promise.race()` - Yeh function multiple promises ko combine karta hai aur sabse pehle resolve ya reject hone wali promise ka result return karta hai.
 
-```javascript
-const promise1 = new Promise((resolve, reject) => {
-  setTimeout(resolve, 500, 'Promise 1');
+Example: Imagine you have two Promises, one that resolves after 2 seconds and another that resolves after 5 seconds. If you want to get the result of whichever Promise resolves first, you can use `Promise.race()` like this:
+
+```
+const promise1 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('Result of Promise 1');
+  }, 2000);
 });
 
-const promise2 = new Promise((resolve, reject) => {
-  setTimeout(resolve, 1000, 'Promise 2');
+const promise2 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('Result of Promise 2');
+  }, 5000);
 });
 
 Promise.race([promise1, promise2])
-  .then(result => console.log(result)); // Output: 'Promise 1'
+  .then((result) => {
+    console.log(result); // Output: "Result of Promise 1"
+  });
 ```
 
-In this example, Promise.race() returns a new promise that resolves with the value of promise1, because promise1 resolves before promise2.
+2. `Promise.allSettled()` - Yeh function ek array mein diye gaye promises ko combine karta hai aur jab sabhi promises settle ho jaate hain (yani resolve ya reject ho jaate hain), to ek array of objects return karta hai jo har promise ke liye uske status, value/ reason properties mein details deta hai.
 
-2. Promise.allSettled(iterable): Returns a new promise that resolves with an array of objects that describe the outcome of each promise in the iterable, whether fulfilled or rejected. Promise.allSettled() takes an array of promises and returns a new promise that resolves with an array of objects that describe the state of each input promise (whether it resolved or rejected and with what value). Here's an example:
+Example: Let's say you have three Promises, but you don't care about which ones resolve or reject, you just want to know the status of all of them. You can use `Promise.allSettled()` like this:
 
-```javascript
+```
 const promise1 = new Promise((resolve, reject) => {
-  setTimeout(resolve, 500, 'Promise 1');
+  setTimeout(() => {
+    resolve('Result of Promise 1');
+  }, 2000);
 });
 
 const promise2 = new Promise((resolve, reject) => {
-  setTimeout(reject, 1000, 'Promise 2');
+  setTimeout(() => {
+    reject('Error: Promise 2 rejected');
+  }, 5000);
 });
 
-Promise.allSettled([promise1, promise2])
-  .then(results => console.log(results));
-// Output: [{status: 'fulfilled', value: 'Promise 1'}, {status: 'rejected', reason: 'Promise 2'}]
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Result of Promise 3');
+  }, 3000);
+});
+
+Promise.allSettled([promise1, promise2, promise3])
+  .then((results) => {
+    console.log(results);
+    /* Output: [
+      { status: 'fulfilled', value: 'Result of Promise 1' },
+      { status: 'rejected', reason: 'Error: Promise 2 rejected' },
+      { status: 'fulfilled', value: 'Result of Promise 3' }
+    ] */
+  });
 ```
 
-In this example, Promise.allSettled() returns a new promise that resolves with an array of objects, one for each input promise, that describes the status and value or reason of each promise.
+3. `Promise.any()` - Yeh function ek array mein diye gaye promises ko combine karta hai aur sabse pehle resolve hone wali promise ka result return karta hai. Agar saare promises reject ho jayein to, ek AggregateError throw karta hai.
 
-3. Promise.any(iterable): Returns a new promise that resolves with the value of the first fulfilled promise in the iterable. If all promises are rejected, it rejects with an AggregateError containing an array of rejection reasons. Note that this method is not yet supported by all browsers. Promise.any() takes an array of promises and returns a new promise that resolves as soon as one of the input promises resolves. If all input promises reject, Promise.any() returns a rejected promise. Here's an example:
+Example: Imagine you have three Promises, but you only care about the result of the first one that resolves. You can use `Promise.any()` like this:
 
-```javascript
-const promise1 = new Promise((resolve, reject) => {
-  setTimeout(reject, 500, 'Promise 1');
+```
+const promise1 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('Result of Promise 1');
+  }, 2000);
 });
 
 const promise2 = new Promise((resolve, reject) => {
-  setTimeout(resolve, 1000, 'Promise 2');
+  setTimeout(() => {
+    reject('Error: Promise 2 rejected');
+  }, 5000);
 });
 
-Promise.any([promise1, promise2])
-  .then(result => console.log(result)); // Output: 'Promise 2'
-```
+const promise3 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('Result of Promise 3');
+  }, 3000);
+});
 
-In this example, Promise.any() returns a new promise that resolves with the value of promise2, because promise2 resolves before promise1.
+Promise.any([promise1, promise2, promise3])
+  .then((result) => {
+    console.log(result); // Output: "Result of Promise 1"
+  })
+  .catch((error) => {
+    console.log(error); // This block will not execute in this example
+  });
+```

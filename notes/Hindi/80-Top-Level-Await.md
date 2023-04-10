@@ -1,20 +1,33 @@
-### Top-Level await (ES2022)
+### what is Top-Level await (ES2022)
 
-Top-level await is a new feature in JavaScript that allows you to use the `await` keyword outside of an asynchronous function at the top level of your code. This means that you can directly use `await` when importing modules or loading data from external APIs without having to wrap them inside an immediately invoked async function expression (IIFE) or inside an async function.
+Top-level await is a new feature that was introduced in ECMAScript 2022 (ES2022) which allows you to use the `await` keyword at the top level of your code, outside of an `async` function. This means that you can now use asynchronous code in the global scope without having to wrap it inside an IIFE or other workarounds.
 
-Before top-level await, you had to use workarounds like IIFEs or async functions to await module imports or API requests, which made the code more verbose and harder to read. With top-level await, you can simplify your code and make it more elegant.
-
-However, top-level await is only available in modules or scripts with the `"module"` type. If you're using CommonJS modules (`require()`), you still need to use IIFEs or async functions to await module imports.
-
-Example:
+For example, suppose you have an API call that you want to make at the start of your script:
 
 ```javascript
-// Await an asynchronous operation at the top level
-const result = await fetch("https://jsonplaceholder.typicode.com/todos/1");
-const data = await result.json();
-
+const response = await fetch("https://api.example.com/data");
+const data = await response.json();
 console.log(data);
 ```
-In this example, we use the await keyword at the top level of the module to fetch some data from an API and parse it as JSON. In previous versions of JavaScript, we would have had to wrap this code in an IIFE with an async function to achieve the same result.
 
-Top-level await can be useful for simplifying your code and reducing boilerplate when working with asynchronous operations at the top level of a module. However, it's important to note that top-level await can only be used in modules, not in scripts, and it may have some performance implications if not used correctly.
+Before top-level await, this code would have resulted in a syntax error because you cannot use the `await` keyword outside of an `async` function. To work around this, you would have had to wrap this code inside an IIFE or a function:
+
+```javascript
+(async function () {
+  const response = await fetch("https://api.example.com/data");
+  const data = await response.json();
+  console.log(data);
+})();
+```
+
+With top-level await, you can simply use `await` at the top level:
+
+```javascript
+const response = await fetch("https://api.example.com/data");
+const data = await response.json();
+console.log(data);
+```
+
+Note that for top-level await to work, you need to be using a module script (`<script type="module">`) or have enabled the `"module"` option in your `package.json` file. This is because top-level await is only allowed in modules, not in traditional scripts.
+
+In summary, top-level await is a new feature in JavaScript that allows you to use `await` at the top level of your code, making it easier to write and read asynchronous code.

@@ -1,37 +1,39 @@
-### Transpiling
+### what is Transpiling
 
-Transpiling in JavaScript is the process of converting modern JavaScript code into an older version of JavaScript that can run in older browsers or environments. This is done by a transpiler, such as Babel, which reads the modern code and converts it into equivalent code that can run in older environments.
+Transpiling in JavaScript means converting code written in one version of the language (ES6 or higher) to an earlier version that can be executed by all browsers. This is done using a tool called a transpiler or compiler.
 
-Here's an example of transpiling:
+Transpiling is important because not all browsers support the latest version of JavaScript. By transpiling, developers can write modern code without worrying about browser compatibility issues.
 
-```javascript
-// Modern JavaScript code using let and const
-let myVar = 'Hello';
-const myConst = 'World';
+For example, consider the arrow function syntax introduced in ES6:
 
-// Transpiled JavaScript code using var
-var myVar = 'Hello';
-var myConst = 'World';
+```
+const add = (a, b) => a + b;
 ```
 
-In this example, we define two variables using the let and const keywords, which are features introduced in ECMAScript 6 (ES6). However, not all browsers support ES6, so we need to transpile our code to an older version of JavaScript that is widely supported.
+This syntax is not supported in some older browsers like Internet Explorer. To make this code compatible with those browsers, we can use a transpiler like Babel to convert it to the equivalent ES5 code:
 
-After transpiling, the code is converted to use the var keyword, which is supported in all modern browsers and environments.
-
-Another example of transpiling is using arrow functions:
-
-```javascript
-// Modern JavaScript code using arrow functions
-const add = (a, b) => a + b;
-
-// Transpiled JavaScript code using function expressions
-var add = function add(a, b) {
+```
+var add = function(a, b) {
   return a + b;
 };
 ```
 
-In this example, we define a simple function using the modern JavaScript arrow function syntax. However, not all browsers support this syntax, so we need to transpile our code using Babel or a similar tool.
+Here's an example in Hinglish:
 
-After transpiling, the code is converted to use function expressions, which are supported in all modern browsers and environments.
+Transpiling Javascript ka matlab hota hai ki ham modern javascript code ko older versions mein convert karte hain jo ki sabhi browsers ke dwara execute kiya ja sakta hai. Iske liye hum ek tool ka istemal karte hain jise transpiler ya compiler kaha jata hai.
 
-Transpiling is a powerful technique that allows developers to use the latest features of JavaScript without worrying about browser compatibility issues. However, it's important to note that not all features of modern JavaScript can be transpiled, and some may require polyfills or other workarounds to work in older environments.
+Transpiling ka use isliye important hai kyunki sabhi browsers latest version of Javascript ko support nahi karte hain. Transpiling se developers modern code likh sakte hain bina browser compatibility issues ke dar ke.
+
+Udharan ke taur par, ES6 mein introduce hue arrow function syntax ko dekhein:
+
+```
+const add = (a, b) => a + b;
+```
+
+Ye syntax kuch older browsers jaise Internet Explorer mein support nahi karta hai. Is code ko un browsers ke liye compatible banane ke liye, hum Babel jaise transpiler ka upyog kar sakte hain jo is code ko equivalent ES5 code mein convert kar dega:
+
+```
+var add = function(a, b) {
+  return a + b;
+};
+```

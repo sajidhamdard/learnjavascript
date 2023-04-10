@@ -1,31 +1,11 @@
-### What is Ajax ?
+### What is Ajax
 
-AJAX (Asynchronous JavaScript and XML) is a technique used in web development to create more dynamic and interactive web pages. AJAX allows web pages to retrieve and send data to a server asynchronously, meaning that the page can be updated without requiring a full page reload.
+Ajax in javascript hai ek technique jiske dwara hum webpage ko dynamically update kar sakte hain bina page ko refresh kiye. Iska full form hai "Asynchronous JavaScript and XML".
 
-AJAX is commonly used to fetch data from a server and update the content of a web page without requiring the user to refresh the page. This can lead to a smoother and more responsive user experience, as the page can be updated in real-time as the user interacts with it.
+Jab hum koi webpage load karte hain, toh server se data retrieve karne ke liye ek naya request bhejna padta hai aur page ko refresh karna padta hai. Lekin Ajax ka upyog karke, hum ek web page par hi data receive kar sakte hain aur use display kar sakte hain.
 
-Here's an example of using AJAX in JavaScript to fetch data from a server:
+Ek example lete hain: Suppose ki hum ek blog post padh rahe hain aur comment section open hai. Jab hum comment section ko refresh karte hain, tab humein naye comments dikhai dete hain. Lekin agar hum Ajax ka upyog karein, toh jab bhi koi naya comment aaye ga, tab wo automatically comment section mein add ho jaayega bina page refresh kiye.
 
-```javascript
-const xhr = new XMLHttpRequest();
+Iske liye, hum JavaScript ka istemal karenge jo server ke saath asynchronous request bhejega, jismein data exchange ke liye JSON (JavaScript Object Notation) ka use kiya jaata hai. JSON ek lightweight data interchange format hai jo easy to read and write hota hai.
 
-xhr.onreadystatechange = function() {
-  if (xhr.readyState === 4 && xhr.status === 200) {
-    const data = JSON.parse(xhr.responseText);
-    console.log(data);
-  }
-};
-
-xhr.open('GET', 'https://example.com/data.json');
-xhr.send();
-```
-
-In this example, we create a new XMLHttpRequest object, which is a built-in JavaScript object that allows us to communicate with a server over HTTP. We set the onreadystatechange property of the object to a callback function that will be called whenever the state of the request changes.
-
-When the readyState property of the request object is equal to 4 (indicating that the request is complete) and the status property is equal to 200 (indicating a successful response from the server), we parse the response text as JSON and log it to the console.
-
-We then use the open() method of the request object to specify the HTTP method (GET in this case) and the URL of the resource we want to fetch (https://example.com/data.json). Finally, we use the send() method to send the request to the server.
-
-When the server responds, the onreadystatechange callback function is called, and we process the response as necessary.
-
-Note that there are also many libraries and frameworks available that simplify the process of making AJAX requests in JavaScript, such as jQuery, Axios, and fetch.
+Upar di gayi example mein, jab koi naya comment aata hai, toh JavaScript us data ko retrieve karta hai aur use DOM (Document Object Model) ke through comment section mein add karta hai. Is tarah se, web page ko refresh kiye bina new data display kiya ja sakta hai.

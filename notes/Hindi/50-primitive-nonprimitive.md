@@ -1,131 +1,141 @@
-### Primitive vs Object in JavaScript ?
-In JavaScript, there are two main data types: primitive and object. 
+### what is Primitive vs Object
 
-Primitives are the most basic data types in JavaScript, and they are immutable, which means their values cannot be changed after they are created. There are six primitive data types in JavaScript:
+JavaScript में, Primitive डेटा टाइप्स उन जानकारियों को दर्शाते हैं जो सबसे आसानी से होल्ड होती हैं और वे Immutable होते हैं ( अर्थात परिवर्तन योग्य नहीं होते हैं।) जबकि Objects डेटा टाइप्स उन जानकारियों को दर्शाते हैं जो अधिक जटिल होती हैं और mutable होती हैं ( अर्थात परिवर्तन योग्य होती हैं।)
 
-1. Boolean: represents a logical value of true or false.
-```javascript
-let isTrue = true;
-let isFalse = false;
+Primitive डेटा टाइप्स में 5 विभिन्न टाइप्स होते हैं: Strings, Numbers, Booleans, null और undefined.
+
+उदाहरण के लिए:
+
+```
+let name = "John"; //String
+let age = 30; //Number
+let isStudent = true; //Boolean
+let job = null; //null
+let pet; //undefined
 ```
 
-2. Number: represents numeric values.
-```javascript
-let number = 42;
+Objects डेटा टाइप्स अनेक key-value pairs को सामने रखते हैं, जो की properties कहलाते हैं। Objects बनाने के लिए, { } विशेषकों में कुछ values दर्ज करने से एक नया object बनता है।
+
+उदाहरण के लिए:
+
 ```
-
-3. String: represents textual data.
-```javascript
-let string = "Hello World";
-```
-
-4. Null: represents an intentional absence of any object value.
-```javascript
-let nullValue = null;
-```
-
-5. Undefined: represents a variable that has been declared but has not been assigned a value.
-```javascript
-let undefinedValue;
-```
-
-6. Symbol: represents a unique identifier.
-```javascript
-let symbol = Symbol("description");
-```
-
-On the other hand, objects are more complex data types that can hold multiple values and methods. Objects are mutable, which means their properties and values can be changed even after they are created. Objects are created using curly braces {}. Objects can have properties and methods attached to them. Properties are key-value pairs separated by colons. Methods are functions attached to properties.
-
-```javascript
 let person = {
-    name: "John Doe",
-    age: 30,
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "CA"
-    },
-    sayHello: function() {
-        console.log("Hello!");
-    }
+  name: "John",
+  age: 30,
+  isStudent: true
+};
+```
+
+इसमें, "person" एक Object है जिसके अंदर "name", "age", और "isStudent" properties हैं।आप इस प्रकार भी एक नया property add कर सकते हैं:
+
+```
+person.job = "developer";
+```
+
+इससे, "person" object के अंदर एक नया property ("job") add हो गया है।
+
+### what is Understanding of how primitive and non-primitives are stored in memory
+
+Primitive data types in JavaScript are stored directly in memory, whereas non-primitive data types are stored by reference.
+
+Primitive data types include strings, numbers, booleans, null, and undefined. When a primitive value is assigned to a variable, the actual value is stored in memory at that variable's location. For example:
+
+```
+let name = "John";
+let age = 25;
+let isMarried = true;
+```
+
+In this code snippet, the variables `name`, `age`, and `isMarried` are all primitive data types. The string "John" is stored at the memory location for the variable `name`, the number 25 is stored at the memory location for the variable `age`, and the boolean value `true` is stored at the memory location for the variable `isMarried`.
+
+Non-primitive data types include objects, arrays, and functions. When a non-primitive value is assigned to a variable, only the reference to the memory location where the value is stored is stored in that variable. For example:
+
+```
+let person = { name: "John", age: 25 };
+let numbers = [1, 2, 3, 4];
+```
+
+In this code snippet, the variable `person` is an object and the variable `numbers` is an array, both of which are non-primitive data types. When these values are assigned to their respective variables, only a reference to the memory location where the values are stored is stored in those variables.
+
+To illustrate this concept, let's say we create another variable `anotherPerson` and assign it the value of `person`:
+
+```
+let anotherPerson = person;
+```
+
+Now, if we change the `name` property of `anotherPerson`, it will also change the `name` property of `person`. This is because both variables hold a reference to the same memory location where the object `{ name: "John", age: 25 }` is stored, so any changes made to one variable will be reflected in the other variable as well:
+
+```
+anotherPerson.name = "Jane";
+console.log(person.name); // Output: Jane
+```
+
+In summary, primitive data types in JavaScript are stored directly in memory, while non-primitive data types are stored by reference to their memory location. This means that when non-primitive values are assigned to variables, only a reference to the memory location where the value is stored is stored in that variable, not the value itself.
+
+### How to Copy object? Shallow copy and deep copy
+
+Object copy refers to creating a new object with the same values as an existing object. In JavaScript, there are two types of copying methods: Shallow Copy and Deep Copy.
+
+Shallow Copy:
+A Shallow copy only creates a new object but does not duplicate the nested objects. Instead, it creates a reference to the nested objects in the original object. Therefore, any changes made to the nested objects will be reflected in both the original and copied objects. We use the Object.assign() method to create a shallow copy.
+
+Let's take an example to understand this better:
+
+```
+// Original object
+const originalObj = {
+  name: "John",
+  age: 30,
+  address: {
+    city: "New York",
+    state: "NY"
+  }
 };
 
-person.name = "Jane Doe"; // changing the value of a property
-person.address.zipCode = "12345"; // changing a nested property
-person.sayHello(); // calling a method
+// Shallow copy of original object
+const copiedObj = Object.assign({}, originalObj);
+
+// Modifying the nested object in the copied object
+copiedObj.address.city = "Los Angeles";
+
+console.log(copiedObj);
+// Output: {name: "John", age: 30, address: {city: "Los Angeles", state: "NY"}}
+
+console.log(originalObj);
+// Output: {name: "John", age: 30, address: {city: "Los Angeles", state: "NY"}}
 ```
 
-In summary, primitives are simple data types that are immutable, while objects are complex data types that are mutable and can hold multiple values and methods.
+As you can see, even though we modified the nested object in the copied object, the changes also got reflected in the original object.
 
+Deep Copy:
+A Deep copy creates a completely independent clone of the original object, including all the nested objects. Therefore, any changes made to the nested objects in the copied object will not affect the original object. We can use the JSON.parse() and JSON.stringify() methods to create a deep copy.
 
-### Understanding of how primitive and non-primitives are stored in memory in JavaScript
-In JavaScript, primitives are stored by value, while non-primitives are stored by reference. 
+Let's take an example to understand this better:
 
-Primitives include numbers, strings, booleans, null, and undefined. When a primitive is assigned to a variable, a copy of its value is created and stored in memory at a specific location. For example:
+```
+// Original object
+const originalObj = {
+  name: "John",
+  age: 30,
+  address: {
+    city: "New York",
+    state: "NY"
+  }
+};
 
-```javascript
-let num1 = 5;
-let num2 = num1; // a copy of the value at the memory location of num1 is created and stored in a new location for num2
-num1 = 10;
-console.log(num1); // 10
-console.log(num2); // 5
+// Deep copy of original object
+const copiedObj = JSON.parse(JSON.stringify(originalObj));
+
+// Modifying the nested object in the copied object
+copiedObj.address.city = "Los Angeles";
+
+console.log(copiedObj);
+// Output: {name: "John", age: 30, address: {city: "Los Angeles", state: "NY"}}
+
+console.log(originalObj);
+// Output: {name: "John", age: 30, address: {city: "New York", state: "NY"}}
 ```
 
-In this example, `num1` is assigned the value of `5`. When `num2` is assigned to `num1`, a copy of the value stored in the memory location of `num1` is created and stored in a new location for `num2`. Changing the value of `num1` afterwards does not affect the value of `num2`.
+As you can see, even though we modified the nested object in the copied object, the changes did not get reflected in the original object.
 
-Non-primitives include objects and arrays. When a non-primitive is assigned to a variable, a reference to its memory location is created instead of a copy of its value. For example:
-
-```javascript
-let arr1 = [1, 2, 3];
-let arr2 = arr1; // a reference to the memory location of arr1 is created and stored in memory for arr2
-arr1.push(4);
-console.log(arr1); // [1, 2, 3, 4]
-console.log(arr2); // [1, 2, 3, 4] (since arr2 contains a reference to the same memory location as arr1)
-```
-
-In this example, `arr1` is assigned an array with three elements. When `arr2` is assigned to `arr1`, a reference to the memory location where `arr1` is stored is created and stored in memory for `arr2`. Therefore, when an element is added to `arr1`, it affects the value of `arr2` as well since they both point to the same memory location.
-
-
-### How to Copy object? Shallow copy and deep copy ?
-
-In JavaScript, you can copy an object in two ways: shallow copy and deep copy.
-
-A shallow copy creates a new object with the same properties as the original object, but the properties are simply references to the same values as the original object. This means that if you modify a property of the copied object or the original object, both objects will be affected. Shallow copying can be done using the spread operator (`...`) or `Object.assign()` method.
-
-Example of shallow copy:
-
-```javascript
-const obj1 = {a: 1, b: {c: 2}};
-const obj2 = {...obj1};
-
-console.log(obj1); // {a: 1, b: {c: 2}}
-console.log(obj2); // {a: 1, b: {c: 2}}
-
-obj2.a = 3;
-console.log(obj1); // {a: 1, b: {c: 2}}
-console.log(obj2); // {a: 3, b: {c: 2}}
-
-obj2.b.c = 4;
-console.log(obj1); // {a: 1, b: {c: 4}}
-console.log(obj2); // {a: 3, b: {c: 4}}
-```
-
-A deep copy creates a new object with the same properties as the original object, but the properties are not references to the same values as the original object. This means that modifying a property of the copied object does not affect the original object, and vice versa. Deep copying can be done using several methods, including recursion or libraries such as Lodash.
-
-Example of deep copy:
-
-```javascript
-const obj1 = {a: 1, b: {c: 2}};
-const obj2 = JSON.parse(JSON.stringify(obj1));
-
-console.log(obj1); // {a: 1, b: {c: 2}}
-console.log(obj2); // {a: 1, b: {c: 2}}
-
-obj2.a = 3;
-console.log(obj1); // {a: 1, b: {c: 2}}
-console.log(obj2); // {a: 3, b: {c: 2}}
-
-obj2.b.c = 4; 
-console.log(obj1); // {a: 1, b: {c: 2}}
-console.log(obj2); // {a: 3, b: {c: 4}}
-```
+In summary, a Shallow copy creates a new object with a reference to the original object's nested objects, while a Deep copy creates an independent clone of the original object including all the nested objects.

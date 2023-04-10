@@ -18,7 +18,7 @@ In the above example, we first declared an array called `arr` with three values.
 
 Destructuring ka matlab hota hai ki hum ek array ke values ko variables mein assign kar sakte hain ek concise tareeke se. Iske liye hum square brackets [] ka istemaal karte hain aur har variable ka naam uss value se assign karte hain jo array mein uski position ke corresponding hai.
 
-Udaharan ke liye:
+example ke liye:
 
 ```
 const arr = [1, 2, 3];
@@ -28,7 +28,7 @@ console.log(b); // output: 2
 console.log(c); // output: 3
 ```
 
-Upar ke udaharan mein, humne pehle ek array `arr` declare kiya jismein teen values hain. Fir humne destructuring ka istemaal karke pehli value ko variable `a`, dusri value ko variable `b`, aur teesri value ko variable `c` mein assign kiya. Jab hum har variable ka output log karte hain, toh humein corresponding array ke value mil jaata hai.
+Upar ke example mein, humne pehle ek array `arr` declare kiya jismein teen values hain. Fir humne destructuring ka istemaal karke pehli value ko variable `a`, dusri value ko variable `b`, aur teesri value ko variable `c` mein assign kiya. Jab hum har variable ka output log karte hain, toh humein corresponding array ke value mil jaata hai.
 
 ### reverse values using destructuring
 
@@ -271,7 +271,7 @@ Hinglish Explanation:
 
 Destructuring se hum object ke properties ko variables mein assign kar sakte hai. Agar aap property ka naam change karna chahte hai to aap colon ':' syntax ka use kar sakte hai. Iske liye hum ek example lete hai - Suppose humare paas `person` naam ka object hai jisme `name`, `age` aur `gender` properties hai. Hum chahte hai ki `gender` property ka naam `sex` ho jaaye jab hum object ko destructuring karte hai. Aise karne ke liye, hum colon ':' syntax ka use karenge.
 
-Udaharan:
+example:
 
 ```
 const person = {

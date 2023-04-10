@@ -1,59 +1,46 @@
-### Constructor function
+### what is Constructor function
 
-In JavaScript, a constructor function is a function that is used to create and initialize objects created with the new keyword.
+Constructor function JavaScript mein ek special type ka function hai jo object create karne ke liye use kiya jaata hai. Isko hum class jaise consider karte hai, kyunki isse bhi hum multiple objects create kar sakte hai.
 
-Here's an example of a constructor function for creating a Person object:
+Ek Constructor function ko define karne ke liye hum function keyword ke saath ek naam specify karte hai, aur usmein properties or methods define karte hai. Saath hi, jab hum constructor function ko call karte hai toh ye ek new object create karta hai.
+
+Example ke taur par, agar hum ek Car object create karna chahte hai, toh hum aisa kar sakte hai:
 
 ```javascript
-function Person(name, age, gender) {
-  this.name = name;
-  this.age = age;
-  this.gender = gender;
-  this.walk = function() {
-    console.log(`${this.name} is walking.`);
-  };
+function Car(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
 }
+
+const myCar = new Car("Toyota", "Corolla", 2020);
+console.log(myCar.make); // Output: Toyota
 ```
 
-In this example, we define a constructor function called Person that takes in arguments for the person's name, age, and gender. Inside the constructor function, we use the this keyword to set those properties on the newly created object. We also define a walk() method on the object using a function expression.
+Is example mein, humne `Car` constructor function ko define kiya hai jismein `make`, `model`, aur `year` properties hain. Fir humne `new` keyword ka use karke ek naya Car object create kiya hai, jiska make `'Toyota'`, model `'Corolla'`, aur year `2020` hai.
 
-To create a new Person object using the constructor function, we use the new keyword:
-```javascript
-const person1 = new Person('Alice', 30, 'female');
-```
+Hinglish mein samjhane ke liye, hum keh sakte hai ki Constructor function ek template hai jisko hum use karke multiple objects create kar sakte hai. Ye ek blueprint ki tarah hota hai jismein hum properties and methods define karte hai jo har object ke liye same hote hai.
 
-In this example, we create a new Person object called person1 and pass in the arguments 'Alice', 30, and 'female' to the constructor function.
+### what is new keyword
 
-We can then access the properties and methods on the person1 object using dot notation:
+`new` एक JavaScript की keyword है जो object के instance को create करने के लिए use किया जाता है। जब हम `new` keyword का use करते हैं तो एक नया object create होता है जो class या constructor function से बना होता है।
 
-```javascript
-console.log(person1.name); // logs "Alice"
-person1.walk(); // logs "Alice is walking."
-```
+इसके लिए, हमें एक constructor function बनानी होती है जो नया object create करती है। उसके बाद, हम `new` keyword का use करते हुए उस constructor function को call करते हैं। इस प्रकार, नया object create होता है और उसे variable में assign किया जाता है।
 
-Note that using a constructor function to create objects can be more memory-efficient than using object literals, as methods defined inside the constructor function are shared by all instances of the object. Additionally, using a constructor function can make the code more modular and easier to read and maintain.
-
-### new keyword in JavaScript
-
-In JavaScript, the new keyword is used to create a new instance of an object that was defined with a constructor function.
-
-When you use the new keyword with a constructor function, JavaScript creates a new object and sets its prototype property to the prototype property of the constructor function. It then calls the constructor function with the this keyword set to the newly created object.
-
-Here's an example:
+जैसे कि,
 
 ```javascript
+// Constructor function
 function Person(name, age) {
   this.name = name;
   this.age = age;
 }
 
-const person1 = new Person('Alice', 30);
-console.log(person1.name); // logs "Alice"
-console.log(person1.age); // logs 30
+// Creating object using new keyword
+const person1 = new Person("John", 25);
+console.log(person1); // Output: {name: "John", age: 25}
 ```
 
-In this example, we define a constructor function called Person that takes in arguments for the person's name and age. We then create a new instance of the Person object using the new keyword and passing in the arguments 'Alice' and 30.
+जैसा कि ऊपर दिखाया गया है, हमने `Person` constructor function create किया जो `name` और `age` property के साथ एक object create करता है। फिर हम `new` keyword का use करते हुए `Person` constructor function को call करते हैं और नया object `person1` create करते हैं।
 
-When we log the person1.name and person1.age properties, we can see that they have been set to the values we passed in to the constructor function.
-
-Note that using the new keyword with a constructor function is important for setting up the prototype chain correctly. Without the new keyword, the this keyword inside the constructor function would refer to the global window object instead of the new object that you're trying to create.
+इस प्रकार, हम `new` keyword का use करके JavaScript में objects को create कर सकते हैं।

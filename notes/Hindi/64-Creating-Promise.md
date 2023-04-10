@@ -1,24 +1,29 @@
-### Building a Simple Promise
-To create a simple Promise in JavaScript, you can use the following syntax:
+### what is Building a Simple Promise
 
-```
+Promises in JavaScript are used to handle asynchronous operations like fetching data from a database or making an API call. A Promise represents the eventual completion (or failure) of an asynchronous operation and allows you to handle that result when it becomes available.
+
+To build a simple Promise in JavaScript, you can use the Promise constructor function which takes a callback function with two arguments: resolve and reject. The resolve function is called when the Promise is fulfilled with a successful result, while the reject function is called when there's an error.
+
+Here's an example of building a simple Promise which returns a message after a delay of 2 seconds:
+
+```javascript
 const myPromise = new Promise((resolve, reject) => {
-  // Do some asynchronous operation here
-  // If successful, call resolve()
-  // If there's an error, call reject()
+  setTimeout(() => {
+    resolve("Hello World!");
+  }, 2000);
 });
+
+myPromise
+  .then((result) => {
+    console.log(result); // prints 'Hello World!' after 2 seconds
+  })
+  .catch((error) => {
+    console.error(error);
+  });
 ```
 
-You can replace the comments with actual code that performs an asynchronous operation, such as making an HTTP request or reading a file. Within the Promise constructor function, you can call the `resolve()` method to indicate that the operation was successful and pass any data you want to return. Alternatively, you can call the `reject()` method to indicate that an error occurred and pass an error message or object. 
+In this example, we create a new Promise using the Promise constructor and pass in a callback function which uses the setTimeout function to delay the execution of the resolve function by 2 seconds. When the timeout is complete, the resolve function is called with the message 'Hello World!'.
 
-Once you've created a Promise, you can use methods like `then()` and `catch()` to handle the results of the operation. For example:
+We then chain the `.then()` method to the Promise object which will execute its callback function when the Promise is fulfilled successfully. The `console.log` statement inside the callback function prints the result of the Promise, which is the message 'Hello World!'.
 
-```
-myPromise.then(data => {
-  // Handle successful result here
-}).catch(error => {
-  // Handle error here
-});
-```
-
-The `then()` method takes a function that will be called if the Promise is resolved successfully, and the `catch()` method takes a function that will be called if the Promise is rejected.
+If there was an error during the execution of the Promise, the `.catch()` method would be executed, which logs the error to the console with `console.error`.

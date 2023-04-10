@@ -1,24 +1,47 @@
-### Consuming Promise with Async/Await in javascript
-Async/await is a syntax for consuming promises in JavaScript. Async functions return a promise that resolves with the value returned by the function, or rejects with an error thrown from the function. Await can be used to wait for the resolution of a promise before continuing execution of the function.
+### what is Consuming Promise with Async/Await
 
-Here's an example:
+JavaScript mein Promise ek aisa feature hai jo asynchronous code ko manage karne ke liye istemal kiya jata hai. Async/Await keywords bhi ismein shamil hote hain, jo humein ek easier way provide karte hain promises ko consume karne ke liye.
 
-```javascript
-async function myFunction() {
+Async/Await ka use Promises ko consume karne ke liye hota hai. Asynchronous code ke liye Promises kaafi useful hote hain, aur ismein Async/Await ka use humein code ko cleaner aur readable banane mein help karta hai.
+
+Let's take an example:
+
+```
+function getUserDetails(userId) {
+  return new Promise((resolve, reject) => {
+    // simulate API call
+    setTimeout(() => {
+      const users = [
+        { id: 1, name: 'John Doe', age: 25 },
+        { id: 2, name: 'Jane Smith', age: 30 },
+        { id: 3, name: 'Bob Johnson', age: 40 }
+      ];
+      const user = users.find(user => user.id === userId);
+      if (user) {
+        resolve(user);
+      } else {
+        reject('User not found');
+      }
+    }, 2000);
+  });
+}
+
+async function printUserDetails(userId) {
   try {
-    const result1 = await promise1();
-    const result2 = await promise2(result1);
-    return result2;
+    const userDetails = await getUserDetails(userId);
+    console.log(`Name: ${userDetails.name}, Age: ${userDetails.age}`);
   } catch (error) {
     console.error(error);
   }
 }
 
-myFunction()
-  .then(result => console.log(result))
-  .catch(error => console.error(error));
+printUserDetails(2); // Output: Name: Jane Smith, Age: 30
 ```
 
-In this example, `myFunction` is an async function that uses `await` to wait for the resolution of `promise1`, and then uses the result of `promise1` as an input to `promise2`. The `try`/`catch` block is used to handle any errors that may occur during the execution of the promises.
+Is example mein `getUserDetails` ek promise return karta hai, jo simulate kiya gaya hai ki ye ek API call hai. `printUserDetails` function mein hum async keyword ka use karte hain, aur getUserDetails function ko await ke saath call karte hain.
 
-To call `myFunction`, we use `myFunction().then()` to log the result to the console if the promise is resolved successfully, and `.catch()` to log any errors that may occur during the execution.
+Jab hum getUserDetails function ko await ke saath call karte hain, to ye promise resolve karne tak wait karta hai. Jab promise resolve ho jaata hai, to userDetails variable mein uska data store hota hai. Iske baad hum console mein user details print karte hain.
+
+Agar promise reject hua to catch block mein error message print hota hai.
+
+Is tarah Async/Await keywords ka use Promises consume karne ke liye kiya jaa sakta hai.

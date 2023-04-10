@@ -1,40 +1,25 @@
-## Returning values from Async functions in javascript
-Async functions in JavaScript use the `async/await` syntax to allow for asynchronous behavior. When an async function is called and awaited, it returns a promise that will eventually resolve with a value. The value can be returned using the `return` keyword inside the async function, and it will be wrapped in a resolved promise when the function is completed.
+### what is Returning values from Async functions
 
-If an error is thrown inside the async function, the promise returned by the function will be rejected with the thrown error as the reason.
+Async functions in JavaScript are special functions that allow asynchronous programming, which means the code within these functions can execute independently of the main program flow. One important feature of async functions is their ability to return values.
 
-Async functions in JavaScript use the `async` and `await` keywords to handle asynchronous operations. They always return a Promise, which can be resolved with any value.
+When an async function returns a value, it does so by wrapping the value in a Promise object. This Promise is returned immediately when the function is called, but its final value may not be available until some time later when the async operation completes.
 
-Here is an example of an Async function that returns a Promise with a string value:
+Here's an example of how to define and call an async function that returns a value:
 
-```javascript
-async function greet(name) {
-  return "Hello, " + name + "!";
+```
+async function fetchData() {
+  const response = await fetch('https://example.com/data.json');
+  const data = await response.json();
+  return data;
 }
 
-// calling the async function
-greet("John").then(result => console.log(result));
-// Output: "Hello, John!"
+fetchData()
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
 ```
 
-In the example above, the `greet` function takes a `name` parameter and returns a Promise that resolves to a string value. We call this function and use the `then` method to log the result to the console.
+In this example, the `fetchData` function uses the `await` keyword to wait for the result of a network request before returning the value of `data`. When you call `fetchData`, it returns a Promise object that will eventually resolve to the actual value of `data`.
 
-We can also use the `await` keyword to get the resolved value directly from an async function:
+To get the final value of `data`, you can use the `then` method on the returned Promise, passing in a callback function that will be executed with the resolved value. You can also handle any errors that occur during the execution of the function by using the `catch` method.
 
-```javascript
-async function getName() {
-  return "John";
-}
-
-async function greet() {
-  const name = await getName();
-  return "Hello, " + name + "!";
-}
-
-// calling the async function
-greet().then(result => console.log(result));
-// Output: "Hello, John!"
-```
-
-In this example, the `getName` function returns a Promise that resolves to the string "John". We then call the `greet` function, which uses the `await` keyword to wait for the resolved value of `getName()` before concatenating it with the greeting string.
-
+Overall, async functions provide a powerful way to write asynchronous code in a more synchronous style, while still allowing you to work with Promises and handle errors effectively.

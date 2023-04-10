@@ -9,10 +9,9 @@ Why do we use prototypal inheritance and what are the benefits of using it? : Pr
 
 - Prototypal inheritance 3 ways se kr skte hain:
 
-
-    1. Constructor function
-    2. ES6 classes
-    3. Object.create
+  1. Constructor function
+  2. ES6 classes
+  3. Object.create
 
 ### Constructor function:
 

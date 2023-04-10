@@ -1,52 +1,33 @@
-### Exporting and importing in ES6 Modules 
+### what is Exporting and importing in ES6 Modules
 
-In ES6 modules, exporting is the process of exposing functions, variables, or classes from a module to make them available for use in other modules. This is done by using the "export" keyword before the declaration of the item to be exported.
+ES6 modules are a way to organize and share code in JavaScript. Exporting and importing are the two main features of ES6 modules that allow you to share code between different files.
 
-Importing is the process of bringing in functions, variables, or classes from another module into the current module. This is done by using the "import" keyword followed by the name of the module and the specific items to be imported enclosed in curly braces {}. 
+Exporting is the process of making variables, functions or objects available to other modules. To export a variable, function or object from a module, you can use the "export" keyword followed by the name of the variable, function or object.
 
-For example, to export a function called "add" from a module named "math.js", we would write:
+For example, let's say we have a module named "utils.js" which contains a function named "addNumbers". We can export this function using the following syntax:
 
-```
-// math.js
-export function add(x, y) {
-  return x + y;
+```js
+// utils.js
+
+export function addNumbers(a, b) {
+  return a + b;
 }
 ```
 
-And to import that function into another module, we would write:
+Now, we can import this function in another module using the "import" keyword.
 
-```
-// app.js
-import { add } from './math.js';
+Importing is the process of loading variables, functions or objects from another module into your own module. To import a variable, function or object from a module, you can use the "import" keyword followed by the name of the variable, function or object.
 
-console.log(add(2, 3)); // output: 5
-```
+For example, let's say we have another module named "main.js" which wants to use the "addNumbers" function from the "utils.js" module. We can import this function using the following syntax:
 
-In JavaScript, you can import code from other files or modules using the import statement. There are two types of imports: named imports and default imports.
+```js
+// main.js
 
-Named imports allow you to selectively import specific functions or variables from a module. Here's an example of a named import:
+import { addNumbers } from "./utils.js";
 
-```javascript
-import { sum, multiply } from './math.js';
-
-console.log(sum(2, 3)); // Output: 5
-console.log(multiply(2, 3)); // Output: 6
+console.log(addNumbers(2, 3)); // Output: 5
 ```
 
-In this example, we're importing the sum and multiply functions from the math.js module.
+In the above example, we're importing the "addNumbers" function from the "utils.js" module using curly braces {}. We also provide the path to the module we want to import from using the "./" notation.
 
-Default imports, on the other hand, allow you to import a single function or object from a module. Here's an example of a default import:
-
-```javascript
-import capitalize from './string.js';
-
-console.log(capitalize('hello')); // Output: 'Hello'
-```
-
-In this example, we're importing the capitalize function from the string.js module.
-
-Note that if a module only exports a single function or object, that function or object is automatically the default export. In this case, you can import it without using braces:
-
-```javascript
-import myFunction from './myModule.js';
-```
+Overall, exporting and importing in ES6 modules makes it easier to organize and share code across different files in your application.

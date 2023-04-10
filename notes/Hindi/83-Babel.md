@@ -1,47 +1,33 @@
-### What is Babel ?
+### What is Babel
 
-Babel is a popular JavaScript transpiler that allows developers to write modern JavaScript code using the latest language features and then convert it into an older version of JavaScript that can run in older browsers or environments. It helps to ensure that the code works across different platforms by translating new features into their equivalent versions in older JavaScript standards.
+Babel ek JavaScript compiler hai jo aapki code ko modern JavaScript version se purane versions mein compile kar deta hai, taaki aapka code purane browsers aur environments mein bhi sahi tarike se chale.
 
-Babel is a popular open-source JavaScript compiler that can translate modern JavaScript code into an older version of JavaScript that is supported by most browsers. This process is called "transpiling".
-
-Here's an example of how Babel works:
+Suppose aapko apna JavaScript code kisi naye feature jaise ki "template literals" ka istemaal karke likhna hai:
 
 ```javascript
-// Modern JavaScript code using arrow functions
-const add = (a, b) => a + b;
-
-// Transpiled JavaScript code using function expressions
-var add = function add(a, b) {
-  return a + b;
-};
+const name = "Alice";
+console.log(`Hello ${name}!`);
 ```
 
-In this example, we define a simple function called add using the modern JavaScript arrow function syntax. However, not all browsers support this syntax, so we need to transpile our code using Babel.
+Parantu ye code purane browsers mein kaam nahi karega kyunki vo template literals feature support nahi karte hain. Iss scenario mein, Babel aapki code ko ECMAScript 5 (ES5) version mein compile kar dega, jo purane browsers ki standard version hai aur support karta hai:
 
-To transpile our code, we first need to install Babel and the necessary plugins using npm:
-
-```bash
-npm install @babel/core @babel/cli @babel/preset-env --save-dev
+```javascript
+var name = "Alice";
+console.log("Hello " + name + "!");
 ```
 
-Next, we create a configuration file called .babelrc in the root of our project:
+Babel ka upyog karne ke liye, sabse pehle aapko usse install karna hoga. Aap ye command use karke Babel ko apne project mein add kar sakte hain:
 
-```json
-{
-  "presets": ["@babel/preset-env"]
-}
+```
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
 ```
 
-This tells Babel to use the @babel/preset-env plugin, which includes all the necessary plugins to transpile modern JavaScript code into an older version that is widely supported.
+Phir aap apni code ko compile karne ke liye ye command use kar sakte hain:
 
-Finally, we can run Babel on our code using the following command:
-
-```bash
-npx babel src --out-dir lib
+```
+npx babel script.js --out-file compiled.js
 ```
 
-This tells Babel to transpile all the JavaScript files in the src directory and output the transpiled code to the lib directory.
+Iss example mein `script.js` aapka original JavaScript code file hai aur `compiled.js` aapka compiled code file hai.
 
-After running Babel, the add function in our example will be transpiled into a function expression that is compatible with most browsers.
-
-Babel is a powerful tool for developers who want to use the latest JavaScript features without worrying about browser compatibility issues.
+Babel ke bahut sare plugins aur presets available hote hain jo aapki code ko specific requirements ke according customize kar sakte hain. For example, agar aap React.js ka upyog kar rahe hain to aap `@babel/preset-react` preset ka upyog kar sakte hain jo React.js ke specific requirements ko compile karta hai.
