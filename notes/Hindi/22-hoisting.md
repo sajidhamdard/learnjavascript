@@ -38,5 +38,3 @@ function foo() {
 
 foo();
 ```
-
-So when the code is executed, the function is already defined and can be called without any issues.

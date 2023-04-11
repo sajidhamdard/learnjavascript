@@ -26,7 +26,6 @@ JavaScript provides several methods to convert numbers from one format to anothe
 1. parseInt()
    The parseInt() method converts a string to an integer. It parses a string argument and returns an integer value. If the string starts with a non-numeric character, it returns NaN (not-a-number).
 
-Example in Hinglish:
 parseInt("123") // Returns 123
 parseInt("123.45") // Returns 123
 parseInt("abc123") // Returns NaN
@@ -61,7 +60,7 @@ These are some basic ways of converting numbers in JavaScript.
 
 NaN stands for "Not a Number" in JavaScript. It is a special value that represents an invalid or unrepresentable numeric result.
 
-In Hinglish, NaN ka matlab hai "kuch bhi nahi", yani ki agar koi number expected hai lekin usme koi invalid operations hote hai toh NaN return hota hai.
+NaN ka matlab hai "kuch bhi nahi", yani ki agar koi number expected hai lekin usme koi invalid operations hote hai toh NaN return hota hai.
 
 For example:
 

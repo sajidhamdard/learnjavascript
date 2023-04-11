@@ -46,7 +46,7 @@ console.log(specificDateTime); // output: Fri Apr 10 2023 11:30:00 GMT+0530 (Ind
 
 Is tarah se hum JavaScript mein Date object create kar sakte hain aur apne kaam ke according uska use bhi kar sakte hain.
 
-### Understanding milliseconds and other units of time in javascript ? Explain in detail with example and in Hinglish language.
+### Understanding milliseconds and other units of time
 
 Javascript me time ka istemal hum kabhi bhi kar sakte hai, lekin iske units ki samajh jaruri hai, jaise milliseconds. Milliseconds ek bahut chota unit hai, jo 1 second ke 1000 parts ko represent karta hai. Isi tarah, dusre units hai jaise seconds, minutes, hours, days.
 
@@ -130,7 +130,7 @@ const formattedTime = today.toLocaleTimeString('hi-IN'); // formats the time as 
 
 Yadi aap kisi specific date ko represent karna chahte hai toh aap 'new Date()' constructor ka use kar sakte hai. Jaise ki humne upar diya hai. Iske baad aap date ke year, month, day, hour, minute aur second ka pata laga sakte hai getters ka use karke. Iske alawa aap setters ka use karke bhi ye values set kar sakte hai. Aap getTime() method ka use karke dates ke beech me arithmetic operations kar sakte hai. Finally, aap dates ko string me convert karke display kar sakte hai by using toLocaleDateString() aur toLocaleTimeString() methods.
 
-### what is Date setter methods in javascript ? Explain in detail with example and in Hinglish language.
+### what is Date setter methods
 
 Date setter methods in JavaScript are functions that allow you to set specific parts of a Date object, such as the year, month, day, hour, minute, and second.
 
@@ -150,7 +150,7 @@ In this example, we first create a new Date object using the `new Date()` constr
 
 Using these setter methods allows you to easily modify specific parts of a Date object without having to create a new Date object from scratch.
 
-### what is Internationalization Dates in javascript ? Explain in detail with example and in Hinglish language.
+### what is Internationalization Dates
 
 Internationalization of dates in JavaScript refers to the process of displaying and formatting dates according to the conventions followed by people in different regions of the world. This ensures that the date representation is easily understandable and readable by people from different cultures and languages.
 
@@ -190,7 +190,7 @@ The resulting output might look something like this:
 
 This represents the date and time in a way that is familiar and easily understandable to someone who speaks Hinglish. The weekday is spelled out in full (शुक्रवार), the month is spelled out in full (जुलाई), and the time includes the AM/PM indicator as well as the time zone (GMT+5:30).
 
-### what is setTimeOut and setInterval in javascript ? Explain in detail with example and in Hinglish language.
+### what is setTimeOut and setInterval
 
 setTimeout aur setInterval dono JavaScript mein time-based functions hote hai jo code ko delay karne ya phir repeat karna kaam karte hai.
 
