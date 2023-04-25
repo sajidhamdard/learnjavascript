@@ -1,4 +1,4 @@
-### Loose equality operator ==
+### Loose equality operator (==)
 
 The equality operator (==) checks whether its two operands are equal, returning a Boolean
 result. Unlike the strict equality operator, it attempts to convert and compare operands
@@ -14,7 +14,7 @@ console.log("1" == 1); //true
 console.log(0 == false); //true
 ```
 
-### Strict Equality Operator ===
+### Strict Equality Operator (===)
 
 The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
 
@@ -28,7 +28,7 @@ console.log("1" === 1); //false
 console.log(0 === false); //false
 ```
 
-### Ternary Operators
+### Ternary Operator
 
 : ? Operator :
 It is like the short form of the if-else condition. - Syntax:
