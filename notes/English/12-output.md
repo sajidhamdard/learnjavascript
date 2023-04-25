@@ -5,7 +5,7 @@
 console.log() is a function in JavaScript that is used to log messages to the browser's developer console. It is commonly used for debugging and testing purposes, as it allows developers to see the output of their code in real time. The function takes one or more arguments, which can be strings, variables, or expressions, and prints them to the console. For example, console.log("Hello World") would print the string "Hello World" to the console.
 For example:
 
-```
+```javascript
 console.log("learnjavascript");
 ```
 
@@ -18,7 +18,7 @@ It is mainly used during the development phase to check the output of some code 
 For example, document.write("Hello World") would write the string "Hello World" to the current document, and document.write("<p>Hello World</p>") would write a paragraph element containing the string "Hello World" to the current document.
 For example:
 
-```
+```javascript
 document.write("Hello....");
 ```
 
@@ -29,7 +29,7 @@ window.alert() is a method in JavaScript that is used to display a dialog box wi
 Alert boxes are typically used for notifications, warnings, and error messages. They are generally considered to be disruptive to the user experience and should be used sparingly. Other methods of displaying notifications such as using the browser's notification API or using a custom made notification component are generally more user friendly
 For example:
 
-```
+```javascript
 window.alert("Hello...");
 ```
 
@@ -42,6 +42,6 @@ For example:
 
 if you have an HTML element with an id of "example":
 
-```
+```javascript
 document.getElementById("test").innerHTML = "<b>Hello World</b>";
 ```
