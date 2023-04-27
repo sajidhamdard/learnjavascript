@@ -14,5 +14,3 @@ fetch('https://api.weather.com/data/weather?location=NewYork&apikey=12345')
 ```
 
 Is code snippet mein hum 'https://api.weather.com' se weather data fetch kar rahe hain. Hum 'fetch()' function mein URL aur API key ka use kar rahe hain. Fir hum promise-based approach ka use karke response ko JSON format me parse kar rahe hain (`.json()`), aur fir console mein print kar rahe hain (`console.log(data)`). Agar koi error aata hai to hum `.catch()` block mein error handle karte hain.
-
-Is tarah se hum APIs ka use karke bahut saare external services ke saath interact kar sakte hain aur apne code ko unse integrate kar sakte hain.

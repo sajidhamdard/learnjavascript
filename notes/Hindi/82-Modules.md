@@ -28,5 +28,3 @@ import { add, multiply } from './math.js';
 console.log(add(2, 3)); // Output: 5
 console.log(multiply(2, 3)); // Output: 6
 ```
-
-Here, we're importing the "add" and "multiply" functions from "math.js" into "main.js", and then using them to perform some operations.

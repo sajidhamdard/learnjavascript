@@ -83,8 +83,6 @@ String literal = "Hello World!";
 String object = new String("Hello World!");
 ```
 
-Ummid hai yeh samjhane mein madad milegi.
-
 ### String length property
 
 "String length property" refers to the number of characters in a string. It is a built-in property of the String object in JavaScript and can be accessed using the ".length" syntax.
@@ -206,5 +204,3 @@ console.log(str.toLowerCase()); // आउटपुट: hello world
 उदाहरण:
 var str = "Hello World";
 console.log(str.indexOf("o")); // आउटपुट: 4
-
-5. slice(): यह फंक

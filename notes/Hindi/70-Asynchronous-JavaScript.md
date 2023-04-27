@@ -350,7 +350,7 @@ promise.then(null, error => {
 
 This achieves the same result as the previous example.
 
-In Hinglish language, Handling Rejected Promises means dealing with cases when things go wrong while executing asynchronous operations in JavaScript. We can catch these errors using the `catch` method on the Promise object or by passing a second argument to the `then` method. It's important to handle these errors properly so that we can take appropriate action and prevent our code from crashing.
+Handling Rejected Promises means dealing with cases when things go wrong while executing asynchronous operations in JavaScript. We can catch these errors using the `catch` method on the Promise object or by passing a second argument to the `then` method. It's important to handle these errors properly so that we can take appropriate action and prevent our code from crashing.
 
 ### explain Asynchronous Behind the Scene: The Event Loop in javascript ?
 
@@ -374,7 +374,7 @@ When this function is called, it makes an HTTP request to `https://example.com/d
 
 The event loop comes into play here. While waiting for the response, the JavaScript engine can perform other tasks instead of blocking the thread. Once the response arrives, the event loop will pick it up from the event queue and execute the code inside the `then` block, logging the returned data to the console.
 
-In Hinglish: JavaScript ek single-threaded programming language hai jo ki sirf ek kaam ko ek saath karta hai. Lekin JavaScript mein "event loop" naam ka ek feature hai jo asynchronous code ko handle karne mein madad karta hai.
+JavaScript ek single-threaded programming language hai jo ki sirf ek kaam ko ek saath karta hai. Lekin JavaScript mein "event loop" naam ka ek feature hai jo asynchronous code ko handle karne mein madad karta hai.
 
 Asynchronous code wo hota hai jo syncronously nahi chalta ya phir ek predictable order mein nahi chalta. Jaise ki HTTP request bhejne par server se uska response aane mein time lag sakta hai. Is beech mein, JavaScript code ko response ka wait karne ke bina execute karna chahiye. Event loop asynchronous code ko handle karne mein madad karta hai.
 
@@ -512,7 +512,7 @@ koshishKaro {
 }
 ```
 
-In this Hinglish code, `koshishKaro` corresponds to the `try` keyword, while `pakdoPakadao` corresponds to `catch`. The rest of the code is similar to the original JavaScript example. Keep in mind that this is just for illustrative purposes and using proper English keywords is generally recommended for better code readability and maintainability.
+code, `koshishKaro` corresponds to the `try` keyword, while `pakdoPakadao` corresponds to `catch`. The rest of the code is similar to the original JavaScript example. Keep in mind that this is just for illustrative purposes and using proper English keywords is generally recommended for better code readability and maintainability.
 
 ### Returning values from Async functions in javascript ?
 

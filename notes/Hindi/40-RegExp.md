@@ -27,5 +27,3 @@ str = str.replace(regex, "Hi");
 
 console.log(str); // "Hi, World!"
 ```
-
-In summary, regular expressions are powerful tools for working with text patterns in JavaScript, and can be used to perform complex string manipulations with ease.

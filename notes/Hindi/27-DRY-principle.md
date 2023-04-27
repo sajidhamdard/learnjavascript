@@ -19,5 +19,3 @@ Now, whenever we need to calculate the area of a rectangle, we can simply call t
 const area = calculateRectangleArea(10, 20);
 console.log(area); // Output: 200
 ```
-
-This way, we have achieved code reusability and avoided duplicating code.

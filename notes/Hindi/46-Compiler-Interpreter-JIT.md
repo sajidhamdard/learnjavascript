@@ -33,7 +33,7 @@ Jab aap apna JavaScript code banate hain, to Interpreter usko ek programming lan
 
 Interpreter ek bahut hi important role nibhata hai JavaScript programming mein. Interpreter code ko debug karne mein bhi kaafi madad karta hai, kyonki wah error messages generate karta hai jab aapka code sahi nahi hota hai.
 
-Yahan ek example diya gaya hai:
+example
 
 ```
 var x = 5;
@@ -60,4 +60,4 @@ Interpreter: Ye interpreter runtime par hota hai, matlab ki jab hamara code exec
 
 Ek udaharan se samjhe to Compiler ka kaam ek teacher ke jaisa hota hai jo kisi student ke sare notes ko pehle se check karke unke mistakes ko sudhaar leta hai. Lekin Interpreter ka kaam ek translator ki tarah hota hai jo Foreign language me baat kar rahe vyakti ke vichaar ko dusre vyakti ko samjhane me madad karta hai.
 
-Umeed hai ki ab aapko Compiler aur Interpreter ke beech ke antar ka sahi roop se samajh aa gaya hoga.
+.

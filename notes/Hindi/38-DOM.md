@@ -384,5 +384,3 @@ Ab ek example se samjhte hain:
 ```
 
 Is example mein humne createElement method se ek naya &lt;p&gt; element banaya hai. Uske baad humne createTextNode method se "Hello World!" text ka naya node banaya hai. Phir humne appendChild method se is text node ko newly created &lt;p&gt; element ke andar daal diya hai. Finally, humne appendChild method se is new &lt;p&gt; element ko exist karne wale div ("#example") ke andar add kar diya hai.
-
-Is tarah se hum createElement, createTextNode aur appendChild ke madad se DOM Nodes create aur manipulate kar sakte hain.

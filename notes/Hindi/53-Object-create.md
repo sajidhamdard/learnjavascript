@@ -6,7 +6,7 @@ Prototype parameter ke through aap specify kar sakte hai ki aapka naya object ki
 
 PropertiesObject parameter optional hai aur ismein aap apne naye object ke property aur unki values set kar sakte hai.
 
-Chaliye ek example dekhte hai:
+example
 
 ```
 // Create a person object as prototype
@@ -28,5 +28,3 @@ john.greeting(); // Output: Hello, my name is John
 ```
 
 Is example mein humne ek `person` object create kiya jiska `greeting` method hai. Fir humne `Object.create()` function ka use karke ek naya object `john` create kiya jiske prototype ke roop mein `person` object set kiya gaya hai. Ab humne `john` object ke properties set kiye jaise ki `name` aur `age`, fir `greeting()` method ko call kiya jisne apna output `"Hello, my name is John"` diya.
-
-Yehi tarika aap Object.create() ka use karke apne JavaScript applications mein implement kar sakte hai.

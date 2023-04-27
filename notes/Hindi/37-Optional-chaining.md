@@ -113,7 +113,7 @@ Optional chaining ek aisi JavaScript ki suvidha hai jisse aap ek object ke upar 
 
 Ek array khali hai ya nahi check karne ke liye, aap optional chaining ka upayog karke uski length property ka istemaal kar sakte hain. `?.` operater ka use karke aap dekh sakte hain ki array hai ya nahi.
 
-Yahan ek udahran diya gaya hai:
+example
 
 ```javascript
 const arr = [];

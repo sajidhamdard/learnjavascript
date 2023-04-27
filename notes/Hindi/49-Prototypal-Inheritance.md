@@ -63,7 +63,7 @@ Inheritance और Classes दोनों JavaScript में Object-Oriented 
 
 Classes, जैसा कि नाम से पता चलता है, एक बनावट हैं जो एक नया Object बनाने के लिए उपयोग होती है। क्लास में आमतौर पर constructor फ़ंक्शन, method और properties होते हैं। निम्नलिखित उदाहरण में, हम क्लास बनाते हैं जिसका नाम Car होता है जिसमें मॉडल, रंग और स्पीड के लिए Properties और start, stop और drive के लिए methods होते हैं।
 
-उदाहरण:
+example
 
 ```
 class Car {
@@ -93,7 +93,7 @@ myCar.drive(); // Driving the Red Tesla at 100 mph
 
 Inheritance में, एक Class को दूसरी Class से inherit किया जाता है और उसकी Properties और methods को उस class के objects में उपलब्ध कराया जाता है। जब हम एक Class को inherit करते हैं, तो नई Class parent Class की सभी Properties और methods को इंहेरिट करती है और उन्हें override भी कर सकती है। निम्नलिखित उदाहरण में, हम Car class को extend करते हुए ElectricCar class बनाते हैं। ElectricCar class में नई Property battery को add किया गया है और drive method को override किया गया है।
 
-उदाहरण:
+example
 
 ```
 class ElectricCar extends Car {
@@ -120,7 +120,7 @@ Constructor functions ka upyog hum new keyword ke saath object banane ke liye ka
 
 A constructor function ka naam hamesha capital letter se shuru hota hai, jisse wo aasani se distinguish ho sake. Jab hum ise call karte hai to ye ek naya object bana deta hai aur usko return kar deta hai.
 
-Yeh ek example hai:
+example
 
 ```javascript
 // Constructor function definition
@@ -144,5 +144,3 @@ Is example me humne `Car` naam ka ek constructor function define kiya hai. Ismei
 Phir humne `new` keyword ka use kiya hai jisse ki humne ek naya object `myCar` banaya hai. Is object ke andar `Car` constructor function ke property `make`, `model`, aur `year` ki values store ho gayi hai.
 
 Last mein humne console par `myCar` ke alag alag properties ko access kiya hai.
-
-Is tarah se hum constructor functions ka use karke apne code me objects create kar sakte hai aur unhe behtar tarike se manage kar sakte hai.

@@ -4,7 +4,7 @@ JavaScript में, Primitive डेटा टाइप्स उन जान
 
 Primitive डेटा टाइप्स में 5 विभिन्न टाइप्स होते हैं: Strings, Numbers, Booleans, null और undefined.
 
-उदाहरण के लिए:
+example
 
 ```
 let name = "John"; //String
@@ -16,7 +16,7 @@ let pet; //undefined
 
 Objects डेटा टाइप्स अनेक key-value pairs को सामने रखते हैं, जो की properties कहलाते हैं। Objects बनाने के लिए, { } विशेषकों में कुछ values दर्ज करने से एक नया object बनता है।
 
-उदाहरण के लिए:
+example
 
 ```
 let person = {
@@ -137,5 +137,3 @@ console.log(originalObj);
 ```
 
 As you can see, even though we modified the nested object in the copied object, the changes did not get reflected in the original object.
-
-In summary, a Shallow copy creates a new object with a reference to the original object's nested objects, while a Deep copy creates an independent clone of the original object including all the nested objects.

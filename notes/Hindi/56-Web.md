@@ -47,8 +47,6 @@ JavaScript में सर्वर एक कंप्यूटर होत�
 
 इसके अलावा, सर्वर डेटाबेस से भी जुड़ा होता है जो उपयोगकर्ताओं के लिए डेटा को संग्रहित करता है। उदाहरण के लिए, एक ई-कॉमर्स वेबसाइट आपके खाते और खरीदों को एक डेटाबेस में संग्रहित करता है।
 
-इस तरह से, सर्वर उपयोगकर्ताओं के लिए डेटा और संसाधनों को संग्रहित करने वाला मुख्य केंद्र होता है।
-
 ### what is Client in javascript and how to works
 
 Client in JavaScript refers to the part of a web application that runs on the user's browser. When a user requests a webpage from the server, the server sends back HTML, CSS, and JavaScript files to the client's browser. The client then renders the webpage using these files.
@@ -99,5 +97,3 @@ Response ka matlab hai "javasript ke dwara prapt uttar", jo hum apne JavaScript 
 Jab tak hum JavaScript ke ajax API ka use nahi karte hain, tab tak hume browser ke dvara automatically ek page refresh hona padega. Lekin jab hum response ka use karte hain, tab hum server se data asynchrnously (bina page refresh ke) receive kar sakte hain aur use apne webpage par display kar sakte hain.
 
 Example ke tor par, consider karein ki humare paas ek search box hai aur hum user ke dwara input kiye gaye keywords ke hisab se related results dikhana chahte hain. Jab user search button par click karte hain, tab hum JavaScript ka use karke unke dwara diye gaye keywords ko server ke paas bhej sakte hain aur server uska response ek JSON object ke roop mei bhej sakta hai. Us JSON object ko hum phir apne webpage par parse karke dikhane ke liye use kar sakte hain.
-
-Is tarah se, response hamare JavaScript code ko server ki taraf se bheje gaye data ke sath-sath, us data ko process karne aur user ko wo data display karne mein madad karta hai.

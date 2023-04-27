@@ -145,5 +145,3 @@ Ab hum log `console.log()` se `john` object ke properties dekh sakte hain:
 console.log(john.name); // Output: "John"
 console.log(john.age); // Output: 25
 ```
-
-Is tarah se hum ES6 classes ka use karke javascript mein objects bana sakte hain.

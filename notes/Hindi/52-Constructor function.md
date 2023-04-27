@@ -19,7 +19,7 @@ console.log(myCar.make); // Output: Toyota
 
 Is example mein, humne `Car` constructor function ko define kiya hai jismein `make`, `model`, aur `year` properties hain. Fir humne `new` keyword ka use karke ek naya Car object create kiya hai, jiska make `'Toyota'`, model `'Corolla'`, aur year `2020` hai.
 
-Hinglish mein samjhane ke liye, hum keh sakte hai ki Constructor function ek template hai jisko hum use karke multiple objects create kar sakte hai. Ye ek blueprint ki tarah hota hai jismein hum properties and methods define karte hai jo har object ke liye same hote hai.
+hum keh sakte hai ki Constructor function ek template hai jisko hum use karke multiple objects create kar sakte hai. Ye ek blueprint ki tarah hota hai jismein hum properties and methods define karte hai jo har object ke liye same hote hai.
 
 ### what is new keyword
 
@@ -27,7 +27,7 @@ Hinglish mein samjhane ke liye, hum keh sakte hai ki Constructor function ek tem
 
 इसके लिए, हमें एक constructor function बनानी होती है जो नया object create करती है। उसके बाद, हम `new` keyword का use करते हुए उस constructor function को call करते हैं। इस प्रकार, नया object create होता है और उसे variable में assign किया जाता है।
 
-जैसे कि,
+example
 
 ```javascript
 // Constructor function
@@ -42,5 +42,3 @@ console.log(person1); // Output: {name: "John", age: 25}
 ```
 
 जैसा कि ऊपर दिखाया गया है, हमने `Person` constructor function create किया जो `name` और `age` property के साथ एक object create करता है। फिर हम `new` keyword का use करते हुए `Person` constructor function को call करते हैं और नया object `person1` create करते हैं।
-
-इस प्रकार, हम `new` keyword का use करके JavaScript में objects को create कर सकते हैं।

@@ -367,5 +367,3 @@ console.log(result); // Output: 20
 ```
 
 In this example, the expression `num2 * 2` is evaluated first (giving us 10), and then added to num1, giving a result of 20.
-
-I hope this helps you understand operator precedence in JavaScript!

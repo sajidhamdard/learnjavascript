@@ -39,5 +39,3 @@ if (!Array.prototype.includes) {
 ```
 
 This polyfill checks whether the `Array.prototype.includes()` method is already defined. If not, it defines the method using a custom implementation that provides similar functionality. Now you can use this method in your code without worrying about browser compatibility issues.
-
-I hope this helps!

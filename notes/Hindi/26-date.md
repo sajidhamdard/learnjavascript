@@ -222,5 +222,3 @@ var intervalId = setInterval(function() {
 ```
 
 Yahan pe, setInterval function `function()` ko 1 second (1000 milliseconds) ke baad run karega. Jaise hi wo chalega, yeh `count` variable ko 1 increase karega aur usko console pe print karega. Agar `count` 5 ke equal ho jata hai, to setInterval ko clearInterval se cancel kar diya jayega.
-
-Mujhe ummeed hai ki yeh samajhne mein madad karega!

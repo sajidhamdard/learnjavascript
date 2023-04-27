@@ -368,7 +368,7 @@ Destructuring of nested objects can be a powerful tool for working with complex 
 
 Destructuring का उपयोग javascript में विभिन्न तरीकों से किया जाता है, इसमें हम एक फंक्शन के पैरामीटर में डिफॉल्ट वैल्यूज और विभिन्न प्रकार की डेटा संरचनाओं (data structures) को बहुत सरल तरीके से अनपैक (unpack) करते हैं।
 
-आइए एक उदाहरण के माध्यम से समझें:
+example
 
 ```
 function printUserDetails({name, age, location}) {

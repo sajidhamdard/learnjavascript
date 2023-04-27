@@ -35,5 +35,3 @@ firstfunction();
 document.getElementById("value2").innerHTML = typeof Name;
 
 ```
-
-Block Scope:

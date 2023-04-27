@@ -105,5 +105,3 @@ for (let i = 0; i < books.length; i++) {
 ```
 
 In this example, we use the `getElementsByTagName` method to get an array of all the `book` elements in the XML document. We then loop over each `book` element and extract its `title`, `author`, `year`, and `price` elements using the `getElementsByTagName` method again. Finally, we log the information about each book to the console.
-
-Hope that helps!

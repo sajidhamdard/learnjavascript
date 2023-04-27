@@ -21,5 +21,3 @@ fetch(url)
 Is example me, `fetch()` ek Promise object return karta hai. Hum `then()` method me ek callback function pass karte hai jo response ko handle karti hai. Agar fetch() me koi error hota hai to `catch()` method error ko handle karta hai.
 
 Upar diye gaye example se hum ye samajh sakte hai ki Promise ek asynchronous operation ko represent karta hai jo future me resolve ya reject ho sakta hai. Hum `then()` aur `catch()` methods se resolve aur reject cases ko handle kar sakte hai.
-
-As a summary, Promise ek powerful tool hai jo hume allow karta hai ki hum asynchronous code ko clean aur precise tarike se execute kare.

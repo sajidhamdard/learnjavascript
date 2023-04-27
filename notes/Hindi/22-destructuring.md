@@ -595,22 +595,26 @@ likhne ki jrurat ni hai.
 
 - Old way
 
+```
+
 let obj = {
-  sum: function (a, b) {
-    console.log(a + b);
-  },
+sum: function (a, b) {
+console.log(a + b);
+},
 };
+
 ```
 
 - New way
 - Upar vale function ko niche vale function ki trah b likh skte hain
 
 ```
-  obj = {
-  sum(a, b) {
-  console.log(a + b);
-  },
-  };
+
+obj = {
+sum(a, b) {
+console.log(a + b);
+},
+};
 
 ```
 
@@ -621,6 +625,7 @@ Generally object me keys ka name fix hota hai but agar humari aisi requirement h
 - for example :
 
 ```
+
 let a = "age";
 obj = {
 [a + 2]: "learnjavascript",
@@ -637,6 +642,7 @@ Yadi object ke andar nested object hai aur hm us nested object se koi value extr
 - for example :
 
 ```
+
 let obj = {
 address: {
 otherAddress: {
@@ -664,6 +670,7 @@ console.log(obj?.address?.otherAddress?.pincode); ///undefined
 - Checking array is empty
 
 ```
+
 let arr = [1, 2, 4, 5];
 console.log(arr[2]?.address?.pincode); //undefined
 
@@ -679,6 +686,7 @@ Yadi functiion bna hua ni hai aur hum use call kr rhe hain to error aayegi. But 
 - for example :
 
 ```
+
 let obj = {};
 obj?.printHello?.(); //No error
 
@@ -690,6 +698,7 @@ obj?.printHello(); //Error
 - Using optional Chaining in conditon :
 
 ```
+
 let obj = {
 name: "Sajid",
 age: 21,
@@ -724,10 +733,13 @@ console.log("City Not present");
 - With optional chaining
 
 ```
+
 if (obj?.myAddress?.other?.city) {
 console.log("Hello");
 } else {
 console.log("City Not present");
 }
+
+```
 
 ```

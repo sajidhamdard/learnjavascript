@@ -45,8 +45,6 @@ foo(); // Output: 15
 
 जैसा कि ऊपर दिखाया गया है, `a` global variable है जो `foo()` function में reference किया जा सकता है। अब, `foo()` function का execution start होने पर उसका own variable environment create हुआ, जिसमें `b` variable की reference होती है। जब `console.log(a+b)` line execute हुई, तो जावास्क्रिप्ट engine ने `b` की value lookup करने के लिए `foo()` function के variable environment में देखा और इसके बाद `a` की value lookup करने के लिए global scope में देखा।
 
-उम्मीद है यह समझने में मददगार साबित होगा।
-
 ### what is Type of execution context ? Global and Functional
 
 JavaScript mein execution context ka matlab hota hai ki code kaise execute hoga. JavaScript 2 type ke execution context support karta hai:
@@ -79,5 +77,3 @@ function foo() {
 
 foo(); // Output: 10
 ```
-
-Is tarah global aur functional execution context ka use karke JavaScript mein code execution ko manage kiya ja sakta hai.

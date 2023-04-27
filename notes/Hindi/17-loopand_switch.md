@@ -72,8 +72,6 @@ for (let i = 0; i < fruits.length; i++) {
 
 Yahan `fruits` ek array hai jismein hum 3 strings store kar rahe hain. For loop ke ander counter variable `i` hai jo 0 se shuruat karta hai aur `fruits.length` (yani 3) tak chalta hai. Har iteration ke baad hum `console.log(fruits[i])` ka use karke current index ki value console par print karte hain.
 
-Iska output niche diya gaya hai:
-
 ```
 Apple
 Banana
@@ -182,8 +180,6 @@ Iska output hoga:
 5
 ```
 
-Ummid hai ki ab aapko while loop ke baare mein achi tarah se samajh aa gaya hoga!
-
 ### What is do...while loop
 
 Do...while loop ek aisa loop hai jo kisi bhi code block ko baar-baar execute karta hai jab tak ki uske condition ka result true na ho. Yeh loop pehle code block ko execute karta hai aur phir condition check karta hai. Agar condition true hoti hai to loop continue rahta hai, lekin agar condition false hoti hai tab bhi code block ko kam se kam ek baar execute kar diya jaata hai.
@@ -264,7 +260,7 @@ switch (expression) {
 
 यहाँ expression value को evaluate करने के लिए है जो case के values से match करती हैं। अगर expression किसी bhi case value से match करता है, तो उस case का code block execute होता है। इसके बाद break statement से execution control switch block से बाहर निकल जाता है।
 
-यहाँ एक उदाहरण है:
+example
 
 ```
 let day = "Monday";
@@ -323,8 +319,6 @@ Lekin humne break ka use kiya hai jab `i` ki value 3 ho jaati hai, isliye output
 2
 3
 ```
-
-Iss tarah, break ka use karke hum loop ya switch statement ko jald se jald exit kar sakte hai.
 
 ### What is default case in a Switch Statement ?
 

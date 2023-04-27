@@ -266,7 +266,7 @@ Yahan `Person` class mein `name` property ko access karne aur modify karne ke li
 
 `person1` object ko create karne ke baad, humne `name` property ko `John` se `Jane` mein update kiya aur phir console par uski value ko print kiya.
 
-Hinglish mein, Setters aur Getters JavaScript mein properties ko handle karne ke kaam aate hain. Setters property ki value ko set karte hain, jabki Getters property ki value ko retrieve karte hain. Upar diye gaye example mein, `Person` class mein `name` property ke liye `get` aur `set` functions ka use kiya gaya tha. `get` function `name` ki current value ko return karta hai, jabki `set` function `name` ki value ko set karta hai.
+Setters aur Getters JavaScript mein properties ko handle karne ke kaam aate hain. Setters property ki value ko set karte hain, jabki Getters property ki value ko retrieve karte hain. Upar diye gaye example mein, `Person` class mein `name` property ke liye `get` aur `set` functions ka use kiya gaya tha. `get` function `name` ki current value ko return karta hai, jabki `set` function `name` ki value ko set karta hai.
 
 ### what is Static methods
 
@@ -618,5 +618,3 @@ console.log(result); // Output: 35
 ```
 
 In this example, we first call the `filter()` method on the `numbers` array to filter out all the even numbers, which returns a new array containing only the odd numbers. Then, we call the `map()` method on this filtered array to square each remaining number, which returns another new array with the squared numbers. Finally, we call the `reduce()` method on this mapped array to get their sum, which is stored in the `result` variable.
-
-Overall, chaining methods in JavaScript can help simplify your code by allowing you to perform multiple operations on the same object in a single line.

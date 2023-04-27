@@ -43,5 +43,3 @@ Is example mein `getUserDetails` ek promise return karta hai, jo simulate kiya g
 Jab hum getUserDetails function ko await ke saath call karte hain, to ye promise resolve karne tak wait karta hai. Jab promise resolve ho jaata hai, to userDetails variable mein uska data store hota hai. Iske baad hum console mein user details print karte hain.
 
 Agar promise reject hua to catch block mein error message print hota hai.
-
-Is tarah Async/Await keywords ka use Promises consume karne ke liye kiya jaa sakta hai.

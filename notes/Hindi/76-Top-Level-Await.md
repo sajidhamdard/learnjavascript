@@ -29,5 +29,3 @@ console.log(data);
 ```
 
 Note that for top-level await to work, you need to be using a module script (`<script type="module">`) or have enabled the `"module"` option in your `package.json` file. This is because top-level await is only allowed in modules, not in traditional scripts.
-
-In summary, top-level await is a new feature in JavaScript that allows you to use `await` at the top level of your code, making it easier to write and read asynchronous code.
