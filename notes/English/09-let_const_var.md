@@ -1,4 +1,6 @@
-# let
+# Let, Const and Var
+
+## let
 
 We use "let" variables in JavaScript to declare variables that are only accessible within the specific block of code or function where they are defined. This helps to prevent accidental conflicts with other variables that may have the same name, and makes the code easier to read and understand.
 
@@ -11,7 +13,7 @@ console.log(x);//SyntaxError: 'x' has already been declared
 
 ```
 
-# const
+## const
 
 The scope of a const variable is block scope. It cannot be updated or re-declared into the scope. It cannot be declared without initialization. It cannot be accessed without initialization, as it cannot be declared without initialization. Hoisting is done, but not initialized (this is the reason for error when we access the const variable before declaration/initialization. For example:
 
@@ -22,7 +24,7 @@ console.log(); //typeErroe:this will also give an error
 
 ```
 
-# var
+## var
 
 The scope of a var variable is functional scope. It can be updated and re-declared into the scope. It can be declared without initialization. It can be accessed without initialization as its default value is “undefined”. hoisting done , with initializing as ‘default’ value. For example:
 
@@ -31,7 +33,7 @@ var val = 300;
 console.log(val); //allowed and value will be undefined here
 ```
 
-### What are the differences between let, const and var?
+## What are the differences between let, const and var?
 
 In JavaScript, var, let, and const are all used to declare variables, but they have different scoping rules and behavior.
 
@@ -45,7 +47,7 @@ In summary, var is function scoped and can be reassigned, let and const are bloc
 
 let and const were introduced in ECMAScript 6 (ES6), and are recommended to use over var as they provide better variable scoping and prevent accidental reassignments.
 
-### When to use let, const and var?
+## When to use let, const and var?
 
 When deciding which keyword to use when declaring a variable in JavaScript, consider the following guidelines:
 

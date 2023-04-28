@@ -24,7 +24,7 @@ JavaScript ko HTML mein link karne ke liye aapko <script> tag ka upyog karna hot
 
 3. Ab HTML page ko open karein aur head section mein <script> tag ka upyog karein. Iske baad src attribute mein apne JavaScript file ka path dena hoga. Yeh path relative ho sakta hai ya absolute bhi ho sakta hai.
 
-4. Yeh ek example hai jo aapko help karega. Yahan par maine ek JavaScript file "script.js" banaya hai aur use "index.html" mein link kiya hai.
+4.Yahan par maine ek JavaScript file "script.js" banaya hai aur use "index.html" mein link kiya hai.
 
 ```javascript
 <!DOCTYPE html>
@@ -40,5 +40,3 @@ JavaScript ko HTML mein link karne ke liye aapko <script> tag ka upyog karna hot
 ```
 
 Is example mein, humne <script> tag ka upyog kiya aur usmein src attribute mein "script.js" ka path diya hai. Agar script.js file index.html file se alag folder mein hai toh aapko path ko accordingly update karna hoga.
-
-Mujhe ummeed hai ki yeh example aapko help karega JavaScript file ko HTML page se link karne mein.

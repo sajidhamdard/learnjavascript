@@ -61,7 +61,7 @@ This dynamic feature of JavaScript also allows for more expressive, flexible, an
 
 for example:
 
-```
+```javascript
    let x = 10; // type will be number
    x = "learnjavascript"; //type will be string
    x = false; //type will be boolean
