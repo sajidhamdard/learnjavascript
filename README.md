@@ -243,7 +243,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   
   - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
   - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
-  - [_Chapter 03- Value, Variable & Datatype_](./notes/Hindi/03-value_variable_datatype.md)
+  - [_Chapter 03- separation-of-concerns_](notes/Hindi/03-separation-of-concerns.md)
   - [_Chapter 04- Identifier_](notes/Hindi/04-identifier.md)
   - [_Chapter 05- Comments_](notes/Hindi/05-comments.md)
   - [_Chapter 06- Use strict_](notes/Hindi/06-use_strict.md)
