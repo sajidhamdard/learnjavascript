@@ -167,12 +167,12 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
 - [_Chapter 23- Temporal Dead Zone(TDZ)_](notes/English/23-temporal-dead-zone.md)
 
-- [_Chapter 24- Debugging_](notes/English/24-debugging.md)
+- [_Chapter 24- Debugging_](notes/English/24-debugging.md#debugging)
 
-  - [_Debugging in JavaScript_](notes/English/24-debugging.md#what-is-debugging-in-javascript)
-  - [_Developer Tool_](notes/English/24-debugging.md#what-is-developer-tool)
+  - [_Debugging in JavaScript_](notes/English/24-debugging.md#what-is-debugging-)
+  - [_Developer Tool_](notes/English/24-debugging.md#what-is-developer-tool-)
   - [_Fixing errors_](notes/English/24-debugging.md#fixing-errors)
-  - [_Different types of errors_](notes/English/24-debugging.md#what-are-the-different-types-of-errors-in-javascript)
+  - [_Different types of errors_](notes/English/24-debugging.md#what-are-the-different-types-of-errors-)
 
 - [_Chapter 25- number_](notes/English/25-number.md)
 - [_Chapter 26- date_](notes/English/26-date.md)
