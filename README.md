@@ -148,7 +148,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 19- scope-scoping_](notes/English/19-scope-scoping.md)
 - [_Chapter 20- function_](notes/English/20-function.md)
 
-- [_Chapter 21- More on Functions_](notes/English/21-More-About-functions.md#more-on-functions)
+- [_Chapter 21- More on Functions_](notes/English/21-More-About-functions.md)
 
   - [_Default parameters_](notes/English/21-More-About-functions.md#what-is-default-parameter-)
   - [_Passing arguments: value vs reference_](notes/English/21-More-About-functions.md#what-is-passing-arguments-value-vs-reference-in-javascript-)
