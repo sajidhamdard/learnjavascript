@@ -124,18 +124,18 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
   - [_What is truthy and falsy value:_](notes/English/16-truthy_falsy.md#what-is-truthy-and-falsy-value)
 
-- [_Chapter 17- Loop and Switch_](./notes/English/17-loopand_switch.md)
+- [_Chapter 17- Loop and Switch_](notes/English/17-loop_and_switch.md)
 
-  - [_Loops_](notes/English/17-loopand_switch.md#what-is-loop-in-javascript-)
-  - [_for loop_](notes/English/17-loopand_switch.md#what-is-for-loop-)
-  - [_for...of loop_](notes/English/17-loopand_switch.md#what-is-forof-loop-)
-  - [_for...in loop_](notes/English/17-loopand_switch.md#what-is-forin-loop-)
-  - [_while loop_](notes/English/17-loopand_switch.md#what-is-while-loop-)
-  - [_do...while loop_](notes/English/17-loopand_switch.md#what-is-dowhile-loop-)
-  - [_switch statment_](notes/English/17-loopand_switch.md#what-is-switch-statment-)
-  - [_case clause?_](notes/English/17-loopand_switch.md#what-is-case-clause-in-javascript-)
-  - [_break_](notes/English/17-loopand_switch.md#what-is-break-)
-  - [_Default case_](notes/English/17-loopand_switch.md#what-is-default-case-in-a-switch-statement-)
+  - [_Loops_](notes/English/17-loop_and_switch.md#what-is-loop-)
+  - [_for loop_](notes/English/17-loop_and_switch.md#what-is-for-loop-)
+  - [_for...of loop_](notes/English/17-loop_and_switch.md#what-is-forof-loop-)
+  - [_for...in loop_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_while loop_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_do...while loop_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_switch statment_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_case clause?_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_break_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
+  - [_Default case_](notes/English/17-loop_and_switch.md#what-is-forin-loop-)
 
 - [_Chapter 18- String_](notes/English/18-string.md)
 
