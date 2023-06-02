@@ -233,7 +233,7 @@
   - Function declaration
   - Function expression
   - Arrow function
-  - - Anonymous function
+  - Anonymous function
 - Difference between function declaration and function expression
 - Difference between function expression and arrow function
 - Function invoking/calling
