@@ -6,7 +6,7 @@ Welcome ❤️ to my Github account 🙏.
 
 I have created this repo to help students/freshers/working professionals and providing them all the resources for JavaScript in a single repo. We are continously working on this repository so please check regulary for latest updates.
 
-For the convenience of the student who are not comfortable in English, we are trying to add notes in Hindi as well. As notes of Hindi are in initial phase so it will take some time to finalize. Please be patience and keep checking our repo for regular updates.
+For the convenience of the student who are not comfortable in English, we are trying to add notes in Hindi as well. Please keep checking our repo for regular updates.
 
 This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
