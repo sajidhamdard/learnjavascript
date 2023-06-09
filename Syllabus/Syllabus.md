@@ -95,6 +95,7 @@
 
 - What is an identifier
 - Rules for creating identifier
+- Reserved keywords
 
 ### Comments
 
