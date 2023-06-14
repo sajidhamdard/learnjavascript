@@ -191,8 +191,8 @@
 - Uses of single quote and double quotes in string
 - Escape characters
 - How to create a String
-- String Literal
-- String Object
+  - String Literal
+  - String Object
 - String Literal vs String Object
 - String length
 - String to Array
