@@ -208,9 +208,10 @@
   - toLowerCase
   - concat
   - trim
+  - trimEnd
+  - trimStart
   - padStart
   - padEnd
-  - charAt
   - split
   - indexOf
   - valueOf
