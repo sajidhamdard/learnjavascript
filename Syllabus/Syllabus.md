@@ -548,6 +548,7 @@
 - search()
 - exec()
 - test()
+- match()
 
 ## Json & XML
 
