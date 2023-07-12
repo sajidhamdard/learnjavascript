@@ -283,7 +283,6 @@
   - Syntax Error
   - Reference Error
   - Type Error
-  - Eval Error
   - Internal Error
   - Range Error
   - URI Error
