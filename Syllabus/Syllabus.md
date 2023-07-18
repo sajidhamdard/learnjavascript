@@ -65,15 +65,15 @@
   - String
   - Undefined
   - Boolean
-  - Symbol (new in ECMAScript 2015)
-  - BigInt (new in ECMAScript 2020)
+  - Symbol
+  - BigInt
 - Non-primitive Data types
   - Object
   - Array
 
 ### Truthy and Falsy Values
 
-- What are the truthy and falsy values in JavaScript
+- What are the truthy and falsy values in JavaScript ?
 - Falsy values : undefined, 0, null, ‘’, false, NaN
 - Falsy and Truthy values in conditional statements
 
@@ -106,7 +106,7 @@
 
 ### Statement
 
-- What is a statement in programming
+- What is a statement in programming ?
 - How to write a single line of statement
 - How to write a multi-line statement or code-block
 - Use of Semi colon and whitespace in statement
