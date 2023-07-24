@@ -571,8 +571,8 @@
     - let, const and var declarations
     - functions
     - Arguments Objects
-    - Scope Chain
-    - this keyword
+  - Scope Chain
+  - this keyword
 - Execution Context divides in two parts
     - Type of execution context
       - Global
