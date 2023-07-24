@@ -4,10 +4,10 @@ Write a JavaScript function to capitalize the first character of the string.
 
 ```
 for example:
-wecodeacademy
+allenacademy
 
 output:
-Wecodeacademy
+Allenacademy
 ```
 
 ### Question 2
@@ -28,7 +28,7 @@ We are learning JavaScript exercises.
 Write a JavaScript function to count the occurrence of a substring in a string.
 
 ```
-"My name is wecode academy and my friend name is Arun Kumar."
+"My name is allen academy and my friend name is Arun Kumar."
 
 find count of 'is' in this word is 2.
 ```
@@ -87,10 +87,10 @@ In left side of the string add World in starting
 for example:
 
 ```
-let str = "Wecode Academy"
+let str = "Allen Academy"
 
 output:
-Wecode Hello World Academy
+Allen Hello World Academy
 ```
 
 ### Question 8
@@ -103,7 +103,7 @@ If user guess is right then show him Congrulations message otherwise show Sorry 
 for example:
 
 ```
-Wecode Academy
+Allen Academy
 
 What is the character you are guessing? A
 What is the index? 3
