@@ -35,7 +35,7 @@ function countSubstringOccurrences(str, substr) {
   return matches ? matches.length : 0;
 }
 
-let str = "My name is wecode academy and my friend name is Arun Kumar.";
+let str = "My name is allen academy and my friend name is Arun Kumar.";
 let substr = "is";
 let count = countSubstringOccurrences(str, substr);
 console.log(count); // 2
@@ -100,7 +100,7 @@ console.log(`My name is ${name}. I was born in ${birthYear} and my current age i
 ### Question 7
 
 ```
-let str = "Wecode Academy";
+let str = "allen Academy";
 let midIndex = Math.floor(str.length / 2);
 let leftPart = str.slice(0, midIndex);
 let rightPart = str.slice(midIndex);
@@ -113,7 +113,7 @@ console.log(result);
 ### Question 8
 
 ```
-let word = "Wecode Academy";
+let word = "Allen Academy";
 let index = 3;
 let guess = "A";
 
