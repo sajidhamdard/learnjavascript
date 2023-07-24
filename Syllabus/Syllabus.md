@@ -571,12 +571,12 @@
     - let, const and var declarations
     - functions
     - Arguments Objects
-- Scope Chain
-- this keyword
-- Execution Context divides in twparts
-- Type of execution context
-  - Global
-  - Functional
+    - Scope Chain
+    - this keyword
+- Execution Context divides in two parts
+    - Type of execution context
+      - Global
+      - Functional
 - Creation Phase
 - Code Phase
 - Scope Chain:
