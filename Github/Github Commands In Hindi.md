@@ -2,10 +2,7 @@
 
 ## What is a git ?
 
-Git ek software hai jiska use file me changes track krne, other
-developers ke sath milke kaamk krne ke lie kia jata hai. Git ka use
-krke hum easily ek code pr kafi sare developers milke apne apne
-system pr kaam kr skte hain.
+Git ek software hai jo code management mein madad karta hai. Isse hum log apne code ko track kar sakte hain aur team ke saath collaborate karke kaam kar sakte hain. Git ek distributed version control system hai, jiski madad se hum apne code ki copies create kar sakte hain, changes track kar sakte hain aur code ko manage kar sakte hain. Jab bhi hum koi changes karte hain code mein, toh Git usko ek snapshot ki tarah capture kar leta hai. Agar kuch gadbad ho jaaye ya kuch purane version pe wapas jaana ho, toh Git ki madad se aasani se woh purane versions ko restore kar sakte hain. Isse code ka backup bhi ban jaata hai taki koi bhi problem ho, toh hum log original code ko recover kar sakein. Overall, Git ek bahut hi useful tool hai developers ke liye, jo code management ko asaan aur systematic bana deta hai.
 
 ## How to install Github
 
@@ -25,15 +22,33 @@ system pr kaam kr skte hain.
 
 ### git status
 
-is command ka use particular folder me koi bhi change krne pr un changes ka status btata hai. Change hm kisi b file, folder me kr skte hai. Git status hume ye btayega ki humne kya chagnes kie hain
+Git status ek command hai jo hume batata hai ki hamare current working directory mein kya changes huye hain aur Git un changes ko track kar raha hai ya nahi.
+
+Jab hum git status command ko run karte hain, to Git hamein kuch important information deta hai:
+
+1. Modified files: Ye bataata hai ki kaun se files mein changes huye hain, lekin abhi tak unko commit nahi kiya gaya hai.
+
+2. Staged files: Ye bataata hai ki kaun se files ke changes ko aapne stage kiya hai, taki unhein next commit mein include kiya ja sake.
+
+3. Untracked files: Ye bataata hai ki kaun se files hai jo abhi tak Git ke track mein nahi hai. In files ko aapko stage karna hoga, fir unhein commit karne ke liye.
 
 ### git init
 
-is command ka use git ko initialize karna ka leya keya jata hai. Ye command tab use krte hain jb hume ek new repistory bnani ho.
+git init ek Git repository initialize karne ke liye use hota hai. Jab hum git init command ko kisi project directory mein run karte hain, toh Git us directory mein ek naya Git repository create karta hai.
+
+Is command ko run karne se Git us directory mein kuch hidden folders aur files create karta hai, jinmein Git ki saari information aur history store hoti hai. Ye repository us project ke code ko track karne ke liye hota hai.
+
+Jab aap git init command ko run karte hain, toh aapka project Git ke control mein aa jata hai. Ab aap code mein changes karke unhein commit kar sakte hain, aur Git aapke changes ko track karega aur code ki history maintain karega.
+
+Dhyan rahe, git init sirf ek baar karna hota hai, jab aap ek naya project start kar rahe hote hain. Jab aap ek baar repository create kar chuke hote hain, toh us project directory ke andar .git naam ka ek folder bana ho jata hai, jiske andar Git ki saari information hoti hai.
 
 ### git clone
 
-Yadi hume koi repository apne local system pr lani hai ya copy krni hai to ye command use krenge. Iske lie hume repository ke url ki need hogi. url kuch is trah ka hoga https://github.com/username/repositoryname.git
+git clone ek Git command hai jo kisi existing Git repository ko copy karne ke liye use hota hai. Is command ki madad se hum ek remote repository se uske complete copy (including code and version history) ko apne local machine par le sakte hain.
+
+Jab hum git clone command ko run karte hain, toh Git us remote repository se code ko download karke ek local copy create karta hai. Is local copy ko hum apne local machine par modify kar sakte hain aur fir usko commit karke changes ko remote repository mein push kar sakte hain.
+
+Yahan <repository_url> remote repository ka URL hota hai, jahaan se aap code ko clone karna chahte hain. Is URL ko aap typically GitHub, GitLab, Bitbucket, ya kisi doosre Git hosting service se obtain kar sakte hain.
 
 for example:
 
@@ -45,8 +60,13 @@ Ye command chlane ke bad ek repository ke naam se folder bn jayega fir hum us fo
 
 ### git checkout -b branchname
 
-ye command new branch banane ka leya use hota hai. yha checkout ka matlab hai ki hum current branch is new branch pr jana chah rhe hain. -b ka matlab new branch hai -b likhne se hi github ko pta lgega ki muje ek new branch bnani hai. branchname me hum koi b branchname de skte hai. Mostly branchname vo hona chahiye jo kaam hm kr rhe hain. for example agar hum user login form pr kaam kr rhe hain to branch ka
-naam hoga featue/User-Login-Form
+git checkout -b <branchname> ek Git command hai jo hume ek naye branch (shakh) ko create karke usme switch karne ke liye use hota hai.
+
+Jab hum git checkout -b <branchname> command ko run karte hain, toh Git ek naya branch create karta hai jiska naam <branchname> hota hai, aur us branch mein switch kar deta hai. Is tarah se hum naye branch pe aasani se kaam kar sakte hain.
+
+Yahan <branchname> ek naya branch ka naam hota hai, jise aap khud specify karte hain. Ye branch naam unique hona chahiye aur iss naam se pehle is branch ka existence nahi hona chahiye.
+
+for example agar hum user login form pr kaam kr rhe hain to branch ka naam hoga featue/User-Login-Form
 
 ```
 git checkout -b feature/User-Login-Form
@@ -56,24 +76,43 @@ git checkout -b feature/User-Login-Form
 
 Iske lie hum 2 commands use kr skte hain:
 
-1. git switch branchname: isse jo branchname dia hai us pr switch ho jayenge
+1. git switch branchname: isse jo branchname dia hai us pr switch ho jayenge (new command introduced in Git 2.23.0 (August 2019) to provide a more intuitive and safer way to switch branches.)
 2. git checkout branchname: isse bhi die gye branchname pr switch ho jayenge
 
 ### git add filename
 
-Yadi humne koi new file bnayi hai aur use hume git me add krna hai to hume git add command use krna pdega.
+
+git add filename command ka use karke aap kisi specific file ke changes ko "staging area" mein add kar sakte hain. Jab aap kisi file mein changes karte hain, toh wo changes "unstaged" hote hain, matlab unhein abhi tak commit ke liye tayyar nahi kiya gaya hai. Lekin git add ki madad se aap un changes ko temporary storage, jo hum kehte hain "staging area," mein daal sakte hain, jahaan se aap unhein agle commit ke liye taiyaar kar sakte hain.
+
 for example
 
 ```
-git add index.html
+git add <filename>
 ```
 
-ye command chlane ke bad index.html file git me add ho jayegi aur green color me dhikne lgegi. Ek bar file agar git me add ho gyi to fir
-yadi hum usme kuch b changes krenge to git un changes ko track krega.
+Yahan <filename> file ka naam hota hai, jise aap staging area mein add karna chahte hain. Aap wildcards ya patterns ka bhi istemaal karke multiple files ko add kar sakte hain jo ek specific criteria se match karte hain.
+
+Git ke staging area mein changes add karne ke baad, aap us staging area ko commit karke apne changes ko permanent banate hain.
 
 ### git diff filename
 
-Git diff command files me difference btata hai. Yeh command differences green and red color me btayega. Green means humne kya add kia hai and red means humne kya delete kia hai.
+git diff filename ek Git command hai jo aapke local working directory ke ek file ke changes ko dekhne ke liye use hota hai. Command ka syntax kuch iss tarah hota hai:
+
+```
+git diff <filename>
+```
+
+Yahan <filename> file ka naam hota hai, jiska aap changes dekhna chahte hain. Jab aap ye command run karte hain, Git aapko batata hai ki us file mein ab tak ke changes kya kya hain, jo abhi tak commit nahi kiye gaye hain.
+
+Ye command aapko file ke unmodified (last commit se ab tak ke changes), modified (staged nahi kiye gaye changes), aur staged (staged kiye gaye changes) sections mein differences dikhaega.
+
+Example ke liye, agar aap file1.txt ka diff dekhna chahte hain, toh aap ye command use karenge:
+
+```
+git diff file1.txt
+```
+
+Isse aapko file1.txt ke unmodified, modified, aur staged changes ke details milenge. Ye bahut helpful hota hai jab aap apne code mein kiye gaye changes ka review karna chahte hain aur samajhna chahte hain ki aapne kya kya modifications kiye hain, jo abhi tak commit nahi kiye gaye hain.
 
 ### git commit -m “massage”
 
