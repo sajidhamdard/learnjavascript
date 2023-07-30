@@ -85,15 +85,16 @@ High order function ek aisa function hota hai jo doosre functions ko argument ke
 
 Ek udaharan ke roop mein, hum ek high order function likh sakte hain jo kisi list ke har item pe apply ho sakta hai aur use double kar sake. Is function ko hum "map" kehte hain:
 
-```python
-def double(x):
-    return x * 2
+```javascript
+function double(x) {
+    return x * 2;
+}
 
-my_list = [1, 2, 3, 4, 5]
+let my_list = [1, 2, 3, 4, 5]'
 
-new_list = map(double, my_list)
+let new_list = map(double, my_list);
 
-print(list(new_list)) # Output: [2, 4, 6, 8, 10]
+console.log(list(new_list)) # Output: [2, 4, 6, 8, 10]
 ```
 
 Yahaan, `double` function ko `map` function ke argument ke roop mein pass kiya gaya hai. `Map` function ne phir `my_list` ke har item pe `double` function ko apply kiya aur ek naye list mein un values ko store kar diya jismein har value original list ke corresponding value ka double tha.
