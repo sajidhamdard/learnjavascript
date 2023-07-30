@@ -61,14 +61,16 @@ In this code, `add` is a function that takes two arguments `x` and `y`, and retu
 Now, let's see an example of treating a function as a first-class citizen:
 
 ```
-def add(x, y):
-    return x + y
+function add(x, y) {
+    return x + y;
+}
 
-def apply(func, x, y):
-    return func(x, y)
+function apply(func, x, y) {
+    return func(x, y);
+}
 
-result = apply(add, 3, 4)
-print(result)
+let result = apply(add, 3, 4);
+console.log(result);
 ```
 
 In this code, we have defined a new function `apply` that takes three arguments: a function `func`, and two arguments `x` and `y`. The `apply` function then applies the function `func` to the arguments `x` and `y`.
