@@ -51,37 +51,37 @@ yadi aap kisi array ke values ko reverse karna chahte hai to aap JavaScript mein
 
 ### How to return two values from function
 
-Function se do values return karne ke liye aap ek tuple (ट्यूपल) bana sakte hai jo multiple values ko store karta hai. Isme aap ek se zyada values ko comma (,) separated brackets mein daal sakte hai.
+Function se do values return karne ke liye aap ek array bana sakte hai jo multiple values ko store karta hai. Isme aap ek se zyada values ko comma (,) separated brackets mein daal sakte hai.
 
 Yaha ek example di gayi hai Python language mein:
 
-```python
-def calculate(a, b):
-    sum = a + b
-    diff = a - b
-    return sum, diff
-
-result = calculate(5, 3)
-print(result)
+```javascript
+function calculate(a, b) {
+    let sum = a + b
+    let diff = a - b
+    return [sum, diff];
+}
+let result = calculate(5, 3)
+console.log(result);
 ```
 
-Iss code mein `calculate()` function `a` aur `b` ke sum aur difference ko calculate karke ek tuple mein return karta hai. Fir `result` variable mein iss tuple ko assign kiya jata hai aur print kiya jata hai. Output niche diya gaya hai:
+Iss code mein `calculate()` function `a` aur `b` ke sum aur difference ko calculate karke ek array mein return karta hai. Fir `result` variable mein iss array ko assign kiya jata hai aur print kiya jata hai. Output niche diya gaya hai:
 
-```python
-(8, 2)
+```javascript
+calculate(8, 2);
 ```
 
-Jaise ki aap dekh sakte hai, `result` tuple mein dono values `sum` aur `diff` available hai. Aap inhe separate variables mein assign kar sakte hai bhi:
+Jaise ki aap dekh sakte hai, `result` array mein dono values `sum` aur `diff` available hai. Aap inhe separate variables mein assign kar sakte hai bhi:
 
-```python
-s, d = result
-print(s)
-print(d)
+```javascript
+let [s, d] = result;
+console.log(s);
+console.log(d);
 ```
 
 Output:
 
-```python
+```javascript
 8
 2
 ```
