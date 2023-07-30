@@ -53,7 +53,7 @@ yadi aap kisi array ke values ko reverse karna chahte hai to aap JavaScript mein
 
 Function se do values return karne ke liye aap ek array bana sakte hai jo multiple values ko store karta hai. Isme aap ek se zyada values ko comma (,) separated brackets mein daal sakte hai.
 
-Yaha ek example di gayi hai Python language mein:
+Yaha ek example di gayi hai JavaScript language mein:
 
 ```javascript
 function calculate(a, b) {
