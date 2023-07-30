@@ -107,17 +107,19 @@ Callback function ek programming concept hai jisme ek function ko dusre function
 
 Let's take an example: Suppose humare paas ek function hai jo do numbers ka sum calculate karta hai:
 
-```python
-def add_numbers(a, b):
-    return a + b
+```javascript
+function add_numbers(a, b) {
+    return a + b;
+}
 ```
 
 Ab humein ek aur function banana hai jo kisi bhi do numbers ka product calculate karega, lekin ismein hum chaahte hai ki agar iska calculation complete hua toh humare paas ek message aa jaaye. Iske liye hum callback function ka use karenge:
 
-```python
-def multiply_numbers(a, b, callback):
-    result = a * b
-    callback(result)
+```javascript
+function multiply_numbers(a, b, callback) {
+    let result = a * b;
+    callback(result);
+}
 
 # Ab hum apna callback function bana sakte hain
 def print_result(result):
@@ -128,7 +130,7 @@ multiply_numbers(5, 6, print_result)
 
 Yahaan humne `multiply_numbers` mein `callback` parameter add kiya jisse hum uss function mein bhejte hain. Fir `multiply_numbers` function mein hum result ko calculate karte hain aur `callback` function ko call kar dete hain jisse wo message print kar sake.
 
-Upar diye gaye example mein humne Python ka use kiya hai, lekin callback functions ka concept kisi bhi programming language mein istemaal kiya ja sakta hai.
+Upar diye gaye example mein humne javascript ka use kiya hai, lekin callback functions ka concept kisi bhi programming language mein istemaal kiya ja sakta hai.
 
 ### What is setTimeOut ?
 
