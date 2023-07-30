@@ -46,14 +46,14 @@ Is tarah se, value-based argument mein original variable/function ke copy banaya
 
 First Class functions (FCF) refer to the ability of a programming language to treat functions as variables or first-class citizens. This means that functions can be assigned to variables, passed as arguments to other functions, and returned as values from functions.
 
-For example, let's consider the following Python code:
+For example, let's consider the following code:
 
 ```
-def add(x, y):
-    return x + y
-
-result = add(3, 4)
-print(result)
+function add(x, y) {
+    return x + y;
+}
+let result = add(3, 4);
+console.log(result);
 ```
 
 In this code, `add` is a function that takes two arguments `x` and `y`, and returns their sum. We then assign the value returned by `add(3, 4)` to the variable `result`, which is then printed to the console.
