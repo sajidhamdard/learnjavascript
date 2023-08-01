@@ -417,7 +417,7 @@
   - clear
 - Array as key
 - Iteration of Map
-- Object tmap
+- Object to map
 - Map tarray
 - forEach function on map
 - WeakMap
