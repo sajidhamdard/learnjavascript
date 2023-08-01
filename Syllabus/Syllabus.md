@@ -400,7 +400,7 @@
   - other functions
 - Index in set
 - Printing set values using for of loop
-- Creating set tarray
+- Creating set to array
 - forEach method
 - WeakSet
 
