@@ -418,7 +418,7 @@
 - Array as key
 - Iteration of Map
 - Object to map
-- Map tarray
+- Map to array
 - forEach function on map
 - WeakMap
 
