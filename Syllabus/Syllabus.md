@@ -69,7 +69,7 @@
   - BigInt
 - Non-primitive Data types
   - Object
-  - Array
+  - function
 
 ### Truthy and Falsy Values
 
