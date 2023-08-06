@@ -36,7 +36,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 
   - [_High level language_](notes/English/02-features.md#what-is-high-level-language-)
   - [_Garbage Collected_](notes/English/02-features.md#what-is-garbage-collected-)
-  - [_Interpreted Language (JIT)-> (Just in time compiler)_](notes/English/02-features.md#what-is-interpreted-language-jit--just-in-time-commpiler-)
+  - [_Interpreted Language (JIT)-> (Just in time compiler)_](notes/English/02-features.md#what-is-interpreted-language-jit--just-in-time-compiler-)
   - [_Multi Paradigm_](notes/English/02-features.md#what-is-multi-paradigm-)
   - [_Prototype based function_](notes/English/02-features.md#what-is-prototype-based-function-)
   - [_First Class Function_](notes/English/02-features.md#what-is-first-class-function-)
@@ -63,6 +63,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 - [_Chapter 05- Identifier_](./notes/English/05-identifier.md)
 
   - [_What is Identifiers_](notes/English/05-identifier.md#identifiers)
+  - [_Rules for creating identifiers_](notes/English/05-identifier.md#rules-for-creating-identifiers)
 
 - [_Chapter 06- Comments_](./notes/English/06-comments.md)
 
@@ -74,8 +75,6 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
   - [_What is Code block or Multi-line statement?_](notes/English/07-statement.md#what-is-code-block-or-multi-line-statement)
 
 - [_Chapter 08- use strict_](notes/English/08-use_strict.md)
-
-  - [_What is use strict?_](notes/English/08-use_strict.md#06--use-strict)
 
 - [_Chapter 09- let, const and var_](notes/English/09-let_const_var.md)
 
