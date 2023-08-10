@@ -99,7 +99,6 @@ console.log(ans); //false
 #### type conversion
 
 implicit type conversion /automatic type conversion
-implicit type conversion me javascrupt otomatic ak type se dusri type me convert karte hain.
 
 - for example
   number se string me conversion
