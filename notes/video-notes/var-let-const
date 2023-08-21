@@ -1,0 +1,14 @@
+```javascript
+//let const and var
+var age = 10;
+var amount;
+console.log(age, amount);
+
+let myAge = 10;
+let myAmount;
+console.log(myAge, myAmount);
+
+const totalAge = 10;
+const totalAmount = 1000;
+console.log(totalAge, totalAmount);
+```
