@@ -9,25 +9,23 @@
   - HTML
   - CSS
   - JavaScript
-- Role of HTML, CSS, and JavaScript?
+- Role of HTML, CSS, and JavaScript in WEB development?
 
 ### History of JavaScript
 
 - JavaScript history
 - ECMAScript
-- Versions of JavaScript
+- Versions of JavaScript & History
 - Backward & Forward compatible
 
 ### Visual Studio Code Setup
 
 - What is an IDE?
 - Downloading & Installing Visual Studio Code
-- File vs Folder vs Workspace
+- Difference - File vs Folder vs Workspace
 - VSCode shortcuts
 - Installing extensions
-- Applying Settings
-- Applying Color Theme
-- Setting Default Formatter
+- Applying Settings & Default Formatter Setting
 
 ### Project setup
 
