@@ -73,15 +73,24 @@
 
 - What are the truthy and falsy values in JavaScript ?
 - Falsy values : undefined, 0, null, ‘’, false, NaN
-- Falsy and Truthy values in conditional statements
+- Using Falsy and Truthy values in conditional statements
 
 ### Type Conversion
 
 - Implicit type conversion/Automatic Type conversion/Coercion
 - Explicit type conversion/Manual Type conversion
   - Number
+      - String to Number
+      - Boolean to Number
+      - Undefined to Number
   - String
+      - Number to String
+      - Boolean to String
+      - Undefined to String
   - Boolean
+    - String to Boolean
+    - Number to Boolean
+    - Undefined to Boolean
 
 ### JavaScript Popup Boxes
 
@@ -97,16 +106,16 @@
 
 ### Comments
 
-- What is comment
+- What is comment ?
   - Single line comment
   - Multi line comment
-- Comment rules
+- Coding guidelines for comments
 
 ### Statement
 
 - What is a statement in programming ?
-- How to write a single line of statement
-- How to write a multi-line statement or code-block
+- How to write a single line of statement ?
+- How to write a multi-line statement or code-block ?
 - Use of Semi colon and whitespace in statement
 
 ### let, const and var
@@ -115,7 +124,7 @@
 - const
 - var
 - Difference between let, const and var
-- When to use let, const and var
+- When to use let, const and var ?
 
 ### JavaScript operators
 
@@ -168,8 +177,8 @@
 
 ### use strict
 
-- What is the significance of use strict
-- How JavaScrit behave without use strict
+- What is the significance of use strict ?
+- How JavaScrit behave without use strict ?
 
 ### Looping and Switch
 
@@ -185,13 +194,13 @@
 
 ### JavaScript String
 
-- What is a String
-- Uses of single quote and double quotes in string
+- What is a String ?
+- Uses of single quote `` and double quotes "" in string
 - Escape characters
-- How to create a String
+- How to create a String ?
   - String Literal
   - String Object
-- String Literal vs String Object
+- String Literal vs String Object ?
 - String length
 - String to Array
 - String Template Literal
@@ -223,34 +232,38 @@
 ### Scope
 
 - What is Scoping
-- Different types of scopes in JavaScript
+- Lexical Scoping
+- Different types of scopes in JavaScript ?
   - Global Scope
   - Functional scope
   - Block scope
 
-### Functions
+### Functions Basics
 
-- Type of functions
+- Type of functions ?
   - Function declaration
   - Function expression
   - Arrow function
   - Anonymous function
-- Difference between function declaration and function expression
-- Difference between function expression and arrow function
+- Difference between function declaration and function expression ?
+- Difference between function expression and arrow function ?
 - Function invoking/calling
 - Function calling from other function
 - Function as values
+- Function returning function
 - Parameters
 - Arguments
 - Arguments Object in functions
 - Default parameters
 - Passing arguments: value vs reference
+
+### Functions Advanced
+
 - First Class function/Citizen
 - High Order function
 - Callback function
 - setTimeOut
 - setInterval
-- Function returning function
 - The call and apply methods
 - The bind method
 - Immediately invoked function expression
@@ -260,7 +273,7 @@
 - DRY Principle
 - Generator function
 - Currying
-- eval()
+  eval()
 
 ## Debugging
 
@@ -289,26 +302,25 @@
 
 ### Number
 
+- 64-bit Floating Point Numbers
 - Converting numbers
-- NaN
-- Infinity
 - Number System
   - Binary
   - Octal
   - Decimal
   - HexaDecimal
 - Checking numbers
-- Hoisting in numbers
 - Math and Rounding
 - The Reminder operator
 - Numeric Separators
-- Working with BigInt
-- Exceptions in BigInt
+- BigInt
+  - Working with BigInt
+  - Exceptions in BigInt
 - Number class functions
   - toFixed
   - toString
   - valueOf
-  - Number()
+  - Number constructor
   - parseInt
   - parseFloat
   - isNaN
@@ -317,27 +329,28 @@
   - MIN_VALUE
   - POSITIVE_INFINITY
   - NEGATIVE_INFINITY
+  - NaN
+  - Infinity
+- Internationalization Numbers
 
 ### Date
 
-- Creating Dates and different ways of creating Date object
+- What is Date ?
+- Creating Dates using different ways of creating Date object
 - Understanding milliseconds and other units of time
-- Operations with Dates
 - Date setter methods
 - Date getter methods
 - Internationalization Dates
-- Internationalization Numbers
-- setTimeOut and setInterval
 
 ## JavaScript Data Structures
 
 ### Array
 
-- What is an Array
-- Need of Array
-- How to create an Array
-- Array Literal
-- Array Object
+- What is an Array ?
+- Need of an Array ?
+- How to create an Array ?
+  - Array Literal
+  - Array Object
 - Index in Array
 - Array length property
 - Array Declaration
@@ -369,9 +382,10 @@
 
 ### Object
 
-- What is an object
-- Object literal syntax
-- Object creation using new keyword
+- What is an object ?
+- Creating object
+  - Object literal syntax
+  - new keyword
 - Annotation
   - Dot
   - Bracket
@@ -388,13 +402,13 @@
 
 ### Set
 
-- What is a Set
+- What is a Set ?
 - Creating set
 - Elements order in Set
-- Functions
-  - size
-  - has
-  - delete function
+- Set Functions
+  - size()
+  - has()
+  - delete()
   - other functions
 - Index in set
 - Printing set values using for of loop
@@ -404,15 +418,15 @@
 
 ### Map
 
-- What is a Map
+- What is a Map ?
 - Creating new map
 - Adding value in map
 - Chaining in map
 - Functions
-  - get
-  - has
-  - size
-  - clear
+  - get()
+  - has()
+  - size()
+  - clear()
 - Array as key
 - Iteration of Map
 - Object to map
@@ -426,24 +440,22 @@
 
 - What is destructuring
 - Reverse values using destructuring
-- Return two values from function
+- Returning two values from function
 - Destructuring of nested array
-- Setting default values
+- Setting default values in Destructuring
 - Destructuring Objects
-- Extract value
-- Different property name
-- Default values
-- Nested Object
-- In Function
+- Extract value in Destructuring
+- Different property name in Destructuring
+- Nested Object Destructuring
+- Destructuring in function
 
 ### The Spread Operator
 
-- Assigning values
 - Copy Array
 - Join 2 Arrays
-- String tarray using spread
-- Passing arguments in function
-- Shallow copy
+- String to array using spread operator
+- Passing array in function and spread to parameters using spread
+- Shallow copy using spread operator
 
 ### The Rest Parameter
 
@@ -456,7 +468,7 @@
 
 - Use of ||
 - Replace with ternary operator
-- With non nullish values
+- Working of short circuiting with non nullish values
 - Use of &&
 - Calling function using &&
 - The Nullish Coalescing Operator ??
@@ -496,13 +508,13 @@
   - style.property
   - textContent
 - Forms
-- Forms validation
-- Properties
-  - Disabled
-  - Max
-  - Min
-  - Pattern
-  - Required
+  - Forms validation
+  - Properties
+    - Disabled
+    - Max
+    - Min
+    - Pattern
+    - Required
 - Type of Events
   - Onclick
   - Onchange
