@@ -481,7 +481,7 @@
 
 - Exactly same name
 - Function in object
-- Computer property name
+- Compute property name
 
 ### Optional Chaining
 
