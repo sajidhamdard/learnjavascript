@@ -21,7 +21,7 @@ return a + b;
 var ans = sum(10, 20);
 ```
 
-Parametar vah variables hota hain. jinhe hum function me brackish ka andr likte hain. parametar ka kuch bhi nam ho skta hain.ak function yadi kuch bhi return nhai kar raha hain.to undifine return hoga.oterwise jo value return ki hain voh value return hogi.
+Parametar vah variables hota hain. jinhe hum function me brackets ka andr likte hain. parametar ka kuch bhi nam ho skta hain.ak function yadi kuch bhi return nhai kar raha hain.to undifine return hoga.oterwise jo value return ki hain voh value return hogi.
 
 Argument or paremetar ki mapping left to right hoti hain.yadi kisi parametar ki value pass nahi kb hain. to us parametar ki value undifine hogi.function ki return value ko hum kisi variable ma store krva skte hain.
 
