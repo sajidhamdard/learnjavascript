@@ -24,6 +24,8 @@ function sumEvenNumbers(numbers) {
   }
   return sum;
 }
+let numbers = [5, 10, 15, 20, 25, 30]
+console.log(sumEvenNumbers(numbers));
 ```
 
 ### Question 3 : Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
