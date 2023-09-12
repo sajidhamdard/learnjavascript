@@ -415,3 +415,4 @@ Go to the project directory
 ## 🔗 Let's Connect
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajid-sj/)
+[![Easy Coding By Sajid](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/@EasyCodingBySajid)
