@@ -412,6 +412,24 @@ Go to the project directory
   cd learnjavascript
 ```
 
+## Contributors
+
+<a href="https://github.com/sajidhamdard/learnjavascript/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sajidhamdard/learnjavascript" />
+</a>
+
+## Forkers
+
+[![Forkers repo roster for @sajidhamdard/learnjavascript](https://reporoster.com/forks/sajidhamdard/learnjavascript)](https://github.com/sajidhamdard/learnjavascript/network/members)
+
+## Stargazers
+
+[![Stargazers repo roster for @sajidhamdard/learnjavascript](https://reporoster.com/stars/sajidhamdard/learnjavascript)](https://github.com/sajidhamdard/learnjavascript/stargazers)
+
+## License
+
+Released under [MIT](/LICENSE) by [@sajidhamdard](https://github.com/sajidhamdard).
+
 ## 🔗 Let's Connect
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajid-sj/)
