@@ -57,7 +57,7 @@
 ### Value, Variable and Data types
 
 - Value, Variable and Data Types
-- Difference between primitive and non-primitive data types ?
+- Difference between Primitive and Non-Primitive Data Types ?
 - Primitive Data types (In built data types)
   - Number
   - String
