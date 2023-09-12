@@ -57,7 +57,7 @@
 ### Value, Variable and Data types
 
 - Value, Variable and Data Types
-- Difference between primitive and non-primitive data types ?
+- Difference between Primitive and Non-Primitive Data Types ?
 - Primitive Data types (In built data types)
   - Number
   - String
@@ -67,6 +67,7 @@
   - BigInt
 - Non-primitive Data types
   - Object
+  - Array
   - function
 
 ### Truthy and Falsy Values
@@ -137,6 +138,7 @@
   - %	Modulus (Division Remainder)
   - ++	Increment
   - --	Decrement
+  
 - Assignment operator
   - =
   - +=
@@ -145,6 +147,7 @@
   - /=
   - %=
   - **=
+    
 - Comparison operator
   - ==	equal to
   - ===	equal value and equal type
@@ -155,10 +158,12 @@
   - \>=	greater than or equal to
   - <=	less than or equal to
   - ?  ternary operator
+    
 - Logical operators
   - &&	logical and
   - ||	logical or
   - !	logical not
+    
 - Operator precedence
   - [Operator Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) 
 - Truth table of &&, || and !
@@ -269,7 +274,7 @@
 - Immediately invoked function expression
 - Closures
 - Hoisting
-- Temporal Dead Zone
+- Temporal Dead Zone (TDZ) 
 - DRY Principle
 - Generator function
 - Currying
