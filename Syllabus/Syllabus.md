@@ -399,6 +399,10 @@
   - Keys
   - Values
   - Entries
+- For Of Loop In Object
+  - Object.keys()
+  - Object.values()
+  - Object.entries()
 
 ### Set
 
