@@ -602,8 +602,7 @@
   - this in arrow function
   - this in inside function inside object
 - Primitive vs Object
-  - Understanding of how primitive and non-primitives are stored in
-    memory
+  - Understanding of how primitive and non-primitives are stored in memory
   - Copying object
   - Copy first level properties
     - Shallow copy
@@ -662,12 +661,12 @@
   - Consuming Promises
   - Chaining Promises
   - Handling Rejected Promises
-- Asynchronous
+  - Asynchronous
   - The Event Loop
   - Create a Simple Promise
   - Consuming Promise using Async/Await
   - Error Handling
-   - Try catch
+  - Try catch
   - Returning values from Async functions
   - Running promises in Parallel
   - Promise Combinators
