@@ -57,7 +57,7 @@
 ### Value, Variable and Data types
 
 - Value, Variable and Data Types
-- Difference between primitive and non-primitive data types
+- Difference between primitive and non-primitive data types ?
 - Primitive Data types (In built data types)
   - Number
   - String
@@ -88,9 +88,9 @@
       - Boolean to String
       - Undefined to String
   - Boolean
-    - String to Boolean
-    - Number to Boolean
-    - Undefined to Boolean
+      - String to Boolean
+      - Number to Boolean
+      - Undefined to Boolean
 
 ### JavaScript Popup Boxes
 
@@ -100,7 +100,7 @@
 
 ### Identifiers
 
-- What is an identifier
+- What is an identifier ?
 - Rules for creating identifier
 - Reserved keywords
 
@@ -116,14 +116,14 @@
 - What is a statement in programming ?
 - How to write a single line of statement ?
 - How to write a multi-line statement or code-block ?
-- Use of Semi colon and whitespace in statement
+- Use of Semicolon and whitespace in statement.
 
 ### let, const and var
 
 - let
 - const
 - var
-- Difference between let, const and var
+- Difference between let, const and var?
 - When to use let, const and var ?
 
 ### JavaScript operators
@@ -682,6 +682,7 @@
 - Top-Level await
 - The Module Pattern
 - Bundling With Parcel and NPM Scripts
-- Configuring Babel and Polyfilling
+- Babel and Polyfilling
 - Transpiling
+- Polyfilling
 - Transpiling vs Polyfilling
