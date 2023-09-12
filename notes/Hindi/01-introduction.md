@@ -13,7 +13,7 @@ High level programming language vah programming language hoti hai jise is trah s
 
 ### What is machine level language or Low level languages?
 
-Machine language jise ki machine code ya assembly language b jana jata hai, set of instructors hote hain jinhe CPU direct execute kr skta hai. Ye instructions 0 or 1 ki form me hote hain. Machine level language ki computer ki native language b kha jata hai. Low level language ka ek type hai assembly language jisme ki code likha ja skta hai. Assembly language me assembler hota hai jo ki assembly language ke code ko machine language ke code me convert krta hai.
+Machine language jise ki machine code ya assembly language bhi jana jata hai, set of instructors hote hain jinhe CPU direct execute kr skta hai. Ye instructions 0 or 1 ki form me hote hain. Machine level language ki computer ki native language b kha jata hai. Low level language ka ek type hai assembly language jisme ki code likha ja skta hai. Assembly language me assembler hota hai jo ki assembly language ke code ko machine language ke code me convert krta hai.
 
 ### What is front-end ?
 
