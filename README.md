@@ -332,7 +332,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 <summary>Click here</summary>
   
   - [_Exercise-01_](./Exercise-And-Solutions/solutions/01-basic-knowledge-solution.md)
-  - [_Exercise-02_](./Exercise-And-Solutions/solutions/02-basic-knowledge-solution.md.md)
+  - [_Exercise-02_](./Exercise-And-Solutions/solutions/02-basic-knowledge-solution.md)
   - [_Exercise-03_](./Exercise-And-Solutions/exercises/03-basic-knowledge-exercise.md)
   - [_Exercise-04_](./Exercise-And-Solutions/exercises/04-basic-knowledge-exercise.md)
   - [_Exercise-05_](./Exercise-And-Solutions/exercises/05-basic-knowledge-exercise.md)
