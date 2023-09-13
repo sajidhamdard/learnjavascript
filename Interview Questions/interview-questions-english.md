@@ -1,38 +1,38 @@
 # JavaScript Interview Questions
 
-### What is programming language?
+### 1. What is programming language?
 
 A programming language is a formal language used to communicate instructions to a computer or other machine, such as creating software applications, automating tasks, or controlling electronic devices. It consists of a set of rules, symbols, and syntax that allow programmers to write code in a specific format that can be executed by a computer. Common examples of programming languages include Java, Python, C++, and JavaScript.
 
-### What is front-end?
+### 2. What is front-end?
 
 Front-end refers to the part of a software or website that is visible to and interacted with by users. It involves the use of programming languages such as HTML, CSS, and JavaScript to create the user interface and enable user interaction.
 
-### What is back-end?
+### 3. What is back-end?
 
 Back-end refers to the part of a website or software application that is responsible for data storage, processing, and management. It typically includes the server, database, and application logic that work together to support the front-end user interface and functionality.
 
-### What is HTML?
+### 4. What is HTML?
 
 HTML (Hypertext Markup Language) is a standard markup language used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
 
-### What is CSS?
+### 5. What is CSS?
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and layout of HTML documents, including fonts, colors, spacing, and other visual elements.
 
-### What is JavaScript?
+### 6. What is JavaScript?
 
 JavaScript is a programming language used primarily for creating interactive web pages and web applications. It is often referred to as the "language of the web" because it can be executed in a web browser without the need for additional software or plugins. JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
-### Difference between java and JavaScript?
+### 7. Difference between java and JavaScript?
 
 Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
 
-### Is JavaScript a case-sensitive language?
+### 8. Is JavaScript a case-sensitive language?
 
 Yes, JavaScript is a case-sensitive language, meaning that uppercase and lowercase letters are considered different characters and can affect the behavior of code. For example, "myVariable" and "myvariable" would be treated as two separate variables in JavaScript.
 
-### Tell us about role of HTML, CSS, and JavaScript?
+### 9. Tell us about role of HTML, CSS, and JavaScript?
 
 HTML, CSS, and JavaScript are three essential technologies used to create websites and web applications.
 
@@ -44,7 +44,7 @@ JavaScript is a programming language used to add interactivity and behavior to w
 
 Together, HTML, CSS, and JavaScript form the backbone of the modern web, enabling millions of websites and web applications to exist and function in a consistent, accessible, and interactive manner.
 
-### Tell us about the history of JavaScript?
+### 10. Tell us about the history of JavaScript?
 
 JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. Originally named Mocha, then changed to LiveScript, and finally to JavaScript for marketing reasons, it was designed to add interactivity to static HTML pages.
 
@@ -52,11 +52,11 @@ JavaScript quickly gained popularity due to its ability to manipulate the Docume
 
 Today, JavaScript is used not only for client-side web development but also for server-side development with technologies such as Node.js. It has become one of the most widely used programming languages in the world, powering everything from small scripts to large-scale applications across a wide range of industries.
 
-### What is ECMAScript and how is it related to JavaScript?
+### 11. What is ECMAScript and how is it related to JavaScript?
 
 ECMAScript is a scripting language specification standardized by Ecma International. JavaScript is a programming language that implements the ECMAScript specification. In other words, JavaScript is an implementation of ECMAScript.
 
-### What are the different versions of JavaScript?
+### 12. What are the different versions of JavaScript?
 
 The official name of JavaScript is ECMAScript, and there have been several versions released over the years. The major versions are:
 
@@ -73,11 +73,11 @@ The official name of JavaScript is ECMAScript, and there have been several versi
 - ECMAScript 11 (2020), also known as ES2020
 - ECMAScript 12 (2021), also known as ES2021
 
-### What is Es5 and Es6?
+### 13. What is Es5 and Es6?
 
 ES5 (ECMAScript 5) and ES6 (ECMAScript 2015) are versions of the ECMAScript programming language. ES5 was released in 2009 and is widely supported by all major browsers, while ES6 introduced new features and syntax to the language in 2015, such as arrow functions, classes, and template literals. While not all browsers support all features of ES6, it has become the de facto standard for JavaScript development.
 
-### What are the different places where we can write JavaScript code?
+### 14. What are the different places where we can write JavaScript code?
 
 JavaScript code can be written in various places, including:
 
@@ -90,11 +90,11 @@ JavaScript code can be written in various places, including:
 7. IoT devices - using platforms like Raspberry Pi, Arduino, and Tessel.
 8. Cloud Functions - services offered by cloud providers like AWS Lambda, Google Cloud Functions, and Microsoft Azure Functions.
 
-### Difference between client side and server side JavaScript?
+### 15. Difference between client side and server side JavaScript?
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
 
-### Explain all the JavaScript features in detail?
+### 16.Explain all the JavaScript features in detail?
 
 JavaScript is a powerful programming language that is primarily used for creating interactive web applications. It has evolved over the years, and many new features have been added to it with each new version. Here are some of the key features of JavaScript:
 
@@ -120,23 +120,23 @@ JavaScript is a powerful programming language that is primarily used for creatin
 
 These are just some of the key features of JavaScript. There are many more, including classes, generators, and iterators, that make it a popular and powerful language for building modern web applications.
 
-### Is javascript a statically typed or a dynamically type language?
+### 17.Is javascript a statically typed or a dynamically type language?
 
 JavaScript is a dynamically typed language.
 
-### What is Single Threaded?
+### 18.What is Single Threaded?
 
 Single threaded refers to a programming model or environment in which only one set of instructions can be executed at a time. This means that the program can only execute one task or operation at a time, and must complete it before moving on to the next one. Single-threaded programs are generally simpler and easier to reason about than multi-threaded programs, but they may not take full advantage of modern hardware with multiple cores and processors.
 
-### What is Non-Blocking Event Loop?
+### 19.What is Non-Blocking Event Loop?
 
 A non-blocking event loop is a programming pattern used in software applications to handle multiple requests and events simultaneously without blocking the application's main thread. It works by continuously checking for new events and executing their associated callbacks in a loop, allowing the application to remain responsive to other events and requests while processing each event in an asynchronous manner. This approach is commonly used in web servers, network programming, and graphical user interfaces (GUIs).
 
-### What is value and variable?
+### 20.What is value and variable?
 
 A value is a specific piece of data, such as a number or text string. A variable is a named storage location in a program that can hold a value, which can be changed during the execution of the program. In other words, a variable is used to represent a value that may vary throughout the program.
 
-### What are rules of defining a variable?
+### 21. What are rules of defining a variable?
 
 The rules for defining a variable depend on the programming language being used, but in general, some common rules include:
 
@@ -148,11 +148,11 @@ The rules for defining a variable depend on the programming language being used,
 
 It's important to follow the correct syntax and rules when defining variables as it can affect the functionality of the program.
 
-### What is data type?
+### 22. What is data type?
 
 In computer programming, a data type is an attribute of a variable or value that determines the type of data it can hold, such as integers, floating-point numbers, characters, and booleans. Data types help ensure that operations are performed correctly on variables and values, and they allow the compiler or interpreter to allocate the appropriate amount of memory for a particular data object.
 
-### What are the different types of data types in javascript?
+### 23. What are the different types of data types in javascript?
 
 There are seven primitive data types in JavaScript:
 
@@ -166,29 +166,29 @@ There are seven primitive data types in JavaScript:
 
 And one non-primitive data type: 8. Object
 
-### What is Symbol ?
+### 24. What is Symbol ?
 
 In JavaScript, a symbol is a primitive data type that is used to create unique values. It is often used as an identifier for object properties to avoid naming conflicts. Symbols are created using the `Symbol()` function and can be used as keys in object literals or added as properties to objects.
 
-### What is BigInt ?
+### 25. What is BigInt ?
 
 BigInt is a built-in data type in JavaScript that allows the representation of integers larger than 2^53 - 1, which is the maximum safe integer value in JavaScript. BigInt values are represented by appending the letter "n" to the end of an integer literal or by calling the BigInt() constructor function.
 
-### What is the difference between primitive and non-primitive data types ?
+### 26. What is the difference between primitive and non-primitive data types ?
 
 Primitive data types are simple, immutable data types in JavaScript that are passed by value. They include numbers, strings, booleans, null, and undefined.
 
 Non-primitive data types, such as objects and arrays, are more complex and can contain multiple values or key-value pairs. These are passed by reference, meaning that when they are assigned to a variable or passed as an argument, a reference to the original object is passed, rather than a copy of its contents.
 
-### Why is the typeof NaN ?
+### 27. Why is the typeof NaN ?
 
 The `typeof NaN` in JavaScript is `'number'`. This is because `NaN` (which stands for "Not a Number") is a special value in JavaScript that represents an invalid number result. While it has the type of `number`, it is not actually a real number and cannot be used in mathematical operations.
 
-### What is the typeof null ?
+### 28. What is the typeof null ?
 
 The `typeof` operator in JavaScript returns `"object"` when applied to the value `null`. However, `null` is not actually an object, but rather a primitive value representing the intentional absence of any object value.
 
-### What is comment and how to add a single line or multi line comment ?
+### 29. What is comment and how to add a single line or multi line comment ?
 
 A comment in JavaScript is a piece of text that is ignored by the browser or interpreter and is used to add notes, explanations or reminders for the developers.
 
@@ -208,15 +208,15 @@ comment
 */
 ```
 
-### What is Infinity ?
+### 30. What is Infinity ?
 
 In JavaScript, Infinity is a global property that represents the mathematical concept of infinity, which is an infinitely large number. It is used to represent values that are too large or too small to be represented by the Number data type. Positive Infinity is represented by the keyword "Infinity", while Negative Infinity is represented by the keyword "-Infinity".
 
-### What is the significance of use strict?
+### 31. What is the significance of use strict?
 
 "use strict" is a directive that enables strict mode in JavaScript. It enforces stricter parsing and error handling, which can help to catch coding mistakes and make the code more secure. Strict mode also eliminates some JavaScript silent errors by changing them to throw errors instead, making debugging easier.
 
-### How JavaScript behave in non-strict mode?
+### 32. How JavaScript behave in non-strict mode?
 
 In non-strict mode, JavaScript allows more flexible syntax and behaviors. Some of the key characteristics include:
 
@@ -232,15 +232,15 @@ In non-strict mode, JavaScript allows more flexible syntax and behaviors. Some o
 
 Overall, non-strict mode is less restrictive, but also more prone to unexpected behavior and errors. It's generally recommended to use strict mode for more predictable and robust code.
 
-### What is a statement in programming?
+### 33. What is a statement in programming?
 
 In programming, a statement is a single instruction or action that is executed by the computer. It can be a simple assignment of a value to a variable, a conditional expression, a loop, or a function call. Statements are typically written in a specific syntax or programming language and are used to create programs that perform specific tasks or operations.
 
-### How to write a single line of statement?
+### 34. How to write a single line of statement?
 
 To write a single line of statement, simply express your idea or message in a clear and concise manner using as few words as possible while retaining its meaning. Avoid using overly complex language or unnecessary details that may confuse the reader.
 
-### How to write a multi-line statement?
+### 35. How to write a multi-line statement?
 
 In most programming languages, a multi-line statement can be achieved by using a backslash "\" at the end of each line to indicate that the current line continues on the next line. Alternatively, some languages may allow the use of parentheses or brackets to enclose the statement and break it into multiple lines.
 
@@ -256,11 +256,11 @@ This statement computes the sum of three numbers (1, 2, and 3), and uses the bac
 
 Note that in some cases, such as when defining functions or loops, you may not need to use a backslash to write multi-line statements, depending on the syntax of the language you're using.
 
-### What is a code block?
+### 36. What is a code block?
 
 A code block is a section of code in a computer program that is grouped together and treated as a single unit. It is typically surrounded by curly braces { } and contains one or more statements that are executed sequentially when the block is executed. Code blocks are commonly used to control the flow of execution in a program, define functions and methods, and create conditional statements and loops.
 
-### What is let, const and var ?
+### 37. What is let, const and var ?
 
 In JavaScript, `let`, `const`, and `var` are used to declare variables.
 
@@ -290,7 +290,7 @@ console.log(y); // Output: 2
 console.log(z); // Output: 3
 ```
 
-### Difference between let, const and var ?
+### 38. Difference between let, const and var ?
 
 In JavaScript, `let`, `const`, and `var` are used to declare variables, but they differ in terms of their scope, mutability, and hoisting behavior:
 
@@ -302,23 +302,23 @@ In JavaScript, `let`, `const`, and `var` are used to declare variables, but they
 
 Overall, it's recommended to use `const` whenever possible to avoid accidental reassignment and to use `let` when you need to declare a mutable variable with block-level scope. Use `var` only when you specifically need its hoisting behavior or function-level scope.
 
-### When to use let, const and var ?
+### 39. When to use let, const and var ?
 
 Use `let` to declare variables that are intended to be reassigned later on in your code. Use `const` to declare read-only variables whose value should not be changed after initialization. Use `var` to declare variables in the global scope or function scope, but avoid using it in favor of `let` and `const` as it has some quirks and can lead to unexpected behavior.
 
-### What is ++, -- operators ?
+### 40. What is ++, -- operators ?
 
 In JavaScript, the "++" and "--" operators are used to increment or decrement a variable by 1. The "++" operator adds 1 to the value of a variable, while the "--" operator subtracts 1 from the value of a variable. These operators can be used before (prefix) or after (postfix) the variable name, and they have different effects on the expression in which they are used.
 
-### What is typeof operator ?
+### 41. What is typeof operator ?
 
 The `typeof` operator in JavaScript is used to determine the data type of a value or variable. It returns a string indicating the type of the operand, such as `"number"`, `"string"`, `"boolean"`, `"undefined"`, `"object"`, `"function"`, and `"symbol"`.
 
-### What is reminder operator ?
+### 42. What is reminder operator ?
 
 The remainder operator in JavaScript is represented by the "%" symbol and returns the remainder of a division operation between two numbers. For example, 9 % 4 would return 1 because 4 goes into 9 twice with a remainder of 1.
 
-### Explain logical &&, || and ! operators
+### 43. Explain logical &&, || and ! operators
 
 The logical && operator in JavaScript returns true if both operands are true, and false otherwise. For example, `true && true` evaluates to `true`, but `true && false` and `false && true` both evaluate to `false`.
 
@@ -326,7 +326,7 @@ The logical || operator returns true if at least one operand is true, and false 
 
 The logical ! operator inverts the truth value of its operand. For example, `!true` evaluates to `false`, and `!false` evaluates to `true`.
 
-### What are the different ways of writing output ?
+### 44. What are the different ways of writing output ?
 
 There are several ways of writing output in JavaScript:
 
@@ -336,11 +336,11 @@ There are several ways of writing output in JavaScript:
 4. Using window.alert() method to display a message box with a message.
 5. Using the prompt() method to create a dialog box that prompts the user for input and displays the input value.
 
-### What is a string ?
+### 45. What is a string ?
 
 In JavaScript, a string is a sequence of characters enclosed in quotation marks (either single or double). It can include letters, numbers, symbols, and spaces. Strings are used to represent text data in JavaScript programs and can be manipulated using various string methods.
 
-### How to create a String ?
+### 46. How to create a String ?
 
 In JavaScript, you can create a String by enclosing a sequence of characters within single quotes ('') or double quotes ("") like this:
 
@@ -357,7 +357,7 @@ let age = 30;
 let info = `My name is ${name} and I'm ${age} years old.`; // using template literals
 ```
 
-### Difference between string Literal vs string object ?
+### 47. Difference between string Literal vs string object ?
 
 A string literal is a sequence of characters enclosed in quotes, either single quotes ('') or double quotes (""). It represents a fixed value and cannot be changed. For example:
 
@@ -374,11 +374,11 @@ greeting = greeting.toUpperCase();
 
 In general, it is recommended to use string literals instead of string objects as they are more efficient and easier to work with.
 
-### What is string length property ?
+### 48. What is string length property ?
 
 In JavaScript, the length property of a string returns the number of characters in the string. For example, if you have a string "Hello World", its length property would be 11 (including the space between "Hello" and "World"). The length property is a read-only property, meaning you cannot change the length of the string by setting its value.
 
-### How to convert string to array ?
+### 49. How to convert string to array ?
 
 You can convert a string to an array in JavaScript by using the `split` method. The `split` method splits a string into an array of substrings based on a specified separator, and returns the new array.
 
@@ -392,15 +392,15 @@ console.log(arr); // ["Hello,", "World!"]
 
 In this example, the `split` method splits the string into two elements: `"Hello,"` and `"World!"`. The separator used is a space character, which is specified as an argument to the `split` method. The resulting array is then stored in the `arr` variable and printed to the console.
 
-### What is String Template Literal ?
+### 50. What is String Template Literal ?
 
 String Template Literal in JavaScript is a way to define strings using backticks (`) instead of single or double quotes. It allows for string interpolation by embedding expressions inside ${ } within the template string, making it easier to concatenate variables and values into a string.
 
-### Difference between String Literal and String template literal ?
+### 51. Difference between String Literal and String template literal ?
 
 In JavaScript, a string literal is a sequence of characters enclosed in single or double quotes, while a string template literal is enclosed in backticks (` `) and allows for the interpolation of variables and expressions using ${ } syntax. String template literals make it easier to create complex strings that include dynamic content, whereas string literals are better suited for simple static strings.
 
-### Difference between slice, substring and substr functions ?
+### 52. Difference between slice, substring and substr functions ?
 
 In JavaScript:
 
@@ -412,7 +412,7 @@ In JavaScript:
 
 In summary, `slice()` can be used on both arrays and strings, while `substring()` and `substr()` are only used for strings. They also have slightly different rules for handling negative index values and undefined or empty parameters.
 
-### What is the difference between exec and test function ?
+### 53. What is the difference between exec and test function ?
 
 In JavaScript, `exec()` and `test()` are both methods of regular expressions.
 
@@ -438,7 +438,7 @@ console.log(regex.exec("hi there")); // Output: null
 
 In summary, `test()` is used to check if a pattern exists in a string, while `exec()` searches for the first occurrence of a pattern in a string and returns an array containing the matched substring.
 
-### What is the difference between padStart and padEnd functions ?
+### 54. What is the difference between padStart and padEnd functions ?
 
 Both padStart and padEnd are string methods that add padding characters to the beginning or end of a string, respectively.
 
@@ -455,7 +455,7 @@ str.padEnd(10, "-");
 // Output: "hello-----"
 ```
 
-### What is the difference between indexOf and includes ?
+### 55. What is the difference between indexOf and includes ?
 
 Both `indexOf()` and `includes()` are methods that can be used to check if a specified value is present in a given array or string in JavaScript.
 
@@ -465,25 +465,25 @@ On the other hand, `includes()` returns a boolean value indicating whether the s
 
 So while both methods can be used to check for the presence of a value, `indexOf()` provides more specific information about the location of the value within the array/string.
 
-### What is the difference between indexOf and lastIndexOf function ?
+### 56. What is the difference between indexOf and lastIndexOf function ?
 
 The `indexOf()` function in JavaScript returns the index of the first occurrence of a specified value in a string or an array, while the `lastIndexOf()` function returns the index of the last occurrence of a specified value in a string or an array.
 
 In other words, `indexOf()` starts searching from the beginning of the string or array and returns the first index where the specified value is found, whereas `lastIndexOf()` starts searching from the end of the string or array and returns the last index where the specified value is found.
 
-### What is the difference between search and match functions ?
+### 57. What is the difference between search and match functions ?
 
 The search() function searches a string for a specified pattern and returns the index of the first match, while the match() function searches a string for a specified pattern and returns an array of all matches. The search() function returns -1 if no match is found, while the match() function returns null if no match is found.
 
-### What is Implicit type conversion ?
+### 58. What is Implicit type conversion ?
 
 Implicit type conversion, also known as type coercion, is the automatic conversion of a data type to another data type by JavaScript during an operation. This occurs when an operator is applied to operands of different data types, and JavaScript automatically converts one or both operands to a common data type before performing the operation. For example, when using the "+" operator with a string and a number, JavaScript will convert the number to a string and concatenate the two strings together.
 
-### What is Explicit type conversion ?
+### 59. What is Explicit type conversion ?
 
 Explicit type conversion in JavaScript, also known as type casting or type coercion, is the process of converting a value from one data type to another using built-in functions or operators. This can be done using functions like parseInt(), parseFloat(), Number(), String() or by using operators like +, -, \*, /, or Boolean(). Explicit type conversion is necessary when you need to perform operations on values of different data types.
 
-### What is Coercion ?
+### 60. What is Coercion ?
 
 Coercion in JavaScript refers to the automatic type conversion that occurs when performing operations involving values of different data types. For example, when a string is added to a number, JavaScript will attempt to convert the string to a number before performing the addition operation. Coercion can be either implicit or explicit, and it can result in unexpected behavior if not understood properly.
 
