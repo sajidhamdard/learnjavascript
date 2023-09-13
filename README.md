@@ -17,7 +17,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_JavaScript Notes in English_](./notes/English)
 
 <details>
-<summary>Click here</summary>
+<summary>Click for details</summary>
 
 - [_Chapter 01- Introduction & History_](./notes/English/01-introduction-and-history.md)
 
@@ -237,7 +237,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_JavaScript Notes In Hindi_](./notes/Hindi/)
 
 <details>
-<summary>Click here</summary>
+<summary>Click for details</summary>
   
   - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
   - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
@@ -329,7 +329,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 ### Exercises
 
 <details>
-<summary>Click here</summary>
+<summary>Click for details</summary>
   
   - [_Exercise-01_](./Exercises-And-Solutions/exercises/01-basic-knowledge-exercise.md)
   - [_Exercise-02_](./Exercises-And-Solutions/exercises/02-basic-knowledge-exercise.md)
@@ -360,7 +360,7 @@ This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
 ### Solutions
 
 <details>
-<summary>Click here</summary>
+<summary>Click for details</summary>
   
   - [_Solution-01_](./Exercises-And-Solutions/solutions/01-basic-knowledge-solution.md)
   - [_Solution-02_](./Exercises-And-Solutions/solutions/02-basic-knowledge-solution.md)
