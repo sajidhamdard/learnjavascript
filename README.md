@@ -1,4 +1,4 @@
-# Complete JavaScript Study Material
+# The Ultimate JavaScript Learning Repository
 
 ## “मानव सेवा ही सच्चा धर्म है”
 
