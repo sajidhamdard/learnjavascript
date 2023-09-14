@@ -1,38 +1,38 @@
 # JavaScript Interview Questions And Answers
 
-### 1. What is programming language?
+### Question 1. What is programming language?
 
 A programming language is a formal language used to communicate instructions to a computer or other machine, such as creating software applications, automating tasks, or controlling electronic devices. It consists of a set of rules, symbols, and syntax that allow programmers to write code in a specific format that can be executed by a computer. Common examples of programming languages include Java, Python, C++, and JavaScript.
 
-### 2. What is front-end?
+### Question 2. What is front-end?
 
 Front-end refers to the part of a software or website that is visible to and interacted with by users. It involves the use of programming languages such as HTML, CSS, and JavaScript to create the user interface and enable user interaction.
 
-### 3. What is back-end?
+### Question 3. What is back-end?
 
 Back-end refers to the part of a website or software application that is responsible for data storage, processing, and management. It typically includes the server, database, and application logic that work together to support the front-end user interface and functionality.
 
-### 4. What is HTML?
+### Question 4. What is HTML?
 
 HTML (Hypertext Markup Language) is a standard markup language used to create web pages and applications for displaying content on the internet. It consists of a set of tags that define the structure, content, and layout of a web page.
 
-### 5. What is CSS?
+### Question 5. What is CSS?
 
 CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation and layout of HTML documents, including fonts, colors, spacing, and other visual elements.
 
-### 6. What is JavaScript?
+### Question 6. What is JavaScript?
 
 JavaScript is a programming language used primarily for creating interactive web pages and web applications. It is often referred to as the "language of the web" because it can be executed in a web browser without the need for additional software or plugins. JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
-### 7. Difference between java and JavaScript?
+### Question 7. Difference between java and JavaScript?
 
 Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
 
-### 8. Is JavaScript a case-sensitive language?
+### Question 8. Is JavaScript a case-sensitive language?
 
 Yes, JavaScript is a case-sensitive language, meaning that uppercase and lowercase letters are considered different characters and can affect the behavior of code. For example, "myVariable" and "myvariable" would be treated as two separate variables in JavaScript.
 
-### 9. Tell us about role of HTML, CSS, and JavaScript?
+### Question 9. Tell us about role of HTML, CSS, and JavaScript?
 
 HTML, CSS, and JavaScript are three essential technologies used to create websites and web applications.
 
@@ -44,7 +44,7 @@ JavaScript is a programming language used to add interactivity and behavior to w
 
 Together, HTML, CSS, and JavaScript form the backbone of the modern web, enabling millions of websites and web applications to exist and function in a consistent, accessible, and interactive manner.
 
-### 10. Tell us about the history of JavaScript?
+### Question 10. Tell us about the history of JavaScript?
 
 JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. Originally named Mocha, then changed to LiveScript, and finally to JavaScript for marketing reasons, it was designed to add interactivity to static HTML pages.
 
@@ -52,11 +52,11 @@ JavaScript quickly gained popularity due to its ability to manipulate the Docume
 
 Today, JavaScript is used not only for client-side web development but also for server-side development with technologies such as Node.js. It has become one of the most widely used programming languages in the world, powering everything from small scripts to large-scale applications across a wide range of industries.
 
-### 11. What is ECMAScript and how is it related to JavaScript?
+### Question 11. What is ECMAScript and how is it related to JavaScript?
 
 ECMAScript is a scripting language specification standardized by Ecma International. JavaScript is a programming language that implements the ECMAScript specification. In other words, JavaScript is an implementation of ECMAScript.
 
-### 12. What are the different versions of JavaScript?
+### Question 12. What are the different versions of JavaScript?
 
 The official name of JavaScript is ECMAScript, and there have been several versions released over the years. The major versions are:
 
@@ -73,11 +73,11 @@ The official name of JavaScript is ECMAScript, and there have been several versi
 - ECMAScript 11 (2020), also known as ES2020
 - ECMAScript 12 (2021), also known as ES2021
 
-### 13. What is Es5 and Es6?
+### Question 13. What is Es5 and Es6?
 
 ES5 (ECMAScript 5) and ES6 (ECMAScript 2015) are versions of the ECMAScript programming language. ES5 was released in 2009 and is widely supported by all major browsers, while ES6 introduced new features and syntax to the language in 2015, such as arrow functions, classes, and template literals. While not all browsers support all features of ES6, it has become the de facto standard for JavaScript development.
 
-### 14. What are the different places where we can write JavaScript code?
+### Question 14. What are the different places where we can write JavaScript code?
 
 JavaScript code can be written in various places, including:
 
@@ -90,11 +90,11 @@ JavaScript code can be written in various places, including:
 7. IoT devices - using platforms like Raspberry Pi, Arduino, and Tessel.
 8. Cloud Functions - services offered by cloud providers like AWS Lambda, Google Cloud Functions, and Microsoft Azure Functions.
 
-### 15. Difference between client side and server side JavaScript?
+### Question 15. Difference between client side and server side JavaScript?
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
 
-### 16.Explain all the JavaScript features in detail?
+### Question 16.Explain all the JavaScript features in detail?
 
 JavaScript is a powerful programming language that is primarily used for creating interactive web applications. It has evolved over the years, and many new features have been added to it with each new version. Here are some of the key features of JavaScript:
 
@@ -120,23 +120,23 @@ JavaScript is a powerful programming language that is primarily used for creatin
 
 These are just some of the key features of JavaScript. There are many more, including classes, generators, and iterators, that make it a popular and powerful language for building modern web applications.
 
-### 17.Is javascript a statically typed or a dynamically type language?
+### Question 17.Is javascript a statically typed or a dynamically type language?
 
 JavaScript is a dynamically typed language.
 
-### 18.What is Single Threaded?
+### Question 18.What is Single Threaded?
 
 Single threaded refers to a programming model or environment in which only one set of instructions can be executed at a time. This means that the program can only execute one task or operation at a time, and must complete it before moving on to the next one. Single-threaded programs are generally simpler and easier to reason about than multi-threaded programs, but they may not take full advantage of modern hardware with multiple cores and processors.
 
-### 19.What is Non-Blocking Event Loop?
+### Question 19.What is Non-Blocking Event Loop?
 
 A non-blocking event loop is a programming pattern used in software applications to handle multiple requests and events simultaneously without blocking the application's main thread. It works by continuously checking for new events and executing their associated callbacks in a loop, allowing the application to remain responsive to other events and requests while processing each event in an asynchronous manner. This approach is commonly used in web servers, network programming, and graphical user interfaces (GUIs).
 
-### 20.What is value and variable?
+### Question 20.What is value and variable?
 
 A value is a specific piece of data, such as a number or text string. A variable is a named storage location in a program that can hold a value, which can be changed during the execution of the program. In other words, a variable is used to represent a value that may vary throughout the program.
 
-### 21. What are rules of defining a variable?
+### Question 21. What are rules of defining a variable?
 
 The rules for defining a variable depend on the programming language being used, but in general, some common rules include:
 
@@ -148,11 +148,11 @@ The rules for defining a variable depend on the programming language being used,
 
 It's important to follow the correct syntax and rules when defining variables as it can affect the functionality of the program.
 
-### 22. What is data type?
+### Question 22. What is data type?
 
 In computer programming, a data type is an attribute of a variable or value that determines the type of data it can hold, such as integers, floating-point numbers, characters, and booleans. Data types help ensure that operations are performed correctly on variables and values, and they allow the compiler or interpreter to allocate the appropriate amount of memory for a particular data object.
 
-### 23. What are the different types of data types in javascript?
+### Question 23. What are the different types of data types in javascript?
 
 There are seven primitive data types in JavaScript:
 
@@ -166,29 +166,29 @@ There are seven primitive data types in JavaScript:
 
 And one non-primitive data type: 8. Object
 
-### 24. What is Symbol ?
+### Question 24. What is Symbol ?
 
 In JavaScript, a symbol is a primitive data type that is used to create unique values. It is often used as an identifier for object properties to avoid naming conflicts. Symbols are created using the `Symbol()` function and can be used as keys in object literals or added as properties to objects.
 
-### 25. What is BigInt ?
+### Question 25. What is BigInt ?
 
 BigInt is a built-in data type in JavaScript that allows the representation of integers larger than 2^53 - 1, which is the maximum safe integer value in JavaScript. BigInt values are represented by appending the letter "n" to the end of an integer literal or by calling the BigInt() constructor function.
 
-### 26. What is the difference between primitive and non-primitive data types ?
+### Question 26. What is the difference between primitive and non-primitive data types ?
 
 Primitive data types are simple, immutable data types in JavaScript that are passed by value. They include numbers, strings, booleans, null, and undefined.
 
 Non-primitive data types, such as objects and arrays, are more complex and can contain multiple values or key-value pairs. These are passed by reference, meaning that when they are assigned to a variable or passed as an argument, a reference to the original object is passed, rather than a copy of its contents.
 
-### 27. Why is the typeof NaN ?
+### Question 27. Why is the typeof NaN ?
 
 The `typeof NaN` in JavaScript is `'number'`. This is because `NaN` (which stands for "Not a Number") is a special value in JavaScript that represents an invalid number result. While it has the type of `number`, it is not actually a real number and cannot be used in mathematical operations.
 
-### 28. What is the typeof null ?
+### Question 28. What is the typeof null ?
 
 The `typeof` operator in JavaScript returns `"object"` when applied to the value `null`. However, `null` is not actually an object, but rather a primitive value representing the intentional absence of any object value.
 
-### 29. What is comment and how to add a single line or multi line comment ?
+### Question 29. What is comment and how to add a single line or multi line comment ?
 
 A comment in JavaScript is a piece of text that is ignored by the browser or interpreter and is used to add notes, explanations or reminders for the developers.
 
@@ -208,15 +208,15 @@ comment
 */
 ```
 
-### 30. What is Infinity ?
+### Question 30. What is Infinity ?
 
 In JavaScript, Infinity is a global property that represents the mathematical concept of infinity, which is an infinitely large number. It is used to represent values that are too large or too small to be represented by the Number data type. Positive Infinity is represented by the keyword "Infinity", while Negative Infinity is represented by the keyword "-Infinity".
 
-### 31. What is the significance of use strict?
+### Question 31. What is the significance of use strict?
 
 "use strict" is a directive that enables strict mode in JavaScript. It enforces stricter parsing and error handling, which can help to catch coding mistakes and make the code more secure. Strict mode also eliminates some JavaScript silent errors by changing them to throw errors instead, making debugging easier.
 
-### 32. How JavaScript behave in non-strict mode?
+### Question 32. How JavaScript behave in non-strict mode?
 
 In non-strict mode, JavaScript allows more flexible syntax and behaviors. Some of the key characteristics include:
 
@@ -232,15 +232,15 @@ In non-strict mode, JavaScript allows more flexible syntax and behaviors. Some o
 
 Overall, non-strict mode is less restrictive, but also more prone to unexpected behavior and errors. It's generally recommended to use strict mode for more predictable and robust code.
 
-### 33. What is a statement in programming?
+### Question 33. What is a statement in programming?
 
 In programming, a statement is a single instruction or action that is executed by the computer. It can be a simple assignment of a value to a variable, a conditional expression, a loop, or a function call. Statements are typically written in a specific syntax or programming language and are used to create programs that perform specific tasks or operations.
 
-### 34. How to write a single line of statement?
+### Question 34. How to write a single line of statement?
 
 To write a single line of statement, simply express your idea or message in a clear and concise manner using as few words as possible while retaining its meaning. Avoid using overly complex language or unnecessary details that may confuse the reader.
 
-### 35. How to write a multi-line statement?
+### Question 35. How to write a multi-line statement?
 
 In most programming languages, a multi-line statement can be achieved by using a backslash "\" at the end of each line to indicate that the current line continues on the next line. Alternatively, some languages may allow the use of parentheses or brackets to enclose the statement and break it into multiple lines.
 
@@ -256,11 +256,11 @@ This statement computes the sum of three numbers (1, 2, and 3), and uses the bac
 
 Note that in some cases, such as when defining functions or loops, you may not need to use a backslash to write multi-line statements, depending on the syntax of the language you're using.
 
-### 36. What is a code block?
+### Question 36. What is a code block?
 
 A code block is a section of code in a computer program that is grouped together and treated as a single unit. It is typically surrounded by curly braces { } and contains one or more statements that are executed sequentially when the block is executed. Code blocks are commonly used to control the flow of execution in a program, define functions and methods, and create conditional statements and loops.
 
-### 37. What is let, const and var ?
+### Question 37. What is let, const and var ?
 
 In JavaScript, `let`, `const`, and `var` are used to declare variables.
 
@@ -290,7 +290,7 @@ console.log(y); // Output: 2
 console.log(z); // Output: 3
 ```
 
-### 38. Difference between let, const and var ?
+### Question 38. Difference between let, const and var ?
 
 In JavaScript, `let`, `const`, and `var` are used to declare variables, but they differ in terms of their scope, mutability, and hoisting behavior:
 
@@ -302,23 +302,23 @@ In JavaScript, `let`, `const`, and `var` are used to declare variables, but they
 
 Overall, it's recommended to use `const` whenever possible to avoid accidental reassignment and to use `let` when you need to declare a mutable variable with block-level scope. Use `var` only when you specifically need its hoisting behavior or function-level scope.
 
-### 39. When to use let, const and var ?
+### Question 39. When to use let, const and var ?
 
 Use `let` to declare variables that are intended to be reassigned later on in your code. Use `const` to declare read-only variables whose value should not be changed after initialization. Use `var` to declare variables in the global scope or function scope, but avoid using it in favor of `let` and `const` as it has some quirks and can lead to unexpected behavior.
 
-### 40. What is ++, -- operators ?
+### Question 40. What is ++, -- operators ?
 
 In JavaScript, the "++" and "--" operators are used to increment or decrement a variable by 1. The "++" operator adds 1 to the value of a variable, while the "--" operator subtracts 1 from the value of a variable. These operators can be used before (prefix) or after (postfix) the variable name, and they have different effects on the expression in which they are used.
 
-### 41. What is typeof operator ?
+### Question 41. What is typeof operator ?
 
 The `typeof` operator in JavaScript is used to determine the data type of a value or variable. It returns a string indicating the type of the operand, such as `"number"`, `"string"`, `"boolean"`, `"undefined"`, `"object"`, `"function"`, and `"symbol"`.
 
-### 42. What is reminder operator ?
+### Question 42. What is reminder operator ?
 
 The remainder operator in JavaScript is represented by the "%" symbol and returns the remainder of a division operation between two numbers. For example, 9 % 4 would return 1 because 4 goes into 9 twice with a remainder of 1.
 
-### 43. Explain logical &&, || and ! operators
+### Question 43. Explain logical &&, || and ! operators
 
 The logical && operator in JavaScript returns true if both operands are true, and false otherwise. For example, `true && true` evaluates to `true`, but `true && false` and `false && true` both evaluate to `false`.
 
@@ -326,7 +326,7 @@ The logical || operator returns true if at least one operand is true, and false 
 
 The logical ! operator inverts the truth value of its operand. For example, `!true` evaluates to `false`, and `!false` evaluates to `true`.
 
-### 44. What are the different ways of writing output ?
+### Question 44. What are the different ways of writing output ?
 
 There are several ways of writing output in JavaScript:
 
@@ -336,11 +336,11 @@ There are several ways of writing output in JavaScript:
 4. Using window.alert() method to display a message box with a message.
 5. Using the prompt() method to create a dialog box that prompts the user for input and displays the input value.
 
-### 45. What is a string ?
+### Question 45. What is a string ?
 
 In JavaScript, a string is a sequence of characters enclosed in quotation marks (either single or double). It can include letters, numbers, symbols, and spaces. Strings are used to represent text data in JavaScript programs and can be manipulated using various string methods.
 
-### 46. How to create a String ?
+### Question 46. How to create a String ?
 
 In JavaScript, you can create a String by enclosing a sequence of characters within single quotes ('') or double quotes ("") like this:
 
@@ -357,7 +357,7 @@ let age = 30;
 let info = `My name is ${name} and I'm ${age} years old.`; // using template literals
 ```
 
-### 47. Difference between string Literal vs string object ?
+### Question 47. Difference between string Literal vs string object ?
 
 A string literal is a sequence of characters enclosed in quotes, either single quotes ('') or double quotes (""). It represents a fixed value and cannot be changed. For example:
 
@@ -374,11 +374,11 @@ greeting = greeting.toUpperCase();
 
 In general, it is recommended to use string literals instead of string objects as they are more efficient and easier to work with.
 
-### 48. What is string length property ?
+### Question 48. What is string length property ?
 
 In JavaScript, the length property of a string returns the number of characters in the string. For example, if you have a string "Hello World", its length property would be 11 (including the space between "Hello" and "World"). The length property is a read-only property, meaning you cannot change the length of the string by setting its value.
 
-### 49. How to convert string to array ?
+### Question 49. How to convert string to array ?
 
 You can convert a string to an array in JavaScript by using the `split` method. The `split` method splits a string into an array of substrings based on a specified separator, and returns the new array.
 
@@ -392,15 +392,15 @@ console.log(arr); // ["Hello,", "World!"]
 
 In this example, the `split` method splits the string into two elements: `"Hello,"` and `"World!"`. The separator used is a space character, which is specified as an argument to the `split` method. The resulting array is then stored in the `arr` variable and printed to the console.
 
-### 50. What is String Template Literal ?
+### Question 50. What is String Template Literal ?
 
 String Template Literal in JavaScript is a way to define strings using backticks (`) instead of single or double quotes. It allows for string interpolation by embedding expressions inside ${ } within the template string, making it easier to concatenate variables and values into a string.
 
-### 51. Difference between String Literal and String template literal ?
+### Question 51. Difference between String Literal and String template literal ?
 
 In JavaScript, a string literal is a sequence of characters enclosed in single or double quotes, while a string template literal is enclosed in backticks (` `) and allows for the interpolation of variables and expressions using ${ } syntax. String template literals make it easier to create complex strings that include dynamic content, whereas string literals are better suited for simple static strings.
 
-### 52. Difference between slice, substring and substr functions ?
+### Question 52. Difference between slice, substring and substr functions ?
 
 In JavaScript:
 
@@ -412,7 +412,7 @@ In JavaScript:
 
 In summary, `slice()` can be used on both arrays and strings, while `substring()` and `substr()` are only used for strings. They also have slightly different rules for handling negative index values and undefined or empty parameters.
 
-### 53. What is the difference between exec and test function ?
+### Question 53. What is the difference between exec and test function ?
 
 In JavaScript, `exec()` and `test()` are both methods of regular expressions.
 
@@ -438,7 +438,7 @@ console.log(regex.exec("hi there")); // Output: null
 
 In summary, `test()` is used to check if a pattern exists in a string, while `exec()` searches for the first occurrence of a pattern in a string and returns an array containing the matched substring.
 
-### 54. What is the difference between padStart and padEnd functions ?
+### Question 54. What is the difference between padStart and padEnd functions ?
 
 Both padStart and padEnd are string methods that add padding characters to the beginning or end of a string, respectively.
 
@@ -455,7 +455,7 @@ str.padEnd(10, "-");
 // Output: "hello-----"
 ```
 
-### 55. What is the difference between indexOf and includes ?
+### Question 55. What is the difference between indexOf and includes ?
 
 Both `indexOf()` and `includes()` are methods that can be used to check if a specified value is present in a given array or string in JavaScript.
 
@@ -465,29 +465,29 @@ On the other hand, `includes()` returns a boolean value indicating whether the s
 
 So while both methods can be used to check for the presence of a value, `indexOf()` provides more specific information about the location of the value within the array/string.
 
-### 56. What is the difference between indexOf and lastIndexOf function ?
+### Question 56. What is the difference between indexOf and lastIndexOf function ?
 
 The `indexOf()` function in JavaScript returns the index of the first occurrence of a specified value in a string or an array, while the `lastIndexOf()` function returns the index of the last occurrence of a specified value in a string or an array.
 
 In other words, `indexOf()` starts searching from the beginning of the string or array and returns the first index where the specified value is found, whereas `lastIndexOf()` starts searching from the end of the string or array and returns the last index where the specified value is found.
 
-### 57. What is the difference between search and match functions ?
+### Question 57. What is the difference between search and match functions ?
 
 The search() function searches a string for a specified pattern and returns the index of the first match, while the match() function searches a string for a specified pattern and returns an array of all matches. The search() function returns -1 if no match is found, while the match() function returns null if no match is found.
 
-### 58. What is Implicit type conversion ?
+### Question 58. What is Implicit type conversion ?
 
 Implicit type conversion, also known as type coercion, is the automatic conversion of a data type to another data type by JavaScript during an operation. This occurs when an operator is applied to operands of different data types, and JavaScript automatically converts one or both operands to a common data type before performing the operation. For example, when using the "+" operator with a string and a number, JavaScript will convert the number to a string and concatenate the two strings together.
 
-### 59. What is Explicit type conversion ?
+### Question 59. What is Explicit type conversion ?
 
 Explicit type conversion in JavaScript, also known as type casting or type coercion, is the process of converting a value from one data type to another using built-in functions or operators. This can be done using functions like parseInt(), parseFloat(), Number(), String() or by using operators like +, -, \*, /, or Boolean(). Explicit type conversion is necessary when you need to perform operations on values of different data types.
 
-### 60. What is Coercion ?
+### Question 60. What is Coercion ?
 
 Coercion in JavaScript refers to the automatic type conversion that occurs when performing operations involving values of different data types. For example, when a string is added to a number, JavaScript will attempt to convert the string to a number before performing the addition operation. Coercion can be either implicit or explicit, and it can result in unexpected behavior if not understood properly.
 
-### 61. What are different popup boxes available in core JavaScript?
+### Question 61. What are different popup boxes available in core JavaScript?
 
 There are three different types of popup boxes available in core JavaScript:
 
@@ -495,7 +495,7 @@ There are three different types of popup boxes available in core JavaScript:
 2. Confirm box: Displays a message and two buttons (OK and Cancel) for the user to confirm or cancel an action.
 3. Prompt box: Displays a message and a text input field, along with OK and Cancel buttons for the user to enter some input value.
 
-### 62. What are the truthy and falsy values in JavaScript?
+### Question 62. What are the truthy and falsy values in JavaScript?
 
 In JavaScript, truthy values are values that evaluate to true when coerced to a boolean, while falsy values are values that evaluate to false when coerced to a boolean. The following values are considered falsy in JavaScript:
 
@@ -508,7 +508,7 @@ In JavaScript, truthy values are values that evaluate to true when coerced to a 
 
 All other values in JavaScript are truthy, including empty arrays ([]), empty objects ({}), and all non-zero numbers and non-empty strings.
 
-### 63. Give examples of falsy values ?
+### Question 63. Give examples of falsy values ?
 
 In JavaScript, the following values are considered falsy:
 
@@ -547,27 +547,27 @@ if (NaN) {
 }
 ```
 
-### 64. What is Loose equality operator ?
+### Question 64. What is Loose equality operator ?
 
 The loose equality operator in JavaScript is represented by two equal signs (==). It compares two values for equality without checking their types. If the operands have different types, JavaScript will try to convert them to a common type before making the comparison. For example, the expression "5" == 5 would return true because the string "5" is converted to the number 5 for the comparison. However, it's important to note that using the loose equality operator can lead to unexpected results, so it's generally recommended to use the strict equality operator (===), which checks both the value and the type of the operands.
 
-### 65. What is Strict equality operator ?
+### Question 65. What is Strict equality operator ?
 
 The strict equality operator in JavaScript is "===" (three equal signs). It compares two values for equality without performing type coercion, which means that it only returns true if both operands have the same data type and value. If they are not equal in either value or type, it will return false.
 
-### 66. Difference between == and === ?
+### Question 66. Difference between == and === ?
 
 In JavaScript, the "==" operator checks for equality of values, while the "===" operator checks for both equality of values and equality of types.
 
 For example, 5 == "5" would be true because both values are equal, but 5 === "5" would be false because the types are different.
 
-### 67. Difference between while and do while loop ?
+### Question 67. Difference between while and do while loop ?
 
 The while loop in JavaScript executes the code block while a specified condition is true. It first checks the condition, and if it evaluates to true, then it executes the code inside the loop. If the condition is false from the beginning, the code inside the loop will never run.
 
 The do-while loop is similar to the while loop, except that it executes the code block at least once, regardless of whether the test condition is true or false. After executing the code block, it checks the condition, and if it is still true, it continues to execute the loop. If the condition is false from this point on, the loop stops executing.
 
-### 68. What is for of loop ?
+### Question 68. What is for of loop ?
 
 A for-of loop is a type of loop in JavaScript that allows you to iterate over iterable objects such as arrays, strings, and other collections. It was introduced in ECMAScript 6 (ES6) and provides an alternative to traditional for loops and forEach() methods. The loop iterates over each element of the iterable object and executes a specified block of code for each iteration. The syntax of a for-of loop is:
 
@@ -579,7 +579,7 @@ for (variable of iterable) {
 
 Where `variable` is a variable to hold the current value of the iterable, and `iterable` is the object being iterated over.
 
-### 69. What is for in loop ?
+### Question 69. What is for in loop ?
 
 `for` is a keyword in JavaScript used to create a loop that executes a block of code a specified number of times. It is often used when you want to iterate over an array or an object. The syntax for a `for` loop is:
 
@@ -591,29 +591,29 @@ for (initialization; condition; increment) {
 
 Here, `initialization` sets the initial value of the loop variable, `condition` defines the condition for continuing the loop, and `increment` updates the value of the loop variable after each iteration. The code inside the curly braces is executed repeatedly until the condition becomes false.
 
-### 70. What is Switch ?
+### Question 70. What is Switch ?
 
 In JavaScript, a switch statement is used to perform different actions based on different conditions. It allows you to test the value of an expression against multiple cases and execute blocks of code associated with each matching case. If none of the cases match, a default block of code can be executed.
 
-### 71. What are cases in switch ?
+### Question 71. What are cases in switch ?
 
 Cases in a switch statement in JavaScript are conditional blocks of code that are executed when the value of an expression matches the value of one of the case statements. They provide a way to selectively execute code based on the value of a variable or expression.
 
-### 72. What is default case ?
+### Question 72. What is default case ?
 
 The `default` case in JavaScript is a part of the switch statement, which provides a fallback option when none of the cases match the evaluated value. If no matching case statements are found, the code inside the default block will be executed.
 
-### 73. What are break and continue words ?
+### Question 73. What are break and continue words ?
 
 In JavaScript, "break" is a keyword that is used to terminate a loop or switch statement. When the "break" keyword is encountered in a loop or switch statement, the program exits the loop or switch statement immediately.
 
 On the other hand, "continue" is a keyword that is used in loops to skip over the current iteration of the loop and move on to the next one. When the "continue" keyword is encountered in a loop, the code inside the loop for the current iteration is skipped, and the loop immediately moves on to the next iteration.
 
-### 74. What is scoping ?
+### Question 74. What is scoping ?
 
 Scoping in JavaScript refers to the rules that determine how variables and named functions are accessed and assigned values during runtime. It defines the accessibility and visibility of these entities within different parts of the code, such as function blocks, loops, and conditional statements. There are two types of scopes in JavaScript: global scope and local scope. Variables declared outside of any functions have a global scope, while those declared inside a function have a local scope.
 
-### 75. What are the different types of scopes in JavaScript? Explain each?
+### Question 75. What are the different types of scopes in JavaScript? Explain each?
 
 In JavaScript, there are two types of scopes: local scope and global scope.
 
@@ -623,19 +623,19 @@ In JavaScript, there are two types of scopes: local scope and global scope.
 
 It's generally considered good practice to limit the use of global variables and instead use local variables whenever possible to avoid unexpected behavior and improve code maintainability.
 
-### 76. What is function ?
+### Question 76. What is function ?
 
 A function in JavaScript is a block of code that can be defined once and executed repeatedly to perform a specific task. It can accept parameters (optional) and return a value (optional). Functions in JavaScript are first-class objects, which means they can be assigned to variables, passed as arguments to other functions, and returned as values from functions.
 
-### 77. What is functional programing ?
+### Question 77. What is functional programing ?
 
 Functional programming in JavaScript is a programming paradigm that emphasizes the use of pure functions, immutability, and higher-order functions to solve problems. Pure functions are functions that given the same input will always return the same output and have no side effects. Immutability means that once a variable or object is created, it cannot be changed. Higher-order functions are functions that take other functions as arguments or return functions as values. Functional programming can lead to code that is easier to reason about, test, and maintain.
 
-### 78. What are generator function ?
+### Question 78. What are generator function ?
 
 Generator functions in JavaScript are special types of functions that can be paused and resumed at any time during their execution, allowing for the generation of a sequence of values over time. They are defined using the function\* keyword and use the yield keyword to return a value and pause the function's execution. Generator functions can be useful for creating iterators or for performing asynchronous operations in a more synchronous-looking way.
 
-### 79. What are the different ways of creating function in JavaScript?
+### Question 79. What are the different ways of creating function in JavaScript?
 
 There are several ways to create functions in JavaScript:
 
@@ -671,7 +671,7 @@ const functionName = new Function('parameters', 'function body');
 
 Note that the first three methods are recommended as they are more concise, clear and less error-prone than the Function Constructor.
 
-### 80. What is function declaration ?
+### Question 80. What is function declaration ?
 
 Function declaration in JavaScript is a way to define a named function using the "function" keyword, followed by the function name, optional parameters within parentheses, and the function code within curly braces. It creates a function object that can be called later in the code. For example:
 
@@ -681,19 +681,19 @@ function myFunction(parameter1, parameter2) {
 }
 ```
 
-### 81. What is currying in JavaScript?
+### Question 81. What is currying in JavaScript?
 
 Currying is a technique in JavaScript that involves transforming a function with multiple arguments into a sequence of functions that each take only one argument. This allows for more flexible and modular code, as well as enabling the creation of new functions by partially applying existing ones.
 
-### 82. What is function expression ?
+### Question 82. What is function expression ?
 
 A function expression in JavaScript is a way to define a function as part of an expression, rather than as a named function declaration. This involves assigning a function to a variable or passing it as an argument to another function. Function expressions can be anonymous (without a name) or named, and can be used for a variety of purposes such as event handlers, callbacks, and closures.
 
-### 83. What is arrow function ?
+### Question 83. What is arrow function ?
 
 An arrow function is a shorthand syntax for writing functions in JavaScript. It uses the `=>` operator to define a function, and has a more concise syntax compared to traditional function expressions. Arrow functions are also lexically scoped, meaning they bind `this` to the surrounding context rather than creating their own `this` value.
 
-### 84. What is anonymous function ? Where do we use this function?
+### Question 84. What is anonymous function ? Where do we use this function?
 
 An anonymous function in JavaScript is a function that does not have a name. Instead, it is defined and invoked at the same time. It is typically used when you need to pass a function as an argument to another function or when you want to create a function that will only be used once.
 
@@ -707,7 +707,7 @@ setTimeout(function() {
 
 In this example, we're passing an anonymous function as the first argument to `setTimeout`. The function will be executed after a delay of 1 second (specified by the second argument to `setTimeout`).
 
-### 85. What is the difference between function declaration and function expression ?
+### Question 85. What is the difference between function declaration and function expression ?
 
 In JavaScript, a function declaration is defined using the "function" keyword and is declared at the top level of a script or within a function block. It can be called before it is declared in the code because it is hoisted to the top during compilation.
 
@@ -729,7 +729,7 @@ const myFunction = function() {
 };
 ```
 
-### 86. What is the difference between function expression and arrow function ?
+### Question 86. What is the difference between function expression and arrow function ?
 
 The main difference between a function expression and an arrow function in JavaScript is the way `this` keyword is handled.
 
@@ -758,7 +758,7 @@ In this example, `sayHello` is a function expression that uses `this` to refer t
 
 On the other hand, `sayHi` is an arrow function that also uses `this` to refer to the `name` property of the `person` object. However, since arrow functions don't have their own `this` value, `this` inside `sayHi` refers to the global `this` value (which is `undefined` in this case). So when `sayHi` is called as a method on the `person` object, it logs "Hi undefined".
 
-### 87. What is difference between parameter and argument ?
+### Question 87. What is difference between parameter and argument ?
 
 In JavaScript, a parameter is a variable defined in a function's declaration, while an argument is the value passed to a function when it is called. In other words, parameters are placeholders for values that will be passed as arguments when the function is invoked. For example:
 
@@ -772,7 +772,7 @@ add(2, 3); // 2 and 3 are arguments
 
 In this example, `a` and `b` are parameters declared in the function definition, while `2` and `3` are the arguments passed to the function when it is called.
 
-### 88. What are the default parameters? How to add default parameters in a function ?
+### Question 88. What are the default parameters? How to add default parameters in a function ?
 
 Default parameters are values that a function will use if no argument is provided for a particular parameter. In JavaScript, default parameters can be added to a function by assigning a default value to the parameter in the function's definition. For example:
 
@@ -784,7 +784,7 @@ function myFunction(param1, param2 = defaultValue) {
 
 In this example, `param2` has a default value of `defaultValue`. If `param2` is not passed as an argument when the function is called, it will automatically use the default value.
 
-### 89. What is call by value and what is call by reference ?
+### Question 89. What is call by value and what is call by reference ?
 
 In JavaScript, call by value and call by reference are two different ways of passing values to a function.
 
@@ -794,7 +794,7 @@ Call by reference means that a reference to the original variable is passed to t
 
 In JavaScript, primitive types such as numbers and strings are always passed by value, while objects and arrays are often passed by reference. However, it's important to note that some methods can change the original array or object even if they are passed by value.
 
-### 90. What is High order function ? Give one example?
+### Question 90. What is High order function ? Give one example?
 
 In JavaScript, a higher-order function is a function that takes one or more functions as arguments, and/or returns a function as its result. One example of a higher-order function in JavaScript is the `map` method on arrays, which takes a function as an argument and applies it to each element in the array, returning a new array with the results. For example:
 
@@ -806,7 +806,7 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
 
 In this example, the `map` method is the higher-order function because it takes a function (`num => num * 2`) as an argument and uses it to transform each element in the `numbers` array.
 
-### 91. What is First class function ? Give one example?
+### Question 91. What is First class function ? Give one example?
 
 In JavaScript, a first-class function is a function that can be assigned to a variable, passed as an argument to another function, or returned from a function as a value.
 
@@ -838,7 +838,7 @@ console.log(double(5)); // Returns 10
 console.log(triple(5)); // Returns 15
 ```
 
-### 92. What is callback function ? When to use callback functions?
+### Question 92. What is callback function ? When to use callback functions?
 
 A callback function in JavaScript is a function that is passed as an argument to another function and is executed inside that function. The primary use of a callback function is to allow asynchronous operations, such as fetching data from a server or performing complex calculations, without blocking the execution of other code.
 
@@ -846,11 +846,11 @@ Callback functions can be used in various scenarios, such as event handlers, AJA
 
 Overall, callback functions are useful for handling asynchronous tasks and making code more modular and reusable.
 
-### 93. What is callback hell ?
+### Question 93. What is callback hell ?
 
 Callback hell is a situation in asynchronous programming in which multiple nested callbacks are used, making the code difficult to read, understand and maintain. This can occur when a function requires the output of another function as its input, leading to a chain of functions that must be executed in sequence. This can result in deeply nested and hard-to-read code, which can be challenging to debug and prone to errors.
 
-### 94. What is setTimeout? How to clear a setTimeOut ?
+### Question 94. What is setTimeout? How to clear a setTimeOut ?
 
 `setTimeout` is a JavaScript function that allows you to execute a specified block of code once after a specified time delay. It takes two arguments, the first one is a function to be executed and the second one is the delay time in milliseconds.
 
@@ -866,7 +866,7 @@ clearTimeout(timeoutID);
 
 In this example, we first create a `setTimeout` that logs a message after a delay of one second. We store the return value from `setTimeout` in a variable called `timeoutID`. Then we immediately call `clearTimeout` with `timeoutID` as its argument, which cancels the scheduled execution of the code block, preventing the message from being logged.
 
-### 95. What is setInterval? How to clear a setInterval ?
+### Question 95. What is setInterval? How to clear a setInterval ?
 
 setInterval is a method in JavaScript that repeatedly calls a function or executes a code snippet at fixed time intervals, specified in milliseconds. To clear a setInterval, you can use the clearInterval() method and pass it the ID returned by the setInterval() function when it was created. This will stop the function from being called repeatedly. For example:
 
@@ -882,7 +882,7 @@ setTimeout(() => {
 
 In this example, the setInterval() method is used to call a function named `myFunction` every 1000 milliseconds (1 second). The setInterval() method returns an ID that can be used to clear the interval using clearInterval(). In this case, we're clearing the interval after 5 seconds using the setTimeout() method.
 
-### 96. What are the call, apply and bind functions ? Give example of each.
+### Question 96. What are the call, apply and bind functions ? Give example of each.
 
 `call()`, `apply()`, and `bind()` are methods in JavaScript that allow you to manipulate the `this` keyword in functions.
 
@@ -927,7 +927,7 @@ const logName = function() {
 logName(); // output: John Doe
 ```
 
-### 97. What is IIFE (Immediately invoked function expression) ?
+### Question 97. What is IIFE (Immediately invoked function expression) ?
 
 IIFE, or Immediately Invoked Function Expression, is a JavaScript function that is executed as soon as it is defined. It is typically used to create a new scope for variables and functions, avoiding naming collisions or polluting the global namespace. The syntax for an IIFE looks like this:
 
@@ -939,7 +939,7 @@ IIFE, or Immediately Invoked Function Expression, is a JavaScript function that 
 
 The function is wrapped in parentheses to ensure that it is treated as an expression, and then immediately invoked with the `()` at the end. Any variables or functions declared inside the IIFE are not visible outside its scope, making it a useful technique for modularizing code.
 
-### 98. What is closure ? When to use closure? What are the benefits of using closure?
+### Question 98. What is closure ? When to use closure? What are the benefits of using closure?
 
 Closure in JavaScript refers to the ability of a function to access variables from its outer lexical environment even after that outer environment has been destroyed.
 
@@ -947,19 +947,19 @@ Closure is useful when you want to create private variables or functions that ar
 
 Benefits of using closures include the ability to create private variables and functions, which can help prevent naming collisions and improve code organization. Additionally, closures can help reduce memory usage by allowing private variables to be garbage collected when they are no longer needed.
 
-### 99. What is hoisting ?
+### Question 99. What is hoisting ?
 
 Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their respective scopes during the compilation phase, allowing them to be accessed before they are actually declared in the code. However, only the declarations are hoisted, not the assignments or initializations. This can sometimes lead to unexpected results and should be used with caution.
 
-### 100. What is TDZ(Temporal Dead Zone) ?
+### Question 100. What is TDZ(Temporal Dead Zone) ?
 
 Temporal Dead Zone (TDZ) is a term used in JavaScript to describe the period of time between the creation of a variable's binding and its initialization. During this period, accessing the variable will result in a ReferenceError being thrown. This occurs because the variable exists in the current scope due to the binding, but has not yet been assigned a value. Once the variable has been initialized, it can be accessed normally. TDZ applies to let and const variables, but not to var variables.
 
-### 101. What is DRY Principle ?
+### Question 101. What is DRY Principle ?
 
 The DRY (Don't Repeat Yourself) principle is a coding philosophy that encourages developers to avoid duplicating code by creating reusable and modular code. This helps to reduce redundancy, improve readability, and simplify maintenance of the code.
 
-### 102. What is design pattern ? Name few famous design patterns?
+### Question 102. What is design pattern ? Name few famous design patterns?
 
 Design patterns refer to reusable solutions to commonly occurring problems in software design. They provide a proven and structured way of solving problems and ensuring code quality.
 
@@ -977,11 +977,11 @@ Some famous design patterns in JavaScript include:
 - Command pattern
 - Iterator pattern
 
-### 103. What is developer tool?
+### Question 103. What is developer tool?
 
 A developer tool is a software application or program that helps software developers create, debug, test, and maintain other software applications. Examples of developer tools include integrated development environments (IDEs), code editors, version control systems, debugging tools, performance profiling tools, and testing frameworks. These tools are designed to streamline the development process and increase productivity for developers.
 
-### 104. Difference between console.log and console.table ?
+### Question 104. Difference between console.log and console.table ?
 
 `console.log` displays data in a simple, linear format, whereas `console.table` displays data in a tabular format.
 
@@ -989,7 +989,7 @@ A developer tool is a software application or program that helps software develo
 
 For example, if you have an array of objects with multiple properties, you can use `console.table` to display the data in a nice, organized table, rather than trying to parse through a long list of console logs.
 
-### 105. Difference between console.warn and console.error ?
+### Question 105. Difference between console.warn and console.error ?
 
 The main difference is in the level of severity:
 
@@ -998,7 +998,7 @@ The main difference is in the level of severity:
 
 Both methods will log a message to the console, but console.error() will also typically highlight the message in red or display an error icon, making it more noticeable.
 
-### 106. What is Error? What are the different types of error in JavaScript?
+### Question 106. What is Error? What are the different types of error in JavaScript?
 
 In programming, an error is an unexpected or incorrect behavior that occurs when a computer program is executed.
 
@@ -1014,7 +1014,7 @@ In JavaScript, there are several types of errors, including:
 
 5. Range Errors: These occur when a value is outside of the expected range, such as attempting to access an array index that does not exist.
 
-### 107. Explain numbers in JavaScript?
+### Question 107. Explain numbers in JavaScript?
 
 In JavaScript, numbers are a primitive data type that represent numerical values. They can be integers (whole numbers) or floating-point numbers (decimal numbers).
 
@@ -1036,7 +1036,7 @@ You can also use the `Number()` constructor function to create a number object f
 let y = Number("3.14");
 ```
 
-### 108. Difference between number and BigInt ?
+### Question 108. Difference between number and BigInt ?
 
 In JavaScript, the `number` data type is used to represent numeric values with double-precision floating-point format. The `BigInt` data type, on the other hand, is a relatively new addition to the language and is used to represent integers of arbitrary length.
 
@@ -1051,11 +1051,11 @@ const x = 123n; // creates a BigInt with value 123
 const y = BigInt(456); // creates a BigInt with value 456
 ```
 
-### 109. What is Number System ?
+### Question 109. What is Number System ?
 
 In JavaScript, the number system is a way of representing numerical values using different types of data such as integers, floating-point numbers, and scientific notation. The Number data type is used to represent these different types of numerical values in JavaScript. JavaScript supports arithmetic operations such as addition, subtraction, multiplication, and division on these numerical values. Additionally, JavaScript provides a variety of built-in functions to manipulate numbers, including conversion functions and rounding functions.
 
-### 110. Explain functions of Number class : toFixed,toString,valueOf,parseInt,parseFloat,isNaN ?
+### Question 110. Explain functions of Number class : toFixed,toString,valueOf,parseInt,parseFloat,isNaN ?
 
 1. toFixed(): This method is used to format a number with a specific number of digits after the decimal point, and returns a string representation of the formatted number.
 
@@ -1069,7 +1069,7 @@ In JavaScript, the number system is a way of representing numerical values using
 
 6. isNaN(): The isNaN() function determines whether a value is NaN (not a number). It returns true if the value is NaN, and false otherwise.
 
-### 111. What is Date object in JavaScript? What are the different ways of creating Date object?
+### Question 111. What is Date object in JavaScript? What are the different ways of creating Date object?
 
 The Date object in JavaScript represents a specific moment in time, providing methods for working with dates and times. It can be used to get and set the year, month, day, hours, minutes, seconds, and milliseconds.
 
@@ -1099,7 +1099,7 @@ let date = new Date("April 4, 2023 12:30:00");
 let date = new Date();
 ```
 
-### 112. How will you convert any Number or Date in a format of a difference locale/country ?
+### Question 112. How will you convert any Number or Date in a format of a difference locale/country ?
 
 To convert a number or date to a different locale/country format in JavaScript, you can use the `toLocaleString()` method. This method accepts two arguments:
 
@@ -1128,15 +1128,15 @@ console.log(formattedDate); // "4. April 2023"
 
 Note that the specific formats may vary depending on the locale and options you choose.
 
-### 113. What is DOM ?
+### Question 113. What is DOM ?
 
 DOM (Document Object Model) in JavaScript is a programming interface for web documents that represents the page so that programs can change the document structure, style, and content. It creates a tree-like structure of all the HTML elements on a web page, which can be accessed and manipulated by JavaScript to dynamically update the content of a web page without requiring a full page reload.
 
-### 114. What is the need of DOM ?
+### Question 114. What is the need of DOM ?
 
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. JavaScript uses the DOM to access and manipulate web page elements, allowing for dynamic and interactive web experiences. Without the DOM, JavaScript would not be able to interact with HTML and CSS, making it impossible to create modern web applications.
 
-### 115. Explain functions getElementById,getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll, write ?
+### Question 115. Explain functions getElementById,getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll, write ?
 
 - `getElementById`: is a method used to select an HTML element by its ID attribute and returns the selected element as an object.
 - `getElementsByTagName`: is a method used to select all HTML elements with a specified tag name and returns an array-like object of all matching elements.
@@ -1145,7 +1145,7 @@ The Document Object Model (DOM) is a programming interface for web documents. It
 - `querySelectorAll`: is a method used to select all HTML elements that match a specified CSS selector, and returns an array-like object of all matching elements.
 - `write`: is a method used to write text or HTML directly to the document output stream, which can be used to dynamically add content to a webpage. However, this method is considered outdated and not recommended for use in modern web development practices.
 
-### 116. What is Node ? What is HTMLCollection? What is Element?
+### Question 116. What is Node ? What is HTMLCollection? What is Element?
 
 Node in JavaScript refers to any individual element or object within the Document Object Model (DOM) tree. It can be an HTML element, a text node, or a comment node.
 
@@ -1153,21 +1153,21 @@ HTMLCollection is a collection of HTML elements that are returned by DOM API met
 
 Element is a type of Node that represents an HTML element in the DOM tree. It can be accessed using various DOM API methods and has properties and methods to manipulate its attributes, styles, and content.
 
-### 117. Difference between innerHTML vs textContent ?
+### Question 117. Difference between innerHTML vs textContent ?
 
 `innerHTML` retrieves or sets the HTML content inside an element, while `textContent` retrieves or sets the text content of an element without including any HTML tags.
 
 In other words, `innerHTML` returns or sets the rendered HTML code, including any HTML tags, while `textContent` returns or sets only the plain text within an element, ignoring any HTML tags. It is generally recommended to use `textContent` when working with plain text and `innerHTML` when working with HTML.
 
-### 118. What is an event bubbling ?
+### Question 118. What is an event bubbling ?
 
 Event bubbling is a process in which an event that is triggered on an element in the HTML document will first be handled by its innermost child element and then propagate outward to its parent elements, triggering their respective event handlers along the way until it reaches the root of the document. This allows for event handling to be applied to encompassing elements rather than just individual ones.
 
-### 119. What is an event capturing ?
+### Question 119. What is an event capturing ?
 
 Event capturing is a phase in the event propagation process in JavaScript where events are first captured by the outermost element and then propagated inward towards the target element. This happens before the actual event occurs on the target element. Event capturing is followed by event bubbling, which propagates the event back outward from the target element to the outermost element.
 
-### 120. Difference between event bubbling and capturing ?
+### Question 120. Difference between event bubbling and capturing ?
 
 Event bubbling and capturing are two different mechanisms for handling the propagation of events in the DOM (Document Object Model) hierarchy.
 
@@ -1179,7 +1179,7 @@ In other words, during the capturing phase, events start at the root of the docu
 
 Both event capturing and bubbling can be used to handle events in JavaScript. By default, events in JavaScript use the bubbling mechanism, but you can use the `addEventListener` method with the third parameter set to `true` to switch to the capturing mechanism.
 
-### 121. Difference between innherHTML and attribute ?
+### Question 121. Difference between innherHTML and attribute ?
 
 `innerHTML` and attributes are both ways to manipulate the content of an HTML element in JavaScript, but they differ in what aspect of the element they modify:
 
@@ -1203,7 +1203,7 @@ document.getElementById("myDiv").setAttribute("class", "myClass");
 
 In summary, `innerHTML` is used to manipulate the content of an element, while attributes are used to manipulate specific characteristics or properties of an element.
 
-### 122. How to change the style of an html element using DOM ?
+### Question 122. How to change the style of an html element using DOM ?
 
 To change the style of an HTML element using the DOM in JavaScript, you can use the `style` property of the element and set its various CSS properties. Here's an example:
 
@@ -1220,15 +1220,15 @@ element.style.fontSize = "20px";
 
 Note that you can set any CSS property using the `style` property, but you need to use the camelCase version of the property name. For example, to set the `background-color` property, you need to use `backgroundColor`.
 
-### 123. What is event ?
+### Question 123. What is event ?
 
 In JavaScript, an event is a signal that the browser sends to notify the code that something has happened, such as a user clicking a button or the page finishing loading. Event handlers can be used to respond to these events and execute code accordingly.
 
-### 124. What is role the event.preventDefult() ?
+### Question 124. What is role the event.preventDefult() ?
 
 The `event.preventDefault()` method in JavaScript is used to prevent the default behavior of an event from occurring. For example, when a user clicks on a link, the default behavior is for the browser to follow that link and load the corresponding page. However, by calling `event.preventDefault()` within a function that is triggered by the click event, you can stop this default behavior from happening and instead perform some other action in response to the click.
 
-### 125. What are the different types of mouse/keyboard events ?
+### Question 125. What are the different types of mouse/keyboard events ?
 
 There are several types of mouse and keyboard events in JavaScript, including:
 
@@ -1239,7 +1239,7 @@ There are several types of mouse and keyboard events in JavaScript, including:
 
 Each event is triggered based on a user's interaction with the corresponding input device.
 
-### 126. What is eventListener ?
+### Question 126. What is eventListener ?
 
 An eventListener in JavaScript is a function that waits for a specific event to occur on a web page, such as a mouse click or a key press, and then executes code in response to that event. It is commonly used to add interactivity to web pages by allowing JavaScript code to respond to user actions. The syntax for adding an event listener in JavaScript is:
 
@@ -1249,7 +1249,7 @@ element.addEventListener(event, function, useCapture);
 
 Where `element` is the HTML element to which the event listener will be added, `event` is the name of the event to listen for (e.g., "click", "keydown"), `function` is the code to be executed when the event occurs, and `useCapture` is an optional boolean value that indicates whether the event should be captured during the propagation phase.
 
-### 127. How to remove a eventListener ?
+### Question 127. How to remove a eventListener ?
 
 To remove an event listener in JavaScript, you can use the `removeEventListener()` method. This method takes two arguments: the type of the event to remove (e.g. "click") and the function that was originally used as the event handler.
 
@@ -1270,7 +1270,7 @@ element.removeEventListener("click", handleClick);
 
 In this example, we're adding a click event listener to a button with the ID "myButton" and a function called `handleClick` as the event handler. Later, we can remove the event listener using `removeEventListener()` and passing in the same event type ("click") and function (`handleClick`).
 
-### 128. How to create a DOM element dynamically ?
+### Question 128. How to create a DOM element dynamically ?
 
 You can create a DOM element dynamically in JavaScript using the `createElement()` method of the `document` object. Here's an example:
 
@@ -1293,7 +1293,7 @@ container.appendChild(newDiv);
 
 In this example, we create a new `<div>` element with the `createElement()` method and set its `id` and `className` properties. We also add some text content to the element using the `createTextNode()` method and append it to the element using the `appendChild()` method. Finally, we add the new element to the DOM by appending it to an existing element with the id "container".
 
-### 129. What are the BOM objects? Explain each Window, History, Navigator, Screen, Location, Timing,Cookies, LocalStorage ?
+### Question 129. What are the BOM objects? Explain each Window, History, Navigator, Screen, Location, Timing,Cookies, LocalStorage ?
 
 The below BOM objects are part of the Browser Object Model (BOM), and they represent different aspects of the browser environment:
 
@@ -1313,7 +1313,7 @@ The below BOM objects are part of the Browser Object Model (BOM), and they repre
 
 8. LocalStorage: The LocalStorage object provides a way to store persistent data on the client-side. It allows you to store key-value pairs in the browser's local storage, which can be accessed across multiple sessions and even after the browser is closed.
 
-### 130. What is JavaScript engine? What are the famous JavaScript engine names?
+### Question 130. What is JavaScript engine? What are the famous JavaScript engine names?
 
 A JavaScript engine is a program that executes JavaScript code. It reads the written code and converts it into a form that can be understood by the computer's CPU.
 
@@ -1325,15 +1325,15 @@ Some of the famous JavaScript engines are:
 4. Chakra - Developed by Microsoft, used in Internet Explorer and Microsoft Edge
 5. Nashorn - Developed by Oracle, used in Java platform
 
-### 131. What is Call Stack ?
+### Question 131. What is Call Stack ?
 
 The call stack is a mechanism used by JavaScript to keep track of function calls in the code. It is a data structure that stores information about the active functions in memory, including the current position in the code, the values of parameters and local variables, and the return address of each function. When a function is called, its context is pushed onto the top of the call stack, and when it returns, its context is popped off the stack. This allows JavaScript to maintain the order of execution and properly handle nested function calls.
 
-### 132. What is Execution Context ?
+### Question 132. What is Execution Context ?
 
 Execution context in JavaScript refers to the environment in which a piece of code is executed. It includes the variables, functions, and objects that are currently accessible, as well as the scope chain, the value of 'this', and other contextual information that affects how the code is executed. Every time code is executed, a new execution context is created, with its own set of variables and function references.
 
-### 133. How call stack and execution context are interrelated ?
+### Question 133. How call stack and execution context are interrelated ?
 
 In JavaScript, the call stack and execution context are closely interrelated.
 
@@ -1345,15 +1345,15 @@ When a function is called, its execution context is pushed onto the top of the c
 
 So, as you move up and down the call stack, you are also moving between different execution contexts. Understanding how these two concepts are related is important for understanding how JavaScript code is executed.
 
-### 134. What is Heap memory ?
+### Question 134. What is Heap memory ?
 
 In JavaScript, heap memory is a region of memory used by the JavaScript engine to store dynamically allocated objects. It's where objects like arrays and objects are stored when they're created during runtime. The garbage collector in JavaScript manages the heap memory by reclaiming memory from unreachable objects.
 
-### 135. What is Stack memory ?
+### Question 135. What is Stack memory ?
 
 In JavaScript, the stack memory is a region of memory that stores function call frames. Each time a function is called, a new frame is added to the stack, and when the function returns, the frame is removed from the stack. The stack memory is used to keep track of the current execution context and to handle function calls and returns. It has limited size and can cause a stack overflow error if too many nested function calls occur.
 
-### 135. What is the difference between heap and stack memory ?
+### Question 135. What is the difference between heap and stack memory ?
 
 In JavaScript, there is no explicit control over heap and stack memory.
 
@@ -1361,27 +1361,27 @@ However, objects are allocated in the heap, and primitives (such as numbers and 
 
 Variables declared with `var` or `let` are stored on the stack, but their values may point to objects allocated on the heap. It's important to note that JavaScript automatically manages memory allocation and deallocation, so developers don't need to worry about manually allocating or freeing memory.
 
-### 136. What is Compiler?
+### Question 136. What is Compiler?
 
 A compiler is a software program that translates source code written in a high-level programming language into machine code or bytecode that can be executed by a computer. The process of compilation involves several stages such as lexical analysis, syntax analysis, semantic analysis, code optimization, and code generation.
 
-### 137. What is interpreter?
+### Question 137. What is interpreter?
 
 An interpreter is a software program that reads and executes code written in a high-level programming language line by line, without the need for compilation. It translates the source code into machine-readable code on-the-fly and immediately executes it. This makes it easier to test and debug programs because errors can be identified as soon as they occur. Examples of interpreted programming languages include Python, Ruby, and JavaScript.
 
-### 138. What is the difference between compiler and interpreter?
+### Question 138. What is the difference between compiler and interpreter?
 
 A compiler translates source code into an executable file all at once, while an interpreter executes the source code line by line.
 
-### 139. What is JIT ?
+### Question 139. What is JIT ?
 
 JIT stands for "Just-In-Time" compilation, which is a technique used by JavaScript engines to improve the performance of code execution. During JIT compilation, JavaScript code is analyzed and optimized on the fly while it's being executed, rather than ahead of time. This allows the engine to make more informed decisions about how to optimize the code based on runtime information. As a result, JIT compilation can significantly boost the performance of JavaScript applications.
 
-### 140. What is event loop ?
+### Question 140. What is event loop ?
 
 The event loop in JavaScript is a mechanism that allows asynchronous operations to be performed efficiently by continuously monitoring the call stack and message queue, and executing queued functions when the stack is empty. This ensures that long-running or blocking operations do not interfere with the responsiveness of the user interface.
 
-### 141. What is inside the execution context in javascript? Types of execution context?
+### Question 141. What is inside the execution context in javascript? Types of execution context?
 
 An execution context in JavaScript contains information that the JavaScript engine uses to execute code. The information inside an execution context includes the variable environment, scope chain, and this keyword.
 
@@ -1391,15 +1391,15 @@ There are two main types of execution contexts in JavaScript:
 
 2. Functional execution context: This is created when a function is called. Each function call creates a new functional execution context with its own variable environment, scope chain, and this keyword.
 
-### 142. What is variable environment ?
+### Question 142. What is variable environment ?
 
 In JavaScript, variable environment refers to the context in which a variable exists and can be accessed. It includes all the variables, function declarations, and function arguments that are currently in scope. The variable environment is created for each execution context and is used by the JavaScript engine to keep track of variables and their values during runtime.
 
-### 143. What is scope chain ?
+### Question 143. What is scope chain ?
 
 The scope chain in JavaScript refers to the hierarchical order in which the JavaScript interpreter looks for variables and functions within nested functions. When a variable or function is referenced, the interpreter first searches the current local scope, and then moves up the chain of higher-level enclosing scopes until it finds the requested identifier or reaches the global scope. This process is called variable or function resolution.
 
-### 144. What is this keyword ? Where to use it? What this keyword denotes?
+### Question 144. What is this keyword ? Where to use it? What this keyword denotes?
 
 The "this" keyword in JavaScript refers to the object that the current code is being executed on or within. It is a reference to the current context or scope, and its value is determined at runtime based on how the code is invoked.
 
@@ -1409,17 +1409,17 @@ The specific value of "this" depends on how the function or method was called. W
 
 The "this" keyword can also be explicitly set using the call(), apply(), or bind() methods.
 
-### 145. What is creation and code phase ?
+### Question 145. What is creation and code phase ?
 
 "Creation phase" refers to the initial phase of the execution context in JavaScript, during which the interpreter sets up the scope chain, creates variables and functions, and allocates memory for them. This is also known as the "variable instantiation" or "hoisting" phase.
 
 The "code phase" in JavaScript refers to the phase during which the interpreter executes the code line by line, following the order in which it was written. This is also known as the "execution phase" or "runtime" phase.
 
-### 146. What will happen if we use this keyword inside a function in strict mode ?
+### Question 146. What will happen if we use this keyword inside a function in strict mode ?
 
 If you use the "this" keyword inside a function in strict mode in JavaScript, its value will be undefined. In non-strict mode, it would refer to the global window object.
 
-### 147. What is the difference between primitive and object ?
+### Question 147. What is the difference between primitive and object ?
 
 In JavaScript, primitives are the most basic data types, including numbers, strings, booleans, null, and undefined. They are immutable and stored by value.
 
@@ -1427,11 +1427,11 @@ Objects, on the other hand, are more complex data types that can store collectio
 
 In summary, primitives are simple, immutable values, while objects are more complex, mutable data types that can store collections of data and functionality.
 
-### 148. What is normal copy ?
+### Question 148. What is normal copy ?
 
 In JavaScript, "normal copy" typically refers to creating a new independent copy of an object or primitive value. This can be done using various techniques such as the spread operator (`...`), `Object.assign()`, or simply assigning the value to a new variable. This allows you to modify one copy of the data without affecting the other.
 
-### 149. What is shallow copy ? How to perform shallow copy of an object?
+### Question 149. What is shallow copy ? How to perform shallow copy of an object?
 
 In JavaScript, shallow copy creates a new object and copies only the properties of the original object one level deep. This means that if the original object has nested objects or arrays, they will still reference the same memory locations as the original object.
 
@@ -1453,7 +1453,7 @@ const newObj = Object.assign({}, originalObj);
 
 Both of these methods create a new object with the same properties as the original object. However, if the original object had properties that referenced other objects or arrays, the new object will reference the same objects/arrays as the original object.
 
-### 150. What is deep copy ? How to perform deep copy of an object?
+### Question 150. What is deep copy ? How to perform deep copy of an object?
 
 In JavaScript, a deep copy refers to creating a new object or array with all of its nested values also copied instead of just copying the references to them.
 
@@ -1480,19 +1480,19 @@ let obj = {foo: 'bar', arr: [1, 2, 3]};
 let deepCopy = _.cloneDeep(obj);
 ```
 
-### 151. Where objects are stored ? Is object primitive type or non-primitive?
+### Question 151. Where objects are stored ? Is object primitive type or non-primitive?
 
 Objects in JavaScript are stored in the heap, which is a region of memory used for dynamic allocation. Objects are non-primitive types in JavaScript, as opposed to primitive types like numbers and strings.
 
-### 152. What is Destructuring ?
+### Question 152. What is Destructuring ?
 
 Destructuring in JavaScript is a way of extracting values from arrays or objects into distinct variables, making it easier to work with complex data structures. It allows you to unpack values from arrays or properties from objects into separate variables using a concise syntax. For example, `const [a, b] = [1, 2]` assigns the value of `1` to variable `a` and `2` to variable `b`. Similarly, `const { name, age } = { name: 'John', age: 30 }` assigns the value of `'John'` to variable `name` and `30` to variable `age`.
 
-### 153. How to reverse values using destructuring ?
+### Question 153. How to reverse values using destructuring ?
 
 You cannot reverse values using destructuring in JavaScript. Destructuring allows you to extract values from an object or array and assign them to variables, but it does not provide a way to reverse the order of those values. To reverse an array, you can use the `reverse()` method.
 
-### 154. How to return two values from function ?
+### Question 154. How to return two values from function ?
 
 In JavaScript, you can return two (or more) values from a function by returning an array or an object containing those values. Here's an example:
 
@@ -1522,7 +1522,7 @@ console.log(b); // output: 2
 
 Note that you can access the returned values either by destructuring the array or the object using the assignment operators.
 
-### 155. How destructuring works in array and object ?
+### Question 155. How destructuring works in array and object ?
 
 Destructuring in JavaScript allows you to extract values from arrays and properties from objects into distinct variables.
 
@@ -1550,7 +1550,7 @@ const { x: a, y: b } = obj;
 console.log(a); // Output: 1
 ```
 
-### 156. How to do destructuring of nested array ?
+### Question 156. How to do destructuring of nested array ?
 
 To destructure a nested array in JavaScript, you can use the square bracket notation to access each level of the array, and then assign the values to variables using destructuring syntax. Here's an example:
 
@@ -1566,7 +1566,7 @@ console.log(num4); // 4
 
 In this example, we have a nested array `[3, 4]` inside the main array `arr`. We use destructuring syntax to assign the first two values of `arr` (`1` and `2`) to the variables `num1` and `num2`, and then we use another set of square brackets to access the nested array and assign its values (`3` and `4`) to the variables `num3` and `num4`.
 
-### 157. How to set default values in destructuring ?
+### Question 157. How to set default values in destructuring ?
 
 In JavaScript, you can set default values in destructuring by using the assignment operator (`=`) within the destructuring syntax. Here's an example:
 
@@ -1576,11 +1576,11 @@ const { foo = 'defaultFoo', bar = 'defaultBar' } = someObject;
 
 In this example, if `someObject` has a property named `foo`, its value will be assigned to the `foo` variable. If `someObject` does not have a property named `foo`, the `foo` variable will be assigned the value `'defaultFoo'`. Similarly, if `someObject` has a property named `bar`, its value will be assigned to the `bar` variable. If `someObject` does not have a property named `bar`, the `bar` variable will be assigned the value `'defaultBar'`.
 
-### 158. What is destructuring object ?
+### Question 158. What is destructuring object ?
 
 Destructuring object in Javascript is a technique that allows you to extract properties from an object and assign them to variables in a more concise way. It involves using curly braces {} to create a pattern that matches the shape of the object, and then using that pattern on the left-hand side of an assignment statement to destructure the object into individual variables. This can help simplify code and make it easier to work with objects.
 
-### 159. How we can use destructuring with object ?
+### Question 159. How we can use destructuring with object ?
 
 Destructuring is a feature in JavaScript that allows you to extract values from an object or array and assign them to variables in a more concise way. To use destructuring with objects in JavaScript, you can:
 
@@ -1616,7 +1616,7 @@ const { name, age, address: { city } } = person;
 console.log(name, age, city); // Output: "John 30 New York"
 ```
 
-### 160. How to destructuring remaining value to a single variable ?
+### Question 160. How to destructuring remaining value to a single variable ?
 
 In JavaScript, you can use the rest parameter syntax (`...`) to destructure remaining values into a single variable. Here's an example:
 
@@ -1630,7 +1630,7 @@ In this example, the first element of the array is destructured and assigned to 
 
 Note that the rest parameter must be the last parameter in a function's parameter list, or the last element in an array destructuring pattern.
 
-### 161. How to give alias name to a property name ?
+### Question 161. How to give alias name to a property name ?
 
 In JavaScript, you can create an alias for a property by using the `Object.defineProperty()` method to define a new property that has the same value as the original property, but with a different name. Here's an example:
 
@@ -1651,7 +1651,7 @@ Object.defineProperty(object, 'aliasName', {
 
 In this example, we define a new property called `aliasName` that gets and sets the value of the `originalName` property. Now you can use `object.aliasName` to access the property with the alias name.
 
-### 162. How we can set default values in destructurnig object ?
+### Question 162. How we can set default values in destructurnig object ?
 
 In JavaScript, you can set default values in destructuring objects by using the assignment operator (`=`) along with the default value you want to provide. Here's an example:
 
@@ -1663,11 +1663,11 @@ console.log(b); // Output: "hello"
 
 In this example, we're destructuring an empty object and setting default values for `a` and `b`. If `a` or `b` is not present in the object being destructured, their default values will be used instead.
 
-### 163. What is nested object destructuring ?
+### Question 163. What is nested object destructuring ?
 
 Nested object destructuring in JavaScript is a way to extract multiple nested properties from an object and assign them to variables using a concise syntax. It allows you to access deeply nested properties of an object without having to write long chains of property accesses. This can make your code more readable and easier to maintain. Nested object destructuring can be done using the curly brace notation with the same structure as the object being destructured, including any nested objects or arrays.
 
-### 164. How to destructruing object when passing into a function ?
+### Question 164. How to destructruing object when passing into a function ?
 
 To destructure an object when passing it into a function in JavaScript, you can use the destructuring syntax in the function parameter itself. Here's an example:
 
@@ -1682,11 +1682,11 @@ myFunction(person); // Output: Hello, John. You are 30 years old.
 
 In this example, we're destructuring the `person` object when passing it into the `myFunction` function. The function parameter is `{name, age}`, which extracts the `name` and `age` properties from the object. We can then use these extracted values inside the function.
 
-### 165. What is spread operator ?
+### Question 165. What is spread operator ?
 
 The spread operator, represented by three dots (...), is a feature in JavaScript that allows an iterable (e.g. an array, string, or object) to be expanded into individual elements. It can be used in various contexts, such as when calling a function with multiple arguments, concatenating arrays, and creating copies of objects or arrays.
 
-### 166. How to do shallow copy using spread operator ?
+### Question 166. How to do shallow copy using spread operator ?
 
 To do a shallow copy using the spread operator in JavaScript, you can use the following syntax:
 
@@ -1697,7 +1697,7 @@ const copiedArray = [...originalArray];
 
 This will create a new array `copiedArray` that has the same elements as `originalArray`. However, any nested objects or arrays within `originalArray` will still be pointing to the same reference in memory, so changes made to them will affect both arrays.
 
-### 167. How to join multiple arrays using spread operator ?
+### Question 167. How to join multiple arrays using spread operator ?
 
 To join multiple arrays using the spread operator in JavaScript, you can simply use the `...` syntax followed by the array names inside square brackets ([]), like this:
 
@@ -1711,7 +1711,7 @@ console.log(arr3); // Output: [1, 2, 3, 'a', 'b', 'c']
 
 In the example above, the `...` syntax is used to expand each of the arrays `arr1` and `arr2` into separate elements, which are then combined into a new array `arr3`.
 
-### 168. How to convert a String to array using spread operator ?
+### Question 168. How to convert a String to array using spread operator ?
 
 To convert a string to an array using the spread operator in JavaScript, you can use the following syntax:
 
@@ -1723,7 +1723,7 @@ console.log(arr);
 
 This will output `["h", "e", "l", "l", "o"]`. The spread operator `...` allows you to expand the string into individual characters and create a new array with those characters.
 
-### 169. How to pass arguments in function using spread operator ?
+### Question 169. How to pass arguments in function using spread operator ?
 
 To pass arguments in a function using the spread operator in JavaScript, you can use the spread syntax (`...`) followed by an array or iterable containing the values you want to pass as separate arguments. Here's an example:
 
@@ -1739,17 +1739,17 @@ myFunction(...args); // Output: 1 2 3
 
 In this example, the `myFunction` function takes three arguments (`x`, `y`, and `z`). We create an array `args` containing the values we want to pass to the function, and then use the spread operator to expand the contents of `args` into separate arguments when calling the `myFunction` function. The output will be `1 2 3`.
 
-### 170. What is rest parameter ?
+### Question 170. What is rest parameter ?
 
 The rest parameter in JavaScript allows a function to accept an indefinite number of arguments as an array. It is denoted by three dots before the parameter name and must be the last parameter in the function's parameter list.
 
-### 171. Difference between spread and rest operator ?
+### Question 171. Difference between spread and rest operator ?
 
 The spread operator (...) in JavaScript is used to expand an iterable (like an array) into individual elements whereas the rest parameter (...) is used to collect multiple elements and pack them into an array.
 
 In other words, the spread operator is used to split an iterable into individual elements while the rest parameter is used to combine individual elements into an array.
 
-### 172. How to pass variable arguments in function using rest operator ?
+### Question 172. How to pass variable arguments in function using rest operator ?
 
 In JavaScript, you can pass variable arguments in a function using the rest operator (`...`). The rest operator allows you to represent an indefinite number of arguments as an array. Here's how you can use it:
 
@@ -1763,11 +1763,11 @@ In this example, `myFunction` accepts any number of arguments and the `...args` 
 
 For example, if you call `myFunction(1, 2, 3)`, the output will be `[1, 2, 3]`.
 
-### 173. What is short circuiting ?
+### Question 173. What is short circuiting ?
 
 Short circuiting in JavaScript is a behavior where the logical operators `&&` and `||` do not evaluate the entire expression if it's not necessary to determine the final result. For example, when using the `&&` operator, if the first operand evaluates to false, the second operand will not be evaluated because the result of the expression can already be determined. Similarly, when using the `||` operator, if the first operand evaluates to true, the second operand will not be evaluated because the result of the expression can already be determined. This behavior can be useful for writing concise and efficient code.
 
-### 174. Difference between || and ??
+### Question 174. Difference between || and ??
 
 In JavaScript, the "||" operator is used for logical OR and returns the first truthy operand or the last falsy operand. For example, `a || b` would return `a` if it is truthy, otherwise it would return `b`.
 
@@ -1778,21 +1778,21 @@ In summary:
 - `||` returns the first truthy value or the last falsy value.
 - `??` returns the first defined value that is not nullish.
 
-### 175. What is nullish coalescing operator ?
+### Question 175. What is nullish coalescing operator ?
 
 The nullish coalescing operator (??) in JavaScript is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and returns the left-hand side operand otherwise. It is useful for providing default values for variables that may be null or undefined.
 
-###  176. What is optional chaining? What are the benefits of using optional chaining ?
+### Question  176. What is optional chaining? What are the benefits of using optional chaining ?
 
 Optional chaining is a syntax in JavaScript that allows developers to safely access properties and methods of an object without worrying if the object is nullish or undefined. It is denoted by the "?" operator and can be used in conjunction with dot notation or bracket notation.
 
 The benefits of using optional chaining include reducing the likelihood of errors caused by attempting to access a property or method of an undefined or nullish object, resulting in more robust and reliable code. It also leads to cleaner and more concise code, as developers no longer need to write verbose conditional statements to check for nullish values before accessing object properties.
 
-### 177. What is an Array ?
+### Question 177. What is an Array ?
 
 An array in JavaScript is a data structure that allows you to store and manipulate a collection of elements, such as numbers, strings, or objects, in a single variable. It is defined using square brackets and each element is separated by a comma. Arrays are zero-indexed, meaning the first element has an index of 0, the second element has an index of 1, and so on. You can access and modify individual elements in an array using their index.
 
-### 178. What are the properties of an Array ?
+### Question 178. What are the properties of an Array ?
 
 An array in JavaScript is an ordered collection of values, which can include any data type such as numbers, strings, objects, and other arrays. Some of the key properties of arrays in JavaScript include:
 
@@ -1802,7 +1802,7 @@ An array in JavaScript is an ordered collection of values, which can include any
 4. Homogeneous: Unlike some other programming languages, JavaScript arrays can hold any data type, making them heterogeneous.
 5. Objects: In JavaScript, arrays are actually a specialized type of object, with numeric keys (indexes) and special behaviors for certain properties like `length`.
 
-### 179. Difference between Array Literal and Array Object ?
+### Question 179. Difference between Array Literal and Array Object ?
 
 An array literal is a shorthand notation for creating an array in JavaScript using square brackets [] with comma-separated values inside. For example:
 
@@ -1819,19 +1819,19 @@ const myOtherArray = new Array(1, 2, 3); // Array with elements
 
 While both ways of creating arrays in JavaScript achieve the same result, using array literals is generally considered to be more concise and easier to read. However, array objects offer additional methods and properties that can be used to manipulate and access elements in the array.
 
-### 180. What is the significance of index in Array ?
+### Question 180. What is the significance of index in Array ?
 
 In JavaScript, an index is used to access and retrieve a specific element in an array. Each element in an array has a unique index number that starts from 0 for the first element, 1 for the second element, and so on. The index allows for easy and efficient retrieval and manipulation of data stored in arrays. It is a fundamental concept in working with arrays in JavaScript.
 
-### 181. Does sort function work for all types of elements ?
+### Question 181. Does sort function work for all types of elements ?
 
 The `sort()` function in JavaScript works for arrays of all types of elements, but the order in which it sorts them may not always be what you expect. For example, when sorting an array of strings, it will sort them alphabetically by default. When sorting an array of numbers, it will sort them in ascending order by default. You can also provide a custom sorting function as an argument to `sort()` if the default behavior doesn't meet your needs.
 
-### 182. When to pass a sorting function sort function ?
+### Question 182. When to pass a sorting function sort function ?
 
 You should pass a sorting function to the sort() method in JavaScript when you want to customize the way an array is sorted. By default, the sort() method sorts elements alphabetically or numerically, but you can provide your own comparison function to define a custom sort order based on your specific needs.
 
-### 183. Difference between push and unshift, pop and shift ?
+### Question 183. Difference between push and unshift, pop and shift ?
 
 In JavaScript, push() and unshift() are methods used to add elements to an array, while pop() and shift() are methods used to remove elements from an array:
 
@@ -1843,7 +1843,7 @@ In JavaScript, push() and unshift() are methods used to add elements to an array
 
 In summary, push() and unshift() add elements to an array, while pop() and shift() remove elements from an array.
 
-### 184. Difference between slice, splice ?
+### Question 184. Difference between slice, splice ?
 
 In JavaScript, `slice()` and `splice()` are both methods used to manipulate arrays, but they have different purposes:
 
@@ -1853,7 +1853,7 @@ In JavaScript, `slice()` and `splice()` are both methods used to manipulate arra
 - `splice()` method changes the content of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array.
   Syntax: `array.splice(index, count, elem1, elem2, ..., elemN)` where `index` is the index at which to start changing the array, `count` is the number of elements to remove from the array (if 0, no elements are removed), and `elem1`, `elem2`, ..., `elemN` are the elements to add to the array, beginning at the `index`.
 
-### 185. Difference between forEach, for of loop ?
+### Question 185. Difference between forEach, for of loop ?
 
 `forEach()` is a method on an array that executes a provided function once for each element in the array, while `for...of` loop is a built-in JavaScript loop statement that allows iterating over iterable objects (e.g. arrays, strings, maps, sets).
 
@@ -1877,7 +1877,7 @@ for (const element of arr) {
 }
 ```
 
-### 186. Difference between map, filter and reduce function ?
+### Question 186. Difference between map, filter and reduce function ?
 
 In JavaScript:
 
@@ -1887,7 +1887,7 @@ In JavaScript:
 
 `map()` and `filter()` do not modify the original array, whereas `reduce()` can modify the original array if the callback function used for reducing does so. All three functions take a callback function as their first argument, which determines how each element in the array is processed.
 
-### 187. Difference between some and every ?
+### Question 187. Difference between some and every ?
 
 In JavaScript, "some" and "every" are methods of an array that return a boolean value based on the elements in the array.
 
@@ -1909,7 +1909,7 @@ console.log(allNumbersArePositive); // true
 
 So, the key difference between "some" and "every" is that "some" returns true if at least one element satisfies the condition, while "every" returns true only if all elements satisfy the condition.
 
-### 188. Difference between flat and flatMap ?
+### Question 188. Difference between flat and flatMap ?
 
 In JavaScript, `flat()` is a method that creates a new array with all sub-array elements concatenated into it recursively up to the specified depth. For example:
 
@@ -1928,11 +1928,11 @@ arr.flatMap(x => [x * 2]); // [2, 4, 6]
 
 So, `flat()` is used for flattening arrays of arrays, while `flatMap()` is used for mapping and flattening an array in one step.
 
-### 189. What is an Object ?
+### Question 189. What is an Object ?
 
 In JavaScript, an object is a data type that stores key-value pairs, where the keys are strings and the values can be any data type, including other objects. Objects can also have methods, which are functions stored as object properties. Objects in JavaScript can be created using object literals or constructor functions, among other methods.
 
-### 190. Difference between object literal and new object ?
+### Question 190. Difference between object literal and new object ?
 
 In JavaScript, an object literal is a way to define and create an object using curly braces ({}) with key-value pairs separated by commas. For example:
 
@@ -1958,7 +1958,7 @@ const person = new Person('John', 30, 'New York');
 
 The main difference between object literals and creating objects using constructors is that object literals are created directly while creating objects using constructors involves defining a blueprint or template for the object using the constructor function. Additionally, creating objects using constructors allows for more advanced features such as inheritance and polymorphism.
 
-### 191. Difference between dot and bracket annotation ?
+### Question 191. Difference between dot and bracket annotation ?
 
 In JavaScript, dot notation and bracket notation are used to access and manipulate object properties.
 
@@ -2003,7 +2003,7 @@ console.log(person[propertyName2]["street"]); // Output: 123 Main St
 
 Note that while dot notation always uses a literal property name as its key, bracket notation allows the key to be any expression that evaluates to a string, including variables and function calls.
 
-### 192. Explain Object.keys, Object.values and Object.Entries function ?
+### Question 192. Explain Object.keys, Object.values and Object.Entries function ?
 
 `Object.keys`, `Object.values`, and `Object.entries` are built-in functions in JavaScript that operate on objects.
 
@@ -2029,15 +2029,15 @@ console.log(Object.entries(person)); // Output: [['name', 'John'], ['age', 30], 
 
 In the example above, `Object.keys` returns an array containing all the keys of the `person` object, `Object.values` returns an array containing all the values of the `person` object, and `Object.entries` returns an array containing all the key-value pairs of the `person` object.
 
-### 193. What is Set ?
+### Question 193. What is Set ?
 
 In JavaScript, a set is a built-in data structure that allows you to store unique values of any type, whether primitive values or object references. Sets are similar to arrays, but they only contain unique values and do not have an index-based ordering. You can add, remove, and check if a value exists in a set using methods such as `add()`, `delete()`, and `has()`. Sets are commonly used to perform operations such as finding the intersection or union between two sets.
 
-### 194. What is weakSet in JavaScript ?
+### Question 194. What is weakSet in JavaScript ?
 
 WeakSet is a built-in data structure in JavaScript that allows you to store a collection of weakly held object references. It behaves similar to a Set, but it only holds weak references to its elements, meaning that if an object is no longer referenced by any other part of your code, it can be garbage collected even if it is still in the WeakSet. This makes WeakSets useful for situations where you want to associate some metadata with objects without preventing them from being garbage collected when they are no longer needed.
 
-### 195. How to print set values using for of loop ?
+### Question 195. How to print set values using for of loop ?
 
 To print set values using a `for...of` loop in JavaScript, you can use the `values()` method of the `Set` object to obtain an iterator for the set elements and then iterate through them using the `for...of` loop. Here is an example:
 
@@ -2069,7 +2069,7 @@ for (const value of mySet) {
 
 This will produce the same output as the previous example.
 
-### 196. How to create set to Array ?
+### Question 196. How to create set to Array ?
 
 You can create an array from a set in JavaScript by using the spread operator (`...`) or the `Array.from()` method. Here's an example using the spread operator:
 
@@ -2089,7 +2089,7 @@ console.log(myArray); // Output: ['a', 'b', 'c']
 
 Both methods will give you an array containing the same elements as the original set.
 
-### 197. What is Map ?
+### Question 197. What is Map ?
 
 In JavaScript, the `map()` method is used to create a new array by calling a function on each element of an existing array. The new array will have the same length as the original array but with modified values. It does not modify the original array. The syntax for using the `map()` method is:
 
@@ -2104,11 +2104,11 @@ array.map(function(currentValue, index, arr), thisValue)
 
 The `map()` method returns a new array with the modified values.
 
-### 198. What is weakMap in JavaScript ?
+### Question 198. What is weakMap in JavaScript ?
 
 WeakMap is a built-in data structure in JavaScript that allows for the creation of key-value pairs where the keys are weakly referenced. This means that if an object used as a key has no other references, it can be garbage collected even if it still exists in the WeakMap. WeakMaps are useful for scenarios where you want to associate metadata with an object without preventing the object from being garbage collected when it's no longer needed.
 
-### 199. What is chaining in Map ?
+### Question 199. What is chaining in Map ?
 
 Chaining in Map in JavaScript is a technique of applying multiple operations on the same Map object in a single statement, by chaining them together using dot notation. This allows for more concise and readable code. For example:
 
@@ -2123,7 +2123,7 @@ console.log(myMap.get('key1')); // output: value1
 
 In this code, we create a new Map object and chain multiple set() operations to add key-value pairs to it. We can then retrieve the value associated with 'key1' using the get() method.
 
-### 200. How the map will behave if we use an Array as key ?
+### Question 200. How the map will behave if we use an Array as key ?
 
 In JavaScript, an array cannot be used as a key in a Map. When an array is used as a key, it will be coerced to a string using the `toString()` method, and the resulting string will be used as the key. Thus, two different arrays with the same values will be considered as two different keys because their `toString()` output will be different. For example:
 
@@ -2144,7 +2144,7 @@ console.log(map.size); // 2
 
 In this example, `key1` and `key2` are two separate array objects with the same values. However, when they are used as keys in the Map, they are treated as two different keys because their `toString()` output is different. Therefore, the size of the Map will be 2, and we can retrieve different values by using each key.
 
-### 201. How to convert Map to Array ?
+### Question 201. How to convert Map to Array ?
 
 You can convert a Map to an Array in JavaScript using the spread operator (...) or the Array.from() method.
 
@@ -2164,7 +2164,7 @@ const myArray = Array.from(myMap);
 console.log(myArray); // output: [ [1, 'one'], [2, 'two'], [3, 'three'] ]
 ```
 
-### 202. How to convert Array to Map ?
+### Question 202. How to convert Array to Map ?
 
 You can convert an array to a map in JavaScript by using the `Map` constructor and the `Array.prototype.reduce()` method.
 
@@ -2189,7 +2189,7 @@ console.log(map);
 
 In this example, the `arr` array contains arrays representing key-value pairs. The `reduce()` method is used to transform each pair into an array of `[key, value]`, which is then passed to the `Map` constructor to create the new map object.
 
-### 203. How to convert Object to Map ?
+### Question 203. How to convert Object to Map ?
 
 You can convert an object to a Map in JavaScript using the `Map()` constructor and the `Object.entries()` method. The `Object.entries()` method returns an array of key-value pairs from the object, which can be passed as an argument to the `Map()` constructor to create a new Map. Here's an example:
 
@@ -2201,7 +2201,7 @@ console.log(map); // Map(3) { 'a' => 1, 'b' => 2, 'c' => 3 }
 
 In this example, `Object.entries(obj)` returns an array of key-value pairs `[ [ 'a', 1 ], [ 'b', 2 ], [ 'c', 3 ] ]`, which is passed as an argument to the `Map()` constructor to create a new Map with the same key-value pairs.
 
-### 204. How to iterate map using foreach and for of loop ?
+### Question 204. How to iterate map using foreach and for of loop ?
 
 In JavaScript, you can iterate over a Map using the `forEach()` method or with a `for...of` loop.
 
@@ -2241,11 +2241,11 @@ key2 = value2
 key3 = value3
 ```
 
-### 205. What is OOPs ?
+### Question 205. What is OOPs ?
 
 OOPs stands for Object-Oriented Programming in JavaScript. It is a programming paradigm that organizes code into objects, which contain data and methods that act on that data. In OOPs, objects are created from classes or constructors, and can inherit properties and methods from parent objects. OOPs in JavaScript allows for code reusability, encapsulation, and abstraction.
 
-### 206. What are the 6 priniciples of OOPs?
+### Question 206. What are the 6 priniciples of OOPs?
 
 The 6 principles of Object-Oriented Programming (OOP) are:
 
@@ -2261,7 +2261,7 @@ The 6 principles of Object-Oriented Programming (OOP) are:
 
 6. Interface: This provides a clear definition of how objects can interact with each other, enabling objects to communicate and work together effectively.
 
-### 207. Explain below topics and give one real life example of each topic Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism ?
+### Question 207. Explain below topics and give one real life example of each topic Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism ?
 
 Sure, here are explanations and examples for each topic:
 
@@ -2289,7 +2289,7 @@ Example: A class "Animal" may have subclasses like "Dog", "Cat", and "Bird". The
 
 Example: In a drawing program, various shapes like circles, squares, and triangles can all be represented by objects of different classes, but they can be manipulated with common methods like "resize" or "rotate".
 
-### 208. How to inheritance works ?
+### Question 208. How to inheritance works ?
 
 Inheritance in JavaScript is achieved through the prototype chain. Each object has a prototype object, which itself can have a prototype object, forming a chain of objects, ultimately leading to the base Object prototype. When an object's property is accessed or a method is called, JavaScript looks for that property or method on the object itself, and if it doesn't find it, it continues up the prototype chain until it finds the property or reaches the end of the chain.
 
@@ -2324,11 +2324,11 @@ console.log(child.foo); // 'hello'
 console.log(child.bar); // 'world'
 ```
 
-### 209. What is prototypal inheritance ?
+### Question 209. What is prototypal inheritance ?
 
 Prototypal inheritance is a mechanism in JavaScript where objects can inherit properties and methods from other objects, through a prototype chain. Every object in JavaScript has an internal property called [[Prototype]] which refers to another object, and when a property or method is accessed on an object, if it doesn't exist on the object itself, the JavaScript engine will look for it on its prototype object. This process continues until the property or method is found or until the end of the prototype chain is reached (i.e., the base Object prototype). By setting an object's [[Prototype]] to another object, we can create a chain of objects that share common properties and methods, allowing for efficient code reuse and organization.
 
-### 210. What are the different ways of doing prototypal inheritance ?
+### Question 210. What are the different ways of doing prototypal inheritance ?
 
 In JavaScript, there are two main ways to do prototypal inheritance:
 
@@ -2353,23 +2353,23 @@ let child = new Parent('Child');
 child.sayHello(); // Output: Hello, my name is Child
 ```
 
-### 211. What is Constructor function ?
+### Question 211. What is Constructor function ?
 
 Constructor functions are special functions in JavaScript that are used to create and initialize objects. They are typically defined using the function keyword and are named with an initial uppercase letter to distinguish them from regular functions. When a constructor function is called with the new keyword, it creates a new object and sets its prototype to the constructor function's prototype. The constructor function can also define properties and methods on the newly created object by using the this keyword.
 
-### 212. What is ES6 classes ?
+### Question 212. What is ES6 classes ?
 
 ES6 (ECMAScript 2015) introduced a new syntax for creating classes in JavaScript, known as ES6 classes. It provides a cleaner syntax and a more familiar object-oriented programming style for developers coming from other programming languages. ES6 classes use the 'class' keyword to define a class, and constructors to initialize objects. They also support inheritance using the 'extends' keyword.
 
-### 213. What is Object.create ?
+### Question 213. What is Object.create ?
 
 `Object.create` is a method in JavaScript that creates a new object with the prototype set to a specified object. The newly created object inherits properties and methods from its prototype object. It takes an optional parameter which represents the properties of the new object, and returns the new object.
 
-### 214. What is prototypal chain ?
+### Question 214. What is prototypal chain ?
 
 The prototypal chain in JavaScript is a mechanism for objects to inherit properties and methods from their parent objects, creating a chain of objects that share common characteristics. Each object has an internal [[Prototype]] property that points to its parent object's prototype, allowing it to access the parent's properties and methods. If a property or method is not found in an object, JavaScript looks up the chain until it reaches the top-level Object.prototype.
 
-### 215. What is setters and getters in ES6 classes ?
+### Question 215. What is setters and getters in ES6 classes ?
 
 Setters and getters are special functions in ES6 classes that allow external code to access and modify the properties of an object, while also providing a layer of abstraction over the implementation details of those properties.
 
@@ -2395,11 +2395,11 @@ class Person {
 
 In this example, the `name` getter and setter methods allow external code to read and modify the `_name` property of a `Person` object, respectively. The use of an underscore before the name of the property is a common convention to indicate that it should not be accessed directly from outside the class.
 
-### 216. What will happen if we give same name of property of an object and setter and getter ?
+### Question 216. What will happen if we give same name of property of an object and setter and getter ?
 
 If you give the same name to a property and its corresponding setter or getter method in a JavaScript object, then it will create an infinite loop that will continuously call the setter or getter until it exceeds the maximum stack size, which will result in a "Maximum call stack size exceeded" error. Therefore, it is important to give unique names to properties and their corresponding setter and getter methods in JavaScript objects.
 
-### 217. What is static function in ES6 classes ?
+### Question 217. What is static function in ES6 classes ?
 
 In ES6 classes in JavaScript, there is no concept of a static function. Instead, you can define a static method using the `static` keyword inside the class definition. A static method is a function that belongs to the class itself, rather than an instance of the class, and can be called directly on the class. For example:
 
@@ -2413,7 +2413,7 @@ class MyClass {
 MyClass.myStaticMethod(); // Output: "This is a static method"
 ```
 
-### 218. How to implement inheritance in Constructor functions, ES6 classes and Object.create ?
+### Question 218. How to implement inheritance in Constructor functions, ES6 classes and Object.create ?
 
 Inheritance can be implemented in JavaScript using constructor functions, ES6 classes, and Object.create in the following ways:
 
@@ -2489,7 +2489,7 @@ student.grade = 'A';
 student.greet(); // Output: Hello, my name is John Doe.
 ```
 
-### 219. How to implement encapsulation? How to make fields protected ?
+### Question 219. How to implement encapsulation? How to make fields protected ?
 
 In JavaScript, encapsulation can be implemented by using closure and module pattern. To create protected fields in JavaScript, you can declare the fields inside a constructor function or class as local variables with `var` or `let` keywords, and then expose getter and setter methods for accessing and modifying the fields.
 
@@ -2526,7 +2526,7 @@ console.log(john.getAge()); // output: 40
 
 In this example, `_name` and `_age` are private fields that can only be accessed and modified through the getter and setter methods. The getter methods `getName()` and `getAge()` return the values of the private fields, while the setter method `setAge()` sets the value of the `_age` field only if the input is a positive number.
 
-### 220. How to make fields and functions private ?
+### Question 220. How to make fields and functions private ?
 
 In JavaScript, you can make fields and functions private by creating a closure using an IIFE (Immediately Invoked Function Expression) or a module pattern. By doing so, the variables and functions inside the closure are not accessible from outside.
 
@@ -2553,7 +2553,7 @@ myModule.publicFunc(); // Output: "This is a public function"
 
 In this example, `privateVar` and `privateFunc` are only accessible within the closure created by `myModule`. The returned object contains only the `publicFunc` method, making it the only method that can be accessed from outside the closure.
 
-### 221. What is chaining methods? How can we implement the same in ES6 classes ?
+### Question 221. What is chaining methods? How can we implement the same in ES6 classes ?
 
 Chaining methods is a programming technique where multiple methods are called on the same object in a single statement, by returning the object itself from each method. This allows for more concise and expressive code.
 
@@ -2583,15 +2583,15 @@ console.log(obj.value); // Output: 2
 
 In the above example, the `add()` and `subtract()` methods both return `this`, which allows them to be chained together in a single statement.
 
-### 222. What is Synchronous and Asynchronous ?
+### Question 222. What is Synchronous and Asynchronous ?
 
 In JavaScript, synchronous refers to code that is executed in a single thread and blocks other tasks until it completes. Asynchronous, on the other hand, allows multiple tasks to be executed concurrently, so that long-running or blocking tasks do not hold up the execution of other tasks. Asynchronous operations often rely on callbacks or promises to manage their completion or errors.
 
-### 223. What is AJAX ?
+### Question 223. What is AJAX ?
 
 AJAX (Asynchronous JavaScript and XML) is a technique in web development that allows for asynchronous communication between a web browser and a web server, without requiring the entire page to be reloaded. It enables dynamic content to be loaded onto a webpage without interrupting the user's experience. AJAX uses JavaScript to send and receive data in the background and can work with various data formats, not only XML.
 
-### 224. What is API? Explain topics SOAP API, Rest API, Request, Response, Request Body, Query Param, Path Variable, URL, URI, Data : JSON/XML/Text
+### Question 224. What is API? Explain topics SOAP API, Rest API, Request, Response, Request Body, Query Param, Path Variable, URL, URI, Data : JSON/XML/Text
 
 API stands for Application Programming Interface, and it's a set of protocols and tools for building software applications.
 
@@ -2617,17 +2617,17 @@ JSON (JavaScript Object Notation) is a lightweight data interchange format that 
 
 XML (Extensible Markup Language) is a markup language that encodes documents in a format that is both human-readable and machine-readable.
 
-### 225. What is server client architecture ?
+### Question 225. What is server client architecture ?
 
 Server-client architecture in JavaScript refers to the way in which data and functionality are distributed between a server and a client (usually a web browser) in a web application. The server is responsible for storing and managing data, while the client is responsible for rendering the user interface and handling user interactions. In a typical scenario, JavaScript code running on the client makes requests to the server to retrieve or modify data, and the server responds with the requested information. Ajax (Asynchronous JavaScript and XML) is a common technique used to facilitate this communication between the client and the server.
 
-### 226. What is Promise and fetch ?
+### Question 226. What is Promise and fetch ?
 
 In JavaScript, a Promise is an object representing the eventual completion or failure of an asynchronous operation and allows you to write asynchronous code that looks synchronous.
 
 The fetch() function is a built-in method in JavaScript that allows you to make network requests to retrieve resources from a server using the HTTP protocol. It returns a Promise, which resolves to the Response object representing the server response to the request.
 
-### 227. How to consume promises ?
+### Question 227. How to consume promises ?
 
 To consume a Promise in JavaScript, you can use the `.then()` method on the Promise object. This allows you to attach a callback function that will be executed once the Promise is fulfilled with a value. For example:
 
@@ -2652,7 +2652,7 @@ async function myAsyncFunction() {
 }
 ```
 
-### 228. How handle rejected promises ?
+### Question 228. How handle rejected promises ?
 
 In JavaScript, rejected promises can be handled using the `.catch()` method.
 
@@ -2672,7 +2672,7 @@ somePromise()
 
 In this example, if `somePromise()` is rejected, the callback function passed to `.catch()` will be executed and you can handle the error there.
 
-### 229. How to create a Promise ?
+### Question 229. How to create a Promise ?
 
 To create a Promise in JavaScript, you can use the Promise constructor function. The Promise constructor takes a single argument, which is a function that has two parameters: resolve and reject. Here's an example:
 
@@ -2702,11 +2702,11 @@ myPromise
   });
 ```
 
-### 230. What is async/await ?
+### Question 230. What is async/await ?
 
 Async/await is a syntax feature in JavaScript that allows developers to write asynchronous code that looks and behaves like synchronous code. It involves using the "async" keyword before a function declaration to mark it as asynchronous, and the "await" keyword within the function to wait for the completion of an asynchronous operation before continuing execution.
 
-### 231. How to return values from Async function ?
+### Question 231. How to return values from Async function ?
 
 Async functions in JavaScript return a Promise, which resolves to the value returned by the function. You can either use the `await` keyword to wait for the Promise to resolve and get the returned value, or you can use the `.then()` method on the Promise to handle the resolved value.
 
@@ -2732,7 +2732,7 @@ myAsyncFunction().then(result => {
 
 Note that when using `await`, the calling function must also be declared as `async`.
 
-### 232. How to run promises in Parallel ?
+### Question 232. How to run promises in Parallel ?
 
 To run promises in parallel in JavaScript, you can use the `Promise.all()` method.
 
@@ -2754,7 +2754,7 @@ Promise.all([promise1, promise2, promise3])
 
 In this example, we create three promises that will resolve after different periods of time. We then pass an array of these promises to `Promise.all()`. This method returns a new promise that resolves with an array of the results of all promises when they have all completed. We can then use `.then()` to log the result or handle any errors with `.catch()`.
 
-### 233. How to do error handling? Explain try catch and finally ?
+### Question 233. How to do error handling? Explain try catch and finally ?
 
 Error handling is a technique used to detect and manage errors that may occur during the execution of a program. In JavaScript, try-catch-finally is a mechanism used for error handling.
 
@@ -2786,7 +2786,7 @@ try {
 
 To summarize, the `try` block encloses the code that might throw an error, the `catch` block handles the exception if one is thrown, and the `finally` block contains code that must be executed regardless of the outcome of the `try` block.
 
-### 234. Explain some of the promise combinators in javascript? Race, allSettled, any ?
+### Question 234. Explain some of the promise combinators in javascript? Race, allSettled, any ?
 
 - Promise.race: Returns a promise that resolves or rejects as soon as one of the promises in an iterable resolves or rejects, with the value or reason from that promise.
 
@@ -2794,11 +2794,11 @@ To summarize, the `try` block encloses the code that might throw an error, the `
 
 - Promise.any: Returns a promise that resolves as soon as one of the promises in an iterable fulfills, with the value from that promise. If all of the promises reject, the returned promise is rejected with an AggregateError containing all of the rejection reasons. Note that this method is not yet widely supported in all browsers.
 
-### 235. What is module ?
+### Question 235. What is module ?
 
 In JavaScript, a module is an independent and reusable piece of code that encapsulates related functionality such as variables, functions, classes, or objects. It allows developers to organize their code into separate files or modules, making it easier to manage and maintain large applications. Modules can be imported and exported between files, allowing them to communicate with each other and access each other's functionality. The most common way to use modules in modern JavaScript is through the ES6 module syntax, which uses the `import` and `export` keywords to define dependencies between modules.
 
-### 236. How to import and export modules ?
+### Question 236. How to import and export modules ?
 
 In JavaScript, you can import and export modules using the ES6 module syntax. Here are the basic steps:
 
@@ -2847,14 +2847,14 @@ console.log(alice.name); // Alice
 
 Note that in order for this to work, you'll need to be using a modern browser or a tool like Babel to transpile your code to older versions of JavaScript that support the module syntax.
 
-### 237. What is Polyfilling ?
+### Question 237. What is Polyfilling ?
 
 Polyfilling in JavaScript refers to the technique of adding code to emulate newer JavaScript features in older browsers or environments that don't support them natively. The polyfill code provides a fallback implementation of the feature so that developers can use it without worrying about browser compatibility issues.
 
-### 238. What is Transpiling ?
+### Question 238. What is Transpiling ?
 
 Transpiling in JavaScript means transforming code written in one version of the language to another version that is compatible with older browsers and environments. For example, transpiling ES6 code to ES5 code to ensure compatibility with older browsers. This is typically done using a tool such as Babel.
 
-### 239. Difference between polyfilling and transpiling ?
+### Question 239. Difference between polyfilling and transpiling ?
 
 Polyfilling is adding new functionality to older browsers that don't support it natively, by defining the missing features using JavaScript code. Transpiling is converting modern JavaScript code into an older version of JavaScript that is compatible with older browsers. Polyfilling adds new features, while transpiling adjusts the syntax and structure of existing code to work in older environments.
