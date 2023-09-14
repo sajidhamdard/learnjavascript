@@ -1069,7 +1069,7 @@ In JavaScript, the number system is a way of representing numerical values using
 
 6. isNaN(): The isNaN() function determines whether a value is NaN (not a number). It returns true if the value is NaN, and false otherwise.
 
-### What is Date object in JavaScript? What are the different ways of creating Date object?
+### 111. What is Date object in JavaScript? What are the different ways of creating Date object?
 
 The Date object in JavaScript represents a specific moment in time, providing methods for working with dates and times. It can be used to get and set the year, month, day, hours, minutes, seconds, and milliseconds.
 
