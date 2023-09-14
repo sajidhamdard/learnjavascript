@@ -1,4 +1,4 @@
-# JavaScript Interview Questions
+# JavaScript Interview Questions And Answers
 
 ### 1. What is programming language?
 
