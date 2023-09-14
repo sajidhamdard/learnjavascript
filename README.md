@@ -12,6 +12,8 @@ For the convenience of students who are not comfortable with English, we are try
 
 This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
+## "केवल आत्मविश्वास होना चाहिए, ज़िंदगी तो कहीं से भी शुरू हो सकती है।"
+
 ### JavaScript Course Material 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
