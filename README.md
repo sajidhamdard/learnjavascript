@@ -1,4 +1,4 @@
-# Complete JavaScript Notes
+# Complete JavaScript Study Material
 
 Hello All,
 
