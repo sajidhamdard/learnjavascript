@@ -18,6 +18,8 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
   <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
 </div>
 
+---
+
 ### JavaScript Course Material 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
@@ -899,6 +901,8 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_Github Notes_](./Github%20Notes/)
 
+---
+
 ## 🔥 Clone this Repository
 
 You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
@@ -912,7 +916,13 @@ Go to the project directory
 ```bash
   cd learnjavascript
 ```
+---
 
+### :fire: My Stats :
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sajidhamdard&theme=react&hide_border=true)](https://git.io/streak-stats)
+
+ <br />
+ 
 ## Contributors
 
 <a href="https://github.com/sajidhamdard/learnjavascript/graphs/contributors">
@@ -931,7 +941,18 @@ Go to the project directory
 
 Released under [MIT](/LICENSE) by [@sajidhamdard](https://github.com/sajidhamdard).
 
+---
+
 ## 🔗 Let's Connect
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajid-sj/)
-[![Easy Coding By Sajid](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/@EasyCodingBySajid)
+<div align="center" id="badges">
+  <a href="https://www.linkedin.com/in/sajid-sj/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://studio.youtube.com/@EasyCodingBySajid">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://instagram.com/sajid_aaloo">
+    <img src="https://img.shields.io/badge/Instagram-green?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+</div>
