@@ -1,4 +1,4 @@
-### What is programming language?   
+### 1. What is programming language?   
 Programming language ek aisa tarika hai jisse hum computers ko instructions dena sikhate hai. Jaise ki hum insaano ke liye languages hote hai, waise hi computers ke liye bhi kuch languages hai jinse unhe samajhne aur follow karne me help milti hai. Programming languages ka use software, applications, websites aur other technologies banane ke liye kiya jata hai.
 
 
