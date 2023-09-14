@@ -487,7 +487,7 @@ Explicit type conversion in JavaScript, also known as type casting or type coerc
 
 Coercion in JavaScript refers to the automatic type conversion that occurs when performing operations involving values of different data types. For example, when a string is added to a number, JavaScript will attempt to convert the string to a number before performing the addition operation. Coercion can be either implicit or explicit, and it can result in unexpected behavior if not understood properly.
 
-### What are different popup boxes available in core JavaScript?
+### 61. What are different popup boxes available in core JavaScript?
 
 There are three different types of popup boxes available in core JavaScript:
 
@@ -495,7 +495,7 @@ There are three different types of popup boxes available in core JavaScript:
 2. Confirm box: Displays a message and two buttons (OK and Cancel) for the user to confirm or cancel an action.
 3. Prompt box: Displays a message and a text input field, along with OK and Cancel buttons for the user to enter some input value.
 
-### What are the truthy and falsy values in JavaScript?
+### 62. What are the truthy and falsy values in JavaScript?
 
 In JavaScript, truthy values are values that evaluate to true when coerced to a boolean, while falsy values are values that evaluate to false when coerced to a boolean. The following values are considered falsy in JavaScript:
 
@@ -508,7 +508,7 @@ In JavaScript, truthy values are values that evaluate to true when coerced to a 
 
 All other values in JavaScript are truthy, including empty arrays ([]), empty objects ({}), and all non-zero numbers and non-empty strings.
 
-### Give examples of falsy values ?
+### 63. Give examples of falsy values ?
 
 In JavaScript, the following values are considered falsy:
 
@@ -547,27 +547,27 @@ if (NaN) {
 }
 ```
 
-### What is Loose equality operator ?
+### 64. What is Loose equality operator ?
 
 The loose equality operator in JavaScript is represented by two equal signs (==). It compares two values for equality without checking their types. If the operands have different types, JavaScript will try to convert them to a common type before making the comparison. For example, the expression "5" == 5 would return true because the string "5" is converted to the number 5 for the comparison. However, it's important to note that using the loose equality operator can lead to unexpected results, so it's generally recommended to use the strict equality operator (===), which checks both the value and the type of the operands.
 
-### What is Strict equality operator ?
+### 65. What is Strict equality operator ?
 
 The strict equality operator in JavaScript is "===" (three equal signs). It compares two values for equality without performing type coercion, which means that it only returns true if both operands have the same data type and value. If they are not equal in either value or type, it will return false.
 
-### Difference between == and === ?
+### 66. Difference between == and === ?
 
 In JavaScript, the "==" operator checks for equality of values, while the "===" operator checks for both equality of values and equality of types.
 
 For example, 5 == "5" would be true because both values are equal, but 5 === "5" would be false because the types are different.
 
-### Difference between while and do while loop ?
+### 67. Difference between while and do while loop ?
 
 The while loop in JavaScript executes the code block while a specified condition is true. It first checks the condition, and if it evaluates to true, then it executes the code inside the loop. If the condition is false from the beginning, the code inside the loop will never run.
 
 The do-while loop is similar to the while loop, except that it executes the code block at least once, regardless of whether the test condition is true or false. After executing the code block, it checks the condition, and if it is still true, it continues to execute the loop. If the condition is false from this point on, the loop stops executing.
 
-### What is for of loop ?
+### 68. What is for of loop ?
 
 A for-of loop is a type of loop in JavaScript that allows you to iterate over iterable objects such as arrays, strings, and other collections. It was introduced in ECMAScript 6 (ES6) and provides an alternative to traditional for loops and forEach() methods. The loop iterates over each element of the iterable object and executes a specified block of code for each iteration. The syntax of a for-of loop is:
 
@@ -579,7 +579,7 @@ for (variable of iterable) {
 
 Where `variable` is a variable to hold the current value of the iterable, and `iterable` is the object being iterated over.
 
-### What is for in loop ?
+### 69. What is for in loop ?
 
 `for` is a keyword in JavaScript used to create a loop that executes a block of code a specified number of times. It is often used when you want to iterate over an array or an object. The syntax for a `for` loop is:
 
@@ -591,29 +591,29 @@ for (initialization; condition; increment) {
 
 Here, `initialization` sets the initial value of the loop variable, `condition` defines the condition for continuing the loop, and `increment` updates the value of the loop variable after each iteration. The code inside the curly braces is executed repeatedly until the condition becomes false.
 
-### What is Switch ?
+### 70. What is Switch ?
 
 In JavaScript, a switch statement is used to perform different actions based on different conditions. It allows you to test the value of an expression against multiple cases and execute blocks of code associated with each matching case. If none of the cases match, a default block of code can be executed.
 
-### What are cases in switch ?
+### 71. What are cases in switch ?
 
 Cases in a switch statement in JavaScript are conditional blocks of code that are executed when the value of an expression matches the value of one of the case statements. They provide a way to selectively execute code based on the value of a variable or expression.
 
-### What is default case ?
+### 72. What is default case ?
 
 The `default` case in JavaScript is a part of the switch statement, which provides a fallback option when none of the cases match the evaluated value. If no matching case statements are found, the code inside the default block will be executed.
 
-### What are break and continue words ?
+### 73. What are break and continue words ?
 
 In JavaScript, "break" is a keyword that is used to terminate a loop or switch statement. When the "break" keyword is encountered in a loop or switch statement, the program exits the loop or switch statement immediately.
 
 On the other hand, "continue" is a keyword that is used in loops to skip over the current iteration of the loop and move on to the next one. When the "continue" keyword is encountered in a loop, the code inside the loop for the current iteration is skipped, and the loop immediately moves on to the next iteration.
 
-### What is scoping ?
+### 74. What is scoping ?
 
 Scoping in JavaScript refers to the rules that determine how variables and named functions are accessed and assigned values during runtime. It defines the accessibility and visibility of these entities within different parts of the code, such as function blocks, loops, and conditional statements. There are two types of scopes in JavaScript: global scope and local scope. Variables declared outside of any functions have a global scope, while those declared inside a function have a local scope.
 
-### What are the different types of scopes in JavaScript? Explain each?
+### 75. What are the different types of scopes in JavaScript? Explain each?
 
 In JavaScript, there are two types of scopes: local scope and global scope.
 
@@ -623,19 +623,19 @@ In JavaScript, there are two types of scopes: local scope and global scope.
 
 It's generally considered good practice to limit the use of global variables and instead use local variables whenever possible to avoid unexpected behavior and improve code maintainability.
 
-### What is function ?
+### 76. What is function ?
 
 A function in JavaScript is a block of code that can be defined once and executed repeatedly to perform a specific task. It can accept parameters (optional) and return a value (optional). Functions in JavaScript are first-class objects, which means they can be assigned to variables, passed as arguments to other functions, and returned as values from functions.
 
-### What is functional programing ?
+### 77. What is functional programing ?
 
 Functional programming in JavaScript is a programming paradigm that emphasizes the use of pure functions, immutability, and higher-order functions to solve problems. Pure functions are functions that given the same input will always return the same output and have no side effects. Immutability means that once a variable or object is created, it cannot be changed. Higher-order functions are functions that take other functions as arguments or return functions as values. Functional programming can lead to code that is easier to reason about, test, and maintain.
 
-### What are generator function ?
+### 78. What are generator function ?
 
 Generator functions in JavaScript are special types of functions that can be paused and resumed at any time during their execution, allowing for the generation of a sequence of values over time. They are defined using the function\* keyword and use the yield keyword to return a value and pause the function's execution. Generator functions can be useful for creating iterators or for performing asynchronous operations in a more synchronous-looking way.
 
-### What are the different ways of creating function in JavaScript?
+### 79. What are the different ways of creating function in JavaScript?
 
 There are several ways to create functions in JavaScript:
 
@@ -671,7 +671,7 @@ const functionName = new Function('parameters', 'function body');
 
 Note that the first three methods are recommended as they are more concise, clear and less error-prone than the Function Constructor.
 
-### What is function declaration ?
+### 80. What is function declaration ?
 
 Function declaration in JavaScript is a way to define a named function using the "function" keyword, followed by the function name, optional parameters within parentheses, and the function code within curly braces. It creates a function object that can be called later in the code. For example:
 
@@ -681,19 +681,19 @@ function myFunction(parameter1, parameter2) {
 }
 ```
 
-### What is currying in JavaScript?
+### 81. What is currying in JavaScript?
 
 Currying is a technique in JavaScript that involves transforming a function with multiple arguments into a sequence of functions that each take only one argument. This allows for more flexible and modular code, as well as enabling the creation of new functions by partially applying existing ones.
 
-### What is function expression ?
+### 82. What is function expression ?
 
 A function expression in JavaScript is a way to define a function as part of an expression, rather than as a named function declaration. This involves assigning a function to a variable or passing it as an argument to another function. Function expressions can be anonymous (without a name) or named, and can be used for a variety of purposes such as event handlers, callbacks, and closures.
 
-### What is arrow function ?
+### 83. What is arrow function ?
 
 An arrow function is a shorthand syntax for writing functions in JavaScript. It uses the `=>` operator to define a function, and has a more concise syntax compared to traditional function expressions. Arrow functions are also lexically scoped, meaning they bind `this` to the surrounding context rather than creating their own `this` value.
 
-### What is anonymous function ? Where do we use this function?
+### 84. What is anonymous function ? Where do we use this function?
 
 An anonymous function in JavaScript is a function that does not have a name. Instead, it is defined and invoked at the same time. It is typically used when you need to pass a function as an argument to another function or when you want to create a function that will only be used once.
 
@@ -707,7 +707,7 @@ setTimeout(function() {
 
 In this example, we're passing an anonymous function as the first argument to `setTimeout`. The function will be executed after a delay of 1 second (specified by the second argument to `setTimeout`).
 
-### What is the difference between function declaration and function expression ?
+### 85. What is the difference between function declaration and function expression ?
 
 In JavaScript, a function declaration is defined using the "function" keyword and is declared at the top level of a script or within a function block. It can be called before it is declared in the code because it is hoisted to the top during compilation.
 
@@ -729,7 +729,7 @@ const myFunction = function() {
 };
 ```
 
-### What is the difference between function expression and arrow function ?
+### 86. What is the difference between function expression and arrow function ?
 
 The main difference between a function expression and an arrow function in JavaScript is the way `this` keyword is handled.
 
@@ -758,7 +758,7 @@ In this example, `sayHello` is a function expression that uses `this` to refer t
 
 On the other hand, `sayHi` is an arrow function that also uses `this` to refer to the `name` property of the `person` object. However, since arrow functions don't have their own `this` value, `this` inside `sayHi` refers to the global `this` value (which is `undefined` in this case). So when `sayHi` is called as a method on the `person` object, it logs "Hi undefined".
 
-### What is difference between parameter and argument ?
+### 87. What is difference between parameter and argument ?
 
 In JavaScript, a parameter is a variable defined in a function's declaration, while an argument is the value passed to a function when it is called. In other words, parameters are placeholders for values that will be passed as arguments when the function is invoked. For example:
 
@@ -772,7 +772,7 @@ add(2, 3); // 2 and 3 are arguments
 
 In this example, `a` and `b` are parameters declared in the function definition, while `2` and `3` are the arguments passed to the function when it is called.
 
-### What are the default parameters? How to add default parameters in a function ?
+### 88. What are the default parameters? How to add default parameters in a function ?
 
 Default parameters are values that a function will use if no argument is provided for a particular parameter. In JavaScript, default parameters can be added to a function by assigning a default value to the parameter in the function's definition. For example:
 
@@ -784,7 +784,7 @@ function myFunction(param1, param2 = defaultValue) {
 
 In this example, `param2` has a default value of `defaultValue`. If `param2` is not passed as an argument when the function is called, it will automatically use the default value.
 
-### What is call by value and what is call by reference ?
+### 89. What is call by value and what is call by reference ?
 
 In JavaScript, call by value and call by reference are two different ways of passing values to a function.
 
@@ -794,7 +794,7 @@ Call by reference means that a reference to the original variable is passed to t
 
 In JavaScript, primitive types such as numbers and strings are always passed by value, while objects and arrays are often passed by reference. However, it's important to note that some methods can change the original array or object even if they are passed by value.
 
-### What is High order function ? Give one example?
+### 90. What is High order function ? Give one example?
 
 In JavaScript, a higher-order function is a function that takes one or more functions as arguments, and/or returns a function as its result. One example of a higher-order function in JavaScript is the `map` method on arrays, which takes a function as an argument and applies it to each element in the array, returning a new array with the results. For example:
 
@@ -806,7 +806,7 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
 
 In this example, the `map` method is the higher-order function because it takes a function (`num => num * 2`) as an argument and uses it to transform each element in the `numbers` array.
 
-### What is First class function ? Give one example?
+### 91. What is First class function ? Give one example?
 
 In JavaScript, a first-class function is a function that can be assigned to a variable, passed as an argument to another function, or returned from a function as a value.
 
@@ -838,7 +838,7 @@ console.log(double(5)); // Returns 10
 console.log(triple(5)); // Returns 15
 ```
 
-### What is callback function ? When to use callback functions?
+### 92. What is callback function ? When to use callback functions?
 
 A callback function in JavaScript is a function that is passed as an argument to another function and is executed inside that function. The primary use of a callback function is to allow asynchronous operations, such as fetching data from a server or performing complex calculations, without blocking the execution of other code.
 
@@ -846,11 +846,11 @@ Callback functions can be used in various scenarios, such as event handlers, AJA
 
 Overall, callback functions are useful for handling asynchronous tasks and making code more modular and reusable.
 
-### What is callback hell ?
+### 93. What is callback hell ?
 
 Callback hell is a situation in asynchronous programming in which multiple nested callbacks are used, making the code difficult to read, understand and maintain. This can occur when a function requires the output of another function as its input, leading to a chain of functions that must be executed in sequence. This can result in deeply nested and hard-to-read code, which can be challenging to debug and prone to errors.
 
-### What is setTimeout? How to clear a setTimeOut ?
+### 94. What is setTimeout? How to clear a setTimeOut ?
 
 `setTimeout` is a JavaScript function that allows you to execute a specified block of code once after a specified time delay. It takes two arguments, the first one is a function to be executed and the second one is the delay time in milliseconds.
 
@@ -866,7 +866,7 @@ clearTimeout(timeoutID);
 
 In this example, we first create a `setTimeout` that logs a message after a delay of one second. We store the return value from `setTimeout` in a variable called `timeoutID`. Then we immediately call `clearTimeout` with `timeoutID` as its argument, which cancels the scheduled execution of the code block, preventing the message from being logged.
 
-### What is setInterval? How to clear a setInterval ?
+### 95. What is setInterval? How to clear a setInterval ?
 
 setInterval is a method in JavaScript that repeatedly calls a function or executes a code snippet at fixed time intervals, specified in milliseconds. To clear a setInterval, you can use the clearInterval() method and pass it the ID returned by the setInterval() function when it was created. This will stop the function from being called repeatedly. For example:
 
@@ -882,7 +882,7 @@ setTimeout(() => {
 
 In this example, the setInterval() method is used to call a function named `myFunction` every 1000 milliseconds (1 second). The setInterval() method returns an ID that can be used to clear the interval using clearInterval(). In this case, we're clearing the interval after 5 seconds using the setTimeout() method.
 
-### What are the call, apply and bind functions ? Give example of each.
+### 96. What are the call, apply and bind functions ? Give example of each.
 
 `call()`, `apply()`, and `bind()` are methods in JavaScript that allow you to manipulate the `this` keyword in functions.
 
@@ -927,7 +927,7 @@ const logName = function() {
 logName(); // output: John Doe
 ```
 
-### What is IIFE (Immediately invoked function expression) ?
+### 97. What is IIFE (Immediately invoked function expression) ?
 
 IIFE, or Immediately Invoked Function Expression, is a JavaScript function that is executed as soon as it is defined. It is typically used to create a new scope for variables and functions, avoiding naming collisions or polluting the global namespace. The syntax for an IIFE looks like this:
 
@@ -939,7 +939,7 @@ IIFE, or Immediately Invoked Function Expression, is a JavaScript function that 
 
 The function is wrapped in parentheses to ensure that it is treated as an expression, and then immediately invoked with the `()` at the end. Any variables or functions declared inside the IIFE are not visible outside its scope, making it a useful technique for modularizing code.
 
-### What is closure ? When to use closure? What are the benefits of using closure?
+### 98. What is closure ? When to use closure? What are the benefits of using closure?
 
 Closure in JavaScript refers to the ability of a function to access variables from its outer lexical environment even after that outer environment has been destroyed.
 
@@ -947,19 +947,19 @@ Closure is useful when you want to create private variables or functions that ar
 
 Benefits of using closures include the ability to create private variables and functions, which can help prevent naming collisions and improve code organization. Additionally, closures can help reduce memory usage by allowing private variables to be garbage collected when they are no longer needed.
 
-### What is hoisting ?
+### 99. What is hoisting ?
 
 Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their respective scopes during the compilation phase, allowing them to be accessed before they are actually declared in the code. However, only the declarations are hoisted, not the assignments or initializations. This can sometimes lead to unexpected results and should be used with caution.
 
-### What is TDZ(Temporal Dead Zone) ?
+### 100. What is TDZ(Temporal Dead Zone) ?
 
 Temporal Dead Zone (TDZ) is a term used in JavaScript to describe the period of time between the creation of a variable's binding and its initialization. During this period, accessing the variable will result in a ReferenceError being thrown. This occurs because the variable exists in the current scope due to the binding, but has not yet been assigned a value. Once the variable has been initialized, it can be accessed normally. TDZ applies to let and const variables, but not to var variables.
 
-### What is DRY Principle ?
+### 101. What is DRY Principle ?
 
 The DRY (Don't Repeat Yourself) principle is a coding philosophy that encourages developers to avoid duplicating code by creating reusable and modular code. This helps to reduce redundancy, improve readability, and simplify maintenance of the code.
 
-### What is design pattern ? Name few famous design patterns?
+### 102. What is design pattern ? Name few famous design patterns?
 
 Design patterns refer to reusable solutions to commonly occurring problems in software design. They provide a proven and structured way of solving problems and ensuring code quality.
 
@@ -977,11 +977,11 @@ Some famous design patterns in JavaScript include:
 - Command pattern
 - Iterator pattern
 
-### What is developer tool?
+### 103. What is developer tool?
 
 A developer tool is a software application or program that helps software developers create, debug, test, and maintain other software applications. Examples of developer tools include integrated development environments (IDEs), code editors, version control systems, debugging tools, performance profiling tools, and testing frameworks. These tools are designed to streamline the development process and increase productivity for developers.
 
-### Difference between console.log and console.table ?
+### 104. Difference between console.log and console.table ?
 
 `console.log` displays data in a simple, linear format, whereas `console.table` displays data in a tabular format.
 
@@ -989,7 +989,7 @@ A developer tool is a software application or program that helps software develo
 
 For example, if you have an array of objects with multiple properties, you can use `console.table` to display the data in a nice, organized table, rather than trying to parse through a long list of console logs.
 
-### Difference between console.warn and console.error ?
+### 105. Difference between console.warn and console.error ?
 
 The main difference is in the level of severity:
 
@@ -998,7 +998,7 @@ The main difference is in the level of severity:
 
 Both methods will log a message to the console, but console.error() will also typically highlight the message in red or display an error icon, making it more noticeable.
 
-### What is Error? What are the different types of error in JavaScript?
+### 106. What is Error? What are the different types of error in JavaScript?
 
 In programming, an error is an unexpected or incorrect behavior that occurs when a computer program is executed.
 
@@ -1014,7 +1014,7 @@ In JavaScript, there are several types of errors, including:
 
 5. Range Errors: These occur when a value is outside of the expected range, such as attempting to access an array index that does not exist.
 
-### Explain numbers in JavaScript?
+### 107. Explain numbers in JavaScript?
 
 In JavaScript, numbers are a primitive data type that represent numerical values. They can be integers (whole numbers) or floating-point numbers (decimal numbers).
 
@@ -1036,7 +1036,7 @@ You can also use the `Number()` constructor function to create a number object f
 let y = Number("3.14");
 ```
 
-### Difference between number and BigInt ?
+### 108. Difference between number and BigInt ?
 
 In JavaScript, the `number` data type is used to represent numeric values with double-precision floating-point format. The `BigInt` data type, on the other hand, is a relatively new addition to the language and is used to represent integers of arbitrary length.
 
@@ -1051,11 +1051,11 @@ const x = 123n; // creates a BigInt with value 123
 const y = BigInt(456); // creates a BigInt with value 456
 ```
 
-### What is Number System ?
+### 109. What is Number System ?
 
 In JavaScript, the number system is a way of representing numerical values using different types of data such as integers, floating-point numbers, and scientific notation. The Number data type is used to represent these different types of numerical values in JavaScript. JavaScript supports arithmetic operations such as addition, subtraction, multiplication, and division on these numerical values. Additionally, JavaScript provides a variety of built-in functions to manipulate numbers, including conversion functions and rounding functions.
 
-### Explain functions of Number class : toFixed,toString,valueOf,parseInt,parseFloat,isNaN ?
+### 110. Explain functions of Number class : toFixed,toString,valueOf,parseInt,parseFloat,isNaN ?
 
 1. toFixed(): This method is used to format a number with a specific number of digits after the decimal point, and returns a string representation of the formatted number.
 
