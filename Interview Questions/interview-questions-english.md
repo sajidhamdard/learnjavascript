@@ -1480,19 +1480,19 @@ let obj = {foo: 'bar', arr: [1, 2, 3]};
 let deepCopy = _.cloneDeep(obj);
 ```
 
-### Where objects are stored ? Is object primitive type or non-primitive?
+### 151. Where objects are stored ? Is object primitive type or non-primitive?
 
 Objects in JavaScript are stored in the heap, which is a region of memory used for dynamic allocation. Objects are non-primitive types in JavaScript, as opposed to primitive types like numbers and strings.
 
-### What is Destructuring ?
+### 152. What is Destructuring ?
 
 Destructuring in JavaScript is a way of extracting values from arrays or objects into distinct variables, making it easier to work with complex data structures. It allows you to unpack values from arrays or properties from objects into separate variables using a concise syntax. For example, `const [a, b] = [1, 2]` assigns the value of `1` to variable `a` and `2` to variable `b`. Similarly, `const { name, age } = { name: 'John', age: 30 }` assigns the value of `'John'` to variable `name` and `30` to variable `age`.
 
-### How to reverse values using destructuring ?
+### 153. How to reverse values using destructuring ?
 
 You cannot reverse values using destructuring in JavaScript. Destructuring allows you to extract values from an object or array and assign them to variables, but it does not provide a way to reverse the order of those values. To reverse an array, you can use the `reverse()` method.
 
-### How to return two values from function ?
+### 154. How to return two values from function ?
 
 In JavaScript, you can return two (or more) values from a function by returning an array or an object containing those values. Here's an example:
 
@@ -1522,7 +1522,7 @@ console.log(b); // output: 2
 
 Note that you can access the returned values either by destructuring the array or the object using the assignment operators.
 
-### How destructuring works in array and object ?
+### 155. How destructuring works in array and object ?
 
 Destructuring in JavaScript allows you to extract values from arrays and properties from objects into distinct variables.
 
@@ -1550,7 +1550,7 @@ const { x: a, y: b } = obj;
 console.log(a); // Output: 1
 ```
 
-### How to do destructuring of nested array ?
+### 156. How to do destructuring of nested array ?
 
 To destructure a nested array in JavaScript, you can use the square bracket notation to access each level of the array, and then assign the values to variables using destructuring syntax. Here's an example:
 
@@ -1566,7 +1566,7 @@ console.log(num4); // 4
 
 In this example, we have a nested array `[3, 4]` inside the main array `arr`. We use destructuring syntax to assign the first two values of `arr` (`1` and `2`) to the variables `num1` and `num2`, and then we use another set of square brackets to access the nested array and assign its values (`3` and `4`) to the variables `num3` and `num4`.
 
-### How to set default values in destructuring ?
+### 157. How to set default values in destructuring ?
 
 In JavaScript, you can set default values in destructuring by using the assignment operator (`=`) within the destructuring syntax. Here's an example:
 
@@ -1576,11 +1576,11 @@ const { foo = 'defaultFoo', bar = 'defaultBar' } = someObject;
 
 In this example, if `someObject` has a property named `foo`, its value will be assigned to the `foo` variable. If `someObject` does not have a property named `foo`, the `foo` variable will be assigned the value `'defaultFoo'`. Similarly, if `someObject` has a property named `bar`, its value will be assigned to the `bar` variable. If `someObject` does not have a property named `bar`, the `bar` variable will be assigned the value `'defaultBar'`.
 
-### What is destructuring object ?
+### 158. What is destructuring object ?
 
 Destructuring object in Javascript is a technique that allows you to extract properties from an object and assign them to variables in a more concise way. It involves using curly braces {} to create a pattern that matches the shape of the object, and then using that pattern on the left-hand side of an assignment statement to destructure the object into individual variables. This can help simplify code and make it easier to work with objects.
 
-### How we can use destructuring with object ?
+### 159. How we can use destructuring with object ?
 
 Destructuring is a feature in JavaScript that allows you to extract values from an object or array and assign them to variables in a more concise way. To use destructuring with objects in JavaScript, you can:
 
@@ -1616,7 +1616,7 @@ const { name, age, address: { city } } = person;
 console.log(name, age, city); // Output: "John 30 New York"
 ```
 
-### How to destructuring remaining value to a single variable ?
+### 160. How to destructuring remaining value to a single variable ?
 
 In JavaScript, you can use the rest parameter syntax (`...`) to destructure remaining values into a single variable. Here's an example:
 
@@ -1630,7 +1630,7 @@ In this example, the first element of the array is destructured and assigned to 
 
 Note that the rest parameter must be the last parameter in a function's parameter list, or the last element in an array destructuring pattern.
 
-### How to give alias name to a property name ?
+### 161. How to give alias name to a property name ?
 
 In JavaScript, you can create an alias for a property by using the `Object.defineProperty()` method to define a new property that has the same value as the original property, but with a different name. Here's an example:
 
@@ -1651,7 +1651,7 @@ Object.defineProperty(object, 'aliasName', {
 
 In this example, we define a new property called `aliasName` that gets and sets the value of the `originalName` property. Now you can use `object.aliasName` to access the property with the alias name.
 
-### How we can set default values in destructurnig object ?
+### 162. How we can set default values in destructurnig object ?
 
 In JavaScript, you can set default values in destructuring objects by using the assignment operator (`=`) along with the default value you want to provide. Here's an example:
 
@@ -1663,11 +1663,11 @@ console.log(b); // Output: "hello"
 
 In this example, we're destructuring an empty object and setting default values for `a` and `b`. If `a` or `b` is not present in the object being destructured, their default values will be used instead.
 
-### What is nested object destructuring ?
+### 163. What is nested object destructuring ?
 
 Nested object destructuring in JavaScript is a way to extract multiple nested properties from an object and assign them to variables using a concise syntax. It allows you to access deeply nested properties of an object without having to write long chains of property accesses. This can make your code more readable and easier to maintain. Nested object destructuring can be done using the curly brace notation with the same structure as the object being destructured, including any nested objects or arrays.
 
-### How to destructruing object when passing into a function ?
+### 164. How to destructruing object when passing into a function ?
 
 To destructure an object when passing it into a function in JavaScript, you can use the destructuring syntax in the function parameter itself. Here's an example:
 
@@ -1682,11 +1682,11 @@ myFunction(person); // Output: Hello, John. You are 30 years old.
 
 In this example, we're destructuring the `person` object when passing it into the `myFunction` function. The function parameter is `{name, age}`, which extracts the `name` and `age` properties from the object. We can then use these extracted values inside the function.
 
-### What is spread operator ?
+### 165. What is spread operator ?
 
 The spread operator, represented by three dots (...), is a feature in JavaScript that allows an iterable (e.g. an array, string, or object) to be expanded into individual elements. It can be used in various contexts, such as when calling a function with multiple arguments, concatenating arrays, and creating copies of objects or arrays.
 
-### How to do shallow copy using spread operator ?
+### 166. How to do shallow copy using spread operator ?
 
 To do a shallow copy using the spread operator in JavaScript, you can use the following syntax:
 
@@ -1697,7 +1697,7 @@ const copiedArray = [...originalArray];
 
 This will create a new array `copiedArray` that has the same elements as `originalArray`. However, any nested objects or arrays within `originalArray` will still be pointing to the same reference in memory, so changes made to them will affect both arrays.
 
-### How to join multiple arrays using spread operator ?
+### 167. How to join multiple arrays using spread operator ?
 
 To join multiple arrays using the spread operator in JavaScript, you can simply use the `...` syntax followed by the array names inside square brackets ([]), like this:
 
@@ -1711,7 +1711,7 @@ console.log(arr3); // Output: [1, 2, 3, 'a', 'b', 'c']
 
 In the example above, the `...` syntax is used to expand each of the arrays `arr1` and `arr2` into separate elements, which are then combined into a new array `arr3`.
 
-### How to convert a String to array using spread operator ?
+### 168. How to convert a String to array using spread operator ?
 
 To convert a string to an array using the spread operator in JavaScript, you can use the following syntax:
 
@@ -1723,7 +1723,7 @@ console.log(arr);
 
 This will output `["h", "e", "l", "l", "o"]`. The spread operator `...` allows you to expand the string into individual characters and create a new array with those characters.
 
-### How to pass arguments in function using spread operator ?
+### 169. How to pass arguments in function using spread operator ?
 
 To pass arguments in a function using the spread operator in JavaScript, you can use the spread syntax (`...`) followed by an array or iterable containing the values you want to pass as separate arguments. Here's an example:
 
@@ -1739,17 +1739,17 @@ myFunction(...args); // Output: 1 2 3
 
 In this example, the `myFunction` function takes three arguments (`x`, `y`, and `z`). We create an array `args` containing the values we want to pass to the function, and then use the spread operator to expand the contents of `args` into separate arguments when calling the `myFunction` function. The output will be `1 2 3`.
 
-### What is rest parameter ?
+### 170. What is rest parameter ?
 
 The rest parameter in JavaScript allows a function to accept an indefinite number of arguments as an array. It is denoted by three dots before the parameter name and must be the last parameter in the function's parameter list.
 
-### Difference between spread and rest operator ?
+### 171. Difference between spread and rest operator ?
 
 The spread operator (...) in JavaScript is used to expand an iterable (like an array) into individual elements whereas the rest parameter (...) is used to collect multiple elements and pack them into an array.
 
 In other words, the spread operator is used to split an iterable into individual elements while the rest parameter is used to combine individual elements into an array.
 
-### How to pass variable arguments in function using rest operator ?
+### 172. How to pass variable arguments in function using rest operator ?
 
 In JavaScript, you can pass variable arguments in a function using the rest operator (`...`). The rest operator allows you to represent an indefinite number of arguments as an array. Here's how you can use it:
 
@@ -1763,11 +1763,11 @@ In this example, `myFunction` accepts any number of arguments and the `...args` 
 
 For example, if you call `myFunction(1, 2, 3)`, the output will be `[1, 2, 3]`.
 
-### What is short circuiting ?
+### 173. What is short circuiting ?
 
 Short circuiting in JavaScript is a behavior where the logical operators `&&` and `||` do not evaluate the entire expression if it's not necessary to determine the final result. For example, when using the `&&` operator, if the first operand evaluates to false, the second operand will not be evaluated because the result of the expression can already be determined. Similarly, when using the `||` operator, if the first operand evaluates to true, the second operand will not be evaluated because the result of the expression can already be determined. This behavior can be useful for writing concise and efficient code.
 
-### Difference between || and ??
+### 174. Difference between || and ??
 
 In JavaScript, the "||" operator is used for logical OR and returns the first truthy operand or the last falsy operand. For example, `a || b` would return `a` if it is truthy, otherwise it would return `b`.
 
@@ -1778,21 +1778,21 @@ In summary:
 - `||` returns the first truthy value or the last falsy value.
 - `??` returns the first defined value that is not nullish.
 
-### What is nullish coalescing operator ?
+### 175. What is nullish coalescing operator ?
 
 The nullish coalescing operator (??) in JavaScript is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and returns the left-hand side operand otherwise. It is useful for providing default values for variables that may be null or undefined.
 
-### What is optional chaining? What are the benefits of using optional chaining ?
+###  176. What is optional chaining? What are the benefits of using optional chaining ?
 
 Optional chaining is a syntax in JavaScript that allows developers to safely access properties and methods of an object without worrying if the object is nullish or undefined. It is denoted by the "?" operator and can be used in conjunction with dot notation or bracket notation.
 
 The benefits of using optional chaining include reducing the likelihood of errors caused by attempting to access a property or method of an undefined or nullish object, resulting in more robust and reliable code. It also leads to cleaner and more concise code, as developers no longer need to write verbose conditional statements to check for nullish values before accessing object properties.
 
-### What is an Array ?
+### 177. What is an Array ?
 
 An array in JavaScript is a data structure that allows you to store and manipulate a collection of elements, such as numbers, strings, or objects, in a single variable. It is defined using square brackets and each element is separated by a comma. Arrays are zero-indexed, meaning the first element has an index of 0, the second element has an index of 1, and so on. You can access and modify individual elements in an array using their index.
 
-### What are the properties of an Array ?
+### 178. What are the properties of an Array ?
 
 An array in JavaScript is an ordered collection of values, which can include any data type such as numbers, strings, objects, and other arrays. Some of the key properties of arrays in JavaScript include:
 
@@ -1802,7 +1802,7 @@ An array in JavaScript is an ordered collection of values, which can include any
 4. Homogeneous: Unlike some other programming languages, JavaScript arrays can hold any data type, making them heterogeneous.
 5. Objects: In JavaScript, arrays are actually a specialized type of object, with numeric keys (indexes) and special behaviors for certain properties like `length`.
 
-### Difference between Array Literal and Array Object ?
+### 179. Difference between Array Literal and Array Object ?
 
 An array literal is a shorthand notation for creating an array in JavaScript using square brackets [] with comma-separated values inside. For example:
 
@@ -1819,19 +1819,19 @@ const myOtherArray = new Array(1, 2, 3); // Array with elements
 
 While both ways of creating arrays in JavaScript achieve the same result, using array literals is generally considered to be more concise and easier to read. However, array objects offer additional methods and properties that can be used to manipulate and access elements in the array.
 
-### What is the significance of index in Array ?
+### 180. What is the significance of index in Array ?
 
 In JavaScript, an index is used to access and retrieve a specific element in an array. Each element in an array has a unique index number that starts from 0 for the first element, 1 for the second element, and so on. The index allows for easy and efficient retrieval and manipulation of data stored in arrays. It is a fundamental concept in working with arrays in JavaScript.
 
-### Does sort function work for all types of elements ?
+### 181. Does sort function work for all types of elements ?
 
 The `sort()` function in JavaScript works for arrays of all types of elements, but the order in which it sorts them may not always be what you expect. For example, when sorting an array of strings, it will sort them alphabetically by default. When sorting an array of numbers, it will sort them in ascending order by default. You can also provide a custom sorting function as an argument to `sort()` if the default behavior doesn't meet your needs.
 
-### When to pass a sorting function sort function ?
+### 182. When to pass a sorting function sort function ?
 
 You should pass a sorting function to the sort() method in JavaScript when you want to customize the way an array is sorted. By default, the sort() method sorts elements alphabetically or numerically, but you can provide your own comparison function to define a custom sort order based on your specific needs.
 
-### Difference between push and unshift, pop and shift ?
+### 183. Difference between push and unshift, pop and shift ?
 
 In JavaScript, push() and unshift() are methods used to add elements to an array, while pop() and shift() are methods used to remove elements from an array:
 
@@ -1843,7 +1843,7 @@ In JavaScript, push() and unshift() are methods used to add elements to an array
 
 In summary, push() and unshift() add elements to an array, while pop() and shift() remove elements from an array.
 
-### Difference between slice, splice ?
+### 184. Difference between slice, splice ?
 
 In JavaScript, `slice()` and `splice()` are both methods used to manipulate arrays, but they have different purposes:
 
@@ -1853,7 +1853,7 @@ In JavaScript, `slice()` and `splice()` are both methods used to manipulate arra
 - `splice()` method changes the content of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array.
   Syntax: `array.splice(index, count, elem1, elem2, ..., elemN)` where `index` is the index at which to start changing the array, `count` is the number of elements to remove from the array (if 0, no elements are removed), and `elem1`, `elem2`, ..., `elemN` are the elements to add to the array, beginning at the `index`.
 
-### Difference between forEach, for of loop ?
+### 185. Difference between forEach, for of loop ?
 
 `forEach()` is a method on an array that executes a provided function once for each element in the array, while `for...of` loop is a built-in JavaScript loop statement that allows iterating over iterable objects (e.g. arrays, strings, maps, sets).
 
@@ -1877,7 +1877,7 @@ for (const element of arr) {
 }
 ```
 
-### Difference between map, filter and reduce function ?
+### 186. Difference between map, filter and reduce function ?
 
 In JavaScript:
 
@@ -1887,7 +1887,7 @@ In JavaScript:
 
 `map()` and `filter()` do not modify the original array, whereas `reduce()` can modify the original array if the callback function used for reducing does so. All three functions take a callback function as their first argument, which determines how each element in the array is processed.
 
-### Difference between some and every ?
+### 187. Difference between some and every ?
 
 In JavaScript, "some" and "every" are methods of an array that return a boolean value based on the elements in the array.
 
@@ -1909,7 +1909,7 @@ console.log(allNumbersArePositive); // true
 
 So, the key difference between "some" and "every" is that "some" returns true if at least one element satisfies the condition, while "every" returns true only if all elements satisfy the condition.
 
-### Difference between flat and flatMap ?
+### 188. Difference between flat and flatMap ?
 
 In JavaScript, `flat()` is a method that creates a new array with all sub-array elements concatenated into it recursively up to the specified depth. For example:
 
@@ -1928,11 +1928,11 @@ arr.flatMap(x => [x * 2]); // [2, 4, 6]
 
 So, `flat()` is used for flattening arrays of arrays, while `flatMap()` is used for mapping and flattening an array in one step.
 
-### What is an Object ?
+### 189. What is an Object ?
 
 In JavaScript, an object is a data type that stores key-value pairs, where the keys are strings and the values can be any data type, including other objects. Objects can also have methods, which are functions stored as object properties. Objects in JavaScript can be created using object literals or constructor functions, among other methods.
 
-### Difference between object literal and new object ?
+### 190. Difference between object literal and new object ?
 
 In JavaScript, an object literal is a way to define and create an object using curly braces ({}) with key-value pairs separated by commas. For example:
 
@@ -1958,7 +1958,7 @@ const person = new Person('John', 30, 'New York');
 
 The main difference between object literals and creating objects using constructors is that object literals are created directly while creating objects using constructors involves defining a blueprint or template for the object using the constructor function. Additionally, creating objects using constructors allows for more advanced features such as inheritance and polymorphism.
 
-### Difference between dot and bracket annotation ?
+### 191. Difference between dot and bracket annotation ?
 
 In JavaScript, dot notation and bracket notation are used to access and manipulate object properties.
 
@@ -2003,7 +2003,7 @@ console.log(person[propertyName2]["street"]); // Output: 123 Main St
 
 Note that while dot notation always uses a literal property name as its key, bracket notation allows the key to be any expression that evaluates to a string, including variables and function calls.
 
-### Explain Object.keys, Object.values and Object.Entries function ?
+### 192. Explain Object.keys, Object.values and Object.Entries function ?
 
 `Object.keys`, `Object.values`, and `Object.entries` are built-in functions in JavaScript that operate on objects.
 
@@ -2029,15 +2029,15 @@ console.log(Object.entries(person)); // Output: [['name', 'John'], ['age', 30], 
 
 In the example above, `Object.keys` returns an array containing all the keys of the `person` object, `Object.values` returns an array containing all the values of the `person` object, and `Object.entries` returns an array containing all the key-value pairs of the `person` object.
 
-### What is Set ?
+### 193. What is Set ?
 
 In JavaScript, a set is a built-in data structure that allows you to store unique values of any type, whether primitive values or object references. Sets are similar to arrays, but they only contain unique values and do not have an index-based ordering. You can add, remove, and check if a value exists in a set using methods such as `add()`, `delete()`, and `has()`. Sets are commonly used to perform operations such as finding the intersection or union between two sets.
 
-### What is weakSet in JavaScript ?
+### 194. What is weakSet in JavaScript ?
 
 WeakSet is a built-in data structure in JavaScript that allows you to store a collection of weakly held object references. It behaves similar to a Set, but it only holds weak references to its elements, meaning that if an object is no longer referenced by any other part of your code, it can be garbage collected even if it is still in the WeakSet. This makes WeakSets useful for situations where you want to associate some metadata with objects without preventing them from being garbage collected when they are no longer needed.
 
-### How to print set values using for of loop ?
+### 195. How to print set values using for of loop ?
 
 To print set values using a `for...of` loop in JavaScript, you can use the `values()` method of the `Set` object to obtain an iterator for the set elements and then iterate through them using the `for...of` loop. Here is an example:
 
@@ -2069,7 +2069,7 @@ for (const value of mySet) {
 
 This will produce the same output as the previous example.
 
-### How to create set to Array ?
+### 196. How to create set to Array ?
 
 You can create an array from a set in JavaScript by using the spread operator (`...`) or the `Array.from()` method. Here's an example using the spread operator:
 
@@ -2089,7 +2089,7 @@ console.log(myArray); // Output: ['a', 'b', 'c']
 
 Both methods will give you an array containing the same elements as the original set.
 
-### What is Map ?
+### 197. What is Map ?
 
 In JavaScript, the `map()` method is used to create a new array by calling a function on each element of an existing array. The new array will have the same length as the original array but with modified values. It does not modify the original array. The syntax for using the `map()` method is:
 
@@ -2104,11 +2104,11 @@ array.map(function(currentValue, index, arr), thisValue)
 
 The `map()` method returns a new array with the modified values.
 
-### What is weakMap in JavaScript ?
+### 198. What is weakMap in JavaScript ?
 
 WeakMap is a built-in data structure in JavaScript that allows for the creation of key-value pairs where the keys are weakly referenced. This means that if an object used as a key has no other references, it can be garbage collected even if it still exists in the WeakMap. WeakMaps are useful for scenarios where you want to associate metadata with an object without preventing the object from being garbage collected when it's no longer needed.
 
-### What is chaining in Map ?
+### 199. What is chaining in Map ?
 
 Chaining in Map in JavaScript is a technique of applying multiple operations on the same Map object in a single statement, by chaining them together using dot notation. This allows for more concise and readable code. For example:
 
@@ -2123,7 +2123,7 @@ console.log(myMap.get('key1')); // output: value1
 
 In this code, we create a new Map object and chain multiple set() operations to add key-value pairs to it. We can then retrieve the value associated with 'key1' using the get() method.
 
-### How the map will behave if we use an Array as key ?
+### 200. How the map will behave if we use an Array as key ?
 
 In JavaScript, an array cannot be used as a key in a Map. When an array is used as a key, it will be coerced to a string using the `toString()` method, and the resulting string will be used as the key. Thus, two different arrays with the same values will be considered as two different keys because their `toString()` output will be different. For example:
 
@@ -2144,7 +2144,7 @@ console.log(map.size); // 2
 
 In this example, `key1` and `key2` are two separate array objects with the same values. However, when they are used as keys in the Map, they are treated as two different keys because their `toString()` output is different. Therefore, the size of the Map will be 2, and we can retrieve different values by using each key.
 
-### How to convert Map to Array ?
+### 201. How to convert Map to Array ?
 
 You can convert a Map to an Array in JavaScript using the spread operator (...) or the Array.from() method.
 
@@ -2164,7 +2164,7 @@ const myArray = Array.from(myMap);
 console.log(myArray); // output: [ [1, 'one'], [2, 'two'], [3, 'three'] ]
 ```
 
-### How to convert Array to Map ?
+### 202. How to convert Array to Map ?
 
 You can convert an array to a map in JavaScript by using the `Map` constructor and the `Array.prototype.reduce()` method.
 
@@ -2189,7 +2189,7 @@ console.log(map);
 
 In this example, the `arr` array contains arrays representing key-value pairs. The `reduce()` method is used to transform each pair into an array of `[key, value]`, which is then passed to the `Map` constructor to create the new map object.
 
-### How to convert Object to Map ?
+### 203. How to convert Object to Map ?
 
 You can convert an object to a Map in JavaScript using the `Map()` constructor and the `Object.entries()` method. The `Object.entries()` method returns an array of key-value pairs from the object, which can be passed as an argument to the `Map()` constructor to create a new Map. Here's an example:
 
@@ -2201,7 +2201,7 @@ console.log(map); // Map(3) { 'a' => 1, 'b' => 2, 'c' => 3 }
 
 In this example, `Object.entries(obj)` returns an array of key-value pairs `[ [ 'a', 1 ], [ 'b', 2 ], [ 'c', 3 ] ]`, which is passed as an argument to the `Map()` constructor to create a new Map with the same key-value pairs.
 
-### How to iterate map using foreach and for of loop ?
+### 204. How to iterate map using foreach and for of loop ?
 
 In JavaScript, you can iterate over a Map using the `forEach()` method or with a `for...of` loop.
 
@@ -2241,11 +2241,11 @@ key2 = value2
 key3 = value3
 ```
 
-### What is OOPs ?
+### 205. What is OOPs ?
 
 OOPs stands for Object-Oriented Programming in JavaScript. It is a programming paradigm that organizes code into objects, which contain data and methods that act on that data. In OOPs, objects are created from classes or constructors, and can inherit properties and methods from parent objects. OOPs in JavaScript allows for code reusability, encapsulation, and abstraction.
 
-### What are the 6 priniciples of OOPs?
+### 206. What are the 6 priniciples of OOPs?
 
 The 6 principles of Object-Oriented Programming (OOP) are:
 
@@ -2261,7 +2261,7 @@ The 6 principles of Object-Oriented Programming (OOP) are:
 
 6. Interface: This provides a clear definition of how objects can interact with each other, enabling objects to communicate and work together effectively.
 
-### Explain below topics and give one real life example of each topic Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism ?
+### 207. Explain below topics and give one real life example of each topic Class, Object, Encapsulation, Abstraction, Inheritance, Polymorphism ?
 
 Sure, here are explanations and examples for each topic:
 
@@ -2289,7 +2289,7 @@ Example: A class "Animal" may have subclasses like "Dog", "Cat", and "Bird". The
 
 Example: In a drawing program, various shapes like circles, squares, and triangles can all be represented by objects of different classes, but they can be manipulated with common methods like "resize" or "rotate".
 
-### How to inheritance works ?
+### 208. How to inheritance works ?
 
 Inheritance in JavaScript is achieved through the prototype chain. Each object has a prototype object, which itself can have a prototype object, forming a chain of objects, ultimately leading to the base Object prototype. When an object's property is accessed or a method is called, JavaScript looks for that property or method on the object itself, and if it doesn't find it, it continues up the prototype chain until it finds the property or reaches the end of the chain.
 
@@ -2324,11 +2324,11 @@ console.log(child.foo); // 'hello'
 console.log(child.bar); // 'world'
 ```
 
-### What is prototypal inheritance ?
+### 209. What is prototypal inheritance ?
 
 Prototypal inheritance is a mechanism in JavaScript where objects can inherit properties and methods from other objects, through a prototype chain. Every object in JavaScript has an internal property called [[Prototype]] which refers to another object, and when a property or method is accessed on an object, if it doesn't exist on the object itself, the JavaScript engine will look for it on its prototype object. This process continues until the property or method is found or until the end of the prototype chain is reached (i.e., the base Object prototype). By setting an object's [[Prototype]] to another object, we can create a chain of objects that share common properties and methods, allowing for efficient code reuse and organization.
 
-### What are the different ways of doing prototypal inheritance ?
+### 210. What are the different ways of doing prototypal inheritance ?
 
 In JavaScript, there are two main ways to do prototypal inheritance:
 
@@ -2353,23 +2353,23 @@ let child = new Parent('Child');
 child.sayHello(); // Output: Hello, my name is Child
 ```
 
-### What is Constructor function ?
+### 211. What is Constructor function ?
 
 Constructor functions are special functions in JavaScript that are used to create and initialize objects. They are typically defined using the function keyword and are named with an initial uppercase letter to distinguish them from regular functions. When a constructor function is called with the new keyword, it creates a new object and sets its prototype to the constructor function's prototype. The constructor function can also define properties and methods on the newly created object by using the this keyword.
 
-### What is ES6 classes ?
+### 212. What is ES6 classes ?
 
 ES6 (ECMAScript 2015) introduced a new syntax for creating classes in JavaScript, known as ES6 classes. It provides a cleaner syntax and a more familiar object-oriented programming style for developers coming from other programming languages. ES6 classes use the 'class' keyword to define a class, and constructors to initialize objects. They also support inheritance using the 'extends' keyword.
 
-### What is Object.create ?
+### 213. What is Object.create ?
 
 `Object.create` is a method in JavaScript that creates a new object with the prototype set to a specified object. The newly created object inherits properties and methods from its prototype object. It takes an optional parameter which represents the properties of the new object, and returns the new object.
 
-### What is prototypal chain ?
+### 214. What is prototypal chain ?
 
 The prototypal chain in JavaScript is a mechanism for objects to inherit properties and methods from their parent objects, creating a chain of objects that share common characteristics. Each object has an internal [[Prototype]] property that points to its parent object's prototype, allowing it to access the parent's properties and methods. If a property or method is not found in an object, JavaScript looks up the chain until it reaches the top-level Object.prototype.
 
-### What is setters and getters in ES6 classes ?
+### 215. What is setters and getters in ES6 classes ?
 
 Setters and getters are special functions in ES6 classes that allow external code to access and modify the properties of an object, while also providing a layer of abstraction over the implementation details of those properties.
 
@@ -2395,11 +2395,11 @@ class Person {
 
 In this example, the `name` getter and setter methods allow external code to read and modify the `_name` property of a `Person` object, respectively. The use of an underscore before the name of the property is a common convention to indicate that it should not be accessed directly from outside the class.
 
-### What will happen if we give same name of property of an object and setter and getter ?
+### 216. What will happen if we give same name of property of an object and setter and getter ?
 
 If you give the same name to a property and its corresponding setter or getter method in a JavaScript object, then it will create an infinite loop that will continuously call the setter or getter until it exceeds the maximum stack size, which will result in a "Maximum call stack size exceeded" error. Therefore, it is important to give unique names to properties and their corresponding setter and getter methods in JavaScript objects.
 
-### What is static function in ES6 classes ?
+### 217. What is static function in ES6 classes ?
 
 In ES6 classes in JavaScript, there is no concept of a static function. Instead, you can define a static method using the `static` keyword inside the class definition. A static method is a function that belongs to the class itself, rather than an instance of the class, and can be called directly on the class. For example:
 
@@ -2413,7 +2413,7 @@ class MyClass {
 MyClass.myStaticMethod(); // Output: "This is a static method"
 ```
 
-### How to implement inheritance in Constructor functions, ES6 classes and Object.create ?
+### 218. How to implement inheritance in Constructor functions, ES6 classes and Object.create ?
 
 Inheritance can be implemented in JavaScript using constructor functions, ES6 classes, and Object.create in the following ways:
 
@@ -2489,7 +2489,7 @@ student.grade = 'A';
 student.greet(); // Output: Hello, my name is John Doe.
 ```
 
-### How to implement encapsulation? How to make fields protected ?
+### 219. How to implement encapsulation? How to make fields protected ?
 
 In JavaScript, encapsulation can be implemented by using closure and module pattern. To create protected fields in JavaScript, you can declare the fields inside a constructor function or class as local variables with `var` or `let` keywords, and then expose getter and setter methods for accessing and modifying the fields.
 
@@ -2526,7 +2526,7 @@ console.log(john.getAge()); // output: 40
 
 In this example, `_name` and `_age` are private fields that can only be accessed and modified through the getter and setter methods. The getter methods `getName()` and `getAge()` return the values of the private fields, while the setter method `setAge()` sets the value of the `_age` field only if the input is a positive number.
 
-### How to make fields and functions private ?
+### 220. How to make fields and functions private ?
 
 In JavaScript, you can make fields and functions private by creating a closure using an IIFE (Immediately Invoked Function Expression) or a module pattern. By doing so, the variables and functions inside the closure are not accessible from outside.
 
@@ -2553,7 +2553,7 @@ myModule.publicFunc(); // Output: "This is a public function"
 
 In this example, `privateVar` and `privateFunc` are only accessible within the closure created by `myModule`. The returned object contains only the `publicFunc` method, making it the only method that can be accessed from outside the closure.
 
-### What is chaining methods? How can we implement the same in ES6 classes ?
+### 221. What is chaining methods? How can we implement the same in ES6 classes ?
 
 Chaining methods is a programming technique where multiple methods are called on the same object in a single statement, by returning the object itself from each method. This allows for more concise and expressive code.
 
@@ -2583,15 +2583,15 @@ console.log(obj.value); // Output: 2
 
 In the above example, the `add()` and `subtract()` methods both return `this`, which allows them to be chained together in a single statement.
 
-### What is Synchronous and Asynchronous ?
+### 222. What is Synchronous and Asynchronous ?
 
 In JavaScript, synchronous refers to code that is executed in a single thread and blocks other tasks until it completes. Asynchronous, on the other hand, allows multiple tasks to be executed concurrently, so that long-running or blocking tasks do not hold up the execution of other tasks. Asynchronous operations often rely on callbacks or promises to manage their completion or errors.
 
-### What is AJAX ?
+### 223. What is AJAX ?
 
 AJAX (Asynchronous JavaScript and XML) is a technique in web development that allows for asynchronous communication between a web browser and a web server, without requiring the entire page to be reloaded. It enables dynamic content to be loaded onto a webpage without interrupting the user's experience. AJAX uses JavaScript to send and receive data in the background and can work with various data formats, not only XML.
 
-### What is API? Explain topics SOAP API, Rest API, Request, Response, Request Body, Query Param, Path Variable, URL, URI, Data : JSON/XML/Text
+### 224. What is API? Explain topics SOAP API, Rest API, Request, Response, Request Body, Query Param, Path Variable, URL, URI, Data : JSON/XML/Text
 
 API stands for Application Programming Interface, and it's a set of protocols and tools for building software applications.
 
@@ -2617,17 +2617,17 @@ JSON (JavaScript Object Notation) is a lightweight data interchange format that 
 
 XML (Extensible Markup Language) is a markup language that encodes documents in a format that is both human-readable and machine-readable.
 
-### What is server client architecture ?
+### 225. What is server client architecture ?
 
 Server-client architecture in JavaScript refers to the way in which data and functionality are distributed between a server and a client (usually a web browser) in a web application. The server is responsible for storing and managing data, while the client is responsible for rendering the user interface and handling user interactions. In a typical scenario, JavaScript code running on the client makes requests to the server to retrieve or modify data, and the server responds with the requested information. Ajax (Asynchronous JavaScript and XML) is a common technique used to facilitate this communication between the client and the server.
 
-### What is Promise and fetch ?
+### 226. What is Promise and fetch ?
 
 In JavaScript, a Promise is an object representing the eventual completion or failure of an asynchronous operation and allows you to write asynchronous code that looks synchronous.
 
 The fetch() function is a built-in method in JavaScript that allows you to make network requests to retrieve resources from a server using the HTTP protocol. It returns a Promise, which resolves to the Response object representing the server response to the request.
 
-### How to consume promises ?
+### 227. How to consume promises ?
 
 To consume a Promise in JavaScript, you can use the `.then()` method on the Promise object. This allows you to attach a callback function that will be executed once the Promise is fulfilled with a value. For example:
 
@@ -2652,7 +2652,7 @@ async function myAsyncFunction() {
 }
 ```
 
-### How handle rejected promises ?
+### 228. How handle rejected promises ?
 
 In JavaScript, rejected promises can be handled using the `.catch()` method.
 
@@ -2672,7 +2672,7 @@ somePromise()
 
 In this example, if `somePromise()` is rejected, the callback function passed to `.catch()` will be executed and you can handle the error there.
 
-### How to create a Promise ?
+### 229. How to create a Promise ?
 
 To create a Promise in JavaScript, you can use the Promise constructor function. The Promise constructor takes a single argument, which is a function that has two parameters: resolve and reject. Here's an example:
 
@@ -2702,11 +2702,11 @@ myPromise
   });
 ```
 
-### What is async/await ?
+### 230. What is async/await ?
 
 Async/await is a syntax feature in JavaScript that allows developers to write asynchronous code that looks and behaves like synchronous code. It involves using the "async" keyword before a function declaration to mark it as asynchronous, and the "await" keyword within the function to wait for the completion of an asynchronous operation before continuing execution.
 
-### How to return values from Async function ?
+### 231. How to return values from Async function ?
 
 Async functions in JavaScript return a Promise, which resolves to the value returned by the function. You can either use the `await` keyword to wait for the Promise to resolve and get the returned value, or you can use the `.then()` method on the Promise to handle the resolved value.
 
@@ -2732,7 +2732,7 @@ myAsyncFunction().then(result => {
 
 Note that when using `await`, the calling function must also be declared as `async`.
 
-### How to run promises in Parallel ?
+### 232. How to run promises in Parallel ?
 
 To run promises in parallel in JavaScript, you can use the `Promise.all()` method.
 
@@ -2754,7 +2754,7 @@ Promise.all([promise1, promise2, promise3])
 
 In this example, we create three promises that will resolve after different periods of time. We then pass an array of these promises to `Promise.all()`. This method returns a new promise that resolves with an array of the results of all promises when they have all completed. We can then use `.then()` to log the result or handle any errors with `.catch()`.
 
-### How to do error handling? Explain try catch and finally ?
+### 233. How to do error handling? Explain try catch and finally ?
 
 Error handling is a technique used to detect and manage errors that may occur during the execution of a program. In JavaScript, try-catch-finally is a mechanism used for error handling.
 
@@ -2786,7 +2786,7 @@ try {
 
 To summarize, the `try` block encloses the code that might throw an error, the `catch` block handles the exception if one is thrown, and the `finally` block contains code that must be executed regardless of the outcome of the `try` block.
 
-### Explain some of the promise combinators in javascript? Race, allSettled, any ?
+### 234. Explain some of the promise combinators in javascript? Race, allSettled, any ?
 
 - Promise.race: Returns a promise that resolves or rejects as soon as one of the promises in an iterable resolves or rejects, with the value or reason from that promise.
 
@@ -2794,11 +2794,11 @@ To summarize, the `try` block encloses the code that might throw an error, the `
 
 - Promise.any: Returns a promise that resolves as soon as one of the promises in an iterable fulfills, with the value from that promise. If all of the promises reject, the returned promise is rejected with an AggregateError containing all of the rejection reasons. Note that this method is not yet widely supported in all browsers.
 
-### What is module ?
+### 235. What is module ?
 
 In JavaScript, a module is an independent and reusable piece of code that encapsulates related functionality such as variables, functions, classes, or objects. It allows developers to organize their code into separate files or modules, making it easier to manage and maintain large applications. Modules can be imported and exported between files, allowing them to communicate with each other and access each other's functionality. The most common way to use modules in modern JavaScript is through the ES6 module syntax, which uses the `import` and `export` keywords to define dependencies between modules.
 
-### How to import and export modules ?
+### 236. How to import and export modules ?
 
 In JavaScript, you can import and export modules using the ES6 module syntax. Here are the basic steps:
 
@@ -2847,14 +2847,14 @@ console.log(alice.name); // Alice
 
 Note that in order for this to work, you'll need to be using a modern browser or a tool like Babel to transpile your code to older versions of JavaScript that support the module syntax.
 
-### What is Polyfilling ?
+### 237. What is Polyfilling ?
 
 Polyfilling in JavaScript refers to the technique of adding code to emulate newer JavaScript features in older browsers or environments that don't support them natively. The polyfill code provides a fallback implementation of the feature so that developers can use it without worrying about browser compatibility issues.
 
-### What is Transpiling ?
+### 238. What is Transpiling ?
 
 Transpiling in JavaScript means transforming code written in one version of the language to another version that is compatible with older browsers and environments. For example, transpiling ES6 code to ES5 code to ensure compatibility with older browsers. This is typically done using a tool such as Babel.
 
-### Difference between polyfilling and transpiling ?
+### 239. Difference between polyfilling and transpiling ?
 
 Polyfilling is adding new functionality to older browsers that don't support it natively, by defining the missing features using JavaScript code. Transpiling is converting modern JavaScript code into an older version of JavaScript that is compatible with older browsers. Polyfilling adds new features, while transpiling adjusts the syntax and structure of existing code to work in older environments.
