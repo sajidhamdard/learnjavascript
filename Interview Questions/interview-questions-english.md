@@ -1069,7 +1069,7 @@ In JavaScript, the number system is a way of representing numerical values using
 
 6. isNaN(): The isNaN() function determines whether a value is NaN (not a number). It returns true if the value is NaN, and false otherwise.
 
-### What is Date object in JavaScript? What are the different ways of creating Date object?
+### 111. What is Date object in JavaScript? What are the different ways of creating Date object?
 
 The Date object in JavaScript represents a specific moment in time, providing methods for working with dates and times. It can be used to get and set the year, month, day, hours, minutes, seconds, and milliseconds.
 
@@ -1099,7 +1099,7 @@ let date = new Date("April 4, 2023 12:30:00");
 let date = new Date();
 ```
 
-### How will you convert any Number or Date in a format of a difference locale/country ?
+### 112. How will you convert any Number or Date in a format of a difference locale/country ?
 
 To convert a number or date to a different locale/country format in JavaScript, you can use the `toLocaleString()` method. This method accepts two arguments:
 
@@ -1128,15 +1128,15 @@ console.log(formattedDate); // "4. April 2023"
 
 Note that the specific formats may vary depending on the locale and options you choose.
 
-### What is DOM ?
+### 113. What is DOM ?
 
 DOM (Document Object Model) in JavaScript is a programming interface for web documents that represents the page so that programs can change the document structure, style, and content. It creates a tree-like structure of all the HTML elements on a web page, which can be accessed and manipulated by JavaScript to dynamically update the content of a web page without requiring a full page reload.
 
-### What is the need of DOM ?
+### 114. What is the need of DOM ?
 
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. JavaScript uses the DOM to access and manipulate web page elements, allowing for dynamic and interactive web experiences. Without the DOM, JavaScript would not be able to interact with HTML and CSS, making it impossible to create modern web applications.
 
-### Explain functions getElementById,getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll, write ?
+### 115. Explain functions getElementById,getElementsByTagName, getElementsByClassName, querySelector, querySelectorAll, write ?
 
 - `getElementById`: is a method used to select an HTML element by its ID attribute and returns the selected element as an object.
 - `getElementsByTagName`: is a method used to select all HTML elements with a specified tag name and returns an array-like object of all matching elements.
@@ -1145,7 +1145,7 @@ The Document Object Model (DOM) is a programming interface for web documents. It
 - `querySelectorAll`: is a method used to select all HTML elements that match a specified CSS selector, and returns an array-like object of all matching elements.
 - `write`: is a method used to write text or HTML directly to the document output stream, which can be used to dynamically add content to a webpage. However, this method is considered outdated and not recommended for use in modern web development practices.
 
-### What is Node ? What is HTMLCollection? What is Element?
+### 116. What is Node ? What is HTMLCollection? What is Element?
 
 Node in JavaScript refers to any individual element or object within the Document Object Model (DOM) tree. It can be an HTML element, a text node, or a comment node.
 
@@ -1153,21 +1153,21 @@ HTMLCollection is a collection of HTML elements that are returned by DOM API met
 
 Element is a type of Node that represents an HTML element in the DOM tree. It can be accessed using various DOM API methods and has properties and methods to manipulate its attributes, styles, and content.
 
-### Difference between innerHTML vs textContent ?
+### 117. Difference between innerHTML vs textContent ?
 
 `innerHTML` retrieves or sets the HTML content inside an element, while `textContent` retrieves or sets the text content of an element without including any HTML tags.
 
 In other words, `innerHTML` returns or sets the rendered HTML code, including any HTML tags, while `textContent` returns or sets only the plain text within an element, ignoring any HTML tags. It is generally recommended to use `textContent` when working with plain text and `innerHTML` when working with HTML.
 
-### What is an event bubbling ?
+### 118. What is an event bubbling ?
 
 Event bubbling is a process in which an event that is triggered on an element in the HTML document will first be handled by its innermost child element and then propagate outward to its parent elements, triggering their respective event handlers along the way until it reaches the root of the document. This allows for event handling to be applied to encompassing elements rather than just individual ones.
 
-### What is an event capturing ?
+### 119. What is an event capturing ?
 
 Event capturing is a phase in the event propagation process in JavaScript where events are first captured by the outermost element and then propagated inward towards the target element. This happens before the actual event occurs on the target element. Event capturing is followed by event bubbling, which propagates the event back outward from the target element to the outermost element.
 
-### Difference between event bubbling and capturing ?
+### 120. Difference between event bubbling and capturing ?
 
 Event bubbling and capturing are two different mechanisms for handling the propagation of events in the DOM (Document Object Model) hierarchy.
 
@@ -1179,7 +1179,7 @@ In other words, during the capturing phase, events start at the root of the docu
 
 Both event capturing and bubbling can be used to handle events in JavaScript. By default, events in JavaScript use the bubbling mechanism, but you can use the `addEventListener` method with the third parameter set to `true` to switch to the capturing mechanism.
 
-### Difference between innherHTML and attribute ?
+### 121. Difference between innherHTML and attribute ?
 
 `innerHTML` and attributes are both ways to manipulate the content of an HTML element in JavaScript, but they differ in what aspect of the element they modify:
 
@@ -1203,7 +1203,7 @@ document.getElementById("myDiv").setAttribute("class", "myClass");
 
 In summary, `innerHTML` is used to manipulate the content of an element, while attributes are used to manipulate specific characteristics or properties of an element.
 
-### How to change the style of an html element using DOM ?
+### 122. How to change the style of an html element using DOM ?
 
 To change the style of an HTML element using the DOM in JavaScript, you can use the `style` property of the element and set its various CSS properties. Here's an example:
 
@@ -1220,15 +1220,15 @@ element.style.fontSize = "20px";
 
 Note that you can set any CSS property using the `style` property, but you need to use the camelCase version of the property name. For example, to set the `background-color` property, you need to use `backgroundColor`.
 
-### What is event ?
+### 123. What is event ?
 
 In JavaScript, an event is a signal that the browser sends to notify the code that something has happened, such as a user clicking a button or the page finishing loading. Event handlers can be used to respond to these events and execute code accordingly.
 
-### What is role the event.preventDefult() ?
+### 124. What is role the event.preventDefult() ?
 
 The `event.preventDefault()` method in JavaScript is used to prevent the default behavior of an event from occurring. For example, when a user clicks on a link, the default behavior is for the browser to follow that link and load the corresponding page. However, by calling `event.preventDefault()` within a function that is triggered by the click event, you can stop this default behavior from happening and instead perform some other action in response to the click.
 
-### What are the different types of mouse/keyboard events ?
+### 125. What are the different types of mouse/keyboard events ?
 
 There are several types of mouse and keyboard events in JavaScript, including:
 
@@ -1239,7 +1239,7 @@ There are several types of mouse and keyboard events in JavaScript, including:
 
 Each event is triggered based on a user's interaction with the corresponding input device.
 
-### What is eventListener ?
+### 126. What is eventListener ?
 
 An eventListener in JavaScript is a function that waits for a specific event to occur on a web page, such as a mouse click or a key press, and then executes code in response to that event. It is commonly used to add interactivity to web pages by allowing JavaScript code to respond to user actions. The syntax for adding an event listener in JavaScript is:
 
@@ -1249,7 +1249,7 @@ element.addEventListener(event, function, useCapture);
 
 Where `element` is the HTML element to which the event listener will be added, `event` is the name of the event to listen for (e.g., "click", "keydown"), `function` is the code to be executed when the event occurs, and `useCapture` is an optional boolean value that indicates whether the event should be captured during the propagation phase.
 
-### How to remove a eventListener ?
+### 127. How to remove a eventListener ?
 
 To remove an event listener in JavaScript, you can use the `removeEventListener()` method. This method takes two arguments: the type of the event to remove (e.g. "click") and the function that was originally used as the event handler.
 
@@ -1270,7 +1270,7 @@ element.removeEventListener("click", handleClick);
 
 In this example, we're adding a click event listener to a button with the ID "myButton" and a function called `handleClick` as the event handler. Later, we can remove the event listener using `removeEventListener()` and passing in the same event type ("click") and function (`handleClick`).
 
-### How to create a DOM element dynamically ?
+### 128. How to create a DOM element dynamically ?
 
 You can create a DOM element dynamically in JavaScript using the `createElement()` method of the `document` object. Here's an example:
 
@@ -1293,7 +1293,7 @@ container.appendChild(newDiv);
 
 In this example, we create a new `<div>` element with the `createElement()` method and set its `id` and `className` properties. We also add some text content to the element using the `createTextNode()` method and append it to the element using the `appendChild()` method. Finally, we add the new element to the DOM by appending it to an existing element with the id "container".
 
-### What are the BOM objects? Explain each Window, History, Navigator, Screen, Location, Timing,Cookies, LocalStorage ?
+### 129. What are the BOM objects? Explain each Window, History, Navigator, Screen, Location, Timing,Cookies, LocalStorage ?
 
 The below BOM objects are part of the Browser Object Model (BOM), and they represent different aspects of the browser environment:
 
@@ -1313,7 +1313,7 @@ The below BOM objects are part of the Browser Object Model (BOM), and they repre
 
 8. LocalStorage: The LocalStorage object provides a way to store persistent data on the client-side. It allows you to store key-value pairs in the browser's local storage, which can be accessed across multiple sessions and even after the browser is closed.
 
-### What is JavaScript engine? What are the famous JavaScript engine names?
+### 130. What is JavaScript engine? What are the famous JavaScript engine names?
 
 A JavaScript engine is a program that executes JavaScript code. It reads the written code and converts it into a form that can be understood by the computer's CPU.
 
@@ -1325,15 +1325,15 @@ Some of the famous JavaScript engines are:
 4. Chakra - Developed by Microsoft, used in Internet Explorer and Microsoft Edge
 5. Nashorn - Developed by Oracle, used in Java platform
 
-### What is Call Stack ?
+### 131. What is Call Stack ?
 
 The call stack is a mechanism used by JavaScript to keep track of function calls in the code. It is a data structure that stores information about the active functions in memory, including the current position in the code, the values of parameters and local variables, and the return address of each function. When a function is called, its context is pushed onto the top of the call stack, and when it returns, its context is popped off the stack. This allows JavaScript to maintain the order of execution and properly handle nested function calls.
 
-### What is Execution Context ?
+### 132. What is Execution Context ?
 
 Execution context in JavaScript refers to the environment in which a piece of code is executed. It includes the variables, functions, and objects that are currently accessible, as well as the scope chain, the value of 'this', and other contextual information that affects how the code is executed. Every time code is executed, a new execution context is created, with its own set of variables and function references.
 
-### How call stack and execution context are interrelated ?
+### 133. How call stack and execution context are interrelated ?
 
 In JavaScript, the call stack and execution context are closely interrelated.
 
@@ -1345,15 +1345,15 @@ When a function is called, its execution context is pushed onto the top of the c
 
 So, as you move up and down the call stack, you are also moving between different execution contexts. Understanding how these two concepts are related is important for understanding how JavaScript code is executed.
 
-### What is Heap memory ?
+### 134. What is Heap memory ?
 
 In JavaScript, heap memory is a region of memory used by the JavaScript engine to store dynamically allocated objects. It's where objects like arrays and objects are stored when they're created during runtime. The garbage collector in JavaScript manages the heap memory by reclaiming memory from unreachable objects.
 
-### What is Stack memory ?
+### 135. What is Stack memory ?
 
 In JavaScript, the stack memory is a region of memory that stores function call frames. Each time a function is called, a new frame is added to the stack, and when the function returns, the frame is removed from the stack. The stack memory is used to keep track of the current execution context and to handle function calls and returns. It has limited size and can cause a stack overflow error if too many nested function calls occur.
 
-### What is the difference between heap and stack memory ?
+### 135. What is the difference between heap and stack memory ?
 
 In JavaScript, there is no explicit control over heap and stack memory.
 
@@ -1361,27 +1361,27 @@ However, objects are allocated in the heap, and primitives (such as numbers and 
 
 Variables declared with `var` or `let` are stored on the stack, but their values may point to objects allocated on the heap. It's important to note that JavaScript automatically manages memory allocation and deallocation, so developers don't need to worry about manually allocating or freeing memory.
 
-### What is Compiler?
+### 136. What is Compiler?
 
 A compiler is a software program that translates source code written in a high-level programming language into machine code or bytecode that can be executed by a computer. The process of compilation involves several stages such as lexical analysis, syntax analysis, semantic analysis, code optimization, and code generation.
 
-### What is interpreter?
+### 137. What is interpreter?
 
 An interpreter is a software program that reads and executes code written in a high-level programming language line by line, without the need for compilation. It translates the source code into machine-readable code on-the-fly and immediately executes it. This makes it easier to test and debug programs because errors can be identified as soon as they occur. Examples of interpreted programming languages include Python, Ruby, and JavaScript.
 
-### What is the difference between compiler and interpreter?
+### 138. What is the difference between compiler and interpreter?
 
 A compiler translates source code into an executable file all at once, while an interpreter executes the source code line by line.
 
-### What is JIT ?
+### 139. What is JIT ?
 
 JIT stands for "Just-In-Time" compilation, which is a technique used by JavaScript engines to improve the performance of code execution. During JIT compilation, JavaScript code is analyzed and optimized on the fly while it's being executed, rather than ahead of time. This allows the engine to make more informed decisions about how to optimize the code based on runtime information. As a result, JIT compilation can significantly boost the performance of JavaScript applications.
 
-### What is event loop ?
+### 140. What is event loop ?
 
 The event loop in JavaScript is a mechanism that allows asynchronous operations to be performed efficiently by continuously monitoring the call stack and message queue, and executing queued functions when the stack is empty. This ensures that long-running or blocking operations do not interfere with the responsiveness of the user interface.
 
-### What is inside the execution context in javascript? Types of execution context?
+### 141. What is inside the execution context in javascript? Types of execution context?
 
 An execution context in JavaScript contains information that the JavaScript engine uses to execute code. The information inside an execution context includes the variable environment, scope chain, and this keyword.
 
@@ -1391,15 +1391,15 @@ There are two main types of execution contexts in JavaScript:
 
 2. Functional execution context: This is created when a function is called. Each function call creates a new functional execution context with its own variable environment, scope chain, and this keyword.
 
-### What is variable environment ?
+### 142. What is variable environment ?
 
 In JavaScript, variable environment refers to the context in which a variable exists and can be accessed. It includes all the variables, function declarations, and function arguments that are currently in scope. The variable environment is created for each execution context and is used by the JavaScript engine to keep track of variables and their values during runtime.
 
-### What is scope chain ?
+### 143. What is scope chain ?
 
 The scope chain in JavaScript refers to the hierarchical order in which the JavaScript interpreter looks for variables and functions within nested functions. When a variable or function is referenced, the interpreter first searches the current local scope, and then moves up the chain of higher-level enclosing scopes until it finds the requested identifier or reaches the global scope. This process is called variable or function resolution.
 
-### What is this keyword ? Where to use it? What this keyword denotes?
+### 144. What is this keyword ? Where to use it? What this keyword denotes?
 
 The "this" keyword in JavaScript refers to the object that the current code is being executed on or within. It is a reference to the current context or scope, and its value is determined at runtime based on how the code is invoked.
 
@@ -1409,17 +1409,17 @@ The specific value of "this" depends on how the function or method was called. W
 
 The "this" keyword can also be explicitly set using the call(), apply(), or bind() methods.
 
-### What is creation and code phase ?
+### 145. What is creation and code phase ?
 
 "Creation phase" refers to the initial phase of the execution context in JavaScript, during which the interpreter sets up the scope chain, creates variables and functions, and allocates memory for them. This is also known as the "variable instantiation" or "hoisting" phase.
 
 The "code phase" in JavaScript refers to the phase during which the interpreter executes the code line by line, following the order in which it was written. This is also known as the "execution phase" or "runtime" phase.
 
-### What will happen if we use this keyword inside a function in strict mode ?
+### 146. What will happen if we use this keyword inside a function in strict mode ?
 
 If you use the "this" keyword inside a function in strict mode in JavaScript, its value will be undefined. In non-strict mode, it would refer to the global window object.
 
-### What is the difference between primitive and object ?
+### 147. What is the difference between primitive and object ?
 
 In JavaScript, primitives are the most basic data types, including numbers, strings, booleans, null, and undefined. They are immutable and stored by value.
 
@@ -1427,11 +1427,11 @@ Objects, on the other hand, are more complex data types that can store collectio
 
 In summary, primitives are simple, immutable values, while objects are more complex, mutable data types that can store collections of data and functionality.
 
-### What is normal copy ?
+### 148. What is normal copy ?
 
 In JavaScript, "normal copy" typically refers to creating a new independent copy of an object or primitive value. This can be done using various techniques such as the spread operator (`...`), `Object.assign()`, or simply assigning the value to a new variable. This allows you to modify one copy of the data without affecting the other.
 
-### What is shallow copy ? How to perform shallow copy of an object?
+### 149. What is shallow copy ? How to perform shallow copy of an object?
 
 In JavaScript, shallow copy creates a new object and copies only the properties of the original object one level deep. This means that if the original object has nested objects or arrays, they will still reference the same memory locations as the original object.
 
@@ -1453,7 +1453,7 @@ const newObj = Object.assign({}, originalObj);
 
 Both of these methods create a new object with the same properties as the original object. However, if the original object had properties that referenced other objects or arrays, the new object will reference the same objects/arrays as the original object.
 
-### What is deep copy ? How to perform deep copy of an object?
+### 150. What is deep copy ? How to perform deep copy of an object?
 
 In JavaScript, a deep copy refers to creating a new object or array with all of its nested values also copied instead of just copying the references to them.
 
