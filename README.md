@@ -1,14 +1,14 @@
 # Complete JavaScript Study Material
 
-Hello All,
+Hello everyone,
 
-Welcome ❤️ to my Github account 🙏.
+Welcome ❤️ to my GitHub account 🙏.
 
-I have created this repo to help students/freshers/working professionals and providing them all the resources for JavaScript in a single repo. We are continously working on this repository so please check regulary for latest updates.
+I have created this repository to assist students, freshers, and working professionals by providing them with all the resources for JavaScript in a single repository. We are continuously working on this repository, so please check regularly for the latest updates.
 
-For the convenience of the student who are not comfortable in English, we are trying to add notes in Hindi as well. Please keep checking our repo for regular updates.
+For the convenience of students who are not comfortable with English, we are trying to add notes in Hindi as well. Please keep checking our repository for regular updates.
 
-This repo includes:# ❤️ Complete JavaScript Learning Material 🙏
+This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ### JavaScript Course Material 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
