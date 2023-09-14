@@ -14,6 +14,10 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ## "केवल आत्मविश्वास होना चाहिए, ज़िंदगी तो कहीं से भी शुरू हो सकती है।"
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
+</div>
+
 ### JavaScript Course Material 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
