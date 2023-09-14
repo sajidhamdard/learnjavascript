@@ -130,11 +130,11 @@ Single threaded ka matlab hai ki ek hi thread se kaam hota hai. Ek thread ek saa
 Non-Blocking Event Loop ek aisa tarika hai jismein code ek loop dwara chalaya jaata hai jisme koi blocking nahi hota. Yeh aam taur par server-side programming mei use kiya jaata hai jahan bahut saare clients se communication ki zarurat hoti hai. Ismein, jab koi client code execute karta hai, toh uska execution control immediately return ho jaata hai aur doosre clients ke liye bhi processing shuru kar di jaati hai. Jab koi client ka processing complete ho jaata hai, event loop us client ko notify karta hai aur uss client ke code ko execute karne ke liye ready ho jaata hai. Is tareeke se non-blocking I/O operations perform kiye jaate hai jo CPU resources ko optimize karte hai.
 
 
-### What is value and variable?  
+### 21. What is value and variable?  
 Value ek particular quantity ya quality hai jaise ki 5, "hello", True. Variable ek naam hota hai jise hum value store karne ke liye use karte hain, jaise ki x, name, age. Hum variable mein value assign kar sakte hain aur baad mein uss value ko access kar sakte hain. For example, agar humne x=10 assign kiya to hum x ki value 10 ke equal manenge.
 
 
-### What are rules of defining a variable?  
+### 22. What are rules of defining a variable?  
 Variable define karne ke kuch niyam hai:
 
 1. Pehle variable ka naam decide karo, jaise ki "num_students".
@@ -144,11 +144,11 @@ Variable define karne ke kuch niyam hai:
 5. Variable naam alphabets aur underscores (_) se shuru hona chahiye, numbers se nahi.
 6. Variable naam case-sensitive hota hai, matlab "num_students" aur "Num_Students" alag-alag variables hai.
 
-### What is data type?  
+### 23. What is data type?  
 Data type ek tarah ka variable hai jiska use hum karte hain data ko store karne ke liye. Har ek variable ki apni ek data type hoti hai, jaise numbers ke liye "int" (integer) data type hota hai aur words ke liye "str" (string) data type hota hai. Data types batate hain ki variable mein kis tarah ka data stored hoga aur uspe konse operations possible honge.
 
 
-### What are the different types of data types ?  
+### 24. What are the different types of data types ?  
 JavaScript mein kuch alag-alag data types hote hai, jaise:
 
 1. String: Ye ek sequence of characters hota hai jo single quote '' ya double quote "" ke beech mein hota hai.
@@ -168,13 +168,13 @@ JavaScript mein kuch alag-alag data types hote hai, jaise:
 8. Function: Ye ek block of code hota hai jo kisi specific task ko perform karta hai.
 
 
-### What is Symbol ?  
+### 25. What is Symbol ?  
 JavaScript mein "Symbol" ek data type hai jo unique aur immutable hota hai. Yeh primitive data type hai jise create karne ke liye hum `Symbol()` function ka use karte hain.
 
 JavaScript mein "Symbol" ek tarah ka data type hai jo bilkul alag aur badalne ke liye anivarya (immutable) hota hai. Iska matlab hai ki ek baar jab hum isko banate hain toh usse hum badal nahi sakte. Ise banane ke liye hum `Symbol()` naam ka ek function istemaal karte hain.
 
 
-### What is BigInt ?  
+### 26. What is BigInt ?  
 BigInt JavaScript mein ek data type hai jo ki bahut bade numbers ko represent karne ke liye use kiya jata hai. Iska matlab hai ki aap ismein bahut bade numbers assign kar sakte hain (jo normal integer data type mein nahi ho sakte). 
 
 Iss data type mein number ke end mein "n" lagana hota hai, jisse ye pata chalta hai ki ye BigInt hai. Jaise ki `const myNumber = 123456789012345678901234567890n;`
@@ -182,19 +182,19 @@ Iss data type mein number ke end mein "n" lagana hota hai, jisse ye pata chalta 
 Isse, aap bahut bade calculations kar sakte hain aur precision ko maintain kar sakte hain. Jabki normal integers mein, agar number limit se jyada bada ho jaye toh uska result unexpected ho sakta hai.
 
 
-### What is the difference between primitive and non-primitive data types ?  
+### 27. What is the difference between primitive and non-primitive data types ?  
 JavaScript mein primitive aur non-primitive data types ka fark hai. Primitive data types like number, string, boolean, undefined, aur null hai jo ki simple values hote hai aur ek hi memory space ko occupy karte hai. Non-primitive data types like arrays aur objects hai, jo multiple values ya properties ka collection hai aur alag-alag memory spaces ko occupy karte hai. Ek primitive data type ki value change nahi ki ja sakti hai lekin non-primitive data type ki values changeable hoti hai.
 
 
-### Why is the typeof NaN ?  
+### 28. Why is the typeof NaN ?  
 NaN ka type javascript me "number" hota hai. Lekin NaN ek special number hai jo aisi situations me generate hota hai jab kuch mathematical operation undefined ya impossible ho jata hai, jaise ki 0/0 ya Infinity - Infinity. Iska matlab yeh nahi ki NaN ek sahi number hai, balki yeh indicate karta hai ki koi calculation galat ho gaya hai.
 
 
-### What is the typeof null ?  
+### 29. What is the typeof null ?  
 JavaScript में null का टाइप object होता है। यह एक special primitive value है जो कि अपने आप में empty या non-existent object को दर्शाता है। जब भी आपको एक खाली या non-existent object चाहिए, तो आप null का उपयोग कर सकते हैं।
 
 
-### What is comment and how to add a single line or multi line comment in JavaScript?  
+### 30. What is comment and how to add a single line or multi line comment in JavaScript?  
 
 Comment ek note hota hai jo code ke saath juda hota hai aur code aur uske kaam ki jaankari ko batata hai. Comment execute karne par computer dwara ignore kiya jata hai.
 
@@ -214,7 +214,7 @@ Isme kai lines shamil ho sakti hain.
 ```
 
 
-### What is Infinity ?  
+### 31. What is Infinity ?  
 Infinity ek number hai jo Javascript mein "Infinity" ke naam se represent kiya jata hai. Ye ek special value hai jo bataata hai ki koi bhi number isse bada hoga ya nahi. Iska matlab hai ki agar hum kisi variable ko Infinity ke equal set karte hain, to wo variable kabhi bhi infinity se bada nahi ho sakta.
 
 Jaise ki agar hum ye code likhte hain: 
@@ -228,7 +228,7 @@ Toh iska output hoga Infinity hi kyunki koi bhi number infinity se bada nahi ho 
 Iske opposite value bhi hai, jo -Infinity ke naam se jaani jaati hai aur ye bhi same tareeke se kaam karti hai.
 
 
-### What is the significance of use strict ?  
+### 32. What is the significance of use strict ?  
 "use strict" in Javascript is a way to enable strict mode, which helps to write safer and more efficient code. It restricts certain actions that are considered unsafe or deprecated, and throws errors instead of allowing them to occur silently.
 
 Strict mode enforces stricter rules for variable declaration, prevents the use of undeclared variables, and disables some confusing features like automatically creating global variables. This can help prevent common programming mistakes and make code easier to debug.
@@ -236,7 +236,7 @@ Strict mode enforces stricter rules for variable declaration, prevents the use o
 We can say that "use strict" in Javascript is like an alarm that helps to prevent common mistakes while writing code. It provides stricter rules and prevents the use of unsafe or confusing features, making code safer and easier to read and debug.
 
 
-### How JavaScript behave in non-strict mode?  
+### 33. How JavaScript behave in non-strict mode?  
 Non-strict mode mein, JavaScript apni rules ko thoda kam strict follow karta hai. Iska matlab yeh hai ki non-strict mode mein aapko kuch flexibility mil jaati hai, jaise ki undefined variables ka use kar paana ya phir duplicate property names ka use karna.
 
 Iss mode mein, agar aap kisi variable ko bina usse pahle declare kiye use karte hai toh wo global variable ban jaata hai. Iske alawa, iss mode mein functions ko call karne ke liye unhe pahle define karne ki zaroorat nahi hoti hai.
@@ -244,15 +244,15 @@ Iss mode mein, agar aap kisi variable ko bina usse pahle declare kiye use karte 
 Overall, non-strict mode se JavaScript ka behavior thoda kam predictable ho jaata hai aur chote-chote mistakes ke chances badh jaate hai.
 
 
-### What is a statement in programming?  
+### 34. What is a statement in programming?  
 Programming mein, ek statement ek code line hoti hai jo computer ko execute karne ke liye boli jaati hai. Yeh ek command hoti hai jo kuch karne ke liye boli jaati hai, jaise ki variable assign karna, calculation karna, ya phir condition check karna. Har ek statement apni syntax aur meaning ke hisab se likhi jaati hai. Statement ka use program banane ke liye bahut important hota hai kyunki yeh program ke structure aur flow ko define karta hai.
 
 
-### How to write a single line of statement?  
+### 35. How to write a single line of statement?  
 Ek line ka statement likhne ke liye, aapko apni baat ko ek sentence mein sum up karna hoga. Iske liye aapko apni language ke grammar aur vocabulary ka sahi istemal karna hoga. Yaad rakhein ki ek line ka statement chota aur prabhavi hona chahiye. Agar aapka statement lamba hai, toh aap usmein zaroori points ko highlight karein. Yeh ek accha tarika hai apna point convey karne ka ek dum seedha-meda tareeka!
 
 
-### How to write a multi-line statement?  
+### 36. How to write a multi-line statement?  
 Multiline statement likhne ke liye aapko ek line mein complete statement likhne ki jagah, usse kuch alag alag lines mein break karna hoga. Iske liye aapka language ka compiler ya interpreter kuch specific symbols recognize karega jaise \ ya {} ya (). In symbols ko use karke aap multiline statements likh sakte hain.
 
 Maan lo ki aap ek function define kar rahe ho aur uske arguments bahut lambi list hai. Toh aap uss statement ko multiple lines mein likh sakte hain:
@@ -267,11 +267,11 @@ def function_name(argument1,
 Ismein aapne `,` comma ke baad enter lagakar agli line pe arguments likhe hain. Aap is tarah se kisi bhi bade statement ko multiple lines mein divide kar sakte hain.
 
 
-### What is a code block?  
+### 37. What is a code block?  
 Code block ek group hai jisme programming statements ko group kiya jata hai. Ye statements kisi specific task ya operation ko complete karne ke liye use kiye jate hai. Code block brackets {} ke beech me likhe jaate hain aur ek sath execute kiye jate hain.
 
 
-### What is let, const and var ?  
+### 38. What is let, const and var ?  
 let, const aur var JavaScript mein variables ko declare karne ke liye istemal kiye jaate hain. 
 
 var ek purana tareeka hai variables ko declare karne ka, yeh variables kee value ko badalne ki anumati deta hai aur undefined values ko bhi accept karta hai.
@@ -281,7 +281,7 @@ let aur const naye tareekon hai variables ko declare karne ke liye. let variable
 Yaad rakhen, agar aap variable ko update nahi karna chahte toh const ka upyog karen, var se bachen aur let ko tabhi istemal karen jab aapko variable ki maan ko change karne ki zaroorat ho.
 
 
-### Difference between let, const and var ?  
+### 39. Difference between let, const and var ?  
 JavaScript me "let", "const" aur "var" teen tarah ke variables hai. 
 
 1. "var" ko pahle se hi JavaScript me use kiya jaata tha. ye purane samay ke programming languages ki tarah hai. iska upyog variable ke liye kar sakte hai, lekin ye local aur global dono level pe ho sakta hai.
@@ -293,7 +293,7 @@ JavaScript me "let", "const" aur "var" teen tarah ke variables hai.
 Toh yeh thi JavaScript me let, const aur var ke bich antar. Var mai hum variable ko declare kar sakte hai, let mai variable ko block level scope milta hai aur const mai variable ki value ko change nahi kiya ja sakta.
 
 
-### When to use let, const and var ?  
+### 40. When to use let, const and var ?  
 JavaScript mein let, const aur var tino keywords variables ko declare karne ke liye use kiye jaate hain. Lekin in teeno mein antar hai.
 
 var variable ko function level scope deti hai, jabki let aur const block level scope dete hain. Iska matlab hai ki var se declare kiya gaya variable us function ke bahar bhi accessible rahega, lekin let aur const se declare kiya gaya variable sirf un block ke andar hi accessible rahega, jismein woh declare kiya gaya hai.
@@ -303,11 +303,11 @@ let aur const dono hi block level scope dete hain, lekin const ek immutable vari
 Aise mein, agar aapko variable ki value badalni nahi hai to aap const ka use karein aur agar value badalni hai to let ka use karein. var ka use avoid karein kyunki yeh global scope mein declare ho jaata hai aur isse unintended behavior aane ke chances badh jaate hain.
 
 
-### What is ++, -- operators ?  
+### 41. What is ++, -- operators ?  
 ++ and -- are called increment and decrement operators in Javascript. Jab hum kisi variable pe ++ ya -- lagaate hai toh uski value ek se badh jaati hai (increment) ya ek se ghat jaati hai (decrement). For example, agar humare paas ek variable x hai jiske value 3 hai aur hum x++ likhte hai toh uska value ab 4 ho jaayega. Similarly, agar hum x-- likhte hai toh uska value 2 ho jaayega. Ye operators generally loops mein use kiye jaate hai jahan hume kuch specific number of times loop ko chalana hota hai.
 
 
-### What is typeof operator ?  
+### 42. What is typeof operator ?  
 typeof operator JavaScript mein ek built-in operator hai jo humein kisi value ka data type pata karne mein madad karta hai. Is operator ka use karke hum chahe toh apne code mein kisi variable, function ya object ki data type ko check kar sakte hain. 
 
 Iss operator ke through humare paas 7 types ke results aa sakte hain: "number", "string", "boolean", "undefined", "object", "function" aur "symbol". Agar koi value null hai, to typeof operator usse object samajhta hai jo ek bug hai JavaScript ka.
@@ -315,11 +315,11 @@ Iss operator ke through humare paas 7 types ke results aa sakte hain: "number", 
 In summary, typeof operator JavaScript mein ek bahut hee useful operator hai jiske through hum kisi bhi value ka data type aasani se pata kar sakte hain.
 
 
-### What is reminder operator ?  
+### 43. What is reminder operator ?  
 Reminder operator JavaScript mein ek arithmetic operator hai jo "%" (percent) ke symbol se represent kiya jata hai. Ye operator do numbers divide karne par remainder (bacha hua hissa) ko return karta hai. Jaise, 7 % 3 ka answer 1 hoga kyunki jab hum 7 ko 3 se divide karte hain toh bache hue 1 hai. Reminder operator JavaScript mein do numbers ko divide karne par unke bacha hua hisse ko deta hai.
 
 
-### Explain logical &&, || and ! operators   
+### 44. Explain logical &&, || and ! operators   
 "Logical &&" (aur), "||" (ya) aur "!" (na) operators JavaScript mein hote hai. 
 
 "&&" operator ek logical "AND" operator hai, jo do conditions ke beech mein use kiya jaata hai. Agar dono conditions true hai toh uska result true hota hai, warna false hota hai. For example: 
@@ -348,7 +348,7 @@ if (!isLogged) {
 Is example mein, variable isLogged false hai, lekin kyunki humne usko ! ke saath use kiya hai, condition true ho jayegi.
 
 
-### What are the different ways of writing output in JavaScript?  
+### 45. What are the different ways of writing output in JavaScript?  
 JavaScript me output likhne ke alag-alag tarike hai jaise -
 
 1. Console.log() - isse hum output ko console me print kar sakte hai, jisse debugging kiya ja sakta hai
@@ -362,15 +362,15 @@ JavaScript me output likhne ke alag-alag tarike hai jaise -
 In sabhi tarike se output display karne ke liye JavaScript ka use kiya jata hai.
 
 
-### What is a string ?  
+### 46. What is a string ?  
 Javascript mein "string" ek data type hai jo kisi bhi text ya characters ki sequence ko represent karta hai. Jaise ki naam, address aur message ke liye strings ka use hota hai. Ye quotes (" ") ya apostrophe (' ') mein define kiya jaata hai.
 
 
-### How to create a String ?  
+### 47. How to create a String ?  
 String ek data type hai jiski madad se hum text ko represent kar sakte hain JavaScript mein. String ko create karne ke liye, aapko bas double quotes (" ") ya single quotes (' ') ke beech mein text likhna hai, jaise "Hello World" ya 'My name is John'. Yeh string literals hote hain aur wo khud hi ek string variable mein store ho jaate hain. Aap chahe to string variable ko bhi define kar sakte hain, jaise var message = "Welcome to my website".
 
 
-### Difference between string Literal vs string object ?  
+### 48. Difference between string Literal vs string object ?  
 String literal aur string object dono JavaScript mein strings ko represent karne ke liye istemal kiye jate hain. 
 
 String literal ek tarah ka constant hota hai jo code mein hard-coded hota hai, jaise "Hello" ya 'World'. Ye kabhi bhi change nahi ho sakta hai. 
@@ -386,11 +386,11 @@ var str2 = new String("World"); // String object
 Ismein `str1` ek string literal hai aur `str2` ek string object hai. Hum `str2` mein kuch changes kar sakte hain, lekin `str1` ki value hum kabhi nahi badal sakte.
 
 
-### What is string length property ?  
+### 49. What is string length property ?  
 JavaScript mein "length" ki string property se ek string ke characters ki sankhya nikali jaati hai. Is property se space aur special characters ke saath saath sabhi characters ko count kiya jaata hai. Aap is property ko "myString.length" ke dwara use kar sakte hain.
 
 
-### How to convert string to array ?  
+### 50. How to convert string to array ?  
 Javascript mein string ko array mein convert karna bahut hi aasan hai. Aapko bas string ke upar split() method ka use karna hoga. Is method ke dwara aap string ko ek delimiter (jaise comma, space, etc.) ke basis par multiple pieces mein split kar sakte hain aur fir unhe array mein store kar sakte hain.
 
 Yahaan ek simple example diya gaya hai:
@@ -404,11 +404,11 @@ console.log(arr); // output: ["Hello", "World"]
 Is example mein humne `split()` method ka use kiya hai string `"Hello World"` ke upar aur usse space delimiter par split kiya hai. Fir jo pieces milte hain unhe ek array mein store kar diya hai.
 
 
-### What is String Template Literal ?  
+### 51. What is String Template Literal ?  
 String Template Literal Javascript mein ek tareeka hai jisme hum backticks (``) ka istemaal karke variables, expressions aur strings ko asan tarike se combine kar sakte hai. Ismein placeholders ($) ka use kiya jaata hai jiske andar variable ya expression ki value replace ki jaati hai. Ye hume traditional string concatenation se bachata hai aur code ko padhne aur likhne mein suvidha deta hai.
 
 
-### Difference between String Literal and String template literal ?  
+### 52. Difference between String Literal and String template literal ?  
 String Literal aur String Template Literal dono tarah ke Strings hai jo JavaScript ko prabhavit karte hain. 
 
 String Literal ek simple string hota hai jiske liye hum single quotes ('') ya double quotes ("") ka upyog karte hain. Jaise ki:
@@ -429,7 +429,7 @@ Ismein `${}` enclosed expressions hai jo variable ya expression ke value ko incl
 Toh mukhya antar hai ki String Literal mein hum variables aur expressions ko include nahi kar sakte hai jabki String Template Literal mein hum ye sab include kar sakte hai.
 
 
-### Difference between slice, substring and substr functions ?  
+### 53. Difference between slice, substring and substr functions ?  
 Slice, substring aur substr functions JavaScript mein string ke kuchh hisso ko alag tarike se laane ke liye istemaal kiye jaate hain.
 
 `slice()` function ek string ka ek nirdharit hissa (slice) return karta hai. Ismein do arguments diye jaate hain - start aur end index. Yadi end index diya nahin gaya hai to slice end tak chalta hai.
@@ -441,7 +441,7 @@ Slice, substring aur substr functions JavaScript mein string ke kuchh hisso ko a
 Is tarah se, slice(), substring() aur substr() functions string manipulation mein kaafi upyogi hote hain aur inhe sahi tarike se samajhna jaroori hai.
 
 
-### What is the difference between exec and test function in JavaScript?  
+### 54. What is the difference between exec and test function in JavaScript?  
 Exec function aur Test function dono JavaScript ke regular expression functions hai. Ye dono string pattern matching me use kiye jate hai.
 
 Exec function ek string ko input ke roop me leta hai, usme se ek match dhoondta hai, aur phir us match ke saare details ko ek array ke andar return karta hai. Agar koi match nahi milta toh null return hota hai.
@@ -451,7 +451,7 @@ Wahi test function bhi ek string ko input ke roop me leta hai, aur usme diye gay
 In short, exec function detailed information provide karta hai aur test function boolean value (true or false) return karta hai.
 
 
-### What is the difference between padStart and padEnd functions ?  
+### 55. What is the difference between padStart and padEnd functions ?  
 padStart aur padEnd dono functions JavaScript mein string ko modify karne ke liye use kiye jaate hain.
 
 padStart function ek string ki shuruwat mein naye characters ko add karta hai, jabki padEnd function uski ant mein characters ko add karta hai. Dono functions mein 2 arguments hote hain: length (string ki final length) aur character (jo bhi character add karna hai). 
@@ -468,7 +468,7 @@ Yahan humne `padStart` ka use kiya aur 2 characters '0' add kiye string ke shuru
 Is tarah se, padStart aur padEnd dono functions string modification mein use kiye jaate hain lekin unka difference yeh hai ki padStart function shuruwat mein characters add karta hai aur padEnd function ant mein characters add karta hai.
 
 
-### What is the difference between indexOf and includes ?  
+### 56. What is the difference between indexOf and includes ?  
 JavaScript mein, 'indexOf' aur 'includes' dono string ke methods hai jo ek string mein kuch dhoondne ke liye use kiye jaate hain. 
 
 'indexOf' method ek string ko check karta hai aur usmein di hui value ya substring ka index (position) deta hai. Agar string mein value nahi hoti toh '-1' return karta hai.
@@ -492,13 +492,13 @@ console.log(str.includes("India")); // Output: false
 In summary, 'indexOf' returns the index of a given substring in a string, whereas 'includes' returns a boolean value indicating whether or not the string contains the specified substring.
 
 
-### What is the difference between indexOf and lastIndexOf function ?  
+### 57. What is the difference between indexOf and lastIndexOf function ?  
 `indexOf` aur `lastIndexOf` dono JavaScript me string par kaam karne wale functions hain. `indexOf` function ek string me se kisi specific character ya substring ka first occurrence dhundhta hai, jabki `lastIndexOf` function ek string me se kisi specific character ya substring ka last occurrence dhundhta hai. 
 
 Matalab, agar hum ek string ke andar se kisi character ya substring ka first occurrence dhundhna chahte hain to hum `indexOf` ka use karenge, jahan tak ki agar humein ek string ke andar se kisi character ya substring ka last occurrence dhundhna hai to hum `lastIndexOf` ka use karenge.
 
 
-### What is the difference between search and match functions ?  
+### 58. What is the difference between search and match functions ?  
 Search aur match functions dono JavaScript mai string ke sath kaam karte hai. Lekin dono functions ke kaam me thoda sa difference hai.
 
 Search function ka use hum kisi particular word ya character ko kisi string me search karne ke liye karte hai. Isme hum apne search query ko string ke sath compare karte hai aur first occurence jaha wo milta hai uski index value return kar deta hai. Is function ka syntax hai: 
@@ -516,11 +516,11 @@ string.match(regexp)
 Toh in summary, search function kisi word ya character ki position find karne ke liye use hota hai jabki match function kisi specific pattern ko find karne ke liye use hota hai.
 
 
-### What is Implicit type conversion ?  
+### 59. What is Implicit type conversion ?  
 Implicit type conversion ka matlab hai ki Javascript mein ek value ke data type ko apne aap dusre data type mein convert kar diya jata hai bina ki programmer ke explicit tarike se specify kiye jaane. Iska matlab hai ki agar aap ek number aur string ko add karte hain jaise ki `3 + "5"`, toh string "5" ko implicitly number mein convert kar diya jayega aur result 8 hoga. Yah us waqt hota hai jab JavaScript expression ko samajhne ki koshish karta hai aur jarurat padne par data types ko convert karta hai.
 
 
-### What is Explicit type conversion ?  
+### 60. What is Explicit type conversion ?  
 Explicit type conversion in Javascript is the process of converting a value from one data type to another using explicit methods like Number(), String(), Boolean(), etc. This allows you to manipulate and use the value in a way that is appropriate for its new data type.
 
 Isme hum javascript mein ek value ko dusre data type me badalne ka process kehte hai, aur iske liye hume tay kiye gaye method jaise Number(), String(), Boolean() ka use karna hota hai. Isse hum us value ko apne naye data type ke hisab se use kar sakte hai.
