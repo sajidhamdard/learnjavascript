@@ -950,7 +950,7 @@ Released under [MIT](/LICENSE) by [@sajidhamdard](https://github.com/sajidhamdar
   <a href="https://www.linkedin.com/in/sajid-sj/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://studio.youtube.com/@EasyCodingBySajid">
+  <a href="https://www.youtube.com/@EasyCodingBySajid">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
   <a href="https://instagram.com/sajid_aaloo">
