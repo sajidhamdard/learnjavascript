@@ -2,27 +2,27 @@
 Programming language ek aisa tarika hai jisse hum computers ko instructions dena sikhate hai. Jaise ki hum insaano ke liye languages hote hai, waise hi computers ke liye bhi kuch languages hai jinse unhe samajhne aur follow karne me help milti hai. Programming languages ka use software, applications, websites aur other technologies banane ke liye kiya jata hai.
 
 
-### What is front-end?  
+### 2. What is front-end?  
 Front-end woh sab kuch hai jo aap apne phone, computer ya kisi dusre electronic device mein dekhte hai. Yeh uss hisse ko refer karta hai jahan par aapko visual aur interactive elements dikhte hai, jaise ki buttons, menus, text, images, videos, etc. Front-end development mein HTML, CSS aur JavaScript ka istemal kiya jata hai, jo ki web pages aur mobile apps ke liye use kiya jata hai. Iske through, developers visually appealing aur user-friendly interfaces banate hai, jisse users easily interact kar sakte hai.
 
 
-### What is back-end?  
+### 3. What is back-end?  
 Back-end ek aisa part hai jiske through website ke data ko store, manage aur process kiya jata hai. Isme servers, databases aur applications hote hai jo ki users ke dwara directly access nahi kiye jaate hai. Back-end developers isme kaam karte hai aur isme programming languages jaise PHP, Python, Java ka use kiya jata hai.
 
 
-### What is HTML?  
+### 4. What is HTML?  
 HTML ek markup language hai jo websites banane ke liye use hota hai. HTML ka matlab hota hai "HyperText Markup Language". Iska use kisi bhi webpage ke structure ko define karne ke liye kiya jata hai, jaise ki headings, paragraphs, links, images aur tables wagaira. Iske dwara hum content ko organize, structure aur style kar sakte hain. Basically, agar website ek ghar hai toh HTML uski building blocks hote hain.
 
 
-### What is CSS?  
+### 5. What is CSS?  
 CSS ek programming language hai, joki internet ke web pages ka design aur appearance control karta hai. CSS ka matlab hai "Cascading Style Sheets". Isse hum HTML ke content ko khoobsurat banate hai, uski style aur layout ko define karte hai. Hum fonts, colors, borders, images, aur animation jaise elements ko bhi set kar sakte hai. Basically, CSS website ko sundar aur professional look deta hai.
 
 
-### What is JavaScript?  
+### 6. What is JavaScript?  
 JavaScript ek programming language hai jiski madad se websites aur web applications banaye jaate hain. Yah browser mein run hota hai aur user interaction ke sath-sath dynamic content ko bhi handle karta hai. JavaScript ka upyog HTML aur CSS ke saath milakar dynamic web pages banane ke liye kiya jata hai. Iske alawa, JavaScript aajkal desktop aur mobile apps me bhi istemal hoti hai.
 
 
-### Difference between java and JavaScript?  
+### 7. Difference between java and JavaScript?  
 Java ek programming language hai jo general-purpose applications ke liye use kiya jaata hai. Ye language object-oriented hai, jismein program ko classes aur objects mein organise kiya jaata hai. Java mein code compile hota hai aur baad mein execute hota hai. Iska use server-side applications, mobile applications, games, etc. ke liye kiya jaata hai.
 
 JavaScript bhi ek programming language hai, lekin ye web development ke liye use kiya jaata hai. Ye client-side scripting language hai, jisse HTML aur CSS ke saath use kiya jaata hai web pages ko interactive banana ke liye. JavaScript ko browser mein run kiya jaata hai, iski madad se user interfaces, animations, form validations, etc. banaye jaate hain.
@@ -30,11 +30,11 @@ JavaScript bhi ek programming language hai, lekin ye web development ke liye use
 Iske alawa, Java aur JavaScript mein syntax aur coding approach mein bhi antar hai. Java mein explicit type declarations aur strict syntax hota hai, jabki JavaScript mein simplified syntax aur flexibility hoti hai.
 
 
-### Is JavaScript a case-sensitive language?  
+### 8. Is JavaScript a case-sensitive language?  
 Haanji, JavaScript ek case-sensitive language hai. Iska matlab hai ki agar aap variables, functions ya keywords ke naam ko capital aur small letters mein alag-alag type karte hain to uska farak padta hai. Jaise ki "apple" aur "Apple" dono alag variables hain JavaScript mein.
 
 
-### Tell us about role of HTML, CSS, and JavaScript?  
+### 9. Tell us about role of HTML, CSS, and JavaScript?  
 HTML, CSS aur JavaScript teeno ek website banane me important role play karte hain. HTML se website ka content structure banaya jata hai, jaise ki headings, paragraphs, links, images, tables, etc. 
 
 CSS ki madad se website ko attractive aur appealing banaya jata hai. Ye styling ke liye use hota hai, jaise ki font size, color, layout, background, borders, etc.
@@ -44,17 +44,17 @@ JavaScript website ko interactive banata hai. Ye ek programming language hai jo 
 In teeno ka sahi tarah se istemal karke, ek visually appealing, easy to navigate aur user-friendly website bana sakte hain.
 
 
-### Tell us about the history of JavaScript?  
+### 10. Tell us about the history of JavaScript?  
 JavaScript ka itihaas 1995 mein shuru hua, jab Netscape Navigator browser ke liye ek naya programming language ka avishkar kiya gaya tha. Isse pahle, web pages static aur non-interactive the. JavaScript ne web development ko dynamic aur interactive banaya.
 
 Phir Microsoft Internet Explorer bhi iske saath compatible ho gaya aur tab se yeh programming language web development mein prachalit ho gayi. JavaScript aajkal sabse jyada istemal ki jaane wali programming language hai aur yeh aage bhi bahut hi important rahegi web development ke liye.
 
 
-### What is ECMAScript and how is it related to JavaScript?  
+### 11. What is ECMAScript and how is it related to JavaScript?  
 ECMAScript ek programming language standard hai jiske use se JavaScript ko define kiya jata hai. Ab yeh thoda sa confusing ho sakta hai, lekin suniye - JavaScript ek programming language hai jise web development mein use kiya jata hai. Lekin jab JavaScript banaya gaya tha, tab uske paas koi official standard nahi tha. Isliye, ECMAScript naam ka ek committee banaaya gaya jo JavaScript ke syntax aur semantics ko standardize karne ke liye kaam karti hai. Aaj, jab hum baat karte hain JavaScript ki, toh hum actually ECMAScript standard ki hi baat karte hain jiska latest version ab ES12 (yaani ki ECMAScript 2022) hai.
 
 
-### What are the different versions of JavaScript?  
+### 12. What are the different versions of JavaScript?  
 JavaScript ke teen mukhya versions hai: 
 
 1. ES5 (ECMAScript 5): Ye JavaScript ka pahla standardized version hai jise 2009 me release kiya gaya tha. Isme kai naye features aur improvements aaye the jaise ki strict mode, array methods, JSON support, etc.
@@ -66,7 +66,7 @@ JavaScript ke teen mukhya versions hai:
 Iske alawa, browser specific implementation bhi hoti hai jaise Mozilla Firefox ne JavaScript ke liye SpiderMonkey engine develop kiya tha, Google Chrome ke liye V8 engine hai, Safari ke liye Nitro engine hai, aur Microsoft Edge ke liye Chakra engine hai.
 
 
-### What is Es5 and Es6?  
+### 13. What is Es5 and Es6?  
 Es5 aur Es6 dono programming languages hai jo web development mein use hoti hai. Es5 ek puraana version hai aur Es6 naya version hai.
 
 Es5 mein, humein variables ko var keyword se declare karna padta tha, jabki Es6 mein hum let aur const keywords ka use kar sakte hai. Es6 mein arrow functions, template literals, destructuring assignment jaise features available hai jo code likhne ko easy aur efficient banate hai.
@@ -74,7 +74,7 @@ Es5 mein, humein variables ko var keyword se declare karna padta tha, jabki Es6 
 Overall, Es6 mein new features add kiye gaye hai jo Es5 ke mukaable developers ko zyada flexibility aur readability dete hai.
 
 
-### What are the different places where we can write JavaScript code?  
+### 14. What are the different places where we can write JavaScript code?  
 JavaScript code likhne ke alag-alag jagah hain, jaise:
 
 1. Browser Console - Agar aap kisi website ko open karke usme JavaScript code chalana chahte hain to aap browser console ka istemaal kar sakte hain. Ismein code type karke "enter" dabane se code execute ho jayega.
@@ -88,13 +88,13 @@ JavaScript code likhne ke alag-alag jagah hain, jaise:
 Uparokt jagahon ka upyog karke ham JavaScript code likh sakte hain aur iska upyog karke hum dynamic web pages aur applications develop kar sakte hain.
 
 
-### Difference between client side and server side JavaScript?  
+### 15. Difference between client side and server side JavaScript?  
 Client-side JavaScript khud ke web browser mein chalta hai aur yeh interactive web pages banane ke liye use hota hai. Yeh content ko refresh kiye bina dynamic tareeke se update karne ki anumati deta hai.
 
 Server-side JavaScript server par chalta hai aur user input ko handle karne, database operations ke liye aur dynamic content ko generate karne jaise kaam ke liye use hota hai jo client tak bheja jaata hai.
 
 
-### Explain all the JavaScript features in detail?  
+### 16. Explain all the JavaScript features in detail?  
 JavaScript ek programming language hai jo web development mein use hota hai. Ye browser-based language hai jisse HTML aur CSS ke saath milakar web pages ko interactive banaya ja sakta hai.
 
 JavaScript ki kuch important features niche diye gaye hain:
@@ -118,15 +118,15 @@ JavaScript ki kuch important features niche diye gaye hain:
 In sabhi features ka use karke, JavaScript developers web pages ko dynamic aur interactive bana sakte hain.
 
 
-### Is javascript a statically typed or a dynamically type language?  
+### 18. Is javascript a statically typed or a dynamically type language?  
 Javascript ek dynamically typed language hai. Yeh matlab hai ki humko code likhte waqt variables ko data type define nahi karna padhta hai aur runtime pe hi determine hota hai ki us variable mein kis type ka data store hoga.
 
 
-### What is Single Threaded?  
+### 19. What is Single Threaded?  
 Single threaded ka matlab hai ki ek hi thread se kaam hota hai. Ek thread ek saath ek hi kaam ko karta hai aur doosre kaamo ke liye intezaar karta hai. Iska matlab yeh hai ki agar koi kaam chal raha hai aur usmein kuchh der tak dikkat aa jaye to doosre kaam ko shuru karne ke liye hamen pahle pehle wale kaam ka intezaar karna hoga. Isse multitasking me dikkat ho sakti hai kyunki ek hi waqt me sirf ek hi kaam ho sakta hai.
 
 
-### What is Non-Blocking Event Loop?  
+### 20. What is Non-Blocking Event Loop?  
 Non-Blocking Event Loop ek aisa tarika hai jismein code ek loop dwara chalaya jaata hai jisme koi blocking nahi hota. Yeh aam taur par server-side programming mei use kiya jaata hai jahan bahut saare clients se communication ki zarurat hoti hai. Ismein, jab koi client code execute karta hai, toh uska execution control immediately return ho jaata hai aur doosre clients ke liye bhi processing shuru kar di jaati hai. Jab koi client ka processing complete ho jaata hai, event loop us client ko notify karta hai aur uss client ke code ko execute karne ke liye ready ho jaata hai. Is tareeke se non-blocking I/O operations perform kiye jaate hai jo CPU resources ko optimize karte hai.
 
 
