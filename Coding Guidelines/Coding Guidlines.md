@@ -18,10 +18,10 @@ Always use strict mode in your JavaScript code to avoid unexpected behavior and 
 ## Guidelines for Functions
 
 - Use Arrow Functions: Use arrow functions instead of traditional function expressions to write shorter, more concise code.
-- Document all public methods with inputs, outputs, and potential errors.
+- Document functions with inputs, outputs, and potential errors.
 - Keep documentation up-to-date with code changes.
 - No documentation required for getters and setters.
-- Document all public classes with a description of their purpose.
+- Document all classes with a description of their purpose.
 - Limit the number of function arguments to 7; use payloads for more.
 - Avoid overly long methods; keep methods ideally fitting within a single screen view. Refactor as needed.
 - Consider redesigning classes with too many fields.
@@ -55,7 +55,7 @@ Always use strict mode in your JavaScript code to avoid unexpected behavior and 
 - Place cleanup logic in the `finally` block if needed.
 - Avoid throwing and catching errors within the same code block.
 - Let errors bubble where appropriate and handle them logically.
-- In REST services, catch, log, and return the appropriate status code for errors.
+- In api calls, catch, log appropriate status code for errors.
 
 ## Warnings
 
@@ -68,9 +68,9 @@ Clean up all warnings before check-in (if possible, configure in save actions).
 
 ## Scoping
 
-- Provide the most restricted scope for variables and methods.
-- Functions are public only if part of a public API.
-- Getters/setters may remain public if not consumed externally.
+- Provide the most restricted scope for variables and functions (if used in class).
+- Global Functions are public only if part of a Global scope.
+- Getters/setters in a class may remain public if not consumed externally.
 - Member and static variables (excluding constants) should be private.
 
 ## Comments
