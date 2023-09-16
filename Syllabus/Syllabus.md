@@ -178,6 +178,7 @@
 - else
 - Grouping multiple conditions using logical operator
 - Nested If else
+- Switch case
 
 ### use strict
 
@@ -193,7 +194,6 @@
 - Backwards Loop
 - For of loop
 - For in loop
-- Switch case
 - Break and continue
 
 ### JavaScript String
