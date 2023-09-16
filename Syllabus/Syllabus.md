@@ -661,33 +661,33 @@
   - Request
   - Response
 - Callback
+- Error Handling
+  - Try catch
 - Promise
   - Promise and Fetch API
-  - Cross Origin
-  - Download progress
-  - Abort
-  - Consuming Promises
-  - Chaining Promises
-  - Handling Rejected Promises
+    - Cross Origin
+    - Download progress
+    - Abort
+    - Consuming Promises
+    - Chaining Promises
+    - Handling Rejected Promises
   - Asynchronous
-  - The Event Loop
-  - Create a Simple Promise
-  - Consuming Promise using Async/Await
-  - Error Handling
-  - Try catch
-  - Returning values from Async functions
+    - The Event Loop
+    - Create a Simple Promise
+    - Consuming Promise using Async/Await
+    - Returning values from Async functions
   - Running promises in Parallel
   - Promise Combinators
-   - race 
-   - allSettled
-   - any
+     - race 
+     - allSettled
+     - any
 
 ## Modern JavaScript Tools and Techniques
 
 - Modules
-- Exporting and importing in Modules
-- Top-Level await
-- The Module Pattern
+  - Exporting and importing in Modules
+  - Top-Level await
+  - The Module Pattern
 - Bundling With Parcel and NPM Scripts
 - Babel and Polyfilling
 - Transpiling
