@@ -20,7 +20,6 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ---
 
-### JavaScript Complete Study Material provided 🚀 by [Sajid Ali Khan](https://www.linkedin.com/in/sajid-sj/)
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
 
