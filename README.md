@@ -922,8 +922,26 @@ Go to the project directory
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sajidhamdard&theme=react&hide_border=true)](https://git.io/streak-stats)
 
  <br />
- 
+
+ ## Contributing
+
+In general, we follow the "fork-and-pull" Git workflow.
+
+1. Fork the repo on GitHub
+2. Clone the project to your own machine
+3. Work on your fork
+    1. Make your changes and additions
+        - Most of your changes should be focused on `notes/` and `Exercises-And-Solutions/` folders and/or `Interview-Questions-And-Answers`.
+    2. Add changes to README.md if needed
+4. Commit changes to your own branch
+5. **Make sure** you merge the latest from "upstream" and resolve conflicts if there is any
+6. Repeat step 3(3) above
+7. Push your work back up to your fork
+8. Submit a Pull request so that we can review your changes
+
 ## Contributors
+
+Thank you to the people who have already contributed:
 
 <a href="https://github.com/sajidhamdard/learnjavascript/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sajidhamdard/learnjavascript" />
@@ -937,6 +955,10 @@ Go to the project directory
 
 [![Stargazers repo roster for @sajidhamdard/learnjavascript](https://reporoster.com/stars/sajidhamdard/learnjavascript)](https://github.com/sajidhamdard/learnjavascript/stargazers)
 
+## Maintainers
+
+- [Sajid](https://github.com/sajidhamdard) - **Sajid Ali Khan** (author)
+  
 ## License
 
 Released under [MIT](/LICENSE) by [@sajidhamdard](https://github.com/sajidhamdard).
