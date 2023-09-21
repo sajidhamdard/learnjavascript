@@ -915,14 +915,6 @@ Go to the project directory
   cd learnjavascript
 ```
 
----
-
-### :fire: My Stats :
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sajidhamdard&theme=react&hide_border=true)](https://git.io/streak-stats)
-
- <br />
-
  ## Contributing
 
 In general, we follow the "fork-and-pull" Git workflow.
