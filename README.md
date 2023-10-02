@@ -901,6 +901,14 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ---
 
+## Support the project ⭐
+
+If you feel awesome and want to support us in a small way, please consider starring and sharing the repo! This helps us get visibility and allow the community to grow. 🙏
+
+<img alt="star_us" width="250" src="./star_us.gif">
+
+---
+
 ## 🔥 Clone this Repository
 
 You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
