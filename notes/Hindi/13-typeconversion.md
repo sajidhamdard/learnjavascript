@@ -1,7 +1,7 @@
 ### type conversion
 
-implicit type conversion /automatic type conversion
-implicit type conversion me javascrupt otomatic ak type se dusri type me convert karte hain.
+### implicit type conversion (automatic type conversion)
+implicit type conversion me javascrupt automatic ek type se dusri type me convert karte hain.
 
 - for example
   number se string me conversion
@@ -12,7 +12,8 @@ let x = "20";
 console.log(x / 2);
 ```
 
-### Explicit type and manual type conversion is process me hum manualy type conversion karte hain.
+### Explicit type conversion (manual type) 
+Explicit type conversion is process me hum manualy type conversion karte hain.
 
 ```
 let x = "20";
