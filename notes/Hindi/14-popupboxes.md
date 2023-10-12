@@ -1,6 +1,6 @@
-### windo.alart
+### window.alert
 
-yaha ak alart box declear karta hain.
+yaha ak alert box declear karta hain.
 
 - for example:
 
@@ -8,11 +8,11 @@ yaha ak alart box declear karta hain.
 alert("hello world");
 ```
 
-### proment.alart
+### prompt.alert
 
-proment.alart me ak value box hota hain.or 2 button hote hain ok or cancle ka cancel ka.
+prompt.alert me ak value box hota hain.or 2 button hote hain ok or  cancel ka.
 in value ko hum store krva skte hain.yadi value enter karne ke bad ok click karne ke
-bajaye cancle pr click karte hain to value null hogi.
+bajaye cancel pr click karte hain to value null hogi.
 
 - for example:
 
@@ -23,8 +23,8 @@ console.log(answer);
 
 ### confirm box
 
-confirm box me do button hote hain ok or cancle ok button me click karne pr true answer
-ata hain or cancle pr false ata hain.
+confirm box me do button hote hain ok or cancel. ok button me click karne pr true answer
+ata hain or cancel pr false ata hain.
 
 - for example:
 
