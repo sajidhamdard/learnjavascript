@@ -115,7 +115,7 @@ document.write(
 );
 ```
 
-### Question 3. Check output of following in console
+### Question 3. Check output of following in console and validate the same.
 
 ```
 console.log(1 + 1);
@@ -124,7 +124,7 @@ console.log(200 + "300");
 console.log("learnjavascript" + 400);
 ```
 
-### Question 4. Check output of following in console
+### Question 4. Check output of following in console and validate the same.
 
 ```
 console.log(2 === 2);
@@ -159,21 +159,31 @@ console.log(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 ### Question 7. Write difference between Process and Thread.
 
-A process is an instance of a program that is being executed by one or many threads. A thread is a lightweight, independent unit of execution that exists within a process. Each thread has its own program counter, stack, and local variables. Threads within the same process share the same memory space and can communicate with each other easily, while threads in different processes have separate memory spaces and must use inter-process communication (IPC) mechanisms to communicate. In short, a process is a program in execution, while a thread is a single execution sequence within that process.
+A process is an instance of a program that is being executed by one or many threads. 
+
+A thread is a lightweight, independent unit of execution that exists within a process. Each thread has its own program counter, stack, and local variables. Threads within the same process share the same memory space and can communicate with each other easily, while threads in different processes have separate memory spaces and must use inter-process communication (IPC) mechanisms to communicate. 
+
+In short, a process is a program in execution, while a thread is a single execution sequence within that process.
 
 ### Question 8. Write differences between let, const and var.
 
 In JavaScript, var, let, and const are used to declare variables.
 
+#### var
+
 var is the oldest way to declare a variable in JavaScript. It is function-scoped, which means that a variable declared with var is only accessible within the function it was declared in, or if it is declared outside of any function, it is accessible throughout the entire script. Variables declared with var can be reassigned new values.
 
+### let 
+
 let is similar to var, but it is block-scoped. This means that a variable declared with let is only accessible within the block it was declared in. Variables declared with let can be reassigned new values.
+
+### const 
 
 const is also similar to let, but it is used to declare variables that cannot be reassigned new values after they are initialized. A variable declared with const is also block-scoped, so it can only be accessed within the block it was declared in.
 
 In summary, var is function scoped, let and const are block scoped, let can be reassigned and const can not be reassigned.
 
-### Question 9. Give 1 example of each operator with expected output
+### Question 9. Give one example of each operator with expected output
    \*\*
    %
    !=
