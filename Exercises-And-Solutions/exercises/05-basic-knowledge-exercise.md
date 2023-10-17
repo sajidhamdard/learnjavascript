@@ -29,7 +29,7 @@ print Hello world using console.log, window.alert and document.write
 
 ### Question 7
 
-Take all falsy values and check in if condition.
+Take all the 6 falsy values and check in if condition.
 
 ### Question 8
 
