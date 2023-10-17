@@ -1,14 +1,14 @@
 ### Question 1
 
-Print 1 to 10 using ++ operator
+Print numbers from 1 to 10 using the ++ operator.
 
 ### Question 2
 
-Print 10 to 1 using -- operator
+Print numbers from 10 to 1 using the -- operator.
 
 ### Question 3
 
-Check output of following in console
+Check the output of the following expressions in the console:
 
 - 1+1
 - 1+200
@@ -17,7 +17,7 @@ Check output of following in console
 
 ### Question 4
 
-Check result of following
+Check the results of the following comparisons:
 
 - 2 === 2
 - 2 == "2"
@@ -30,23 +30,23 @@ Check result of following
 
 ### Question 5
 
-Create 5 variables for your bank account details. It would be better if you use let, const and var all 3
+Create 5 variables for your bank account details using let, const, and var.
 
 ### Question 6
 
-Write any code and explain that code using multi line comment
+Write a code snippet and explain it using a multi-line comment.
 
 ### Question 7
 
-Write difference between Process and Thread
+Explain the difference between a Process and a Thread.
 
 ### Question 8
 
-Write differences between let, const and var
+List the differences between let, const, and var.
 
 ### Question 9
 
-Give 1 example of each operator with expected output:
+Provide one example for each of the following operators along with the expected output:
 
 ```
 **
@@ -59,4 +59,4 @@ Give 1 example of each operator with expected output:
 
 ### Question 10
 
-Write in your own language. What is JavaScript? Explain in detail.
+In your own words, explain what JavaScript is in detail.
