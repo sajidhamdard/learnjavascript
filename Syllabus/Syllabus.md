@@ -1,4 +1,4 @@
-# JavaScript Syllabus
+# Complete JavaScript Syllabus - Basic to Advanced
 
 ### Introduction
 
@@ -275,9 +275,9 @@
 - Hoisting
 - Temporal Dead Zone (TDZ) 
 - DRY Principle
-- Generator function
 - Currying
-  eval()
+- eval()
+- recursion
 
 ## Debugging
 
@@ -649,28 +649,33 @@
 - Chaining methods
 - Mixins
 
-## Asynchronous JavaScript
+## Web
 
-- What is Asynchronous ?
-- Ajax
-- What is an API ?
-- XMLHttpRequest
-- How the web works
+- How the web works?
   - Server
   - Client
   - Request
   - Response
-- Callback
-- Error Handling
-  - Try catch
+  - API
+  - REST Basics
+  - SOAP
+  - CORS
+
+### AJAX
+- What is AJAX?
+- XMLHttpRequest (XHR)
+- Calling an api using AJAX
+- Handling response
+  
+### Asynchronous JavaScript
+
+- What is Asynchronous ?
 - Promise
   - Promise and Fetch API
-    - Cross Origin
     - Download progress
     - Abort
     - Consuming Promises
     - Chaining Promises
-    - Handling Rejected Promises
   - Asynchronous
     - The Event Loop
     - Create a Simple Promise
@@ -682,14 +687,51 @@
      - allSettled
      - any
 
-## Modern JavaScript Tools and Techniques
+### Error Handling
+- Error Handling
+  - try
+  - catch
+  - finally
+- Error object
+- Throwing errors
+- Custom Errors
+- Error Propogation
+- Async Await error handling
+- Handling Rejected Promises
+- Handling AJAX errors
+- Global Error handling
+
+### Modules
 
 - Modules
   - Exporting and importing in Modules
   - Top-Level await
   - The Module Pattern
+
+### JavaScript Tools and Techniques
+
 - Bundling With Parcel and NPM Scripts
-- Babel and Polyfilling
+- Babel
 - Transpiling
 - Polyfilling
 - Transpiling vs Polyfilling
+
+### Security:
+
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Content Security Policy (CSP)
+- HTTPS and Secure Cookies
+  
+## Advanced topics
+- Generators
+- Proxy objects
+- Reflection
+- Web workers
+- Service workers
+- Web Sockets
+- Memoization
+- Immutable Data Structures
+- Functional Reactive Programming (FRP)
+- WebRTC (Real-Time Communication)
+- WebAssembly
