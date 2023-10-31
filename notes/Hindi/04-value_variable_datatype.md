@@ -94,7 +94,7 @@ num = 10n;
 ```javascript
 let obj = {
   myName: "learnjavascript",
-  age: 21,
+  age: 21
 };
 ```
 
