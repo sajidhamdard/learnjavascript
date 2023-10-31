@@ -1,7 +1,7 @@
 ### type conversion
 
 implicit type conversion /automatic type conversion
-implicit type conversion me javascrupt otomatic ak type se dusri type me convert karte hain.
+implicit type conversion me javascript automatic ak type se dusri type me convert karte hain.
 
 - for example
   number se string me conversion
