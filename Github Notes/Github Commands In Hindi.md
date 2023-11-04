@@ -2,7 +2,15 @@
 
 ## What is a git ?
 
-Git ek software hai jo code management mein madad karta hai. Isse hum log apne code ko track kar sakte hain aur team ke saath collaborate karke kaam kar sakte hain. Git ek distributed version control system hai, jiski madad se hum apne code ki cloning create kar sakte hain, changes track kar sakte hain aur code ko manage kar sakte hain. Jab bhi hum koi changes karte hain code mein, toh Git usko ek snapshot ki tarah capture kar leta hai. Agar kuch gadbad ho jaaye ya kuch purane version pe wapas jaana ho, toh Git ki madad se aasani se woh purane versions ko restore kar sakte hain. Isse code ka backup bhi ban jaata hai taki koi bhi problem ho, toh hum log original code ko recover kar sakein. Overall, Git ek bahut hi useful tool hai developers ke liye, jo code management ko asaan aur systematic bana deta hai.
+Git ek open-source version control system hai, jiska use software development me hota hai. Iska basic kaam hota hai code ko track karna, manage karna, aur multiple logon ke saath collaboration ko asaan banana.
+
+Imagine karo ki aap ek team ke saath kaam kar rahe hain, aur aap sabhi ek project par kaam kar rahe hain. Har kisi ke paas apna code hota hai, aur aap sabko apne code changes share karne aur combine karne ki zarurat hoti hai. Git ismein madad karta hai.
+
+Git aapke code ko ek centralized repository me store karta hai, jahan se aap aur aapke team members code ko download kar sakte hain. Har bar jab aap code me changes karte hain, to Git un changes ko track karta hai. Isse aap history dekh sakte hain ki kaun kab kya changes kiya.
+
+Ek aur faida ye hai ki Git allow karta hai ki aap alag-alag branches me kaam kar sakte hain. Har branch alag-alag feature ya bug fix ko represent karta hai. Aap ek branch me kaam karke, bina kisi aur code ko affect kiye, apne changes test kar sakte hain. Jab aapka kaam complete ho jata hai, to aap us branch ko master branch me merge kar sakte hain.
+
+Is tarah se Git aapko code management me help karta hai, aur code ke saath history, collaboration, aur version control provide karta hai. Git ko use karna asaan hota hai, aur ye software developers ke liye ek powerful tool hai.
 
 ## How to install Github
 
@@ -243,84 +251,162 @@ yadi hum hmari branch me kisi dusri branch ke code apni branch me lana chahte ha
 
 ### git fetch
 
-git fetch ka use particular branch se changes local pr fetch krne ke lie use hota hai.
+"Git fetch" ka matlab hai ki aap remote Git repository se naye code changes download kar sakte hain, lekin aapke local code par koi asar nahi padta.
+
+Mann lo aap ek project ke liye Git ka use kar rahe hain aur team ke kuch members ne remote repository me naye code changes kiye hain. Aap "git fetch" command ka use karte hain:
+
+Example:
+```git
+git fetch
+```
+
+Isse, remote repository se latest changes aapke local Git me download ho jate hain, lekin aapke actual code me koi change nahi hota. Aap ab in changes ko dekh sakte hain, compare kar sakte hain, aur decide kar sakte hain ki aap inhe apne local code me merge karenge ya nahi.
+
+Iske baad, agar aap decide karte hain ki changes ko apne code me add karna hai, to aap "git merge" ya "git pull" command ka use kar sakte hain. "Git fetch" aapko remote code changes ko check karke safe tarike se integrate karne me help karta hai.
 
 ### git pull
 
-git pull ka use particular branch se changes local pr pull krne krne ke lie use hota hai. Pr ye changes pull krke merge b krta hai.
+"Git pull" ek command hai jo Git me use hoti hai. Iska kaam hota hai remote repository se latest code changes download karke, aur unhe aapke local working directory me integrate kar dena.
+
+Isse samajhne ke liye, imagine karo ki aap ek project ke liye Git ka use kar rahe hain aur aapka team ek remote Git repository par stored code changes kar raha hai. Aap chahte hain ki aapke local code me un changes ko incorporate karen.
+
+Jab aap "git pull" command ka use karte hain, Git remote repository se latest code changes ko download kar leta hai, aur uske baad aapke local code me merge kar deta hai. Yani ki, aapke local code me ab woh changes aa jate hain.
+
+```git
+git pull
+```
+
+"Git pull" essentially "git fetch" aur "git merge" command ko ek saath karta hai. Isse aapke local code up-to-date rehta hai, aur aap team ke saath collaboration kar sakte hain.
+
+Isse aapka local code automatic tarike se remote repository ke sath sync ho jata hai, aur aap bina manually changes ko integrate karne ke, fresh code updates ka faida utha sakte hain.
 
 ### git stash
 
-Yadi hm branch switch kr rhe hain ya hm apne changes thode time ke lie side me rkhna chahte hain to hm git stash command use kr skte hain. git stash likhte hi apke sare changes hat jayenge aur locally ek jgah save ho jayenge. aapko vo changes dhikenge ni pr aap ke changes save ho gye hain to aap jo b kaam krna hai ab kr skte hain aapke changes saved hain.
+"Git stash" ek Git command hai jo aapke local code changes ko temporary storage me daalne me madad karta hai. Jab aap "git stash" use karte hain, to aapke sabhi local changes temporary stash me save ho jate hain, jisse aap later wapas retrieve kar sakte hain.
+
+Iska use case hota hai jab aap local code par kaam kar rahe hain aur unexpectedly aapko kisi urgent bug fix ya kisi aur feature par kaam karna padta hai. Aap "git stash" se apne current changes ko store karke, clean state par aa sakte hain, aur jab aap wapas original kaam par lautte hain, to aap apne stashed changes ko wapas retrieve kar sakte hain.
+
+```git
+git stash       // Changes ko stash me store kare
+git stash pop   // Stashed changes ko wapas retrieve kare
+```
+"Git stash" aapko flexibility deta hai ki aap apne local code par kaam karte waqt changes ko temporarily save kar sakte hain, taki aap bina kisi chinta ke doosre kaam par focus kar sakte hain aur baad me wapas aakar apne original changes ko continue kar sakte hain.
 
 ### git stash apply
 
-Humne jo b changes stash kie the unhe dubara vapas lane ke lie yah command use kia jata hai
+git stash apply ek Git command hai jo stash me save kiye gaye changes ko retrieve karke apply karta hai, lekin stash ko delete nahi karta.
+
+Jab aap git stash apply command ka use karte hain, to aapke stash me save kiye gaye changes wapas aapke current working directory me laaye jaate hain. Aap fir se in changes par kaam kar sakte hain. Stash apply karne ke baad, stash me se changes wapas milte hain lekin stash khud delete nahi hota.
+
+Example:
+
+```git
+git stash apply
+```
+
+Is command se aap apne stash me save kiye gaye changes ko wapas retrieve kar sakte hain, aur aap unpar further work kar sakte hain. Agar aap chahte hain ki stash bhi delete ho, to git stash pop command ka use kar sakte hain.
 
 ### git revert
 
-Yadi hume koi commit ke changes htane hain to hm git revert command ka use kr skte hain iske lie hume sha id ki jrurat
-pdti hai. for example:
+git revert ek Git command hai jo aapke code repository me ek specific commit ko undo karne me madad karti hai. Ye commit ko delete nahi karta, balki us commit ke changes ko reverse (ya undo) karta hai aur ek new commit create karta hai jo us reversal ko represent karta hai.
 
-```
-git revert shaid
+Iska use case hota hai jab aapne kisi commit ke changes ko undo karna chahte hain, lekin aap commit history ko maintain karna chahte hain. git revert aapke commit history me ek new commit add karta hai, jise aapke changes ko undo karne ke liye use kiya gaya tha.
+
+```git
+git revert <commit-sha>
 ```
 
-Jis commit ki sha id humne di hai us commit ke changes remove ho jayenge
+Yahan, <commit-sha> ek specific commit ki SHA (hash) ko represent karta hai, jise aap undo karna chahte hain. git revert us commit ke changes ko reverse karke, ek new commit create karega. Is new commit se aapke code wapas us commit se pahle ke sthiti me aa jayega, lekin commit history me woh specific commit bhi shamil rahega.
+
+Is tarah se, git revert aapko changes ko undo karne me madad karti hai, bina commit history ko disrupt kiye.
 
 ### git log
 
-Repository ke commit history ko dekhne ke liye
-Example: `git log`
+"git log" command aapke repository ki commit history dikhata hai, jisme commit messages, authors, aur commit timestamps jaise details hote hain. Ye project ki history track karne me madadgar hota hai.
+
+```bash
+git log
+```
 
 ### git branch
 
-Branches ko create, delete aur list karne ke liye
-Example: `git branch`, `git branch new-branch`, `git branch -d old-branch`
+"git branch" command aapko repository me available sabhi branches ki list dikhata hai. Isse aap dekh sakte hain ki kaun-kis branch mein kaam ho raha hai aur aapka current branch kaunsa hai.
 
+Example:
+```bash
+git branch
+```
 ### git checkout
-
-Branches ke beech switch karne ke liye
-Example: `git checkout branch-name`, `git checkout -b new-branch`
-
-### git merge
 
 Different branches ke code ko merge karne ke liye
 Example: `git merge branch-name`
 
+```bash
+git checkout main
+```
+
+### git merge
+
+Jab aap chahte hain ki ek branch se doosre branch me kiye gaye changes ko combine karein, to "git merge" ka use hota hai. Ye changes ko merge karta hai aur ek naya commit create karta hai.
+Example:
+
+```bash
+git merge feature-branch
+```
+
 ### git push
 
-Local repository ke changes ko remote repository me upload karne ke liye
-Example: `git push origin main`
+"git push" se aap apne local changes ko remote repository me upload kar sakte hain, jisse aapke kaam ko doosron ke liye accessible bana sakte hain.
+Example:
+
+```bash
+git push origin main
+```
 
 ### git pull
 
-Remote repository se recent changes ko download karne ke liye
-Example: `git pull origin main`
+Is command se aap remote repository se changes fetch karke unhe automatically apne current branch me integrate kar sakte hain. Isse aapke local code ko remote changes se update kiya ja sakta hai.
+Example:
 
+```bash
+git pull origin main
+```
 ### git clone
 
-Remote repository ko local machine me clone karne ke liye
-Example: `git clone https://github.com/user/repo.git`
+Kisi remote repository ka local copy banane ke liye "git clone" ka use hota hai. Isse aapke local machine par ek repository ki copy create ho jati hai.
+Example:
+```bash
+git clone https://github.com/user/repo.git
+```
 
 ### git fetch
 
-Remote repository ke latest changes ko download karke local repository me update karne ke liye
-Example: `git fetch origin`
+"git fetch" command se aap remote repository se changes download kar sakte hain, lekin wo changes aapke local code par automatically apply nahi hote. Ye aapke local repository ko remote repository ke saath sync karna me madad karta hai.
+Example:
+```bash
+git fetch origin
+```
 
 ### git remote add
 
-Remote repository ko local repository ke sath connect karne ke liye
-Example: `git remote add origin https://github.com/user/repo.git`
+Agar aap ek naye remote repository ko add karna chahte hain, to "git remote add" ka use hota hai.
+Example:
+```bash
+git remote add upstream https://github.com/upstream/repo.git
+```
 
 ### git diff
 
-Changes ko compare karne ke liye
-Example: `git diff file.txt`
+"git diff" aapko do commits, branches, ya files ke beech ke differences ko dikhata hai. Isse aap code changes ka comparison kar sakte hain.
+Example:
+```bash
+git diff branch1 branch2
+git diff filename
+```
 
 ### git reset
 
-Changes ko unstage karne ke liye
+"git reset" aapko changes ko unstage karne mein aur HEAD ko kisi specific commit par reset karne mein madad karta hai.
 Example: `git reset file.txt`
 
 ### git rm
