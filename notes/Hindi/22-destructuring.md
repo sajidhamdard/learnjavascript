@@ -142,14 +142,14 @@ let obj  = {
     name : "learnjavascript"
 }
 let {name, age} = obj; //learnjavascript undefined
-let {name, age= 30}; //learnjavascript 30 default value hai age ki
+let {name, age= 30}= obj; //learnjavascript 30 default value hai age ki
 
 let obj  = {
     name : "learnjavascript",
     age : 50
 }
 
-let {name, age= 30}; //learnjavascript 50 default value hai age ki
+let {name, age= 30}; //learnjavascript 50 , age ki default value 30 hai agr age key m koi value assign nhi hogi to value 30 hogi otherwise jo key m value hogi wo value aa jayegi.jese ki isme huwa h .
 ```
 
 Nested Object:
