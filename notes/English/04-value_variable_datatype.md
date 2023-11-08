@@ -12,8 +12,6 @@ JavaScript provides several data types such as:
 
 JavaScript also supports special values like null and undefined, which can be used to represent missing or unknown values.
 
-JavaScript also allows for easy manipulation and manipulation of data through various built-in functions and methods like .map(), .filter(), .sort() etc. JavaScript also allows for easy interaction with other data sources such as JSON and XML through built-in functions like JSON.parse(), JSON.stringify(), XMLHttpRequest() etc.
-
 Data manipulation is a key aspect of JavaScript and is used extensively in web development to create dynamic and interactive web pages, and for building web and mobile apps.
 
 ### What is value?
@@ -74,8 +72,6 @@ These primitive data types are the foundation of JavaScript and are used extensi
 
 In JavaScript, non-primitive data types are complex data types that can hold multiple values and provide additional functionality. They include:
 
-- Array: Represents a collection of values. Arrays are enclosed in square brackets and can hold a mix of different data types.
-
 - Object: Represents a collection of key-value pairs. Objects are enclosed in curly braces and can hold a mix of different data types.
 
 - Function: Represents a block of code that can be executed. Functions are first-class citizens in JavaScript and can be assigned to variables, passed as arguments, and returned as values.
@@ -98,8 +94,6 @@ let x = 10; //10 is value and x is variable
 Once a variable is defined, its value can be accessed and modified throughout the program. Variables can be reassigned new values, and their types can change dynamically during the execution of the program.
 
 JavaScript also allows variables to be defined without assigning a value to them, in that case they will have the value undefined.
-
-JavaScript also has a feature called "hoisting" which means that variables declared using the var keyword are moved to the top of the scope and are initialized with a value of undefined before any code is executed.
 
 JavaScript's variables provide a way to store and manipulate data, which is a key aspect of the language, and is used extensively in web development to create dynamic and interactive web pages and for building web and mobile apps.
 
