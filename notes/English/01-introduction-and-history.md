@@ -14,7 +14,7 @@ A machine-level language, also known as low-level language, is a type of program
 
 ### What is front-end ?
 
-Front-end refers to the part of web development that deals with the user interface and the client-side of the application. It mainly focuses on the design and layout of the website and how it interacts with the user. This includes technologies such as HTML, CSS, and JavaScript, and frameworks such as React, Angular, and Vue.js. The goal of front-end development is to create a seamless and user-friendly experience for the website visitors.
+Front-end refers to the part of web development that deals with the user interface and the client-side of the application. It mainly focuses on the design and layout of the website and how it interacts with the user. This includes technologies such as HTML, CSS, and JavaScript, and frameworks/libraries such as React, Angular, and Vue.js. The goal of front-end development is to create a seamless and user-friendly experience for the website visitors.
 
 ### What is back-end ?
 
@@ -41,6 +41,10 @@ JavaScript was created in 1995 by Brendan Eich, a programmer at Netscape Communi
 ECMA is the European Association for Standardizing Information and Communication Systems. It is a standards organization that develops and publishes technical standards for a wide range of information and communication systems, including programming languages such as JavaScript. The organization was founded in 1961 and is based in Switzerland. It is responsible for the standardization of many technologies including ECMAScript (ECMA-262) which is the standard for JavaScript. The goal of ECMA is to promote and facilitate the use of these standards in order to improve interoperability and encourage innovation in the industry.
 
 The following are some of the most widely-used versions of ECMAScript:
+
+- ECMAScript 1 (release in 1997) - First edition
+
+- ECMAScript 2 (release in 1998) - Editorial changes
 
 - ECMAScript 3 (released in 1999) - This version introduced regular expressions, try-catch exception handling, and other features.
 
