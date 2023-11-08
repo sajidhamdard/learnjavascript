@@ -1,32 +1,33 @@
 # JavaScript Features
 
-### What is High level language ?
+### High level language
 
 A high-level programming language is a type of programming language that provides a higher level of abstraction from the computer's hardware and is designed to be more human-readable and easier to use than low-level languages. Examples of high-level languages include Python, Java, C#, and JavaScript. High-level languages are often used for general-purpose programming, and they often provide a higher level of functionality and convenience than low-level languages.
 
-### What is Garbage Collected ?
+### Garbage Collected
 
-Garbage collection is a feature of some programming languages where the runtime system automatically manages the memory used by the program. It periodically checks for and frees memory that is no longer being used by the program. This eliminates the need for the programmer to manually manage memory allocation and deallocation, which can be a source of bugs and memory leaks. Garbage collection is a technique used in many modern programming languages like Java, C#, Python, Ruby, among others to manage the memory allocation and deallocation. This is a key feature of these languages, as it reduces the risk of memory-related bugs, improves performance and increases developer productivity.
+Garbage collection is a feature of Javascript where the runtime system automatically manages the memory used by the program. It periodically checks for and frees memory that is no longer being used by the program. This eliminates the need for the programmer to manually manage memory allocation and deallocation, which can be a source of bugs and memory leaks. Garbage collection is a technique used in many modern programming languages like Java, C#, Python, Ruby, among others to manage the memory allocation and deallocation. This is a key feature of these languages, as it reduces the risk of memory-related bugs, improves performance and increases developer productivity.
 
-### What is Interpreted Language (JIT)-> (Just in time compiler) ?
+### Interpreted Language (Just in time compiler)
 
 JavaScript is an interpreted language, which means that the code is not compiled into machine-readable code before it is executed. Instead, the code is read and executed line-by-line by a JavaScript engine such as V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox) or Chakra (used in Edge) .
 
 JIT or Just-In-Time compilation is a technique used by JavaScript engines to improve the performance of interpreted languages like JavaScript. JIT compilation is a way of converting JavaScript code into machine code at runtime, typically just before it is executed. This allows the JavaScript engine to execute the code faster and more efficiently, as the machine code can be directly executed by the CPU. This is done dynamically at runtime, hence the name Just-In-Time. This technique improves the performance of JavaScript and allows it to run large and complex applications.
 
-### What is Multi Paradigm ?
+### Multi Paradigm
 
 JavaScript is a multi-paradigm programming language, which means it supports several programming paradigms such as:
 
 - Object-oriented programming (OOP) - JavaScript supports classes, objects, inheritance, and encapsulation through the use of prototypes.
 - Functional programming - JavaScript supports the use of first-class functions and closures, making it easy to use functional programming techniques.
+- Event driven programming - JavaScript supports the event based programming in which events like mouse click, keypress can be handled.
 - Imperative programming - JavaScript supports the use of statements that change a program's state, and can be used in an imperative style.
 
 JavaScript's flexibility and support for different paradigms make it a versatile language that can be used for a wide range of tasks, from simple scripts to complex web applications. This also allows developers to use the best approach for their specific use case, and to write more expressive, maintainable and efficient code.
 
-### What is Prototype based function ?
+### Prototype based function
 
-In JavaScript, prototypes are a way of implementing object-oriented programming (OOP) concepts such as inheritance and encapsulation. A prototype is an object that serves as a template for creating other objects. Each object in JavaScript has a prototype, which can be accessed using the **proto** property.
+In JavaScript, prototypes are a way of implementing object-oriented programming (OOP) concepts such as inheritance and encapsulation. A prototype is an object that serves as a template for creating other objects. Each object in JavaScript has a prototype, which can be accessed using the \_\_proto\_\_ property.
 
 When a property or method is accessed on an object, the JavaScript engine first looks for it on that object. If it is not found, it then looks for it on the object's prototype, and so on, until it reaches the top of the prototype chain. This is called "prototype-based inheritance"
 
@@ -34,20 +35,21 @@ This prototype-based approach to OOP in JavaScript differs from class-based OOP,
 
 This approach to OOP in JavaScript allows for more flexibility and expressiveness in solving problems and makes it easy to add or change behavior of an object without having to change the object's definition.
 
-### What is First Class Function ?
+### First Class Function
 
 In JavaScript, a first-class function is a function that can be treated like any other value, such as a number or a string. This means that a first-class function can be:
 
 - Assigned to a variable
 - Passed as an argument to a function
 - Returned as a value from a function
-- This is in contrast to languages that have restrictions on how functions can be used. For example, in some languages, functions can only be used as subroutines and cannot be passed as arguments or returned as values.
+
+This is in contrast to languages that have restrictions on how functions can be used. For example, in some languages, functions can only be used as subroutines and cannot be passed as arguments or returned as values.
 
 First-class functions in JavaScript make it easy to use functional programming techniques, such as higher-order functions and closures, which allow for more expressive, flexible, and reusable code. This is a key feature of JavaScript, which allows it to be used for a wide range of tasks, from simple scripts to complex web applications.
 
 It is also one of the reason why JavaScript is also called as Functional Programming Language.
 
-### What is Dynamically Typed/ Dynamic ?
+### Dynamically Typed/ Dynamic
 
 In JavaScript, a variable's type is determined at runtime, rather than being explicitly set by the programmer. This is known as dynamic typing or dynamic language.
 
@@ -67,7 +69,7 @@ for example:
    x = false; //type will be boolean
 ```
 
-### What is Single Threaded ?
+### Single Threaded ?
 
 In JavaScript, a single-threaded model means that only one operation can be executed at a time. JavaScript runs on a single thread, which means that only one task can be executed at a time.
 
