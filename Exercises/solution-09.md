@@ -182,12 +182,16 @@ Print below pattern using repeat function
 ```
 
 ```
-for (let i = 1; i <= 10; i++) {
-  let row = "";
-  for (let j = 1; j <= 10 - i; j++) {
-    row += i.toString().repeat(2);
-  }
-  console.log(row);
+for (let i = 1; i <= 10; i++){
+    let str_1 = ''
+    for (let j = 10; j >= i; j--) {
+        if (i < 10) {
+            str_1 += i
+        } else {
+            str_1+=0
+        }
+        }
+    console.log(str_1)
 }
 
 ```
