@@ -395,7 +395,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 </details>
 
-## 📚 [_Interview Questions & Answers In English_](./Interview-Questions-And-Answers/interview-questions-english.md)
+## 📚 [_Interview Questions & Answers(en)_](./Interview-Questions-And-Answers/interview-questions-english.md)
 
 <details>
 <summary>Click for details</summary>
@@ -643,7 +643,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 </details>
 
-## 📚 [_Interview Questions & Answers In Hindi_](./Interview-Questions-And-Answers/interview-questions-hindi.md)
+## 📚 [_Interview Questions & Answers(hi)_](./Interview-Questions-And-Answers/interview-questions-hindi.md)
 
 <details>
 <summary>Click for details</summary>
