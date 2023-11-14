@@ -1,5 +1,9 @@
 # The Ultimate JavaScript Learning Repository
 
+> [!IMPORTANT] 
+> Hello JavaScript Lovers, We have created a new website for you, and work is currently in progress. This website will be available to you in the next month. We have provided comprehensive JavaScript material on the website in a more organized and accessible manner. Thank you for showing so much love to this repository.
+> 
+
 ## ❤️Service to humanity is the true religion❤️
 
 Hi,
@@ -17,8 +21,6 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
 </div>
-
----
 
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
