@@ -1,6 +1,6 @@
 # The Ultimate JavaScript Learning Repository
 
-## ❤️“मानव सेवा ही सच्चा धर्म है। (Service to humanity is the true religion)”❤️
+## ❤️Service to humanity is the true religion❤️
 
 Hi,
 
@@ -12,7 +12,7 @@ For the convenience of students who are not comfortable with English, we are try
 
 This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
-## "केवल आत्मविश्वास होना चाहिए, ज़िंदगी तो कहीं से भी शुरू हो सकती है। (One should only have self-confidence; life can start from anywhere)"
+## One should only have self-confidence; life can start from anywhere
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
