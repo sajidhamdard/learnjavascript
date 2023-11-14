@@ -23,7 +23,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_JavaScript Syllabus_](./Syllabus/Syllabus.md/)
 
-## 📚 [_JavaScript Notes in English_](./notes/English)
+## 📚 [_JavaScript Notes (en)_](./notes/English)
 
 <details>
 <summary>Click for details</summary>
@@ -243,7 +243,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 </details>
 
-## 📚 [_JavaScript Notes In Hindi_](./notes/Hindi/)
+## 📚 [_JavaScript Notes(hi)_](./notes/Hindi/)
 
 <details>
 <summary>Click for details</summary>
