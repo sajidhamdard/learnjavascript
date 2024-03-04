@@ -1,6 +1,6 @@
 # JavaScript Introduction and History
 
-### What is a programming language ?
+### What is a programming language?
 
 A programming language is a set of instructions and rules that a computer can understand and execute. It is used to create software, apps, and other computer programs. Common examples include Python, Java, C++, and JavaScript.
 
