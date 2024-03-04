@@ -1,4 +1,4 @@
-# Github Commands
+# Git Commands
 
 ## What is a git ?
 
