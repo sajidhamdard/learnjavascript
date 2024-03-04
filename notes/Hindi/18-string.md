@@ -90,11 +90,11 @@ String object = new String("Hello World!");
 For example, consider the following code:
 
 ```
-var name = "ChatGPT";
-console.log(name.length); // Output: 7
+var name = "sajid";
+console.log(name.length); // Output: 5
 ```
 
-In this code, we have defined a variable "name" with the value "ChatGPT". We then use the ".length" property to find out the length of the string "name", which is 7.
+In this code, we have defined a variable "name" with the value "sajid". We then use the ".length" property to find out the length of the string "name", which is 5.
 
 Similarly, we can use the ".length" property to find out the length of any string, as shown below:
 
