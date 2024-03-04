@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- What is programming language?
+- What is a programming language?
 - What is front-end?
 - What is back-end?
 - Introduction
@@ -52,7 +52,7 @@
 - console.log
 - document.write()
 - window.alert()
-- innerHTML
+- innerHTML (part of DOM)
 
 ### Value, Variable and Data types
 
@@ -165,9 +165,8 @@
     
 - Operator precedence
   - [Operator Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) 
-- Truth table of &&, || and !
-- Loose equality operator ==
-- Strict equality operator ===
+- Truth table of AND, OR and NOT
+- Loose equality operator == VS Strict equality operator ===
 - Typeof operator
 - Ternary operator
 
@@ -212,7 +211,7 @@
   - charAt
   - slice
   - substring
-  - substr
+  - substr (deprecated)
   - replace
   - repeat
   - toUpperCase
@@ -249,14 +248,11 @@
   - Function expression
   - Arrow function
   - Anonymous function
-- Difference between function declaration and function expression ?
-- Difference between function expression and arrow function ?
+- Function declaration VS function expression
+- Function expression and Arrow function
 - Function invoking/calling
 - Function calling from other function
-- Function as values
-- Function returning function
-- Parameters
-- Arguments
+- Parameters & Arguments
 - Arguments Object in functions
 - Default parameters
 - Passing arguments: value vs reference
@@ -360,7 +356,6 @@
 - Array Declaration
 - Looping Array
 - Array functions
-  - sort
   - push
   - pop
   - unshift
@@ -389,7 +384,7 @@
 - What is an object ?
 - Creating object
   - Object literal syntax
-  - new keyword
+  - using new keyword
 - Annotation
   - Dot
   - Bracket
