@@ -1,4 +1,4 @@
-# Coding Guidelines for JavaSCript Developers
+# Coding Guidelines for JavaScript Developers
 
 ## Use Strict Mode
 
