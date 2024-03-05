@@ -262,8 +262,8 @@
 - First Class function/Citizen
 - High Order function
 - Callback function
-- setTimeOut
-- setInterval
+- setTimeOut, clearTimeOut
+- setInterval, clearInterval
 - The call and apply methods
 - The bind method
 - Immediately invoked function expression
