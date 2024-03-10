@@ -250,6 +250,12 @@
   - Anonymous function
 - Function declaration VS function expression
 - Function expression and Arrow function
+    - syntax
+    - this
+    - arguments
+    - new keyword
+    - super
+    - implicit return
 - Function invoking/calling
 - Function calling from other function
 - Parameters & Arguments
