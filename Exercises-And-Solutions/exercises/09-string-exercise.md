@@ -2,7 +2,9 @@
 
 ### Question 1
 
-let str = "My name is learn javascript";
+```javascript
+const str = "My name is learn javascript";
+```
 
 Split this string using space and find length.
 
@@ -12,12 +14,12 @@ Write a program to check if a string is palindrome or not?
 
 ### Question 3
 
-9581894461 Convert to below
+9581444444 Convert to below
 
 ```
-95818*****
-*****94461
-958**944**
+95814*****
+*****44444
+958**444**
 ```
 
 ### Question 4
@@ -63,7 +65,7 @@ Count number of spaces in a string.
 
 ### Question 9
 
-Print below pattern using repeat function
+Print below pattern using repeat function:
 
 ```
 1111111111
@@ -83,30 +85,30 @@ Print below pattern using repeat function
 "My name is Sajid Khan", take input from user and print whatever is there after the word. For example:
 
 ```
-    Hello learn javascript
-    input: "rn"
-    output: javascipt
+Hello learn javascript
+input: "rn"
+output: javascipt
 ```
 
 ### Question 11
 
-substring vs slice vs substr
+Write differences between substring vs slice vs substr methods.
 
 ### Question 12
 
-What is Regex ? Examples?
+What is Regex ? Give examples.
 
 ### Question 13
 
-match vs search function difference
+Write difference between match vs search functions.
 
 ### Question 14
 
-Take a sentence from prompt. In next question ask for a string and check if that string is present in that sentence or not.
+Take a sentence using prompt box. In next question ask for a string and check if that string is present in that sentence or not.
 
 ### Question 15
 
-Take a string and if in that string anything is there other than the characters $, \_, number, a-z, A_Z then remove them from the string. Don't use regex. for example:
+Take a string and if in that string anything is there other than the characters $, \_, number, a-z, A_Z then remove them from the string. Do it with regex and without regex. for example:
 
 ```
 We%^%$Cod!@#e -> We$Code
