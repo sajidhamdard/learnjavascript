@@ -967,7 +967,7 @@ Thank you to the people who have already contributed:
   
 ## License
 
-Released under [MIT](/LICENSE) by [@sajidhamdard](https://github.com/sajidhamdard).
+Released under [MIT](/LICENSE.md) by [@sajidhamdard](https://github.com/sajidhamdard).
 
 ---
 
