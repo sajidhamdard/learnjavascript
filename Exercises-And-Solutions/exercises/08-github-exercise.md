@@ -2,27 +2,27 @@
 
 ### Step 1
 
-Create a new Github repo with name learnjavascript
+Create a new Github repo with name "learnjavascript".
 
 ### Step 2
 
-Tick .readme checkbox while creating repo
+Tick `.readme` checkbox while creating repo.
 
 ### Step 3
 
-In Description write "Training Repository"
+In Description write "Training Repository".
 
 ### Step 4
 
-Now clone this repo locally on your laptop
+Now clone this repo locally on your laptop.
 
 ### Step 5
 
-Now open repo folder in gitbash or terminal
+Now open repo folder in gitbash or terminal.
 
 ### Step 6
 
-Add 3 new files index.html, style.css, script.js
+Add 3 new files index.html, style.css, script.js.
 
 ### Step 7
 
@@ -36,7 +36,7 @@ Now add 5 commits:
 
 ### Step 8
 
-Now create new branch
+Now create new branch.
 
 ### Step 9
 
@@ -48,4 +48,4 @@ In new branch add 3 commits :
 
 ### Step 10
 
-Now verify changes in main branch and new branch
+Now verify changes in main branch and new branch.
