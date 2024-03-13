@@ -2,11 +2,11 @@
 
 ### Question 1
 
-What is a Programming Language?
+What is a programming language?
 
 ### Question 2
 
-Write about Machine Language?
+What is a machine language?
 
 ### Question 3
 
@@ -14,7 +14,7 @@ Why are different programming languages used for coding?
 
 ### Question 4
 
-Write about front-end and back-end languages.
+Write about front-end and back-end languages names.
 
 ### Question 5
 
