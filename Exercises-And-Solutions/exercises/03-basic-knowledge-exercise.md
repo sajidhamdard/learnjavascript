@@ -10,11 +10,6 @@ Take two numbers and check if both numbers are odd or not. If they are both odd,
 
 Take four variables, "a," "b," "c," and "d," and assign their values in the following way: a = b, b = c, c = d, d = a. Check the output.
 
-a = b
-b = c
-c = d
-d = a
-
 ### Question 4
 
 Print the 2's table using the \*\* operator. Use any logic, but it should print the 2's table.
@@ -50,7 +45,7 @@ Take your age and check if your age is greater than 21. If it is, print "Adult,"
 
 ### Question 11
 
-Convert all if-else solutions to ternary operator solutions. So, instead of using if-else, use the ternary operator.
+Convert a if-else solution to ternary operator solution. So, instead of using if-else, use the ternary operator.
 
 ### Question 12
 
@@ -58,16 +53,16 @@ Implement mark-sheet logic
 
 ```
 Take a field "percentage"
-If percentage is >= 80 then print Distinction
-If percentage is >= 60 and < 80 then print First division
-If percentage >= 33 and < 60 then print Second division
-if percentage < 33 then print Fail
+If percentage is >= 80 then print "Distinction"
+If percentage is >= 60 and < 80 then print "First division"
+If percentage >= 33 and < 60 then print "Second division"
+if percentage < 33 then print "Fail"
 ```
 
 ### Question 13
 
-Find the maximum of 2 numbers
+Write a logic to find the maximum of 2 numbers
 
 ### Question 14
 
-Find then maximum of 3 numbers
+Write a logic to find maximum of 3 numbers
