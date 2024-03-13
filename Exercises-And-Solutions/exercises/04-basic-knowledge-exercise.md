@@ -1,6 +1,6 @@
 ### Question 1
 
-Take two numbers and add a value that is the sum of the two numbers plus another number. Now, find the 3rd number.
+Take two numbers and add a value that is the sum of the two numbers plus another number. Now, find the 3rd number. Write the logic.
 
 ### Question 2
 
@@ -36,17 +36,17 @@ Test the following conditions using &&, ||, and not logical operators. Take any 
 
 ### Question 7
 
-Take the city temperature. If the temperature is less than 10 degrees, then print "very cold." If the city temperature is less than 30 and greater than or equal to 10, then print "cold." If the temperature is between 30 and 40, then print "hot." Else, print "very hot."
+Take the city temperature. If the temperature is less than 10 degrees, then print "very cold." If the city temperature is less than 30 and greater than or equal to 10, then print "cold." If the temperature is between 30 and 40, then print "hot." Else, print "very hot".
 
 ### Question 8
 
-Using a prompt, ask the user about their age. If the user is greater than 18, then show the user a message, "Do you want to open an account?" If they click "OK," then ask the following 4 questions:
+Using a prompt, ask the user about their age. If the age is greater than 18, then show the user a message, "Do you want to open an account?" If user click on "OK" button then ask the below 4 questions:
 
 - What is your name ?
 - What is your aaadhar number ?
 - What is your address?
 - What is your mobile number?
-Print all these details in the console. If they click "Cancel," then show the message, "Sorry, please visit again."
+Print all these details in the console. If user click on "Cancel" then show the message, "Sorry, please visit again."
 
 ### Question 9
 
