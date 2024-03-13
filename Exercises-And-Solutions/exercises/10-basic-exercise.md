@@ -1,6 +1,6 @@
 ### Question 1
 
-Create Bill Calculator
+Create Bill Calculator.
 
 Ask below Questions
 
@@ -14,9 +14,9 @@ Use can enter any number of quantities. Calculate the bill based on the quantiti
 item count as 0.
 
 ### Question 2
+Print below Pattern:
 
 ```
-Print below Pattern
 $##$##$
 $##$##
 $##$
@@ -26,18 +26,19 @@ $
 
 ### Question 3
 
-Ask the user question "How many times do you want to print Series". Then print below series. For example below series will print if user enteres 5
+Ask the user question "How many times do you want to print Series". Then print below series. For example below series will be printed if user enteres 5
 
 2, 6, 30, 260, 3130
-Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers till 10 times.
+
+Find the pattern for above series and print accordingly. If the user enters 10 then we will print the same series numbers total 10 times.
 
 ### Question 4
 
-Using a switch case to do this exercise
+Using a switch case to do the below exercise:
 
-- If number is odd then print Odd
-- If number is even then print Even
-- If number is 100 then print 100
+- If number is odd then print "Odd"
+- If number is even then print "Even"
+- If number is 100 then print "100"
 - Else print 10000
 
 ### Question 5
