@@ -1,6 +1,6 @@
 # For Loop Exercise
 
-1. Print 1 to 100
+### 1. Print 1 to 100
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -8,7 +8,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-2. Print all Odd numbers from 1 to 100
+### 2. Print all Odd numbers from 1 to 100
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -18,7 +18,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-3. Print all Even numbers from 1 to 100
+### 3. Print all Even numbers from 1 to 100
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -28,7 +28,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-4. Print all numbers which are divisible of 5 in 1 to 100
+### 4. Print all numbers which are divisible of 5 in 1 to 100
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -38,7 +38,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-5. Print all numbers which are divisible of 5 and 15 in 1 to 100
+### 5. Print all numbers which are divisible of 5 and 15 in 1 to 100
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -48,7 +48,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-6. Print 2's table
+### 6. Print 2's table
 
 ```
 let x = 2;
@@ -57,7 +57,7 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 
-7. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
+### 7. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times.
 
 ```
 let count = Number(prompt("How many times do you want to print Hello World"));
@@ -66,7 +66,7 @@ for (let i = 1; i <= count; i++) {
 }
 ```
 
-8. Calculate sum of all numbers from 1 to 100
+### 8. Calculate sum of all numbers from 1 to 100.
 
 ```
 let sum = 0;
@@ -76,7 +76,7 @@ for (let i = 1; i <= 100; i++) {
 console.log("The sum of all numbers:", sum);
 ```
 
-9. Calculate sum of all odd numbers from 1 to 100
+### 9. Calculate sum of all odd numbers from 1 to 100.
 
 ```
 let sum = 0;
@@ -89,7 +89,7 @@ console.log("The sum of all odd numbers:", sum);
 
 ```
 
-10. Calculate sum of all even numbers from 1 to 100
+### 10. Calculate sum of all even numbers from 1 to 100.
 
 ```
 let sum = 0;
@@ -102,7 +102,7 @@ console.log("The sum of all even numbers:", sum);
 
 ```
 
-11. print 1,2,4,8,16,32,64.......upto 2048
+### 11. Print 1,2,4,8,16,32,64.......upto 2048
 
 ```
 for (let i = 1; i <= 2048; i = i *= 2) {
@@ -110,7 +110,7 @@ for (let i = 1; i <= 2048; i = i *= 2) {
 }
 ```
 
-12. print
+### 12. Print below series
 
     ```
     1,2,3,4,5,6,7,8,9,10
@@ -122,15 +122,15 @@ for (let i = 1; i <= 2048; i = i *= 2) {
     ```
 
 ```
-   for (i = 1; i <= 100; i = i + 1) {
-     document.write(i);
-   if (i % 10 === 0) {
-    document.write("<br>");
-   }
-   }
+for (i = 1; i <= 100; i = i + 1) {
+document.write(i);
+if (i % 10 === 0) {
+  document.write("<br>");
+}
+}
 ```
 
-13. pritn 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
+### 13. Print 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
 
 ```
 for (i = 1; i <= 100; i = i + 1) {
@@ -140,7 +140,7 @@ for (i = 1; i <= 100; i = i + 1) {
 }
 ```
 
-14. print 10 table like this
+### 14. Print 10's table like this below:
 
 ```
 2*1=2
@@ -162,7 +162,7 @@ for (i = 1; i <= 10; i = i + 1) {
 
 ```
 
-15. Run a loop from 1 to 50
+### 15. Run a loop from 1 to 50
 
 ```
 From 1 to 10 print "A"
@@ -189,7 +189,7 @@ for (let i = 1; i <= 50; i++) {
 
 ```
 
-16. Run a loop from 50 to 1
+### 16. Run a loop from 50 to 1
 
 ```
 From 50 to 41 print "A"
@@ -215,7 +215,7 @@ if (i <= 10) {
 }
 ```
 
-17. Print below series
+### 17. Print below series:
 
 5 25 125.. till number is less than equal to 10000
 
@@ -226,7 +226,7 @@ for (let i = 1; i <= 10000; i = i*= 5) {
 
 ```
 
-18. Print below series
+### 18. Print below series:
     3,6,9,12... till number is less than equal to 500
 
 ```
@@ -236,7 +236,7 @@ for (let i = 3; i <= 500; i = i + 3) {
 
 ```
 
-19. print below series
+### 19. print below series:
 
 ```
 120
@@ -258,8 +258,9 @@ for (let i = 1, j = 20; i <= 10; i++, j++) {
 
 ```
 
-20. print below series
-    100 95 90 85 80 ... till 0
+### 20. Print below series:
+
+100 95 90 85 80 ... till 0
 
 ```
 for (let i = 100; i >= 0; i = i - 5) {
@@ -268,7 +269,7 @@ for (let i = 100; i >= 0; i = i - 5) {
 
 ```
 
-21. Number 70 is divisible by which numbers till 70? Find out and print those numbers
+### 21. Number 70 is divisible by which numbers till 70? Find out and print those numbers.
 
 ```
 for (let i = 1; i <= 70; i++) {
@@ -281,7 +282,7 @@ if (i % 7 === 0) {
 
 # while loop Exercise
 
-1. Write a while loop that logs the numbers 1 to 10 in the console.
+### 1. Write a while loop that logs the numbers 1 to 10 in the console.
 
 ```
 let i = 1;
@@ -291,7 +292,7 @@ i++;
 }
 ```
 
-2. Calculate sum of all numbers from 1 to 10
+### 2. Calculate sum of all numbers from 1 to 10.
 
 ```
 let i = 1;
@@ -304,7 +305,7 @@ console.log(sum);
 
 ```
 
-3. Counting down from 10 to 1
+### 3. Counting down from 10 to 1
 
 ```
 let i = 10;
@@ -314,7 +315,7 @@ i--;
 }
 ```
 
-4. Print 2's table
+### 4. Print 2's table
 
 ```
 let x = 2;
@@ -325,7 +326,7 @@ while (i <= 10) {
 }
 ```
 
-5. Calculate sum of all odd numbers from 1 to 100
+### 5. Calculate sum of all odd numbers from 1 to 100
 
 ```
 let i = 1;
@@ -339,7 +340,7 @@ while (i <= 100) {
 
 # do while loop
 
-1. Write a do...while loop that logs the numbers 1 to 5 in the console
+### 1. Write a do...while loop that logs the numbers 1 to 5 in the console
 
 ```
 let i = 1;
@@ -349,7 +350,7 @@ do {
 } while (i <= 5);
 ```
 
-2. Counting down from 10 to 1
+### 2. Counting down from 10 to 1
 
 ```
 let i = 10;
@@ -359,7 +360,7 @@ do {
 } while (i >= 1);
 ```
 
-3. Calculate sum of all numbers from 1 to 10
+### 3. Calculate sum of all numbers from 1 to 10
 
 ```
  let i = 1;
@@ -371,7 +372,7 @@ sum = sum + i;
   console.log(sum);
 ```
 
-4. Print 2's table
+### 4. Print 2's table
 
 ```
 let x = 2;
@@ -383,7 +384,7 @@ do {
 
 ```
 
-5. Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
+### 5. Ask user a question "How many times do you want to print Hello World?" and then print "Hello World" that number of times.
 
 ```
 let count = Number(prompt("How many times do you want to print Hello World"));
@@ -395,7 +396,7 @@ do {
 
 ```
 
-6. Calculate sum of all even numbers from 1 to 100
+### 6. Calculate sum of all even numbers from 1 to 100.
 
 ```
 let i = 1;
