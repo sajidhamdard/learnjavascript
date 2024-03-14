@@ -26,7 +26,7 @@ Is tarah se Git aapko code management me help karta hai, aur code ke saath histo
 - Git distributions for Linux and POSIX systems are available on
   the official Git SCM web site.
 
-## Usefull Github Commands
+## Usefull Git Commands
 
 ### git status
 
@@ -213,7 +213,7 @@ git clean -f
 
 Jab aap yeh command run karenge, Git woh untracked files aur directories ko forceful tarike se delete kar dega jo aapke project folder mein hain. Yeh command savdhani se istemal karni chahiye, kyunki woh files aur directories ko permanently delete kar dega, aur agar kuch mahatvapurna data unmein hain toh woh bhi gayab ho jayega. Isliye, is command ka istemal tabhi karen jab aap bilkul sure hain ki aap un files aur directories ko delete karna chahte hain.
 
-### git rm file name
+### git rm filename
 
 "git rm" ek Git command hai jo Git repository se ek specific file ko remove karta hai. Jab aap is command ka istemal karte hain, tab woh file Git tracking se hata diya jata hai, aur iska matlab hai ki yeh file aapke next commit mein shaamil nahi hoga.
 
@@ -240,7 +240,7 @@ Yeh command aapko ek commit ki changes ko quickly examine karne mein madadgar ho
 
 ### git merge branchname
 
-yadi hum hmari branch me kisi dusri branch ke code apni branch me lana chahte hain to merge command use kr skte hain. Iske lie hume humari current branch pr yeh code chlana hoga aur us branch ka sara code hmari branch me merge ho jayega. merge ka matlab yah hai ki sara code mil jayega aur yadi kisi line/file me koi issue aaya to use hm git ki language me conflict khte hain. Conflict resolve krne ke yeh process hai.
+yadi hum hmari branch me kisi dusri branch ke code apni branch me lana chahte hain to merge command use kr skte hain. Iske lie hume humari current branch pr yeh command chlana hoga aur us branch ka sara code hmari branch me merge ho jayega. merge ka matlab yah hai ki sara code mil jayega aur yadi kisi line/file me koi issue aaya to use hm git ki language me conflict khte hain. Conflict resolve krne ke yeh process hai.
 
 1. Sbse phle jin files me conflicts aaye hain unke bare me pta lgana hai. To iske lie Git khud un sari files ka naam merge krne ke bad btayega ki kin kin files conflicts aye hain.
 2. Fir hume vo sari files one to one pick krni hai aur unke conflicts resolve krne hain
@@ -336,56 +336,6 @@ Example:
 ```bash
 git branch
 ```
-### git checkout
-
-Different branches ke code ko merge karne ke liye
-Example: `git merge branch-name`
-
-```bash
-git checkout main
-```
-
-### git merge
-
-Jab aap chahte hain ki ek branch se doosre branch me kiye gaye changes ko combine karein, to "git merge" ka use hota hai. Ye changes ko merge karta hai aur ek naya commit create karta hai.
-Example:
-
-```bash
-git merge feature-branch
-```
-
-### git push
-
-"git push" se aap apne local changes ko remote repository me upload kar sakte hain, jisse aapke kaam ko doosron ke liye accessible bana sakte hain.
-Example:
-
-```bash
-git push origin main
-```
-
-### git pull
-
-Is command se aap remote repository se changes fetch karke unhe automatically apne current branch me integrate kar sakte hain. Isse aapke local code ko remote changes se update kiya ja sakta hai.
-Example:
-
-```bash
-git pull origin main
-```
-### git clone
-
-Kisi remote repository ka local copy banane ke liye "git clone" ka use hota hai. Isse aapke local machine par ek repository ki copy create ho jati hai.
-Example:
-```bash
-git clone https://github.com/user/repo.git
-```
-
-### git fetch
-
-"git fetch" command se aap remote repository se changes download kar sakte hain, lekin wo changes aapke local code par automatically apply nahi hote. Ye aapke local repository ko remote repository ke saath sync karna me madad karta hai.
-Example:
-```bash
-git fetch origin
-```
 
 ### git remote add
 
@@ -395,34 +345,10 @@ Example:
 git remote add upstream https://github.com/upstream/repo.git
 ```
 
-### git diff
-
-"git diff" aapko do commits, branches, ya files ke beech ke differences ko dikhata hai. Isse aap code changes ka comparison kar sakte hain.
-Example:
-```bash
-git diff branch1 branch2
-git diff filename
-```
-
-### git reset
-
-"git reset" aapko changes ko unstage karne mein aur HEAD ko kisi specific commit par reset karne mein madad karta hai.
-Example: `git reset file.txt`
-
-### git rm
-
-Files aur directories ko remove karne ke liye
-Example: `git rm file.txt`
-
 ### git tag
 
 Repository ke specific version ko tag karna
 Example: `git tag v1.0`
-
-### git stash
-
-Temporary changes ko save karne ke liye
-Example: `git stash`, `git stash apply`
 
 ### git remote
 
@@ -458,16 +384,6 @@ Example: `git submodule add https://github.com/user/repo.git`
 
 Specific commit ka details (changes and metadata) dikhane ke liye
 Example: `git show commit-hash`
-
-### git config
-
-Git ke configuration settings ko set aur get karne ke liye
-Example: `git config --global user.name "Your Name"`
-
-### git revert
-
-Specific commit ko undo karne ke liye
-Example: `git revert commit-hash`
 
 ### git bisect
 
@@ -518,19 +434,6 @@ Sochiye aap ek branch pe kaam kar rahe hain aur aapke paas kuch commits hain jo 
 
 Is tarah se "git rebase -i" aapko commits ko organize aur customize karne mein madad karta hai, jo aapke code history ko safalta se maintain karne mein help karta hai.
 
-### git checkout -b
-
-'git checkout -b' ek Git command hai jo ek nayi branch create karta hai aur uspe switch karta hai. Yeh command aapko nayi functionality develop karne ya existing code mein changes karne ke liye ek alag branch provide karta hai, jisse aapke original code par koi asar nahi padta.
-
-Example:
-Sochiye aap ek project mein kaam kar rahe hain aur aapko ek nayi feature add karni hai. Aap feature-branch naam se ek nayi branch banani chahte hain:
-
-```
-git checkout -b feature-branch
-```
-
-Is command se Git ek nayi branch feature-branch banata hai aur uspe switch kar deta hai. Ab aap feature-branch pe kaam kar sakte hain, bina kisi pareshani ke ki original code par koi asar na pade. Jab aap apne kaam ko pura kar lete hain, aap us branch ko merge kar sakte hain ya fir delete kar sakte hain.
-
 ### git push --force
 
 'git push --force' ek Git command hai jo aapke local changes ko remote Git repository mein forcefully push karne mein madad karta hai. Isse aap existing remote branch ko overwrite kar sakte hain, lekin isse aapko savdhani se istemal karna chahiye, kyunki yeh command aapke remote repository ke history ko badal sakti hai.
@@ -556,7 +459,3 @@ git cherry main feature
 ```
 
 Isse aapko ek list dikhayi degi jo aise changes ko represent karega jo feature branch mein hain lekin main branch mein nahi hain. Aap phir in changes ko dekhkar decide kar sakte hain ki aapko inhein main branch mein merge karna hai ya nahi.
-
-### git clean
-
-'Git clean' ek aisa Git command hai jo aapke local code repository se asli files aur directories ko hata deta hai jo Git ke track se baahar hain. Jab aap kuch changes karte hain aur kuch temporary files ya untracked files create hote hain, toh "git clean" unko saaf kar deta hai, jisse aapke local repository clean ho jaata hai. Yeh command dhyan se use karni chahiye, kyunki agar aap isse galat tarike se istemal karte hain, toh aapke important files bhi delete ho sakte hain. Isse aapko apne changes ko permanently delete karne ke liye ek mauka milta hai aur aapke local repository ko sudharne mein madad milti hai.
