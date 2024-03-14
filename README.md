@@ -903,7 +903,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ## 📚 [_Back-end RoadMap_](./Roadmap/Frontend%20development%20roadmap.pdf) `Credit - Sadanand Pai`
 
-## 📚 [_Github Notes_](./Github%20Notes/)
+## 📚 [_Git Notes_](./Git%20Notes/)
 
 ---
 
