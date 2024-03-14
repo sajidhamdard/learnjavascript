@@ -63,7 +63,7 @@ Create an array of numbers. Now filter out all the numbers from the array where 
 
 ### Question 9
 
-Convert below array
+Convert below array:
 
 ```
 [[1,2], [3,4], [5,6], [7,8], [9,10]]
@@ -73,7 +73,7 @@ to
 
 ### Question 10
 
-Print below pattern
+Print below pattern:
 
 ```
 1 2 3 4 5
