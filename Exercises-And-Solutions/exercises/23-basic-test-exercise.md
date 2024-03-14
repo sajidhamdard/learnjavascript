@@ -1,4 +1,4 @@
-1. Print below pattern 
+1. Print below pattern:
 
 ```
 1
