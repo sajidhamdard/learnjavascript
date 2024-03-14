@@ -24,7 +24,7 @@ CSS stands for Cascading Style Sheets. It is a stylesheet language used to descr
 
 JavaScript is a programming language used primarily for creating interactive web pages and web applications. It is often referred to as the "language of the web" because it can be executed in a web browser without the need for additional software or plugins. JavaScript is also used on the server-side with frameworks such as Node.js, allowing for full-stack development.
 
-### Question 7. Difference between java and JavaScript?
+### Question 7. Difference between Java and JavaScript?
 
 Java is a general-purpose programming language that is commonly used for enterprise-level applications, while JavaScript is a scripting language primarily used for web development. Java code is compiled to bytecode and executed on a virtual machine, while JavaScript code is interpreted by the browser's JavaScript engine. Additionally, Java has strong typing and requires explicit declaration of data types, whereas JavaScript is weakly typed and does not require explicit type declarations.
 
@@ -94,7 +94,7 @@ JavaScript code can be written in various places, including:
 
 Client-side JavaScript runs in a user's web browser and is used to create interactive effects and manipulate page content dynamically. Server-side JavaScript runs on the server and is used for backend tasks such as handling requests, interacting with databases, and processing data before it is sent to the client.
 
-### Question 16.Explain all the JavaScript features in detail?
+### Question 16. Explain all the JavaScript features in detail?
 
 JavaScript is a powerful programming language that is primarily used for creating interactive web applications. It has evolved over the years, and many new features have been added to it with each new version. Here are some of the key features of JavaScript:
 
@@ -120,19 +120,19 @@ JavaScript is a powerful programming language that is primarily used for creatin
 
 These are just some of the key features of JavaScript. There are many more, including classes, generators, and iterators, that make it a popular and powerful language for building modern web applications.
 
-### Question 17.Is javascript a statically typed or a dynamically type language?
+### Question 17. Is Javascript a statically typed or a dynamically typed language?
 
 JavaScript is a dynamically typed language.
 
-### Question 18.What is Single Threaded?
+### Question 18. What is Single Threaded?
 
 Single threaded refers to a programming model or environment in which only one set of instructions can be executed at a time. This means that the program can only execute one task or operation at a time, and must complete it before moving on to the next one. Single-threaded programs are generally simpler and easier to reason about than multi-threaded programs, but they may not take full advantage of modern hardware with multiple cores and processors.
 
-### Question 19.What is Non-Blocking Event Loop?
+### Question 19. What is Non-Blocking Event Loop?
 
 A non-blocking event loop is a programming pattern used in software applications to handle multiple requests and events simultaneously without blocking the application's main thread. It works by continuously checking for new events and executing their associated callbacks in a loop, allowing the application to remain responsive to other events and requests while processing each event in an asynchronous manner. This approach is commonly used in web servers, network programming, and graphical user interfaces (GUIs).
 
-### Question 20.What is value and variable?
+### Question 20. What is value and variable?
 
 A value is a specific piece of data, such as a number or text string. A variable is a named storage location in a program that can hold a value, which can be changed during the execution of the program. In other words, a variable is used to represent a value that may vary throughout the program.
 
@@ -154,17 +154,19 @@ In computer programming, a data type is an attribute of a variable or value that
 
 ### Question 23. What are the different types of data types in javascript?
 
-There are seven primitive data types in JavaScript:
+There are six primitive data types in JavaScript:
 
 1. Boolean
-2. Null
-3. Undefined
-4. Number
-5. BigInt (added in ES2020)
-6. String
-7. Symbol
+2. Undefined
+3. Number
+4. BigInt (added in ES2020)
+5. String
+6. Symbol
 
-And one non-primitive data type: 8. Object
+And two non-primitive data types: 
+
+1. object
+2. function
 
 ### Question 24. What is Symbol ?
 
