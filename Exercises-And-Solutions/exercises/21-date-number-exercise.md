@@ -18,7 +18,7 @@ Question 8 : How do you calculate the difference between two dates in JavaScript
 
 Question 9 : How do you check if a year is a leap year in JavaScript?
 
-Question 10 : How do you convert a string to a date in JavaScript? Write all ways.
+Question 10 : How do you convert a string to a date in JavaScript? Write all ways?
 
 Question 11 : How can you parse a date from a string in a specific format in JavaScript?
 
@@ -26,7 +26,7 @@ Question 12 : How can you get the time in a specific timezone in JavaScript?
 
 Question 13 : Print date and time after every 1 second in the format 'MM/DD/YYYY HH:MM:SS'
 
-Question 14 : Write a JavaScript function to get the number of days in a month. Pass month and year as an arugment to the function. for example : getDays(2, 2023). Answer will be 28
+Question 14 : Write a JavaScript function to get the number of days in a month. Pass month and year as an arugment to the function. for example : getDays(2, 2023).
 
 Question 15 : Write a JavaScript function to get the week day name for the given date.
 
@@ -38,9 +38,9 @@ Question 18 : Ask your about his date of birth. Now write a JavaScript function 
 
 Question 19 : Write a Javascript function to using setInterval to show alert box when date is your birth date.
 
-Question 20 : Show your birth date in Arabic
+Question 20 : Show your birth date in Arabic.
 
-Question 21 : Show your birth date in Chinese
+Question 21 : Show your birth date in Chinese.
 
 Question 22 : Write a JavaScript function to convert a binary number to a decimal number. 
 
@@ -54,8 +54,8 @@ Question 26 : Write a JavaScript function to check whether a value is an integer
 
 Question 27 : Write a JavaScript function to convert a positive number to negative number or to negativie number to positive number.
 
-Question 28 : Convert 50 litre to Hindi locale and chinese locale
+Question 28 : Convert 50 litre to Hindi locale and chinese locale.
 
 Question 29 : Create a function to convert any number to given currency.
 
-Question 30 : Write a JavaScript program to find the missing number from a given array. There are no duplicates in the list. Start from 1
+Question 30 : Write a JavaScript program to find the missing number from a given array. There are no duplicates in the list. Start from 1.
