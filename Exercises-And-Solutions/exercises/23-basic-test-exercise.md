@@ -44,4 +44,4 @@ Display the result of the check using an alert box.
 
 9. Question: Write a JavaScript function called calculateArea that takes the length and width of a rectangle as parameters and returns the area of the rectangle. The formula for calculating the area is length * width.
 
-10. Write a JavaScript function which calculate sum of 4 numbers. If sum of 4 numbers is greater than 100 then return 1 else return 2
+10. Write a JavaScript function which calculate sum of 4 numbers. If sum of 4 numbers is greater than 100 then return 1 else return 2.
