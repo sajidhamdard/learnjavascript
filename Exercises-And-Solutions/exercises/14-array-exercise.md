@@ -1,3 +1,5 @@
+## Array Exercise
+
 1. Create an array called fruits that contains the following elements: "apple", "banana", "orange". Now check if "orange" is in the fruits array.
 
 2. Given an array of numbers, write a function that returns the sum of all the even numbers in the array.
