@@ -43,6 +43,11 @@
 - High Level Language
 - Garbage Collected
 - Interpreted Language (JIT)
+  - Parsing
+  - Interpretation
+  - Profiling
+  - Compilation
+  - Execution
 - Multi Paradigm
 - Prototype based functions
 - First Class Function
@@ -67,7 +72,7 @@
   - String
   - Undefined
   - Boolean
-  - Symbol
+  - Symbol (ensuring privacy and uniqueness, and preventing name clashes)
   - BigInt
 - Non-primitive Data types
   - Object
@@ -186,7 +191,7 @@
 ### use strict
 
 - What is the significance of use strict ?
-- How JavaScrit behave without use strict ?
+- How JavaScript behave without use strict ?
 
 ### Looping and Switch
 
