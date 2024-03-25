@@ -15,6 +15,10 @@
 
 - JavaScript history
 - ECMAScript
+  - JScript
+  - ActionScript
+  - JavaScript
+  - ECMA-262 and ISO/IEC 16262
 - Versions of JavaScript & History
 - Backward & Forward compatible
 
