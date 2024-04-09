@@ -541,6 +541,7 @@
   - Onmousedown
   - Onmouseup
   - Other events
+- Keyboard events
 - Event Listener
   - addEventListener
   - Event bubbling
