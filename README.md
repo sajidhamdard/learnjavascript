@@ -1,7 +1,7 @@
 # The Ultimate JavaScript Learning Repository
 
 <a href="https://simplyjavascript.com/">
-    <img src="https://simplyjavascript.com/image/logo.svg" alt="Simply JavaScript"/ width="50%">
+    <img src="https://simplyjavascript.com/image/Beta-logo.svg" alt="Simply JavaScript"/ width="50%">
   </a>
   
 > [!IMPORTANT] 
