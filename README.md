@@ -1,5 +1,6 @@
 # The Ultimate JavaScript Learning Repository
 
+<!--
 <a href="https://simplyjavascript.com/">
     <img src="https://simplyjavascript.com/image/Beta-logo.svg" alt="Simply JavaScript"/ width="50%">
   </a>
@@ -7,8 +8,7 @@
 > [!IMPORTANT] 
 > Hello JavaScript Lovers, We have created a new website for you <a href="https://simplyjavascript.com/"> SimplyJavaScript</a>, and work is currently in progress. We have provided comprehensive JavaScript material on the website in a more organized and accessible manner. Thank you for showing so much love to this repository.
 > 
-
-## ❤️Service to humanity is the true religion❤️
+-->
 
 Hi,
 
