@@ -1,4 +1,4 @@
-# The Ultimate JavaScript Learning Repository
+# راهنمای کامل زبان جاوا اسکریپت
 
 <!--
 <a href="https://simplyjavascript.com/">
@@ -10,17 +10,18 @@
 > 
 -->
 
-Hi,
+سلام
 
-Welcome ❤️ to my GitHub account 🙏.
+خوش آمدید
+من این مخزن را ایجاد کرده‌ام تا به دانشجویان، تازه واردان و متخصصان شاغل با ارائه تمام منابع جاوااسکریپت در یک مخزن واحد کمک کنم. ما به طور مداوم در حال کار بر روی این مخزن هستیم، بنابراین لطفاً برای به‌روزرسانی‌های جدید به طور منظم آن را بررسی کنید.
 
-I have created this repository to assist students, freshers, and working professionals by providing them with all the resources for JavaScript in a single repository. We are continuously working on this repository, so please check regularly for the latest updates.
+برای راحتی دانشجویان که با انگلیسی راحت نیستند، سعی می‌کنیم یادداشت‌ها را به زبان هندی نیز اضافه کنیم. لطفاً برای به‌روزرسانی‌های منظم، مخزن ما را بررسی کنید.
 
-For the convenience of students who are not comfortable with English, we are trying to add notes in Hindi as well. Please keep checking our repository for regular updates.
+این مخزن شامل موارد زیر است: ❤️ مطالب کامل یادگیری جاوااسکریپت 🙏
 
-This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
-## One should only have self-confidence; life can start from anywhere
+## فقط باید به خودتان اعتماد کنید؛ زندگی از هر جایی شروع می شود
+
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
@@ -32,7 +33,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_JavaScript Notes (en)_](./notes/English)
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
 
 - [_Chapter 01- Introduction & History_](./notes/English/01-introduction-and-history.md)
 
