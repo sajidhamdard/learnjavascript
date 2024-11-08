@@ -1,4 +1,4 @@
-# The Ultimate JavaScript Learning Repository
+# راهنمای کامل زبان جاوا اسکریپت
 
 <!--
 <a href="https://simplyjavascript.com/">
@@ -10,17 +10,18 @@
 > 
 -->
 
-Hi,
+سلام
 
-Welcome ❤️ to my GitHub account 🙏.
+خوش آمدید
+من این مخزن را ایجاد کرده‌ام تا به دانشجویان، تازه واردان و متخصصان شاغل با ارائه تمام منابع جاوااسکریپت در یک مخزن واحد کمک کنم. ما به طور مداوم در حال کار بر روی این مخزن هستیم، بنابراین لطفاً برای به‌روزرسانی‌های جدید به طور منظم آن را بررسی کنید.
 
-I have created this repository to assist students, freshers, and working professionals by providing them with all the resources for JavaScript in a single repository. We are continuously working on this repository, so please check regularly for the latest updates.
+برای راحتی دانشجویان که با انگلیسی راحت نیستند، سعی می‌کنیم یادداشت‌ها را به زبان هندی نیز اضافه کنیم. لطفاً برای به‌روزرسانی‌های منظم، مخزن ما را بررسی کنید.
 
-For the convenience of students who are not comfortable with English, we are trying to add notes in Hindi as well. Please keep checking our repository for regular updates.
+این مخزن شامل موارد زیر است: ❤️ مطالب کامل یادگیری جاوااسکریپت 🙏
 
-This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
-## One should only have self-confidence; life can start from anywhere
+## فقط باید به خودتان اعتماد کنید؛ زندگی از هر جایی شروع می شود
+
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/aer096d3vD4rYVsgNn/giphy.gif" width="400" alt="Keep Working, Keep Going"/>
@@ -32,7 +33,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_JavaScript Notes (en)_](./notes/English)
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
 
 - [_Chapter 01- Introduction & History_](./notes/English/01-introduction-and-history.md)
 
@@ -252,7 +253,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_JavaScript Notes(hi)_](./notes/Hindi/)
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
   
   - [_Chapter 01- Introduction_](./notes/Hindi/01-introduction.md)
   - [_Chapter 02- Features_](./notes/Hindi/02-features.md)
@@ -344,7 +345,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ### Exercises
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
   
   - [_Exercise-01_](./Exercises-And-Solutions/exercises/01-basic-knowledge-exercise.md)
   - [_Exercise-02_](./Exercises-And-Solutions/exercises/02-basic-knowledge-exercise.md)
@@ -375,7 +376,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ### Solutions
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
   
   - [_Solution-01_](./Exercises-And-Solutions/solutions/01-basic-knowledge-solution.md)
   - [_Solution-02_](./Exercises-And-Solutions/solutions/02-basic-knowledge-solution.md)
@@ -404,7 +405,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_Interview Questions & Answers(en)_](./Interview-Questions-And-Answers/interview-questions-english.md)
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
   
 - [_Question 1. What is programming language?_](./Interview-Questions-And-Answers/interview-questions-english.md#question-1-what-is-programming-language)
 - [_Question 2. What is front-end?_](./Interview-Questions-And-Answers/interview-questions-english.md#question-2-what-is-front-end)
@@ -652,7 +653,7 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 ## 📚 [_Interview Questions & Answers(hi)_](./Interview-Questions-And-Answers/interview-questions-hindi.md)
 
 <details>
-<summary>Click for details</summary>
+<summary>برای جزعیات کلیک کنید</summary>
   
   - [_Question 1. What is programming language?_](./Interview-Questions-And-Answers/interview-questions-hindi\.md#question-1-what-is-programming-language)
 - [_Question 2. What is front-end?_](./Interview-Questions-And-Answers/interview-questions-hindi\.md#question-2-what-is-front-end)
@@ -907,48 +908,45 @@ This repository includes: ❤️ Complete JavaScript Learning Material 🙏
 
 ---
 
-## Support the project ⭐
+##حمایت از پروژه⭐
 
-If you feel awesome and want to support us in a small way, please consider starring and sharing the repo! This helps us get visibility and allow the community to grow. 🙏
+اگر احساس فوق‌العاده‌ای دارید و می‌خواهید به ما در یک راه کوچک کمک کنید، لطفا از ریپو ستاره بگذارید و آن را به اشتراک بگذارید! این به ما در دیده شدن و رشد جامعه کمک می‌کند. 🙏
+
 
 <img alt="star_us" width="250" src="./star_us.gif">
 
 ---
 
-## 🔥 Clone this Repository
+## 🔥 کپی گرفتن نسخه این مخزن
 
-You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
-
+شما باید دستورات زیر را روی صفحه ترمینال (در vscode) بنویسید تا بتوانید این پروژه را به صورت محلی اجرا کنید
 ```bash
   git clone "https://github.com/sajidhamdard/learnjavascript.git"
 ```
 
-Go to the project directory
-
+به دایرکتوری پروژه بروید
 ```bash
   cd learnjavascript
 ```
 
- ## Contributing
+ ## مشارکت در پروژه
 
-In general, we follow the "fork-and-pull" Git workflow.
+به طور کلی، ما از گردش کار Git "fork-and-pull" پیروی می کنیم.
+1. مخزن را در گیت هاب کپی کنید
+2. پروژه را در سیستم خود اجرا کنید
+3. بر روی نسخه کپی شده کار کنید
+    1. تغییرات خود را اضافه کنید
+        - بیشتر تغییرات شما باید در مسیر `notes/`و `Exercises-And-Solutions/` folders and/or `Interview-Questions-And-Answers`.
+    2.تغییرات در صورت نیاز  و لزوم انجام شود
+4. تغییرات را در برنج مورد نظر ثبت کنید
+5. **مطمعن شوید** که هیچ مشکلی هنگام تغییرات و ثبت آن ها پیش نیاید
+6. مرحله سوم را بررسی کنید 
+7. تغییرات را ارسال کنید
+8. بعد از اتمام ثبت تغییرات میتوانیم در صورت نیاز به به اعمال تغییرات بر روی ریپوی اصلی صحبت کنیم
 
-1. Fork the repo on GitHub
-2. Clone the project to your own machine
-3. Work on your fork
-    1. Make your changes and additions
-        - Most of your changes should be focused on `notes/` and `Exercises-And-Solutions/` folders and/or `Interview-Questions-And-Answers`.
-    2. Add changes to README.md if needed
-4. Commit changes to your own branch
-5. **Make sure** you merge the latest from "upstream" and resolve conflicts if there is any
-6. Repeat step 3(3) above
-7. Push your work back up to your fork
-8. Submit a Pull request so that we can review your changes
+## مشارکت کننده ها
 
-## Contributors
-
-Thank you to the people who have already contributed:
-
+با تشکر از افرادی که قبلا همکاری کرده اند:
 <a href="https://github.com/sajidhamdard/learnjavascript/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=sajidhamdard/learnjavascript" />
 </a>
@@ -971,7 +969,7 @@ Released under [MIT](/LICENSE.md) by [@sajidhamdard](https://github.com/sajidham
 
 ---
 
-## 🔗 Let's Connect
+## 🔗 بیایید و ارتباط بگیریم
 
 <div align="center" id="badges">
   <a href="https://www.linkedin.com/in/sajid-sj/">
