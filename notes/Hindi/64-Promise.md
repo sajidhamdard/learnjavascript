@@ -1,6 +1,6 @@
 ### What is Promise
 
-Promise ek JavaScript object hota hai jiska use kiya jaata hai asynchronous code ke liye. Asynchronous code ka matlab hota hai ki jab hum kisi task ko execute kar rahe hote hai aur uska result time lagakar aata hai tab tak hum dusre tasks ko perform kar sakte hai.
+Promise ek JavaScript object hota hai jiska use asynchronous code ke liye kiya jaata hai. Asynchronous code ka matlab hota hai ki jab hum kisi task ko execute kar rahe hote hai aur uska result time lagakar aata hai tab tak hum dusre tasks ko perform kar sakte hai.
 
 Promise ek tarah se guarantee deta hai ki kisi task ka result future me available ho jayega. Jab hum koi task Promise object me wrap karte hai, to wo task ek new thread me execute hota hai aur promise hume ek reference deta hai jisse hum task ke result ko future me access kar sakte hai.
 
