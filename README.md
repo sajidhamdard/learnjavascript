@@ -1,14 +1,38 @@
 # The Ultimate JavaScript Learning Repository
 
-<!--
+<div align="center">
+
 <a href="https://simplyjavascript.com/">
-    <img src="https://simplyjavascript.com/image/Beta-logo.svg" alt="Simply JavaScript"/ width="50%">
-  </a>
-  
-> [!IMPORTANT] 
-> Hello JavaScript Lovers, We have created a new website for you <a href="https://simplyjavascript.com/"> SimplyJavaScript</a>, and work is currently in progress. We have provided comprehensive JavaScript material on the website in a more organized and accessible manner. Thank you for showing so much love to this repository.
-> 
--->
+  <img src="https://simplyjavascript.com/image/simplyjavascript-logo.webp" alt="SimplyJavaScript" width="280"/>
+</a>
+
+### 🚀 A Better Way to Learn JavaScript
+
+**Love this repo? You'll love [SimplyJavaScript.com](https://simplyjavascript.com/) even more!**
+
+We've taken everything you enjoy about this repository and made it **10x better** on our website.
+
+✅ **Well-Organized** — Topics structured in a clear, logical learning path so you never feel lost.
+
+✅ **Easy to Understand** — Written in simple, human-friendly language with real-world examples.
+
+✅ **Beautiful Reading Experience** — No more scrolling through `.md` files — enjoy a clean, modern interface.
+
+✅ **Always Up-to-Date** — Fresh content added regularly, covering the latest JavaScript features.
+
+✅ **Completely Free** — All the knowledge, zero cost.
+
+<br/>
+
+<a href="https://simplyjavascript.com/">
+  <img src="https://img.shields.io/badge/Start_Learning-SimplyJavaScript.com-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Start Learning"/>
+</a>
+
+<br/><br/>
+
+</div>
+
+---
 
 Hi,
 
